@@ -3,7 +3,7 @@ Horizontal Systems is a publicly owned company that builds decentralized apps fo
 
 The company builds censorship-resistant financial apps for iOS/Android which operate as decentralized autonomous networks. These apps neither depend on any physical entity nor require any servers to run on. They're designed to remain fair and functional even if there is not a single server or a person to operate them.
 
-It should be noted, that this website is primarily for tech investors looking for a safe invesmtent into a **true** blockchain company and for talented software developers looking to make a difference doing what they love while earning a good salary.
+It should be noted, that this website is primarily for tech investors looking for a safe investment into a **true** blockchain company and for talented software developers looking to make a difference doing what they love while earning a good salary.
 
 ## A "DAO" Company
 
@@ -24,7 +24,7 @@ This makes DAOs fully transparent, immutable and incorruptible!
 
 Horizontal Systems is a public company where anyone can buy a stake in the company and take part in shaping company's future in a trustless manner. It's open for all, impossible to shut down, and can't go offline. 
 
-Similarly, any smart software developer may apply to become a paid member of the core development team. Provided that majority of the team reach consensus via team vote the developer becomes a full member of the team.  
+Similarly, any smart software developer may apply to become a paid member of the core development team, provided that majority of the team reach consensus via team vote the developer becomes a full member of the team.  
 
 By taking Horizontal Systems public we are aiming to establish a first commercial DAO company which run by independent investors and developed by independent libertarian developers from all over the world.
 
@@ -36,11 +36,11 @@ By taking Horizontal Systems public we are aiming to establish a first commercia
 3. the dev team gets paid a salary from raised funds on a regular basis 
 4. dev team creates financial dApps for mainstream users
 5. the dApps are free but come with premium in-app features
-6. regular app users pay may pay with crypto to unlock those features
+6. regular app users pay with crypto to unlock those features
 7. all such payments are collected and stored in independent smart contract.
 8. investors initiate dividends to distribute dividends
 
-The above company structure, workflow and governance rules are clearly defined in our open-source [DAICO Smart Contracts] (https://github.com/horizontalsystems/daico-smart-contracts) library. That library shows the actual implementation of the DAO.
+The above company structure, workflow and governance rules are clearly defined in our open-source [DAICO Smart Contracts](https://github.com/horizontalsystems/daico-smart-contracts) library. That library shows the actual implementation of the DAO.
 
 Below you may find a comprehensive diagram outlining the entire company structure and functions available to each party.
 
@@ -81,14 +81,14 @@ Bank Wallet | Decentralized Exchange | DAICO Platform
 Be Your Own Bank! | Exchange between crypto | Launch a DAO company
 Decentralized crypto currency bank to securely hold your crypto assets. | Decentralized crypto currency exchange that works without a middle men. | Discover and invest in DAOs launched using DAICO model.
 
-future products are to be decided upon
-Censorship resistant 
-Can’t be evil 
-Software development 
-No central infrastructure 
-Keep no data 
-Decentralized 
-For profit
+future products are to be decided upon: 
+"Censorship resistant", 
+"Can’t be evil", 
+"Software development",
+"No central infrastructure",
+"Keep no data",
+"Decentralized",
+"For profit".
 
 
 ## Invest in Horizontal Systems
