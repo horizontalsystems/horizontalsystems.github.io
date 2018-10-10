@@ -1,28 +1,29 @@
 
-Horizontal Systems is a company that builds fully decentralized Blockchain-powered applications for mainstream audience.
+Horizontal Systems is a DAO company that builds decentralized blockchain-powered apps for mainstream users.
 
-We are a [team of software engineers](https://github.com/orgs/horizontalsystems/people) driven by the idea of a just and transparrent world through decentralization. We build censorship-resistant apps for iOS and Android phones which operate as decentralized autonomous networks.
+It was started by a [team of software engineers](https://github.com/orgs/horizontalsystems/people) driven by the shared goal of a just and transparrent world through decentralization.
 
-The apps we build neither depend on any physical entity nor require any servers to run on. The apps are designed to remain functional even if there is not a single person willing to operate them, not even the Horizontal Systems itself!
-
+We build censorship-resistant apps for iOS and Android phones which operate as decentralized autonomous networks. These apps neither depend on any physical entity nor require any servers to run on. They're designed to remain functional even if there is not a single server or a person to operate them.
 
 ## A "DAO" Company 
 
-Apart from building decentralized apps (aka dApps) we are also a **Decentralized Company** as well. Just like the apps we build our company is also designed to function as a decentralized, independent, autonomous entity. It's impossible for someone to shut it down, take it offline, or to somehow restrict its operations.
+Horizontal Systems is a **D**ecentralized **A**utonomous **O**rganization (DAO). The main idea behind DAO is establishing a company that can be fully functional without hierarchical management.
 
-Horizontal Systems is a first of a kind **D**ecentralized **A**utonomous **O**rganization where anyone can buy a stake in the company and take part in shaping company's future in a trustless manner. DAOs aim to digitally hard-code all the operational rules and therefore work exactly as programmed, no exceptions.
+The company finances as well as governance and operational protocols are all controlled by and enforced through Smart Contracts on Ethereum blockchain. In plain terms, these are uncontrollable digital programs that permanently live on blockchain and work exactly as programmed, no exceptions.
 
-> Imagine a vending machine that not only takes money from you and gives you a snack in return but also uses that money to automatically re-order the goods. This machine also orders cleaning services and pays its rent all by itself. Moreover, as you put money into that machine, you and its other users have a say in what snacks it will order and how often should it be cleaned. It has no managers, all of those processes were pre-written into code.... [via CoinTelegraph](https://cointelegraph.com/ethereum-for-beginners/what-is-dao#how-daos-work)
+DAOs are required by their nature to be open source so that all [underlying code](https://github.com/orgs/horizontalsystems/) is open to public for scrutiny. Moreover, all of the rules and financial transactions are recorded in the public blockchain. 
 
-The main idea behind DAO is establishing a company that can be fully functional without hierarchical management. This notion became a practical reality with the emergence of Ethereum and its Smart Contracts technology which provide a reliable way to define and enforce company governance and operational protocols.
+This makes DAOs fully transparent, immutable and incorruptible!
 
-DAOs are required by their nature to be open source so that all underlying code is publicly available and can be reviewed by anyone. Moreover, all of the rules and financial transactions are recorded in the public blockchain. 
+> Imagine a vending machine that not only takes money from you and gives you a snack in return but also uses that money to automatically re-order the goods. This machine also orders cleaning services and pays its rent all by itself. Moreover, as you put money into that machine, you and its other users have a say in what snacks it will order and how often should it be cleaned. It has no managers, all of those processes were pre-written into code 
+>
+> _via [CoinTelegraph](https://cointelegraph.com/ethereum-for-beginners/what-is-dao#how-daos-work)_
 
-This makes DAOs fully transparent, immutable and incorruptible.
+Horizontal Systems is a public company where anyone can buy a stake in the company and take part in shaping company's future in a trustless manner. It doesn't care who you're, where you're from or what language you speak. It's open for all, impossible to shut down, and can't go offline. 
+
 
 Further reading:
 
-- [What is DAO?](https://cointelegraph.com/ethereum-for-beginners/what-is-dao)
 - [How To Create DAO on Ethereum?](https://www.ethereum.org/dao)
 
 
