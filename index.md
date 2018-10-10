@@ -55,7 +55,7 @@ The process through which the tokens are sold is called [DAICO](https://cointele
 
 DAICO offers a digital investment model with controlled risk, that is ideal for launching DAOs.   In simple terms, the Horizontal Systems DAO consists of three entities: The company, investors and development team.   
 
-Any one can become an investor and get a say in company matters. Similarly, any software developer can apply to become a member of the development team, regardless of location. Provided that majority of team reach consensus the applicant becomes a full member of the team.  
+Anyone can become an investor and get a say in company matters. Similarly, any software developer can apply to become a member of the development team, regardless of location. Provided that majority of team reach consensus the applicant becomes a full member of the team.  
 
 - The Company outlines permanent engagement rules at the very beginning. Once deployed no one can change them.
 - The Investors collectively get absolute control over the raised capital and company’s cashflow. They pay the bills and control team's salary for the development work. They’re even able to dissolve the company, if there is a need for it.  
