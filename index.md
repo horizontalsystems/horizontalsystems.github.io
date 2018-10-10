@@ -41,7 +41,7 @@ While there are 14 of us working in the development team at this point we are fa
 
 Our current and future products:
 
-Bank Wallet | Decentralizad Exchange | DAICO Platform
+Bank Wallet | Decentralized Exchange | DAICO Platform
 ------------ | ------------- | -------------
 Be Your Own Bank! | Exchange between crypto | Launch a DAO company
 Decentralized crypto currency bank to securely hold your crypto assets. | Decentralized crypto currency exchange that works without a middle men. | Discover and invest in DAOs launched using DAICO model.
