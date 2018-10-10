@@ -36,23 +36,23 @@ We spend a lot of time designing the right architecture for each of the apps so 
 >
 > Steve Jobs, The Lost Interview
 
-While there are 14 of us working in the development team at this point we are fairly confident that we easily outperform a 50+ people companies working in the field. Infact, we believe that having a compact and yet comprehesnive team is one of our core strenghts.
+While there are 14 of us working in the development team at this point we are fairly confident that we easily outperform a 50+ people companies working in the field. Infact, we believe that having a compact and yet comprehensive team is one of our core strengths.
 
-Enter, the Horizontal dApps:
+Our current and future products:
 
 Bank Wallet | Decentralizad Exchange | DAICO Platform
 ------------ | ------------- | -------------
-Be Your Own Bank! | Exchange between crypto | Launch a DAO compasny
-Decentrazlied crypto currency bank to securely hold your crypto currency. | Decentrazlied crypto currency exchange that works without a middle men. | Discover and invest in DAOs launched using DAICO model.
+Be Your Own Bank! | Exchange between crypto | Launch a DAO company
+Decentralized crypto currency bank to securely hold your crypto currency. | Decentralized crypto currency exchange that works without a middle men. | Discover and invest in DAOs launched using DAICO model.
 
 
 ## Invest in Horizontal Systems
 
-Horizontal Systems DAO consists of HSYS digital shares (tokens). The amount of shares determines the amount influence level token holder has over the company.
+Horizontal Systems DAO shares are represented as HSYS tokens. The amount of tokens determines the amount influence token holder has over the company.
 
 The process through which the tokens are sold is called [DAICO](https://cointelegraph.com/explained/what-is-a-daico-explained), which was initially proposed by [Vitalik Buterin](https://en.wikipedia.org/wiki/Vitalik_Buterin), a founder of Ethereum blockchain. 
 
-DAICO offers a nearly zero-free digital investment model called that is ideal for launching DAOs.   In simple terms, the Horizontal Systems DAO consists of three entities. The company, investors and development team.   
+DAICO offers a controlled risk digital investment model that is ideal for launching DAOs.   In simple terms, the Horizontal Systems DAO consists of three entities. The company, investors and development team.   
 
 Any one can become investor and get a say in company matters. Similarly, any software developer can apply to become a member of the development team, regardless of location. Provided that majority of team reach consensus the applicant becomes a full member of the team.  
 
@@ -60,5 +60,5 @@ Any one can become investor and get a say in company matters. Similarly, any sof
 - The Investors collectively get absolute control over the raised capital and company’s cashflow. They pay the bills and control team's salary for the development work. They’re even able to dissolve the company, if there is a need for it.  
 - The Development Team controls the software development aspects and in-return receive salary from investor-controlled funds.
 
-We aim to integrate moneazation features into every decentralized product we develop. The apps will includes various extra paid features on top of the standard functionality. Unlocking these features will cost some money (charged in crypto) that would  deposited (in real time) to unchangeable investor-controlled smart contract which is designed to store profits from all released products. 
+We aim to integrate monetization features into every decentralized product we develop. The apps will include various extra paid features on top of the standard functionality. Unlocking these features will cost some money (charged in crypto) that would be directly deposited (in real time) to unchangeable investor-controlled smart contract which is designed to store and distribute profits from all released products. 
 
