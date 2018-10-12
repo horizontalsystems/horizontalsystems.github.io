@@ -1,5 +1,5 @@
 
-Horizontal Systems is a publicly owned company that builds decentralized apps for mainstream users. It was founded by a [team of software engineers](https://github.com/orgs/horizontalsystems/people) driven by the shared goal of a just and transparrent world through decentralization.
+Horizontal Systems is a company that builds decentralized apps for mainstream users. It was founded by a [team of software engineers](https://github.com/orgs/horizontalsystems/people) driven by the shared goal of a just and transparrent world through decentralization.
 
 The company builds censorship-resistant financial apps for iOS/Android which operate as decentralized autonomous networks. These apps neither depend on any physical entity nor require any servers to run on. They're designed to remain fair and functional even if there is not a single server or a person to operate them.
 
@@ -22,9 +22,9 @@ This makes DAOs fully transparent, immutable and incorruptible!
 
 ## Horizontal Systems DAO
 
-Horizontal Systems is a public company where anyone can buy a stake in the company and take part in shaping company's future in a trustless manner. It's open for all, impossible to shut down, and can't go offline. 
+Horizontal Systems is a company where anyone can buy a stake in the company and take part in shaping company's future in a trustless manner. It's open for all, impossible to shut down, and can't go offline. 
 
-Similarly, any smart software developer may apply to become a paid member of the core development team, provided that majority of the team reach consensus via team vote the developer becomes a full member of the team.  
+Similarly, any smart software developer may apply to become a paid member of the core development team, provided that majority of the team reach consensus via team vote, the developer becomes a full member of the team.  
 
 By taking Horizontal Systems public we are aiming to establish a first commercial DAO company which run by independent investors and developed by independent libertarian developers from all over the world.
 
@@ -37,8 +37,8 @@ By taking Horizontal Systems public we are aiming to establish a first commercia
 4. dev team creates financial dApps for mainstream users
 5. the dApps are free but come with premium in-app features
 6. regular app users pay with crypto to unlock those features
-7. all such payments are collected and stored in independent smart contract.
-8. investors initiate dividends to distribute dividends
+7. all such payments are collected and stored in independent smart contract
+8. investors initiate distribution of dividends
 
 The above company structure, workflow and governance rules are clearly defined in our open-source [DAICO Smart Contracts](https://github.com/horizontalsystems/daico-smart-contracts) library. That library shows the actual implementation of the DAO.
 
@@ -46,14 +46,14 @@ Below you may find a comprehensive diagram outlining the entire company structur
 
 [DIAGRAM image]
 
-You may easily verify that Horizontal Systems DAO implemented using the same library by looking up the smart contracts Horizontal Systems DAO on the Ethereum blockchain.
+You may easily verify that Horizontal Systems DAO was implemented using the same library by looking up at the smart contracts of Horizontal Systems DAO on the Ethereum blockchain.
 
 - HS DAO contract (token contract address)
-- HS DAICO contract (token sale conrtact adderss)
+- HS DAICO contract (token sale contract address)
 - HS Development Team contract
 - HS Investors contract
 
-Every single line of code we have is open source and gives any responsible investor or developer a way to actually verify every single word mentioned on this website. Infact, we enocurage you to do exactly that! 
+Every single line of code we have is open source and gives any responsible investor or developer a way to actually verify every single word mentioned on this website. In fact, we enocurage you to do exactly that! 
 
 > There are no disclaimers or agreements here, but the open code!
 >
@@ -72,7 +72,7 @@ We spend a lot of time designing the right architecture for each of the apps so 
 >
 > Steve Jobs, The Lost Interview
 
-While there are 14 of us working in the development team at this point we are fairly confident that we easily outperform a 50+ people companies working in the field. Infact, we believe that having a compact and yet comprehensive team is one of our core strengths.
+While there are 14 of us working in the development team at this point we are fairly confident that we easily outperform a 50+ people companies working in the field. In fact, we believe that having a compact and yet comprehensive team is one of our core strengths.
 
 Our current and future products:
 
