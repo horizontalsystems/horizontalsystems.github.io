@@ -53,9 +53,7 @@ Every single line of code we have is open-source and gives any regular software 
 - HS Investors contract: contract address
 
 **Note: The contracts are going to be available on Ethereum Blockchain after the token sale has been launched. The token sale will be launched after the very first product, a [BANK Wallet](https://github.com/orgs/horizontalsystems/projects/2), is live.**
->>>>>>> homepage_dev
 
 > There are no disclaimers, terms or agreements here, but the open code!
 >
 > _Horizontal Systems_
-
