@@ -1,3 +1,6 @@
+---
+layout: default
+---
 
 Horizontal Systems is an emerging Decentralized Autonomous Organization (DAO) that builds decentralized apps (aka dApps) for mainstream users. It was founded by a [team of software engineers](https://github.com/orgs/horizontalsystems/people) fascinated by the DAO concept and driven by the shared goal of a just and transparrent world through decentralization.
 
