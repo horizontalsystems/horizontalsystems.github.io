@@ -1,4 +1,3 @@
-@import "normalize.css";
 @import "variables";
 @import "mixins";
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
@@ -16,6 +15,22 @@ body {
   color: $body-text-color;
 }
 
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+
+  @include large {
+    max-width: 900px;
+  }
+
+  @include medium {
+    max-width: 650px;
+  }
+}
+
 a {
   color: $body-link-color;
   text-decoration: none;
@@ -25,50 +40,109 @@ a {
   }
 }
 
-.page-header {
-  color: $header-color;
-  text-align: center;
-  background: $header-bg-color linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
+header {
+  background: linear-gradient(to bottom,
+    $header-bg-color-secondary,
+    $header-bg-color
+  );
 
-  @include large {
-    padding: 5rem 6rem;
+  .banner {
+    display: flex;
+    height: 316px;
+    justify-content: center;
+    align-items: center;
   }
 
-  @include medium {
-    padding: 3rem 4rem;
+  .banner-logo {
+    display: flex;
+    flex-grow: 1;
+  }
+
+  .banner-info {
+    flex: none;
+    text-align: right;
+  }
+
+  .banner-desc {
+    color: $banner-desc-color;
+    font-size: 18px;
   }
 
   @include small {
-    padding: 2rem 1rem;
+    .banner {
+      flex-wrap: wrap;
+      align-content: space-evenly;
+    }
+
+    .banner-logo {
+      flex-grow: 0;
+    }
   }
 }
 
-.project-name {
-  margin-top: 0;
-  margin-bottom: 0.1rem;
+nav {
+  height: 48px;
+  font-size: 18px;
+  background-color: $header-bg-color-secondary;
 
-  @include large {
-    font-size: 3.25rem;
+  .navbar-nav {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+
+    @include small {
+      justify-content: flex-start;
+    }
   }
 
-  @include medium {
-    font-size: 2.25rem;
+  .nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .nav-link {
+      padding: 8.5px 30px;
+      color: #ffffff;
+      white-space: nowrap; // otherwise will overlap .nav-bottom
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+
+    .nav-bottom {
+      display: none;
+      height: 4px;
+      width: 80%;
+      background: $body-link-color;
+      border-radius: 4px 4px 0 0;
+    }
+
+    &.active {
+      .nav-bottom {
+        display: flex;
+      }
+
+      .nav-link {
+        color: $body-link-color;
+      }
+    }
+
+    @include small {
+      .nav-link {
+        padding: 8.5px 10px;
+      }
+    }
   }
 
-  @include small {
-    font-size: 1.75rem;
-  }
 }
 
-.main-content {
+main {
   word-wrap: break-word;
 
-  :first-child {
-    margin-top: 0;
-  }
-
   @include large {
-    max-width: 64rem;
     padding: 2rem 6rem;
     margin: 0 auto;
     font-size: 1.1rem;
