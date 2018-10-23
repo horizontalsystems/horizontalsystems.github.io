@@ -1,5 +1,6 @@
 ---
-layout: hs-team
+active: team
+layout: default
 ---
 
 >Now, in software, and it used ot be the case in hardware, the difference between the average software developer and the best is 50:1; Maybe even 100:1. Very few things in life are like this...

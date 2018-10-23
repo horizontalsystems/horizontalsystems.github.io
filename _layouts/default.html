@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{{ site.title }}</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css?v=' | append: site.github.build_revision | relative_url }}">
+  </head>
+
+  <body>
+    {% include header.html menu=page.active %}
+
+    <main role="main">
+      <div class="container">
+        {{ content }}
+      </div>
+    </main>
+
+  </body>
+</html>

@@ -1,5 +1,6 @@
 ---
-layout: hs-dapps
+active: dapps
+layout: default
 ---
 
 Apart from keeping things decentralized we take a perfectionist approach to software development process by pursuing the best practices. 

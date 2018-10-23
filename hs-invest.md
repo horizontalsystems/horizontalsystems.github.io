@@ -1,5 +1,6 @@
 ---
-layout: hs-invest
+active: invest
+layout: default
 ---
 
 This website is meant primarily for potential investors and software developers looking for a secure and trustless way to invest in the very first DAO company that replicates the business model of traditional for-profit corporations.
