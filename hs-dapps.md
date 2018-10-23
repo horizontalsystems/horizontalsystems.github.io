@@ -1,4 +1,6 @@
-
+---
+layout: hs-dapps
+---
 
 Apart from keeping things decentralized we take a perfectionist approach to software development process by pursuing the best practices. 
 

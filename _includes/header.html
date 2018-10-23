@@ -19,20 +19,20 @@
   <nav role="navigation">
     <div class="container">
       <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">About Us</a>
+        <li class="nav-item {% if include.menu == 'index' %}active{% endif %}">
+          <a class="nav-link" href="/">About Us</a>
           <div class="nav-bottom"></div>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Products</a>
+        <li class="nav-item {% if include.menu == 'dapps' %}active{% endif %}">
+          <a class="nav-link" href="/hs-dapps">Products</a>
           <div class="nav-bottom"></div>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Team</a>
+        <li class="nav-item {% if include.menu == 'team' %}active{% endif %}">
+          <a class="nav-link" href="/hs-team">Team</a>
           <div class="nav-bottom"></div>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Invest</a>
+        <li class="nav-item {% if include.menu == 'invest' %}active{% endif %}">
+          <a class="nav-link" href="/hs-invest">Invest</a>
           <div class="nav-bottom"></div>
         </li>
       </ul>

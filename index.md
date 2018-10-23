@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 ---
 
 ![Block chain](/assets/images/blockchain.png){: .attach-left }
