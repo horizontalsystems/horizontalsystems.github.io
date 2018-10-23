@@ -170,8 +170,8 @@ main {
   h6 {
     margin-top: 2rem;
     margin-bottom: 1rem;
-    font-weight: normal;
-    color: $headings-color;
+    color: $header-bg-color;
+    font-weight: bold;
   }
 
   p {
@@ -192,4 +192,9 @@ main {
       margin-bottom: 0;
     }
   }
+}
+
+.attach-left {
+  float: left;
+  margin-right: 20px;
 }
