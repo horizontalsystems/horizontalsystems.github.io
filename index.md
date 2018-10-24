@@ -10,9 +10,9 @@ Founded by a [team](https://horizontalsystems.io/hs-team) of software engineers 
 
 These DApps neither depend on any physical entity nor require any servers to run on. They are designed to remain online and functional even if there is not a single server or a person to operate them. 
 
-Real DApps are trully independent, in all aspects!
+![Decentralized Apps (DApps)](/assets/images/dapps.png)
 
-![Block chain](/assets/images/dapps.png)
+Real DApps are trully independent, in all aspects!
 
 <center>
   <h3>DAO Explained</h3>
@@ -26,9 +26,9 @@ The main idea behind DAO is establishing a company that can be fully functional 
 
 DAOs are required by their nature to be open source so that all underlying code is open to public for scrutiny. Moreover, all of the rules and financial transactions are recorded in the public blockchain.
 
-![Block chain](/assets/images/dao.png)
+The company finances, structure as well as governance and operational protocols are all controlled by and enforced through digitally-coded public Smart Contracts on [Ethereum blockchain](https://www.ethereum.org/dao).
 
-The company finances, structure as well as governance and operational protocols are all controlled by and enforced through digitally-coded public Smart Contracts on [Ethereum blockchain](https://www.ethereum.org/dao). 
+![DAO Explained](/assets/images/dao.png)
 
 DAOs are transparent, immutable and incorruptible!
 
@@ -38,10 +38,7 @@ DAOs are transparent, immutable and incorruptible!
 
 With Horizontal Systems DAO we are launching a first commercial DAO company which is run by independent investors and developers from all over the world.
 
-![Block chain](/assets/images/dao.png)
-
 Anyone may buy a stake in the DAO and take part in shaping company's future in a trustless manner. Similarly, any capable software developer may become a full member of the development team, provided that team majority reach consensus.
-
 
 #### How It Works
  
@@ -54,7 +51,7 @@ Anyone may buy a stake in the DAO and take part in shaping company's future in a
 7. all user payments are collected and stored in independent smart contract
 8. investors initiate distribution of collected funds as dividends
 
-![Block chain](/assets/images/dao.png)
+![Horizontal Systems DAO](/assets/images/hsdao.png)
 
 You may easily verify that Horizontal Systems DAO is implemented the way shown above by looking up the underlying smart contracts for [Horizontal Systems DAO](https://github.com/horizontalsystems/) on the Ethereum blockchain.
 
@@ -76,17 +73,20 @@ The code, the team, the tasks, the milestones and any other task that's being pe
 
 You don't have to take our word for it, but actually see it yourself.
 
-- Horizontal Systems DAO: _https://github.com/horizontalsystems_
-- Develoment Team (Contractors) _https://github.com/orgs/horizontalsystems/people  _
+- Horizontal Systems DAO: [_github.com/horizontalsystems_](https://github.com/horizontalsystems)
+- Develoment Team (Contractors): [_github.com/orgs/horizontalsystems/people  _](https://github.com/orgs/horizontalsystems/people  )
 - Core Software Repositories
 	- Bank Wallet App: [iOS version](https://github.com/horizontalsystems/bank-wallet-ios-app ) / [Android version](https://github.com/horizontalsystems/bank-wallet-android-app  )
 	- Bitcoin Development Kit: [iOS version](https://github.com/horizontalsystems/bitcoin-kit-ios  ) / [Android version](https://github.com/horizontalsystems/bitcoin-kit-android )
 	- Ethereum Development Kit: [iOS version](https://github.com/horizontalsystems/ethereum-kit-ios  ) / [Android version](https://github.com/horizontalsystems/ethereum-kit-android )
-	- DAO / DAICO Smart Contracts: https://github.com/horizontalsystems/daico-smart-contracts  
-	- Decentralized Block Explorer: https://github.com/horizontalsystems/blockchain-block-explorer-IPFS  
-- Upcoming Projects _https://github.com/orgs/horizontalsystems/projects_
-	1. Launch - Bank Wallet App  https://github.com/orgs/horizontalsystems/projects/2  
-	2. Launch -  DAO Platform  https://github.com/orgs/horizontalsystems/projects/3  
-	3. Lunch DEX -  https://github.com/orgs/horizontalsystems/projects/4
+	- DAO / DAICO Smart Contracts: [_github.com/horizontalsystems/daico-smart-contracts  _](https://github.com/horizontalsystems/daico-smart-contracts  )
+	- Decentralized Block Explorer: [_github.com/horizontalsystems/blockchain-block-explorer-IPFS  _](https://github.com/horizontalsystems/blockchain-block-explorer-IPFS  )
+- Upcoming Projects / Milestones
+	1. Launch - Bank Wallet App  [_github.com/orgs/horizontalsystems/projects/2  _](https://github.com/orgs/horizontalsystems/projects/2  )
+	2. Launch -  DAO Platform  [_github.com/orgs/horizontalsystems/projects/3  _](https://github.com/orgs/horizontalsystems/projects/3  )
+	3. Lunch Decentralized Exchange [_github.com/orgs/horizontalsystems/projects/4_](https://github.com/orgs/horizontalsystems/projects/4)
+	4. secondary projects - [_github.com/orgs/horizontalsystems/projects_](https://github.com/orgs/horizontalsystems/projects)
 
 For more detailed overview of the work being done refer to [DApps](https://horizontalsystems.io/hs-dapps) section.
+
+
