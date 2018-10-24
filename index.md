@@ -60,9 +60,9 @@ You may easily verify that Horizontal Systems DAO is implemented the way shown a
 Every single [line of code](https://github.com/horizontalsystems/) we have is open-source and gives any software developer an easy way to verify everything mentioned above. Infact, we enocurage you to do exactly that!
 
 
-	>> There are no disclaimers or agreements here, but the open code!
-	>>
-	>> _Horizontal Systems_
+>There are no disclaimers or agreements here, but the open code!
+>
+>_Horizontal Systems_
 
 
 ### Everything is Public
@@ -73,20 +73,20 @@ We went steps further by moving the entire daily workflow, to-do tasks, mileston
 
 You don't have to take our word for it, but actually see it yourself.
 
-	- HorizontalSystems on Github : [github.com/horizontalsystems](https://github.com/horizontalsystems)
-	- Develoment Team / Contractors : [github.com/orgs/horizontalsystems/people  ](https://github.com/orgs/horizontalsystems/people  )
-	- Software Repositories : (github.com/horizontalsystems)[https://github.com/horizontalsystems]
+- HorizontalSystems on Github : [github.com/horizontalsystems](https://github.com/horizontalsystems)
+- Develoment Team / Contractors : [github.com/orgs/horizontalsystems/people  ](https://github.com/orgs/horizontalsystems/people  )
+- Software Repositories : (github.com/horizontalsystems)[https://github.com/horizontalsystems]
 
 
 #### Core Software Repositories:
 
 These core repositories are the primary buidling blocks for the upcoming projects and DApps we plannign to release. We are building these for the Horizontal Systems DApps and at the same time releasing them to the developer community to enable developers to build branded decentralized wallets, exchanges and other financial apps.
 
-	- Bank Wallet App: [iOS version](https://github.com/horizontalsystems/bank-wallet-ios-app ) / [Android version](https://github.com/horizontalsystems/bank-wallet-android-app  )
-	- Bitcoin Development Kit: [iOS version](https://github.com/horizontalsystems/bitcoin-kit-ios  ) / [Android version](https://github.com/horizontalsystems/bitcoin-kit-android )
-	- Ethereum Development Kit: [iOS version](https://github.com/horizontalsystems/ethereum-kit-ios  ) / [Android version](https://github.com/horizontalsystems/ethereum-kit-android )
-	- DAO / DAICO Smart Contracts: [github.com/horizontalsystems/daico-smart-contracts  ](https://github.com/horizontalsystems/daico-smart-contracts  )
-	- Decentralized Block Explorer: [github.com/horizontalsystems/blockchain-block-explorer-IPFS  ](https://github.com/horizontalsystems/blockchain-block-explorer-IPFS  )
+- Bank Wallet App: [iOS version](https://github.com/horizontalsystems/bank-wallet-ios-app ) / [Android version](https://github.com/horizontalsystems/bank-wallet-android-app  )
+- Bitcoin Development Kit: [iOS version](https://github.com/horizontalsystems/bitcoin-kit-ios  ) / [Android version](https://github.com/horizontalsystems/bitcoin-kit-android )
+- Ethereum Development Kit: [iOS version](https://github.com/horizontalsystems/ethereum-kit-ios  ) / [Android version](https://github.com/horizontalsystems/ethereum-kit-android )
+- DAO / DAICO Smart Contracts: [github.com/horizontalsystems/daico-smart-contracts  ](https://github.com/horizontalsystems/daico-smart-contracts  )
+- Decentralized Block Explorer: [github.com/horizontalsystems/blockchain-block-explorer-IPFS  ](https://github.com/horizontalsystems/blockchain-block-explorer-IPFS  )
 
 
 #### Upcoming Projects / Milestones:
@@ -95,8 +95,8 @@ The current milestones and progress on each milestone can be seen under the [Pro
 
 The Wallet is the first major milestone as it's a prerequisite for launching the other projects like DAO Platform or the Decentralized Exchange. 
 
-	1. Launch Bank Wallet App : [github.com/orgs/horizontalsystems/projects/2  ](https://github.com/orgs/horizontalsystems/projects/2  )
-	2. Launch DAO Platform:  [github.com/orgs/horizontalsystems/projects/3  ](https://github.com/orgs/horizontalsystems/projects/3  )
-	3. Lunch DEX (Decentralized Exchange): [github.com/orgs/horizontalsystems/projects/4](https://github.com/orgs/horizontalsystems/projects/4)
+1. Launch Bank Wallet App : [github.com/orgs/horizontalsystems/projects/2  ](https://github.com/orgs/horizontalsystems/projects/2  )
+2. Launch DAO Platform:  [github.com/orgs/horizontalsystems/projects/3  ](https://github.com/orgs/horizontalsystems/projects/3  )
+3. Lunch DEX (Decentralized Exchange): [github.com/orgs/horizontalsystems/projects/4](https://github.com/orgs/horizontalsystems/projects/4)
 
 For more detailed overview of the work being done refer to [DApps](https://horizontalsystems.io/hs-dapps) section.
