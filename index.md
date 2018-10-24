@@ -66,4 +66,27 @@ Every single [line of code](https://github.com/horizontalsystems/) we have is op
 > _Horizontal Systems_
 
 
+#### The Code & Transparency
 
+When designing the Horizontal Systems DAO the key element was to guarantee the transaprency for all involved parties. The open code reveals what's in the code but falls short when it comes to the actual process to how it is being developed. 
+
+We went steps further by moving the entire daily workflow, to-do tasks, milestones, people, team communication to a Github public tsk tracker. 
+
+The code, the team, the tasks, the milestones and any other task that's being performed is available on Github task tracker. This allows anyone to actually monitor the team, work being done, every single code change, in nearly real-time.
+
+You don't have to take our word for it, but actually see it yourself.
+
+- Horizontal Systems DAO: _https://github.com/horizontalsystems_
+- Develoment Team (Contractors) _https://github.com/orgs/horizontalsystems/people  _
+- Core Software Repositories
+	- Bank Wallet App: [iOS version](https://github.com/horizontalsystems/bank-wallet-ios-app ) / [Android version](https://github.com/horizontalsystems/bank-wallet-android-app  )
+	- Bitcoin Development Kit: [iOS version](https://github.com/horizontalsystems/bitcoin-kit-ios  ) / [Android version](https://github.com/horizontalsystems/bitcoin-kit-android )
+	- Ethereum Development Kit: [iOS version](https://github.com/horizontalsystems/ethereum-kit-ios  ) / [Android version](https://github.com/horizontalsystems/ethereum-kit-android )
+	- DAO / DAICO Smart Contracts: https://github.com/horizontalsystems/daico-smart-contracts  
+	- Decentralized Block Explorer: https://github.com/horizontalsystems/blockchain-block-explorer-IPFS  
+- Upcoming Projects _https://github.com/orgs/horizontalsystems/projects_
+	1. Launch - Bank Wallet App  https://github.com/orgs/horizontalsystems/projects/2  
+	2. Launch -  DAO Platform  https://github.com/orgs/horizontalsystems/projects/3  
+	3. Lunch DEX -  https://github.com/orgs/horizontalsystems/projects/4
+
+For more detailed overview of the work being done refer to [DApps](https://horizontalsystems.io/hs-dapps) section.
