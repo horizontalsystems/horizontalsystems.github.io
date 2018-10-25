@@ -12,7 +12,7 @@ Initially founded by a [team](https://horizontalsystems.io/hs-team) of software 
 
 A DApp is a type of apps that neither depends on some physical entity nor requires any servers to run on. 
 
-<center>![Decentralized Apps (DApps)](/assets/images/dapps.png)</center>
+![Decentralized Apps (DApps)](/assets/images/dapps.png)
 
 The true DApps are designed to remain online and functional indefinitely, even if there is not a single server or a person to operate them. These DApps are trully independent, in all aspects!
 
@@ -30,9 +30,9 @@ The main idea behind DAO is establishing a company that can be fully functional 
 
 DAOs are required by their nature to be open source so that all underlying code used in DAO is open to public for scrutiny. All DAO rules and financial transactions are recorded in the public blockchain.
 
-<center>![DAO Explained](/assets/images/dao.png)</center>
+![DAO Explained](/assets/images/dao.png)
 
-As you can see from the image above, the company governance, finances as well as daily operational protocols are all controlled by and enforced through digitally-coded [Smart Contracts](https://www.youtube.com/watch?v=_I0dUL4kpTg) on [Ethereum blockchain](https://www.ethereum.org/dao).
+In DAOs, the company governance, finances as well as daily operational protocols are all controlled by and enforced through digitally-coded [Smart Contracts](https://www.youtube.com/watch?v=_I0dUL4kpTg) on [Ethereum blockchain](https://www.ethereum.org/dao).
 
 The DAOs are transparent, immutable and incorruptible!
 
@@ -41,11 +41,11 @@ The DAOs are transparent, immutable and incorruptible!
   <h2>Horizontal Systems DAO</h2>
 </center>
 
-With Horizontal Systems DAO we are launching a first independent commercial DAO company which is governed by independent investors and driven by software developers worldwide.
+With Horizontal Systems DAO we are launching the first independent commercial DAO company which is governed by a pool of independent shareholders and driven by software developers worldwide.
 
 ### How It Works
  
-1. shareholders buy a stake in Horizontal Systems DAO via [DAICO fundraising model](https://cointelegraph.com/explained/what-is-a-daico-explained)
+1. shareholders [buy a stake](https://horizontalsystems.io/hs-dapps) in Horizontal Systems DAO via [DAICO fundraising model](https://cointelegraph.com/explained/what-is-a-daico-explained)
 2. shareholders always remain in control of DAO's profits and initially raised funds
 3. DAO employs a team of contractors (developers) to build commercial DApps
 4. DAO pays contractors team a regular salary from raised funds
@@ -56,7 +56,7 @@ With Horizontal Systems DAO we are launching a first independent commercial DAO 
 
 Anyone may buy a stake in the Horizontal Systems DAO and take part in shaping company's future in a trustless, reliable and transparent manner. Similarly, any capable software developer may become a contractor and a full member of the Horizontal Systems development team.
 
-<center>![Horizontal Systems DAO](/assets/images/hs_dao.png)</center>
+![Horizontal Systems DAO](/assets/images/hs_dao.png)
 
 Every single line of code Horizontal Systems has is [public and open-source](https://github.com/horizontalsystems/) providing any software engineer an easy way to verify everything stated above. In fact, we encOurage you to do exactly that!
 
@@ -70,7 +70,7 @@ Every single line of code Horizontal Systems has is [public and open-source](htt
 
 When designing the Horizontal Systems DAO the key element was to guarantee the transparency for all involved parties. And while the open-source code reveals what's in the code it falls short when it comes to the transparency of the actual software development process and workflow. 
 
-Horizontal Systems moved the entire software development workflow including to-do tasks, upcoming milestones, team communication, task discussions to a public task tracker on Github. As a result anyone is able to monitor the team, work being done, every single code change, in nearly real-time.
+Horizontal Systems keeps the entire software development workflow including to-do tasks, upcoming milestones, team communication and discussions on Github's public task tracker. Anyone is able to monitor the team, work being done, every single code change, in nearly real-time.
 
 You don't have to take our word for it, but actually see it yourself.
 
