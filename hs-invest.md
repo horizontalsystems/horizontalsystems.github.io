@@ -7,6 +7,8 @@ This website is meant primarily for potential investors and software developers 
 
 While we have no means to control who invests in Horizontal Systems DAO ideally we would like to work with investors and blockchain funds which clearly understand what DAO is and how it opeartes. We encourage you to review our github repositories, the project progress, the team and in particular the DAO/DAICO smart contract implementation to make sure that everything works exactly as claimed.
 
+You may easily verify that Horizontal Systems DAO is implemented the way shown above by looking up the underlying smart contracts for [Horizontal Systems DAO](https://github.com/horizontalsystems/daico-smart-contracts  ) on the Ethereum blockchain.
+
 - HS DAO contract: (token contract address)
 - HS DAICO contract: (token sale conrtact adderss)
 - HS Team contract: contract address
