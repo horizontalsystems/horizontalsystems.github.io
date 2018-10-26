@@ -67,17 +67,19 @@ When designing the Horizontal Systems DAO the key element was to guarantee the t
 
 Horizontal Systems keeps the entire software development workflow including to-do tasks, upcoming milestones, team communication and discussions on Github's public task tracker. Anyone is able to monitor the team, work being done, every single code change, in nearly real-time.
 
-You don't have to take our word for it, but actually see it yourself.
-
-- Horizontal Systems on Github : [github.com/horizontalsystems](https://github.com/horizontalsystems)
-- Develoment Team / Contractors : [github.com/orgs/horizontalsystems/people  ](https://github.com/orgs/horizontalsystems/people  )
-- Software Repositories : (github.com/horizontalsystems)[https://github.com/horizontalsystems]
-
 <br/>
 
 >**There are no disclaimers or agreements here, but the open code!**
 >
 >_Horizontal Systems_
+
+<br/>
+
+You don't have to take our word for it, but actually see it yourself.
+
+- Horizontal Systems on Github : [github.com/horizontalsystems](https://github.com/horizontalsystems)
+- Develoment Team / Contractors : [github.com/orgs/horizontalsystems/people  ](https://github.com/orgs/horizontalsystems/people  )
+- Software Repositories : [github.com/horizontalsystems](https://github.com/horizontalsystems)
 
 <br/><br/>
 
