@@ -12,7 +12,7 @@ body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: $body-text-color;
+  color: $dark;
 }
 
 .container {
@@ -32,7 +32,7 @@ body {
 }
 
 a {
-  color: $body-link-color;
+  color: $yellow;
   text-decoration: none;
 
   &:hover {
@@ -42,8 +42,8 @@ a {
 
 header {
   background: linear-gradient(to bottom,
-    $header-bg-color-secondary,
-    $header-bg-color
+    $dark-secondary,
+    $dark
   );
 
   .banner {
@@ -64,7 +64,7 @@ header {
   }
 
   .banner-desc {
-    color: $banner-desc-color;
+    color: $grey;
     font-size: 18px;
   }
 
@@ -83,7 +83,7 @@ header {
 nav {
   height: 48px;
   font-size: 18px;
-  background-color: $header-bg-color-secondary;
+  background-color: $dark;
 
   .navbar-nav {
     margin: 0;
@@ -104,7 +104,7 @@ nav {
 
     .nav-link {
       padding: 8.5px 30px;
-      color: #ffffff;
+      color: $white;
       white-space: nowrap; // otherwise will overlap .nav-bottom
 
       &:hover {
@@ -116,7 +116,7 @@ nav {
       display: none;
       height: 4px;
       width: 80%;
-      background: $body-link-color;
+      background: $yellow;
       border-radius: 4px 4px 0 0;
     }
 
@@ -126,7 +126,7 @@ nav {
       }
 
       .nav-link {
-        color: $body-link-color;
+        color: $yellow;
       }
     }
 
@@ -170,7 +170,7 @@ main {
   h6 {
     margin-top: 2rem;
     margin-bottom: 1rem;
-    color: $header-bg-color;
+    color: $black;
     font-weight: bold;
   }
 
@@ -181,8 +181,8 @@ main {
   blockquote {
     padding: 0 1rem;
     margin-left: 0;
-    color: $quote-text-color;
-    border-left: 0.3rem solid $border-color;
+    color: $grey;
+    border-left: 0.3rem solid $yellow;
 
     > :first-child {
       margin-top: 0;
