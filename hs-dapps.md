@@ -26,3 +26,32 @@ Decentralized crypto currency bank to securely hold your crypto assets. | Decent
  "Keep no data",
  "Decentralized",
  "For profit".
+
+
+<br/>
+#### Key Software Repositories:
+
+These core repositories are the primary building blocks for the upcoming projects and DApps we are planning to release in the coming months. 
+
+While we built these repositories specifically for the Horizontal Systems DApps they are also being released to global blockchain developer community to enable independent developers worldwide to build branded decentralized wallets, exchanges and other blockchain-powered DApps.
+
+- BANK Wallet App: [iOS](https://github.com/horizontalsystems/bank-wallet-ios-app ) / [Android](https://github.com/horizontalsystems/bank-wallet-android-app  )
+- Bitcoin Development Kit: [iOS](https://github.com/horizontalsystems/bitcoin-kit-ios  ) / [Android](https://github.com/horizontalsystems/bitcoin-kit-android )
+- Ethereum Development Kit: [iOS](https://github.com/horizontalsystems/ethereum-kit-ios  ) / [Android](https://github.com/horizontalsystems/ethereum-kit-android )
+- DAO / DAICO Smart Contracts: [github.com/horizontalsystems/daico-smart-contracts  ](https://github.com/horizontalsystems/daico-smart-contracts  )
+- Decentralized Block Explorer: [github.com/horizontalsystems/blockchain-block-explorer-IPFS  ](https://github.com/horizontalsystems/blockchain-block-explorer-IPFS  )
+
+
+<br/>
+#### Upcoming Projects / Milestones:
+
+The current milestones and progress on each milestone can be seen under the [Projects section](https://github.com/orgs/horizontalsystems/projects) on Github. Note that while the projects may seem unrelated for the most part they are closely interdependent. 
+
+The BANK Wallet is the first product and the first milestone as it's a prerequisite for launching the other projects like DAO Platform or the Decentralized Crypto-to-Crypto Exchange. 
+
+1. Launch Bank Wallet App : [github.com/orgs/horizontalsystems/projects/2  ](https://github.com/orgs/horizontalsystems/projects/2  )
+2. Launch DAO Platform:  [github.com/orgs/horizontalsystems/projects/3  ](https://github.com/orgs/horizontalsystems/projects/3  )
+3. Lunch DEX (Decentralized Exchange): [github.com/orgs/horizontalsystems/projects/4](https://github.com/orgs/horizontalsystems/projects/4)
+
+
+For more detailed overview of the work being done and upcoming DApps refer to [DApps](https://horizontalsystems.io/hs-dapps) section.
