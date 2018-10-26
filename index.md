@@ -8,7 +8,7 @@ Horizontal Systems is an emerging Decentralized Autonomous Organization (DAO) th
 Initially founded by a [team](https://horizontalsystems.io/hs-team) of software engineers, Horizontal Systems attracts talented software engineers to build DApps for smartphones which operate as decentralized autonomous networks.
 
 
-
+<br/>
 ### DApps Explained
 
 A DApp is a type of apps that neither depends on some physical entity nor requires any servers to run on. 
@@ -20,7 +20,7 @@ A DApp is a type of apps that neither depends on some physical entity nor requir
 The true DApps are designed to remain online and functional indefinitely, even if there is not a single server or a person to operate them. These DApps are trully independent, in all aspects!
 
 
-
+<br/>
 ### DAO Explained
 
 The main idea behind DAO is establishing a company that can be fully functional without hierarchical management.
@@ -32,18 +32,18 @@ The main idea behind DAO is establishing a company that can be fully functional 
 >_via [CoinTelegraph](https://cointelegraph.com/ethereum-for-beginners/what-is-dao#how-daos-work)_
 
 
-
+<br/>
 DAOs are required by their nature to be open source so that all underlying code used in DAO is open to public for scrutiny. All DAO rules and financial transactions are recorded in the public blockchain.
 
-
+<br/>
 ![DAO Explained](/assets/images/dao.png)
 
-
+<br/>
 In DAOs, the company governance, finances as well as daily operational protocols are all controlled by and enforced through digitally-coded [Smart Contracts](https://www.youtube.com/watch?v=_I0dUL4kpTg) on [Ethereum blockchain](https://www.ethereum.org/dao).
 
 The DAOs are transparent, immutable and incorruptible!
 
-
+<br/>
 <center>
   <h2>Horizontal Systems DAO</h2>
 </center>
@@ -51,7 +51,7 @@ The DAOs are transparent, immutable and incorruptible!
 With Horizontal Systems DAO we are launching the first independent commercial DAO company which is governed by a pool of independent shareholders and driven by software developers worldwide.
 
 
-
+<br/>
 ### How It Works
  
 1. shareholders [buy a stake](https://horizontalsystems.io/hs-dapps) in Horizontal Systems DAO via [DAICO fundraising model](https://cointelegraph.com/explained/what-is-a-daico-explained)
@@ -77,7 +77,7 @@ Every single line of code Horizontal Systems has is [public and open-source](htt
 >_Horizontal Systems_
 
 
-
+<br/>
 ### Everything Is Public
 
 When designing the Horizontal Systems DAO the key element was to guarantee the transparency for all involved parties. And while the open-source code reveals what's in the code it falls short when it comes to the transparency of the actual software development process and workflow. 
@@ -91,7 +91,7 @@ You don't have to take our word for it, but actually see it yourself.
 - Software Repositories : (github.com/horizontalsystems)[https://github.com/horizontalsystems]
 
 
-
+<br/>
 #### Key Software Repositories:
 
 These core repositories are the primary building blocks for the upcoming projects and DApps we are planning to release in the coming months. 
@@ -105,7 +105,7 @@ While we built these repositories specifically for the Horizontal Systems DApps 
 - Decentralized Block Explorer: [github.com/horizontalsystems/blockchain-block-explorer-IPFS  ](https://github.com/horizontalsystems/blockchain-block-explorer-IPFS  )
 
 
-
+<br/>
 #### Upcoming Projects / Milestones:
 
 The current milestones and progress on each milestone can be seen under the [Projects section](https://github.com/orgs/horizontalsystems/projects) on Github. Note that while the projects may seem unrelated for the most part they are closely interdependent. 
