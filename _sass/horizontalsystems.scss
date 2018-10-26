@@ -1,6 +1,6 @@
 @import "variables";
 @import "mixins";
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700');
 
 * {
   box-sizing: border-box;
@@ -9,7 +9,7 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: $dark;
