@@ -3,9 +3,18 @@ active: invest
 layout: default
 ---
 
-This website is meant primarily for potential investors and software developers looking for a secure and trustless way to invest in the very first DAO company that replicates the business model of traditional for-profit corporations.
+This website is meant primarily for potential investors and software developers looking for a secure and trustless way to invest in the very first commercial DAO company that replicates the business model of traditional for-profit corporations.
 
 While we have no means to control who invests in Horizontal Systems DAO ideally we would like to work with investors and blockchain funds which clearly understand what DAO is and how it opeartes. We encourage you to review our github repositories, the project progress, the team and in particular the DAO/DAICO smart contract implementation to make sure that everything works exactly as claimed.
+
+
+
+
+
+
+
+
+ - For profit
 
 You may easily verify that Horizontal Systems DAO is implemented the way shown above by looking up the underlying smart contracts for [Horizontal Systems DAO](https://github.com/horizontalsystems/daico-smart-contracts  ) on the Ethereum blockchain.
 
@@ -33,3 +42,10 @@ The investors are the ones who get to split company profits and control the fina
 As we release dApps we aim to integrate monetization features into every decentralized product we develop. The apps will include various extra paid features on top of the standard functionality. 
 
 Unlocking these features will cost some money (charged in crypto) that would be directly deposited (in real time) to unchangeable investor-controlled smart contract which is designed to store and distribute profits from all released products. 
+
+
+the code is open-source: necessaru to boost adoption
+
+While we built these repositories specifically for the Horizontal Systems DApps they are also being released to global blockchain developer community to enable developers worldwide to build branded decentralized wallets, exchanges and other blockchain-powered DApps.
+
+The current milestones and progress on each milestone can be seen under the [Projects section](https://github.com/orgs/horizontalsystems/projects) on Github. Note that while the projects may seem unrelated for the most part they are closely interdependent. 
