@@ -9,11 +9,11 @@ With every DApp the Horizontal Systems DAO aims to disrupt a major sector of the
 
 The DApps we develop make use of full potential of blockchain technology and therefore have the qualities of trully decentralized applications.
 
-1. Independent: do not require any entity to function
-2. Decentralized: without centrally-managed servers
-3. Censorship-resistant: no one can block or restrict the app
-4. Cryptographically-secure: only the user controls his/her data
-5. Hack-proof: no servers or databases to hack
+1. **Independent**: do not require any entity to function
+2. **Decentralized**: without centrally-managed servers
+3. **Censorship-resistant**: no one can block or restrict the app
+4. **Cryptographically-secure**: only the user controls his/her data
+5. **Hack-proof**: no servers or databases to hack
 
 Apart from pursuing known best practices in blockchain engineering we strive to achieve excellence in other no less critical aspects of the software engineering in order to deliver the state of the art DApps.
 

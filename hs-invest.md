@@ -5,7 +5,7 @@ layout: default
 
 This website is meant primarily for potential investors and software developers looking for a secure and trustless way to invest in the very first commercial DAO company that replicates the business model of traditional for-profit corporations.
 
-While we have no means to control who invests in Horizontal Systems DAO ideally we would like to work with investors and blockchain funds which clearly understand what DAO is and how it opeartes. We encourage you to review our github repositories, the project progress, the team and in particular the DAO/DAICO smart contract implementation to make sure that everything works exactly as claimed.
+While we have no means to control who invests in Horizontal Systems DAO ideally we welcome investors and funds that clearly understand what DAO is and how it opeartes. We encourage poetntial investors to review Horizontal Systems repositories on Github to make sure that everything works exactly as claimed.
 
 
 
