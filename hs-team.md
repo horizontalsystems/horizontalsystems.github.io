@@ -11,7 +11,7 @@ At Horizontal Systems we are strong proponents of an efficient engineering proce
 
 Having a compact and yet comprehensive team mastering the fundamentals of software development process is one of our strategic strengths. This enables us to maintain an efficient workflow and keep building quality libraries and products at an aggressive pace, outperforming corporations with 10x more people.
 
-[DIAGRAM]
+![Doing Things Right](/assets/images/efficient.png)
 
 Our collective team expertise covers a wide range of fields with a strong focus on blockchain and other emerging technologies listed below:
 
