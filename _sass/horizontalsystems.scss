@@ -192,9 +192,45 @@ main {
       margin-bottom: 0;
     }
   }
+
 }
 
-.attach-left {
-  float: left;
-  margin-right: 20px;
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid $grey-light;
+  margin: 1em 0;
+  padding: 0;
+}
+
+footer {
+  padding: 2rem 0 3rem 0;
+  margin-left: 0;
+  color: $grey;
+
+  .bottom-nav {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+
+    @include small {
+      justify-content: flex-start;
+    }
+  }
+
+  .nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .nav-link {
+      padding: 0 30px;
+      color: $dark;
+      cursor: pointer;
+      font-size: 14px;
+    }
+  }
 }

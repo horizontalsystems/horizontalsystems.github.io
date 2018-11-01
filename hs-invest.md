@@ -27,7 +27,7 @@ You may easily verify that Horizontal Systems DAO is implemented the way shown a
 
 Horizontal Systems DAO shares are represented as HSYS tokens. The amount of tokens determines the amount of influence token holder has over the company.
 
-The process through which the tokens are sold is called [DAICO](https://cointelegraph.com/explained/what-is-a-daico-explained), which was initially proposed by [Vitalik Buterin](https://en.wikipedia.org/wiki/Vitalik_Buterin), a founder of Ethereum blockchain. 
+The process through which the tokens are sold is called [DAICO](https://cointelegraph.com/explained/what-is-a-daico-explained), which was initially proposed by [Vitalik Buterin](https://en.wikipedia.org/wiki/Vitalik_Buterin), a founder of Ethereum blockchain.
 
 
 Unlike the traditional ICO models, the DAICO model offers significant adavntage and guatantess security of invested funds:
@@ -37,15 +37,15 @@ Unlike the traditional ICO models, the DAICO model offers significant adavntage 
 - backed by open source code
 - fully transapparent workflow
 
-The investors are the ones who get to split company profits and control the finances. 
+The investors are the ones who get to split company profits and control the finances.
 
-As we release dApps we aim to integrate monetization features into every decentralized product we develop. The apps will include various extra paid features on top of the standard functionality. 
+As we release dApps we aim to integrate monetization features into every decentralized product we develop. The apps will include various extra paid features on top of the standard functionality.
 
-Unlocking these features will cost some money (charged in crypto) that would be directly deposited (in real time) to unchangeable investor-controlled smart contract which is designed to store and distribute profits from all released products. 
+Unlocking these features will cost some money (charged in crypto) that would be directly deposited (in real time) to unchangeable investor-controlled smart contract which is designed to store and distribute profits from all released products.
 
 
 the code is open-source: necessaru to boost adoption
 
 While we built these repositories specifically for the Horizontal Systems DApps they are also being released to global blockchain developer community to enable developers worldwide to build branded decentralized wallets, exchanges and other blockchain-powered DApps.
 
-The current milestones and progress on each milestone can be seen under the [Projects section](https://github.com/orgs/horizontalsystems/projects) on Github. Note that while the projects may seem unrelated for the most part they are closely interdependent. 
+The current milestones and progress on each milestone can be seen under the [Projects section](https://github.com/orgs/horizontalsystems/projects) on Github. Note that while the projects may seem unrelated for the most part they are closely interdependent.

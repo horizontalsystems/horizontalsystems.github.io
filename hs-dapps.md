@@ -3,7 +3,7 @@ active: dapps
 layout: default
 ---
 
-Horizontal Systems DAO exists to build censorship-resistant financial DApps for mainstream audience. 
+Horizontal Systems DAO exists to build censorship-resistant financial DApps for mainstream audience.
 
 With every DApp the Horizontal Systems DAO aims to disrupt a major sector of the rusty financial ecosystem and utimately deliver a significantly better value proposition to the end user.
 
@@ -28,16 +28,15 @@ Meet the DApps by Horizontal Systems
 
 
 <br/>
-><center>___________________________________________________________________________________________________________<center>
 <center><h2>BANK Wallet</h2></center>
-
+<hr/>
 Be Your Own Bank!
 
 The BANK Wallet is the first Horizontal Systems DApp and one of the more complex ones. It's a major milestone as the code developed for the Bank Wallet DApp is going to be used as the uilding blocks for upcoming projects.
 
 - short description and features list (link to full description, ?on a subpage)
 - screenshots (link to description screenshots or gallery)
-
+<br/>
 ### Current Status
 
 - fetch data from respective repositories
@@ -55,11 +54,11 @@ Remaining tasks: [github.com/orgs/horizontalsystems/projects/3  ](https://gi
 
 <br/>
 <center><h2>DAO Platform</h2></center>
-
+<hr/>
 Discover and invest in DAOs launched using DAICO model.
 
 - DAO / DAICO Smart Contracts: [github.com/horizontalsystems/daico-smart-contracts  ](https://github.com/horizontalsystems/daico-smart-contracts  )
-
+<br/>
 ### Current Progress
 
 - fetch data from respective repositories
@@ -71,10 +70,10 @@ Remaining tasks: [github.com/orgs/horizontalsystems/projects/3  ](https://gi
 
 
 <br/>
-<center><h2>Decentralizaed Exchange</h2></center> 
-
+<center><h2>Decentralizaed Exchange</h2></center>
+<hr/>
 Decentralized crypto currency exchange that works without a middle men
-
+<br/>
 ### Current Progress
 
 - fetch data from respective repositories
@@ -85,12 +84,8 @@ Remaining tasks: [github.com/orgs/horizontalsystems/projects/4](https://github.c
 
 
 <br/>
-<center><h2>Future Projects</h2></center> 
-
+<center><h2>Future Projects</h2></center>
+<hr/>
 - DApp1
 - DApp2
 - DApp3
-
-
-
-
