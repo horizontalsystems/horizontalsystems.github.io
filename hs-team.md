@@ -26,6 +26,7 @@ Our collective team expertise covers a wide range of fields with a strong focus 
 8. financial markets and derivatives
 
 
+<br/>
 <h2><center>Meet The Team</center></h2>
 
 Everything about Horizontal Systems DAO is open source giving millions of software developers worldwide free and unrestricted access to the software powering Horizontal Systems as well as released products and pretty much every single bit of change made by team members, in real-time.
