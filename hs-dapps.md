@@ -28,6 +28,7 @@ Meet the DApps by Horizontal Systems
 
 
 <br/>
+><center>___________________________________________________________________________________________________________<center>
 <center><h2>BANK Wallet</h2></center>
 
 Be Your Own Bank!
