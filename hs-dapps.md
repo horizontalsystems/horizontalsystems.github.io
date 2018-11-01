@@ -27,7 +27,7 @@ Meet the DApps by Horizontal Systems
 
 
 
-
+<br/>
 <center><h2>BANK Wallet</h2></center>
 
 Be Your Own Bank!
@@ -52,7 +52,7 @@ Remaining tasks: [github.com/orgs/horizontalsystems/projects/3  ](https://gi
 
 
 
-
+<br/>
 <center><h2>DAO Platform</h2></center>
 
 Discover and invest in DAOs launched using DAICO model.
@@ -69,7 +69,7 @@ Remaining tasks: [github.com/orgs/horizontalsystems/projects/3  ](https://gi
 
 
 
-
+<br/>
 <center><h2>Decentralizaed Exchange</h2></center> 
 
 Decentralized crypto currency exchange that works without a middle men
@@ -83,6 +83,7 @@ Launch date:  May 1st, 2018
 Remaining tasks: [github.com/orgs/horizontalsystems/projects/4](https://github.com/orgs/horizontalsystems/projects/4)
 
 
+<br/>
 <center><h2>Future Projects</h2></center> 
 
 - DApp1
