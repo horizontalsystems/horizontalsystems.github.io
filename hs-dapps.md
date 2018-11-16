@@ -3,9 +3,15 @@ active: dapps
 layout: default
 ---
 
-Horizontal Systems DAO exists to build censorship-resistant financial DApps for mainstream audience. 
+Horizontal Systems DAO exists to build censorship-resistant financial DApps for mainstream audience.
 
-With every DApp the Horizontal Systems DAO aims to disrupt a major sector of the rusty financial ecosystem and ultimately deliver a significantly better value proposition to the end user.
+### DApps Explained
+
+A DApp stands for Decentralized Application and usually refers to a type of apps that are not dependent on some centrally managed corporate servers. The true DApps are designed to remain online and functional indefinitely, even if there is not a single server or a person to operate them.
+
+![Decentralized Apps (DApps)](/assets/images/dapps.png)
+
+With every DApp the Horizontal Systems DAO aims to disrupt a major sector of the financial ecosystem and ultimately deliver a significantly better value proposition to the end user.
 
 The DApps we develop make use of full potential of blockchain technology and therefore have the qualities of truly decentralized applications.
 
@@ -23,68 +29,25 @@ Apart from pursuing known best practices in blockchain engineering we strive to 
 8. **Well-designed**: designed and simplified, down to the minor detail
 
 
-Meet the DApps by Horizontal Systems below.
+<br/>
+<center><h2>DApps by Horizontal Systems</h2></center>
+<br/>
 
-
-
-<center><h2>BANK Wallet</h2></center>
+### BANK Wallet
 
 Be Your Own Bank!
 
 The BANK Wallet is the first Horizontal Systems DApp and one of the more complex ones. It's a major milestone as the code developed for the Bank Wallet DApp is going to be used as the building blocks for upcoming projects.
 
-- short description and features list (link to full description, ?on a subpage)
-- screenshots (link to description screenshots or gallery)
-
-### Current Status
-
-- fetch data from respective repositories
-- display/link to latest production and dev releases
-
-- BANK Wallet App: [iOS](https://github.com/horizontalsystems/bank-wallet-ios-app ) / [Android](https://github.com/horizontalsystems/bank-wallet-android-app  )
-- Bitcoin Development Kit: [iOS](https://github.com/horizontalsystems/bitcoin-kit-ios  ) / [Android](https://github.com/horizontalsystems/bitcoin-kit-android )
-- Ethereum Development Kit: [iOS](https://github.com/horizontalsystems/ethereum-kit-ios  ) / [Android](https://github.com/horizontalsystems/ethereum-kit-android )
-- Decentralized Block Explorer: [github.com/horizontalsystems/blockchain-block-explorer-IPFS  ](https://github.com/horizontalsystems/blockchain-block-explorer-IPFS  )
-
-Launch date:  Nov 15'th, 2018
-Remaining tasks: [github.com/orgs/horizontalsystems/projects/3  ](https://github.com/orgs/horizontalsystems/projects/2)
+[Read more](https://horizontalsystems.io/dapps/bank-wallet)
 
 
+### Decentralized Crypto-to-crypto Exchange
+
+[Read more](https://horizontalsystems.io/dapps/dex)
 
 
-<center><h2>DAO Platform</h2></center>
+### DAO Platform
 
-Discover and invest in DAOs launched using DAICO model.
+[Read more](https://horizontalsystems.io/dapps/dao-platform)
 
-- DAO / DAICO Smart Contracts: [github.com/horizontalsystems/daico-smart-contracts  ](https://github.com/horizontalsystems/daico-smart-contracts  )
-
-### Current Progress
-
-- fetch data from respective repositories
-- display/link to latest production and dev releases
-
-Launch date:  Feb 1st, 2018
-Remaining tasks: [github.com/orgs/horizontalsystems/projects/3  ](https://github.com/orgs/horizontalsystems/projects/3  )
-
-
-
-<center><h2>Decentralizaed Exchange</h2></center> 
-
-Decentralized crypto currency exchange that works without a middle men
-
-### Current Progress
-
-- fetch data from respective repositories
-- display/link to latest production and dev releases
-
-Launch date:  May 1st, 2018
-Remaining tasks: [github.com/orgs/horizontalsystems/projects/4](https://github.com/orgs/horizontalsystems/projects/4)
-
-
-<center><h2>Future Projects</h2></center> 
-
-- DApp1
-- DApp2
-- DApp3
-
-<br/><br/>

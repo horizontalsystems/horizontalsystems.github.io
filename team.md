@@ -5,8 +5,6 @@ layout: default
 
 At Horizontal Systems we are strong proponents of an efficient engineering process.
 
-<h2><center>The Right Way</center></h2>
-
 Doing the right things is a first step towards efficiency, however the real mastery achieved when **things are done the right way**, especially in software. 
 
 ![Doing Things Right](/assets/images/efficient.png)
@@ -31,11 +29,8 @@ Our collective team expertise covers a wide range of fields:
 8. financial markets and derivatives
 
 
-<h2><center>The Team</center></h2>
-
 While anyone is able to contribute to our work and get involved, the core team members do so on a full-time basis and get paid for it by DAO.
 
-[//]: # (Team Members List)
 
 All core team members get an equal monthly salary from DAO. The current salary for core team member is [read from blockchain]
 
@@ -46,27 +41,25 @@ While the HS DAO engineering team is open to all it's of strategic importance to
 
 If you're interested we invite you to get familiar with the Horizontal Systems DAO project [github.com/horizontalsystems/](https://github.com/horizontalsystems/) and start contributing. 
 
+
 The application process is public and require an applicant to be an active contributor to the project on the time of application.
 
 Apply to join Horizontal Systems development team.
 
-[//]: # (link to a smart contract with apply function. The contract should keep track of all past applications and list them below)
-
 
 ### Past & Present Applications
 
-Nickname: 
+Nickname:
 
 - application date
 - github profile
 - application status:
 - votes
 
-Nickname: 
+Nickname:
 
 - application date
 - github profile
 - application status:
 - votes
 
-<br/><br/>
