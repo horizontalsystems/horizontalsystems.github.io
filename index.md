@@ -30,8 +30,6 @@ The DAOs are transparent, immutable and incorruptible!
 </center>
 <hr/>
 
-Horizontal Systems DAO is a decentralized autonomous company which is governed by a pool of independent governors and driven by software developers worldwide.
-
 ![Horizontal Systems DAO](/assets/images/hs_dao.png)
 
 ### How It Works
@@ -45,9 +43,11 @@ Horizontal Systems DAO is a decentralized autonomous company which is governed b
 7. all user payments are collected and stored in DAO's independent smart contracts
 8. shareholders initiate distribution of collected funds as dividends
 
-Anyone may buy a stake in the Horizontal Systems DAO and take part in shaping company's future in a trustless, reliable and transparent manner. Similarly, any capable software developer may become a contractor and a full member of the Horizontal Systems development team.
+Anyone may buy a stake in the Horizontal Systems DAO and take part in shaping company's future in a trustless, reliable and transparent manner. 
 
-Horizontal Systems keeps the entire software development workflow including to-do tasks, upcoming milestones, team communication and discussions on Github's public task tracker. Anyone is able to monitor the team, work being done, every single code change, in nearly real-time :)
+Similarly, any capable software developer may become a contractor and a full member of the Horizontal Systems development team.
+
+Horizontal Systems keeps the entire software development workflow including to-do tasks, upcoming milestones, team communication and discussions on [Github](https://github.com/horizontalsystems/). Anyone is able to monitor the team, work being done, every single code change, in nearly real-time :)
 
 Every single line of code powering Horizontal Systems DAO incl. its products is [public and open-source](https://github.com/horizontalsystems/) providing any software engineer an easy way to verify everything stated above.
 
