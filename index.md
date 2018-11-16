@@ -3,7 +3,7 @@ active: index
 layout: default
 ---
 
-Horizontal Systems is an emerging Decentralized Autonomous Organization (DAO) that builds censorship-resistant [decentralized apps](https://horizontalsystems.io/hs-dapps), known as DApps. Founded by a team of software engineers, Horizontal Systems seeks talented software engineers to build decentralized applications which operate as decentralized autonomous networks.
+Horizontal Systems is an emerging Decentralized Autonomous Organization (DAO) that builds censorship-resistant [decentralized apps](https://horizontalsystems.io/hs-dapps), known as DApps. Founded by a [team](https://horizontalsystems.io/dao/team) of software engineers, Horizontal Systems seeks talented software engineers to build decentralized applications which operate as decentralized autonomous networks.
 
 <br/>
 ### DAO Explained
@@ -26,26 +26,36 @@ The DAOs are transparent, immutable and incorruptible!
 
 <br/>
 <center>
-  <h2>Horizontal Systems</h2>
+  <h2>Horizontal Systems DAO</h2>
 </center>
 <hr/>
 
-Horizontal Systems DAO is a decentralized autonomous company which is governed by a pool of independent shareholders and driven by software developers worldwide.
+Horizontal Systems DAO is a decentralized autonomous company which is governed by a pool of independent governors and driven by software developers worldwide.
 
 ![Horizontal Systems DAO](/assets/images/hs_dao.png)
 
-
 ### How It Works
 
-1. Anyone holding a Horizontal Systems DAO token conasidered a governor. 
-2. Governors control of DAO's profits and initially raised funds.
-3. DAO employs a team of contractors (developers) building commercial DApps
-4. Contractors/team receive a regular salary from DAO
-5. Profits collected by DApps are stored in DAO's smart contracts
-8. Governors initiate distribution of collected funds as dividends
+1. shareholders buy a stake in Horizontal Systems DAO via [DAICO fundraising model](https://cointelegraph.com/explained/what-is-a-daico-explained)
+2. shareholders always remain in control of DAO's profits and initially raised funds
+3. DAO employs a team of contractors (developers) to build commercial DApps
+4. DAO pays contractors team a regular salary from raised funds
+5. DApps built by team are free but come with premium in-app features
+6. app users can unlock these features by paying using available crypto balance
+7. all user payments are collected and stored in DAO's independent smart contracts
+8. shareholders initiate distribution of collected funds as dividends
 
 Anyone may buy a stake in the Horizontal Systems DAO and take part in shaping company's future in a trustless, reliable and transparent manner. Similarly, any capable software developer may become a contractor and a full member of the Horizontal Systems development team.
 
+Horizontal Systems keeps the entire software development workflow including to-do tasks, upcoming milestones, team communication and discussions on Github's public task tracker. Anyone is able to monitor the team, work being done, every single code change, in nearly real-time :)
 
-Every single line of code powering Horizontal Systems DAO and its products is [public and open-source](https://github.com/horizontalsystems/) providing any software engineer an easy way to verify everything stated above. In fact, we encourage you to do exactly that!
+Every single line of code powering Horizontal Systems DAO incl. its products is [public and open-source](https://github.com/horizontalsystems/) providing any software engineer an easy way to verify everything stated above.
+
+<br/>
+
+>There are no disclaimers or agreements here, but the open code!
+>
+>_Horizontal Systems_
+
+<br/>
 
