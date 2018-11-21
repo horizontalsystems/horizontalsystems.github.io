@@ -3,10 +3,50 @@ active: index
 layout: default
 ---
 
-Horizontal Systems is an emerging Decentralized Autonomous Organization (DAO) that builds censorship-resistant [decentralized apps](https://horizontalsystems.io/hs-dapps), known as DApps. Founded by a [team](https://horizontalsystems.io/dao/team) of software engineers, Horizontal Systems seeks talented software engineers to build decentralized applications which operate as decentralized autonomous networks.
+Horizontal Systems builds censorship-resistant decentralized apps, designed for smartphones. 
+
+These apps are not dependent on any centrally managed servers and are designed to operare indefinitely.
+
+![Decentralized Apps (DApps)](/assets/images/dapps.png)
+
+1. **Independent**: do not require any entity to function
+2. **Decentralized**: without centrally-managed servers
+3. **Censorship-resistant**: no one can block or restrict the app
+4. **Cryptographically-secure**: only the user controls his/her data
+5. **Hack-proof**: no servers or databases to hack
+6. **Open-source**: 100% of the apps' code is public and open to review
+
 
 <br/>
-### DAO Explained
+<center><h2>Decentralized Apps</h2></center>
+<br/>
+
+### BANK Wallet
+
+BANK Wallet is a secure and a fully decentralized crypto wallet app that supports all major cryptocurrencies.
+
+This wallet provides a seamless and secure way to get started with Bitcoin and other crypto currencies for masses. It has been built using best practices on all fronts ranging from the design of the interface to the implementation of blockchain protocols.
+
+This wallet is an independent crypto bank.
+
+[Read more](https://horizontalsystems.io/dapps/bank-wallet)
+
+
+### Decentralized Exchange
+
+[Read more](https://horizontalsystems.io/dapps/dex)
+
+
+### DAO Investment Platform
+
+[Read more](https://horizontalsystems.io/dapps/dao-platform)
+
+
+<br/>
+<center><h2>About Horizontal Systems</h2></center>
+<br/>
+
+<br/>
 
 >_Imagine a vending machine that not only takes money from you and gives you a snack in return but also uses that money to automatically re-order the goods. This machine also orders cleaning services and pays its rent all by itself._
 >
@@ -16,21 +56,21 @@ Horizontal Systems is an emerging Decentralized Autonomous Organization (DAO) th
 
 <br/>
 
-
-The main idea behind DAO is establishing a company that can be fully functional without hierarchical management. In DAOs, the company governance, finances as well as daily operational protocols are all controlled by and enforced through digitally-coded [Smart Contracts](https://www.youtube.com/watch?v=_I0dUL4kpTg), which are usually hosted on [Ethereum blockchain](https://www.ethereum.org/dao).
-
-
-DAOs are required by their nature to be open source so that all underlying code used in DAO is open to public for scrutiny. All DAO rules and financial transactions are recorded in the public blockchain.
-
-The DAOs are transparent, immutable and incorruptible!
-
-<br/>
-<center>
-  <h2>Horizontal Systems DAO</h2>
-</center>
-<hr/>
+Horizontal Systems is a decentralzied autonomous organization, or DAO. It's a self sustainable blockchsin entity that's governed by people and driven by talented software engineers in a decentralized, transparent, immutable, incorruptable manner.
 
 ![Horizontal Systems DAO](/assets/images/hs_dao.png)
+
+Anyone may buy a stake in the Horizontal Systems DAO and take part in shaping company's future in a trustless, reliable and transparent manner. 
+
+Similarly, any capable software developer may become a contractor and a full member of the Horizontal Systems development team.
+
+Horizontal Systems keeps the entire software development workflow including to-do tasks, upcoming milestones, team communication and discussions on [Github](https://github.com/horizontalsystems/). Anyone is able to monitor the team, work being done, every single code change, in nearly real-time :)
+
+Every single line of code powering Horizontal Systems DAO incl. its products is [public and open-source](https://github.com/horizontalsystems/) providing any software engineer an easy way to verify everything stated above.
+
+
+DAOs are required by their nature to be open source so that all underlying code used in DAO is open to public for scrutiny. All DAO rules and financial transactions are recorded in the public blockchain and operartional prootocols are enforced by digitally coded autinomous smart contracts.
+
 
 ### How It Works
 
@@ -43,13 +83,7 @@ The DAOs are transparent, immutable and incorruptible!
 7. all user payments are collected and stored in DAO's independent smart contracts
 8. shareholders initiate distribution of collected funds as dividends
 
-Anyone may buy a stake in the Horizontal Systems DAO and take part in shaping company's future in a trustless, reliable and transparent manner. 
 
-Similarly, any capable software developer may become a contractor and a full member of the Horizontal Systems development team.
-
-Horizontal Systems keeps the entire software development workflow including to-do tasks, upcoming milestones, team communication and discussions on [Github](https://github.com/horizontalsystems/). Anyone is able to monitor the team, work being done, every single code change, in nearly real-time :)
-
-Every single line of code powering Horizontal Systems DAO incl. its products is [public and open-source](https://github.com/horizontalsystems/) providing any software engineer an easy way to verify everything stated above.
 
 <br/>
 
