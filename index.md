@@ -3,18 +3,16 @@ active: index
 layout: default
 ---
 
-Horizontal Systems builds censorship-resistant decentralized apps, designed for smartphones. 
+Horizontal Systems builds censorship-resistant decentralized apps, designed for smartphones. These apps are not dependent on any centrally managed servers and are designed to operare indefinitely.
 
-These apps are not dependent on any centrally managed servers and are designed to operare indefinitely.
+1. do not require any entity to function
+2. without centrally-managed servers
+3. no one can block or restrict the app
+4. only the user controls his/her data
+5. no servers or databases to hack
+6. 100% of the code is public and open to review
 
 ![Decentralized Apps (DApps)](/assets/images/dapps.png)
-
-1. **Independent**: do not require any entity to function
-2. **Decentralized**: without centrally-managed servers
-3. **Censorship-resistant**: no one can block or restrict the app
-4. **Cryptographically-secure**: only the user controls his/her data
-5. **Hack-proof**: no servers or databases to hack
-6. **Open-source**: 100% of the apps' code is public and open to review
 
 
 <br/>
