@@ -11,7 +11,7 @@
       <div class="banner-info">
         <div class="banner-desc"></div>
         <div class="banner-link">
-          <a href="https://github.com/horizontalsystems">@Github</a>
+           <a href="https://github.com/horizontalsystems"></a>
         </div>
       </div>
     </div>
@@ -19,7 +19,8 @@
   <nav role="navigation" id="nav">
     <div class="container">
       <ul class="navbar-nav">
-      <li class="nav-item {% if include.menu == 'index' %}active{% endif %}">
+
+        <li class="nav-item {% if include.menu == 'index' %}active{% endif %}">
           <a class="nav-link" href="/">Apps</a>
           <div class="nav-bottom"></div>
         </li>
@@ -28,6 +29,12 @@
           <a class="nav-link" href="/dao/about">About</a>
           <div class="nav-bottom"></div>
         </li>
+
+        <li class="nav-item {% if include.menu == 'about' %}active{% endif %}">
+          <a class="nav-link" href="https://github.com/horizontalsystems">Github</a>
+          <div class="nav-bottom"></div>
+        </li>
+
       </ul>
     </div>
   </nav>
