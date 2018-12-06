@@ -7,7 +7,12 @@ We are decentralized org that builds beautiful trully decentralized apps, for sm
 
 These apps are not dependent on any centrally-managed servers or human personnel and are designed to operare indefinitely. They are peer-to-peer, enabling users to communicate with each other directly on a Blockchain. 
 
+
+<br/>
+
 ![Decentralized Apps (DApps)](/assets/images/dapps.png)
+
+<br/>
 
 As there are no servers or databases these apps are censorship-resistant and unblockable. 
 
