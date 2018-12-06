@@ -13,7 +13,11 @@ layout: default
 
 Horizontal Systems is a decentralized autonomous organization, or DAO. It's a self sustainable organization built on blockchain that's governed by people and driven by talented software engineers in a decentralized, transparent, immutable and incorruptable manner.
 
+<br/>
+
 ![Horizontal Systems DAO](/assets/images/hs_dao2.png)
+
+<br/>
 
 Anyone may buy a stake in the Horizontal Systems DAO and take part in shaping company's future in a trustless, reliable and transparent manner. 
 
