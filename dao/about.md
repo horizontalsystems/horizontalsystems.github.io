@@ -15,7 +15,7 @@ Horizontal Systems is a decentralized autonomous organization, or DAO. It's a se
 
 <br/>
 
-![Horizontal Systems DAO](/assets/images/hs_dao2.png)
+![Horizontal Systems DAO](/assets/images/hs_dao.png)
 
 <br/>
 
