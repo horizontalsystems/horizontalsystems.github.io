@@ -3,9 +3,9 @@ active: index
 layout: default
 ---
 
-We are decentralized org that builds beautiful trully decentralized apps, for smartphones. 
+Eternal apps that don't fail and are designed to work indefintely.
 
-These apps are not dependent on any centrally-managed servers or human personnel and are designed to operare indefinitely. They are peer-to-peer, enabling users to communicate with each other directly on a Blockchain. 
+Horizontal Systems builds apps that are not dependent on any centrally-managed servers or human personnel and are designed to operare indefinitely. These apps are fully peer-to-peer, enabling users to communicate with each other directly, without any intermediary.
 
 ![Decentralized Apps (DApps)](/assets/images/dapps.png)
 
@@ -22,7 +22,9 @@ We are pioneering this new generation of apps :)
 <center><h2>DApps by Horizontal Systems</h2></center>
 <br/>
 
-### Bank Wallet
+## Bank Wallet
+
+[image]
 
 BANK Wallet is a secure and a fully decentralized crypto wallet that supports all major cryptocurrencies.
 
@@ -32,14 +34,12 @@ It has been built using best practices on all fronts from the design of the inte
 
 [Read more](https://horizontalsystems.io/dapps/bank-wallet)
 
-### DAO Platform
+
+## DAO Platform
 
 [Read more](https://horizontalsystems.io/dapps/dao-platform)
 
 
-### Decentralized Exchange
+## Decentralized Exchange
 
 [Read more](https://horizontalsystems.io/dapps/dex)
-
-
-
