@@ -7,7 +7,12 @@ Eternal apps that don't fail and are designed to work indefintely.
 
 Horizontal Systems builds apps that are not dependent on any centrally-managed servers or human personnel and are designed to operare indefinitely. These apps are fully peer-to-peer, enabling users to communicate with each other directly, without any intermediary.
 
+
+<br/>
+
 ![Decentralized Apps (DApps)](/assets/images/dapps.png)
+
+<br/>
 
 As there are no servers or databases these apps are censorship-resistant and unblockable. 
 
