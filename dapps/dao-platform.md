@@ -22,7 +22,7 @@ This BANK wallet provides a seamless way to get started with Bitcoin and other c
 
 It has been built using best practices from the design of the interface to the implementation of blockchain protocols.
 
-[GALLERY IMAGE]
+[GALLERY IMAGE](assets/images/bankwallet_screenshots_ios.png)
 
 
 ## Independent & Decentralized
