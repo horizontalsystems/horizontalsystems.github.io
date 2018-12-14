@@ -42,6 +42,8 @@ It has been built using best practices on all fronts from the design of the inte
 
 ## DAO Platform
 
+![Dao Platform](/assets/images/dao_platform.png)
+
 [Read more](https://horizontalsystems.io/dapps/dao-platform)
 
 
