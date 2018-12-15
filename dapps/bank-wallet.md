@@ -3,18 +3,6 @@ active: dapps
 layout: default
 ---
 
-App / Logo
-current version: x.y
-
-Android:
-- Install from Play Market link
-- Permanent Links: IPFS (HASH output)
-
-iOS
-- Install from App Store link
-- Permanent Links: IPFS (HASH output)
-
-## About
 
 BANK Wallet is a secure and a fully decentralized crypto wallet app that supports major cryptocurrencies, including Bitcoin, Ethereum, Bitcoin Cash and ERC 20 tokens. The number of supported currencies being gradually added with every release.
 

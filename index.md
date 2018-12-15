@@ -22,14 +22,9 @@ All sensitive information stored encrypted on a smartphone itself and never leav
 
 Every single line of code powering these apps is open for public to review and free to reuse. It's open source [@Github](https://github.com/horizontalsystems/)
 
+## 1. Bank Wallet
 
-<br/>
-<center><h2>DApps by Horizontal Systems</h2></center>
-<br/>
-
-## Bank Wallet
-
-[image]
+![Dao Platform](/assets/images/dao_platform.png)
 
 BANK Wallet is a secure and a fully decentralized crypto wallet that supports all major cryptocurrencies.
 
@@ -40,11 +35,11 @@ It has been built using best practices on all fronts from the design of the inte
 [Read more](https://horizontalsystems.io/dapps/bank-wallet)
 
 
-## DAO Platform
+## 2. Decentralized Exchange
 
-[Read more](https://horizontalsystems.io/dapps/dao-platform)
+coming ...
 
 
-## Decentralized Exchange
+## 3. DAO Platform
 
-[Read more](https://horizontalsystems.io/dapps/dex)
+coming ...
