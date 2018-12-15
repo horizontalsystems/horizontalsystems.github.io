@@ -10,7 +10,7 @@ This BANK wallet provides a seamless way to get started with Bitcoin and other c
 
 It has been built using best practices from the design of the interface to the implementation of blockchain protocols.
 
-[GALLERY IMAGE]
+![GALLERY IMAGE](/assets/images/bankwallet_screenshots_ios.png)
 
 
 ## Independent & Decentralized
@@ -52,13 +52,5 @@ version y.z (date)
 - (android app link / validity check hash)
 - (iOS app link / validity check hash)
 - GitHub link to release commit
-
-
-**Repositories**
-
-- BANK Wallet iOS App: https://github.com/horizontalsystems/bank-wallet-ios-app 
-- BANK Wallet Android App: https://github.com/horizontalsystems/bank-wallet-android-app  
-- Bitcoin iOS Development Kit: https://github.com/horizontalsystems/bitcoin-kit-ios  
-- Bitcoin Android Development Kit: https://github.com/horizontalsystems/bitcoin-kit-android )
 
 
