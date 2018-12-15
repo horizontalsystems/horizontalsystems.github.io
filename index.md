@@ -3,11 +3,7 @@ active: index
 layout: default
 ---
 
-Eternal apps that don't fail and are designed to work indefintely.
-
-Horizontal Systems builds decentralized apps that are not dependent on any centrally-managed servers or human personnel. 
-
-These apps are peer-to-peer and designed to operare indefinitely.
+We build decentralized apps don't fail and are designed to work indefintely. These apps are peer-to-peer and don't dependent on any centrally-managed servers or human personnel. 
 
 
 <br/>
@@ -18,7 +14,9 @@ These apps are peer-to-peer and designed to operare indefinitely.
 
 As there are no servers or databases these apps are censorship-resistant and unblockable. 
 
-All sensitive information stored encrypted on a smartphone itself and never leaves it. 
+All sensitive information stored encrypted on a smartphone itself and never leaves it.
+
+Entirely under user's control. No other entity but the user keeps his data and everything else.
 
 Every single line of code powering these apps is open for public to review and free to reuse. It's open source [@Github](https://github.com/horizontalsystems/)
 
