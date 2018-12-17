@@ -22,7 +22,7 @@ Every single line of code powering these apps is open for public to review and f
 
 ## 1. Bank Wallet
 
-![Dao Platform] (/assets/images/dao_platform.png)
+![Dao Platform](/assets/images/dao_platform.png)
 
 BANK Wallet is a secure and a fully decentralized crypto wallet that supports all major cryptocurrencies.
 
