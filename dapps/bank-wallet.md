@@ -52,11 +52,11 @@ Moreover, using these repositories it is fairly easy to create independent brand
 ## Install Bank Wallet
 
 - App Store: to be added
-- Play Market: https://play.google.com/store/apps/details?id=io.horizontalsystems.bankwallet
+- Play Market: 
 
 - Permanent APK link: to be added
 
-- Android source: https://github.com/horizontalsystems/bank-wallet-android/releases
+- Android source: 
 - iOS source: https://github.com/horizontalsystems/bank-wallet-ios/releases 
 
 ## License
