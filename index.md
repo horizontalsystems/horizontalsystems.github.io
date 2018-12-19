@@ -26,7 +26,7 @@ Every single line of code powering these apps is open for public to review and f
 
 The Bank Wallet is a secure and a fully decentralized crypto wallet that supports all major cryptocurrencies.
 
-![Bank Wallet](/assets/images/dao_platfrm.png)
+![Bank Wallet](/assets/images/dao_platform.png)
 
 It's open source and has been built using best practices on all fronts from the design of the interface to the implementation of blockchain protocols.
 
