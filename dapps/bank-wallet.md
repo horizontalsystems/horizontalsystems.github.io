@@ -17,7 +17,7 @@ This BANK wallet provides a seamless way to get started with Bitcoin and other c
 
 The BANK wallet is fully peer-to-peer and works without any centrally managed servers. 
 
-It can't be stopped, blocked or taken down. The wallet connects directly to the currency networks i.e. Bitcoin without the need for intermediary. Such approach enables the BANK wallet to operate anywhere and remain censorship-resitant. Only the user is in control of the money and how it being spent.
+It can't be stopped, blocked or taken down. The wallet connects directly to the currency networks i.e. Bitcoin without the need for intermediary. Such approach enables the BANK wallet to operate anywhere and remain censorship-resistant. Only the user is in control of the money and how it being spent.
 
 Most crypto wallet apps are centralized. The funds are stored on a remote server which is operated by the wallet provider. Due to the unregulated nature of the cryptocurrencies there are no mechanisms in place to guarantee that a wallet provider doesn't cheat or that provider's servers not get hacked.
 
@@ -57,6 +57,6 @@ Moreover, using these repositories it is fairly easy to create independent brand
 
 ## License
 
-The BANK wallet is open source and available under the terms of the MIT Lincense.
+The BANK wallet is open source and available under the terms of the MIT License.
 
 
