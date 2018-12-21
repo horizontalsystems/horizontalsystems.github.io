@@ -4,7 +4,7 @@ layout: default
 
 This app is peer-to-peer. It does not depend on any web server or tech support personnel to function.
 
-It doesn't collect any data whatsoever. the data never leaves your device.
+It doesn't collect any data whatsoever. Your data never leaves your device.
 
 It works everywhere as long as there is internet.
 
