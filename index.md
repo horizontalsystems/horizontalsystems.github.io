@@ -3,7 +3,7 @@ active: index
 layout: default
 ---
 
-We build decentralized apps that don't fail and are designed to work indefintely. 
+We build decentralized apps that don't fail and are designed to work indefinitely. 
 
 These apps are peer-to-peer and don't dependent on any centrally-managed servers or human personnel. 
 
@@ -14,15 +14,17 @@ These apps are peer-to-peer and don't dependent on any centrally-managed servers
 
 <br/>
 
-As there are no servers or databases these apps are censorship-resistant and unblockable. 
+## Engineered To Survive
 
-All sensitive information stored encrypted on a smartphone itself and never leaves it.
+As there are no servers or databases the apps we built are censorship-resistant and by their own nature designed to remain online indefinitely. 
 
-Entirely under user's control. No other entity but the user keeps his data and everything else.
+All sensitive information stored encrypted on a smartphone itself and never leaves it. Entirely under user's control. No other entity but the user keeps his data and everything else.
 
-Every single line of code powering these apps is open for public to review and free to reuse. It's open source [@Github](https://github.com/horizontalsystems/)
+Every single line of code powering these apps is open for public to review and free to reuse. It's open source [@Github](https://github.com/horizontalsystems/).
 
-## 1. The Bank Wallet (iOS / Android)
+If you're a blockchain developer we welcome your to review, improve and reuse the code unconditionally.
+
+### 1. The Bank Wallet (iOS / Android)
 
 The Bank Wallet is a secure and a fully decentralized crypto wallet that supports all major cryptocurrencies.
 
@@ -35,6 +37,6 @@ It's few years ahead of existing crypto wallets as well as any other traditional
 [Continue ...](https://horizontalsystems.io/dapps/bank-wallet)
 
 
-## 2. Decentralized Exchange
+### 2. Decentralized Exchange
 
-in the works ...
+in the works ....

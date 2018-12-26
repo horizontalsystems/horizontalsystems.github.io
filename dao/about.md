@@ -11,16 +11,16 @@ layout: default
 
 <br/>
 
-Horizontal Systems is a DAO (Decentralized Autonomous Organization) and works just like this vending machine.
+Horizontal Systems is a DAO (Decentralized Autonomous Organization) built on Ethereum blockchain and it works just like this vending machine.
 
-It aims to be governed by its shareholders via digital smart contracts and be driven by capable software engineers in a decentralized, transparent, immutable and incorruptible manner. 
+It aims to be governed by its shareholders via digital smart contracts and be driven by capable software engineers in a decentralized, transparent, immutable and incorruptible manner. Note that we are not a DAO yet and this is currently in development stage.
 
 ![Horizontal Systems DAO](/assets/images/hs_dao.png)
 
 <br/>
 
 
-## How It Works
+## Engineered To Survive
 
 The governance and operational protocols in Horizontal Systems DAO are enforced by publicly open smart contracts which are designed from the very start to ensure that organization operates as intended.
 
@@ -34,6 +34,8 @@ Horizontal Systems DAO [employs developers](https://horizontalsystems.io/dao/tea
 
 Any capable blockchain developers may become an open contributor and subsequently an equally compensated full member of the Horizontal Systems development team.
 
+The Horizontal Systems was engineered to live indefinitely. As long as there is at least one shareholder the DAO will continue to live an be governed in a trustless and decentralized manner.
+
 
 ## Entirely Public
 
@@ -42,6 +44,7 @@ DAOs are required by their nature to be open source so that all underlying code 
 Horizontal Systems keeps the entire software production workflow including to-do tasks, upcoming milestones, team communication and discussions on [Github](https://github.com/horizontalsystems/). 
 
 Every single line of code powering Horizontal Systems DAO incl. its products is open-source providing any software engineer an easy way to verify that apps work as claimed. Anyone is able to monitor the team, work being done, every single code change, close to real-time!
+
 
 <br/>
 
