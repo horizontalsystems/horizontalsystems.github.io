@@ -26,7 +26,7 @@ If you're a blockchain developer we welcome your to review, improve and reuse th
 
 The Bank Wallet is a secure and a fully decentralized crypto wallet app that supports all major cryptocurrencies.
 
-![Bank Wallet](/assets/images/dao_platform.png)
+[![Bank Wallet](/assets/images/dao_platform.png)](https://horizontalsystems.io/dapps/bank-wallet)
 
 It's open source and has been built using best practices on all fronts from the design of the interface to the implementation of blockchain protocols.
 
