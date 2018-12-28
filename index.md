@@ -22,7 +22,7 @@ Every single line of code powering these apps is open for public to review and f
 
 If you're a blockchain developer we welcome your to review, improve and reuse the code unconditionally. Checkout, Build, Release.
 
-### 1. The Bank Wallet (iOS / Android)
+## 1. The Bank Wallet (iOS / Android)
 
 The Bank Wallet is a secure and a fully decentralized crypto wallet app that supports all major cryptocurrencies.
 
@@ -35,6 +35,6 @@ It's few years ahead of existing crypto wallets as well as any other traditional
 [Get Bank Wallet ...](https://horizontalsystems.io/dapps/bank-wallet)
 
 
-### 2. Decentralized Exchange
+## 2. Decentralized Exchange
 
 in the works ....

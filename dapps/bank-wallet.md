@@ -50,10 +50,10 @@ Moreover, using these repositories it is fairly easy to create independent brand
 ## Install
 
 - App Store:
-- iOS Source: https://github.com/horizontalsystems/bank-wallet-ios/releases 
+- iOS Source: [github.com/horizontalsystems/bank-wallet-ios/releases](https://github.com/horizontalsystems/bank-wallet-ios/releases)
 
-- Play Market: https://play.google.com/store/apps/details?id=io.horizontalsystems.bankwallet
-- Android Source: https://github.com/horizontalsystems/bank-wallet-android/releases
+- Google Play Market: [play.google.com/store/apps/details?id=io.horizontalsystems.bankwallet](https://play.google.com/store/apps/details?id=io.horizontalsystems.bankwallet)
+- Android Source: [github.com/horizontalsystems/bank-wallet-android/releases](https://github.com/horizontalsystems/bank-wallet-android/releases)
 
 
 ## License
