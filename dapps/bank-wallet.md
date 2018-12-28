@@ -47,14 +47,15 @@ Along with the launch of the BANK wallet app a number of developer friendly open
 Moreover, using these repositories it is fairly easy to create independent branded decentralized custom crypto wallets either for a single currency or a bunch of them pushing the crypto adoption and ecosystem further.
 
 
-## Install
+## Install on iOS
 
-- App Store:
-- iOS Source: [github.com/horizontalsystems/bank-wallet-ios/releases](https://github.com/horizontalsystems/bank-wallet-ios/releases)
+- App Store: 
+- Sources: [github.com/horizontalsystems/bank-wallet-ios/releases](https://github.com/horizontalsystems/bank-wallet-ios/releases)
 
-- Google Play Market: [play.google.com/store/apps/details?id=io.horizontalsystems.bankwallet](https://play.google.com/store/apps/details?id=io.horizontalsystems.bankwallet)
-- Android Source: [github.com/horizontalsystems/bank-wallet-android/releases](https://github.com/horizontalsystems/bank-wallet-android/releases)
+## Install on Android
 
+- Play Market: [play.google.com/store/apps/details?id=io.horizontalsystems.bankwallet](https://play.google.com/store/apps/details?id=io.horizontalsystems.bankwallet)
+- Sources: [github.com/horizontalsystems/bank-wallet-android/releases](https://github.com/horizontalsystems/bank-wallet-android/releases)
 
 ## License
 
