@@ -5,7 +5,7 @@ layout: default
 
 We build decentralized apps that don't fail and are designed to work indefinitely. 
 
-These apps are engineered to survive indefinitely: they are peer-to-peer and not dependent on any servers, databases or human personnel. 
+These apps are engineered to survive censorship: they are peer-to-peer and not dependent on any servers, databases or human personnel. 
 
 
 <br/>
@@ -14,11 +14,11 @@ These apps are engineered to survive indefinitely: they are peer-to-peer and not
 
 <br/>
 
-As there are no servers or databases the apps we built are censorship-resistant and by their own nature designed to remain online indefinitely. 
+As there are no servers or databases these apps are censorship-resistant and by their very nature designed to live online forever. 
 
-All sensitive information stored encrypted on a smartphone itself and never leaves it. Entirely under user's control. No other entity but the user keeps his data and everything else.
+All user related sensitive information as well as the crypto funds are stored encrypted on a smartphone itself. It always remains entirely under user's control. No other party has access to private information of the user.
 
-Every single line of code powering these apps is open for public to review and free to reuse. It's open source [@Github](https://github.com/horizontalsystems/).
+Every single line of code powering these apps is open for public to review and free to reuse. It's open source! [@Github](https://github.com/horizontalsystems/).
 
 If you're a blockchain developer we welcome your to review, improve and reuse the code unconditionally. Checkout, Build, Release.
 
