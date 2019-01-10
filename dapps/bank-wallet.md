@@ -4,11 +4,11 @@ layout: default
 ---
 
 
-BANK Wallet is a secure and a fully decentralized crypto wallet app for iOS and Android that supports major cryptocurrencies, including Bitcoin, Ethereum, Bitcoin Cash and ERC 20 tokens. 
+BANK Wallet is a secure and a fully decentralized crypto wallet app for iOS and Android that supports major cryptocurrencies, including Bitcoin, Ethereum, Bitcoin Cash and ERC 20 tokens. The number of supported crypto currencies being gradually increased with every release.
 
-The number of supported crypto currencies being gradually increased with every release.
+The latest version of the BANK Wallet can be downloaded from [App Store](https://itunes.apple.com/us/app/bank-wallet/id1447619907?ls=1&mt=8) or [Play Market](https://play.google.com/store/apps/details?id=io.horizontalsystems.bankwallet). If for some reason the app not avilable in your local Android Play Market then you may download the app directly from the [HorizontalSystems.io](https://github.com/horizontalsystems/bank-wallet-android/releases) Github repositoriy.
 
-The BANK wallet provides a seamless way to get started with Bitcoin and other crypto currencies for masses. It has been built using best practices from the design of the interface to the implementation of blockchain protocols.
+The BANK provides a seamless way to get started with Bitcoin and other crypto currencies for masses. It has been built using best practices from the design of the interface to the implementation of blockchain protocols.
 
 ![GALLERY IMAGE](/assets/images/bankwallet_screenshots_ios.png)
 
@@ -49,7 +49,7 @@ Moreover, using these repositories it is fairly easy to create independent brand
 
 ## Install on iOS
 
-- App Store: 
+- App Store: [itunes.apple.com/us/app/bank-wallet/id1447619907?ls=1&mt=8](https://itunes.apple.com/us/app/bank-wallet/id1447619907?ls=1&mt=8)
 - Sources: [github.com/horizontalsystems/bank-wallet-ios/releases](https://github.com/horizontalsystems/bank-wallet-ios/releases)
 
 ## Install on Android
