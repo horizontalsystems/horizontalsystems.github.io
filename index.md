@@ -32,9 +32,4 @@ It's open source and has been built using best practices on all fronts from the 
 
 It's few years ahead of existing crypto wallets as well as any other traditional banking and finance apps.
 
-[Get Bank Wallet ...](https://horizontalsystems.io/dapps/bank-wallet)
-
-
-## 2. Decentralized Exchange
-
-in the works ....
+Get Bank Wallet @ [www.bankwallet.app](https://bankwallet.app)
