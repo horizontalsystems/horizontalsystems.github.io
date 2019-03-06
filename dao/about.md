@@ -15,9 +15,9 @@ Horizontal Systems is a DAO (Decentralized Autonomous Organization) built on Eth
 
 It aims to be governed by its shareholders via digital smart contracts and be driven by capable software engineers in a decentralized, transparent, immutable and incorruptible manner. 
 
-Note that we are not a public DAO yet.
-
 ![Horizontal Systems DAO](/assets/images/hs_dao.png)
+
+Note that we are not a public DAO yet. It's work in progress!
 
 <br/>
 
