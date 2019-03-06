@@ -3,9 +3,7 @@ active: index
 layout: default
 ---
 
-Passionately building decentralized apps (aka <a href="http://horizontalsystems.io/assets/images/dapps.png" target="_blank">Dapps</a>) which are designed to remain online and functional indefinitely. 
-
-These apps are: 
+Passionately building decentralized apps (aka <a href="http://horizontalsystems.io/assets/images/dapps.png" target="_blank">Dapps</a>) which are designed to remain online and functional indefinitely. These apps are: 
 
 - eternal: can not be closed or blocked
 - liberal: democratic and censorhsip-resistant
@@ -24,6 +22,28 @@ It's few years ahead of existing crypto wallets as well as any other traditional
 
 Get Bank Wallet @ [www.bankwallet.app](https://bankwallet.app)
 
-## 2. Blockchain Libraries (iOS / Android)
+## 2. Bitcoin Kit (SPV Library)
 
-If you're a blockchain developer we welcome your to review, improve and reuse the code unconditionally. Checkout, Build, Release.
+Full SPV toolkit implementation for Bitcoin and Bitcoin Cash blockchains. These libraries enable any developer to build true decentrazlied apps on top of Bitcoin and Bitcoin Cash blockchains.
+
+- Implemented on Swift
+https://github.com/horizontalsystems/bitcoin-kit-ios
+
+- Implemented on Kotlin
+https://github.com/horizontalsystems/bitcoin-kit-android
+
+
+## 3. Ethereum Kit (SPV Library)
+
+Light client toolkit implementation for Ethereum blockchain. Build any kind of decentralized application on top of Ethereum blockchain without getting your hands dirty dealing with protocol specifics. We did the hard work. Enjoy!
+
+- Implemented on Swift (work in progress)
+https://github.com/horizontalsystems/ethereum-kit-ios
+
+- Implemented on Kotlin (work in progress)
+https://github.com/horizontalsystems/ethereum-kit-android
+
+
+If you're a blockchain developer we welcome your to review, improve and reuse the code unconditionally. 
+
+Checkout, Build, Release.
