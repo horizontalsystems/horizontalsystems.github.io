@@ -3,12 +3,12 @@ active: index
 layout: default
 ---
 
-Horizontal Systems builds decentralized apps (aka (Dapps)[http://horizontalsystems.io/assets/images/dapps.png])) that are designed from the very start to remain online and functional indefinitely. 
+Passionately building decentralized apps (aka <a href="http://horizontalsystems.io/assets/images/dapps.png" target="_blank">Dapps</a>) which are designed to remain online and functional indefinitely. 
 
 These apps are: 
 
 - eternal: can not be closed or blocked
-- liberal: democratic and censorhsip-resistant 
+- liberal: democratic and censorhsip-resistant
 - private: encrypted and peer-to-peer by design
 - open source: fully public [@Github](https://github.com/horizontalsystems/)
 
