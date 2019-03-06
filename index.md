@@ -10,7 +10,8 @@ Passionately building decentralized apps (aka <a href="http://horizontalsystems.
 - private: encrypted and peer-to-peer by design
 - open source: fully public [@Github](https://github.com/horizontalsystems/)
 
-## 1. The Bank Wallet (iOS / Android)
+
+## 1. The Bank Wallet
 
 The Bank Wallet is a secure and a fully decentralized crypto wallet app that supports all major cryptocurrencies.
 
@@ -22,7 +23,8 @@ It's few years ahead of existing crypto wallets as well as any other traditional
 
 Get Bank Wallet @ [www.bankwallet.app](https://bankwallet.app)
 
-## 2. Bitcoin Kit (SPV Library)
+
+## 2. Bitcoin SPV Kit
 
 Full SPV toolkit implementation for Bitcoin and Bitcoin Cash blockchains. These libraries enable any developer to build true decentrazlied apps on top of Bitcoin and Bitcoin Cash blockchains.
 
@@ -33,7 +35,7 @@ https://github.com/horizontalsystems/bitcoin-kit-ios
 https://github.com/horizontalsystems/bitcoin-kit-android
 
 
-## 3. Ethereum Kit (SPV Library)
+## 3. Ethereum Light Client Kit
 
 Light client toolkit implementation for Ethereum blockchain. Build any kind of decentralized application on top of Ethereum blockchain without getting your hands dirty dealing with protocol specifics. We did the hard work. Enjoy!
 
