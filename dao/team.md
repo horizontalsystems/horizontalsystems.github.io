@@ -20,20 +20,12 @@ Horizontal Systems builds decentralized products and turnkey software libraries 
 Our collective team expertise covers a wide range of fields:
 
 1. Bitcoin and Ethereum protocols
-2. Decentralized storage protocols
-3. Smart Contracts 
-4. Cryptography & applied mathematics
-5. Emerging blockchain technologies
+2. Emerging blockchain technologies
+3. Decentralized storage protocols (IPFS)
+4. Smart Contracts
+5. Cryptography & applied mathematics
 6. High-performance Android/iOS app development
-7. Agile software development
-8. Financial markets and derivatives
-9. Economic Theories
-
-
-While anyone is able to contribute to our work and get involved, the core team members do so on a full-time basis and get paid for it by DAO.
-
-All core team members get an equal monthly salary from DAO. The current salary for core team member is [read from blockchain]
-
-While the HS DAO engineering team is open to all it's of strategic importance to keep the team self-organized and compact. That said, we are passionately looking for the talented people with an engineer at heart, a passion to learn and ability to meet high standards and beyond. 
+7. Financial markets and derivatives
+8. Economics
 
 If you're interested we invite you to get familiar with the Horizontal Systems projects [github.com/horizontalsystems/](https://github.com/horizontalsystems/) and start contributing.

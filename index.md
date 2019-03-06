@@ -3,24 +3,14 @@ active: index
 layout: default
 ---
 
-We build decentralized apps that don't fail and are designed to work indefinitely. 
+Horizontal Systems builds decentralized apps (aka (Dapps)[http://horizontalsystems.io/assets/images/dapps.png])) that are designed from the very start to remain online and functional indefinitely. 
 
-These apps are engineered to survive censorship: they are peer-to-peer and not dependent on any servers, databases or human personnel. 
+These apps are: 
 
-
-<br/>
-
-![Decentralized Apps (DApps)](/assets/images/dapps.png)
-
-<br/>
-
-As there are no servers or databases these apps are censorship-resistant and by their very nature designed to live online forever. 
-
-All user related sensitive information as well as the crypto funds are stored encrypted on a smartphone itself. It always remains entirely under user's control. No other party has access to private information of the user.
-
-Every single line of code powering these apps is open for public to review and free to reuse. It's open source! [@Github](https://github.com/horizontalsystems/).
-
-If you're a blockchain developer we welcome your to review, improve and reuse the code unconditionally. Checkout, Build, Release.
+- eternal: can not be closed or blocked
+- liberal: democratic and censorhsip-resistant 
+- private: encrypted and peer-to-peer by design
+- open source: fully public [@Github](https://github.com/horizontalsystems/)
 
 ## 1. The Bank Wallet (iOS / Android)
 
@@ -33,3 +23,7 @@ It's open source and has been built using best practices on all fronts from the 
 It's few years ahead of existing crypto wallets as well as any other traditional banking and finance apps.
 
 Get Bank Wallet @ [www.bankwallet.app](https://bankwallet.app)
+
+## 2. Blockchain Libraries (iOS / Android)
+
+If you're a blockchain developer we welcome your to review, improve and reuse the code unconditionally. Checkout, Build, Release.
