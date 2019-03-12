@@ -11,7 +11,7 @@ Checkout, Build, Release.
 
 ## 1) Bitcoin SPV Client
 
-Full SPV toolkit implementation for Bitcoin and Bitcoin Cash blockchains. These libraries enable any developer to build true decentrazlied apps on top of Bitcoin and Bitcoin Cash blockchains.
+Full SPV toolkit implementation for Bitcoin and Bitcoin Cash blockchains. These libraries enable any developer to build true decentrazlied apps on top of Bitcoin and Bitcoin Cash blockchains. 
 
 Implemented on:
 
@@ -21,7 +21,10 @@ Implemented on:
 
 ## 2) Ethereum Light Client
 
-Light client toolkit implementation for Ethereum blockchain. Build any kind of decentralized application on top of Ethereum blockchain without getting your hands dirty dealing with protocol specifics. We did the hard work. Enjoy!
+Light client implementation for Ethereum blockchain. 
+
+Build any kind of decentralized applications on top of Ethereum blockchain without getting your hands dirty dealing with protocol. The light client implementation is work in progress and can be closely followed in respective branhes of the repositories.
+
 
 - Swift (iOS): [github.com/horizontalsystems/ethereum-kit-ios](https://github.com/horizontalsystems/ethereum-kit-ios)
 - Kotlin (Android): [github.com/horizontalsystems/ethereum-kit-android](https://github.com/horizontalsystems/ethereum-kit-android)
