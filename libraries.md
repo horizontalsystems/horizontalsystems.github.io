@@ -3,9 +3,11 @@ active: libraries
 layout: default
 ---
 
-As we integrate various blockchain protocols into our apps we also provide community with turnkey blockchain libraries for building trully decentralized applications that entirely run on respective blockchains.
+Our entire work is public and open source @ [github.com/horizontalsystems/](https://github.com/horizontalsystems/)
 
-With the help of these libraries developers are able to build decentralized applications considerably faster. These libraries do the hard work behind the scenes.
+As we integrate various blockchain protocols into our apps we also provide community with turnkey blockchain libraries for building trully decentralized applications that run entirely on blockchain and distributed storage solutions.
+
+With the help of these libraries developers are able to build decentralized applications considerably faster.
 
 Checkout, Build, Release.
 
