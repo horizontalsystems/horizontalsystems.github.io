@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{{ site.title }}</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css?v=' | append: site.github.build_revision | relative_url }}">
+  </head>
+
+  <body>
+    {% include header.html menu=page.active %}
+
+    <main role="main">
+      <div class="container">
+        <div class="libraries">
+          <p>
+            Our entire work is public and open source <a href="https://github.com/horizontalsystems">Github.com/horizontalsystems</a>
+            <br><br>
+
+            As we integrate various blockchain protocols into our apps we also provide community with turnkey blockchain
+            libraries for building trully decentralized applications that run entirely on blockchain and distributed
+            storage solutions.
+            <br><br>
+
+            With the help of these libraries developers are able to build decentralized applications considerably
+            faster.
+            <br><br>
+
+            Checkout, Build, Release.
+          </p>
+
+          <div class="library">
+            <img class="inline-icon" src="/assets/images/btc-kit.png" alt="BTC" width="67">
+            <div class="inline-name library-title">Bitcoin SPV Client</div>
+          </div>
+
+          Full SPV toolkit implementation for Bitcoin and Bitcoin Cash blockchains. These libraries enable any developer
+          to build true decentrazlied apps on top of Bitcoin and Bitcoin Cash blockchains.
+
+          <div class="releases">
+            <div class="release">
+              <img class="inline-icon" src="/assets/images/swift.png" alt="Swift" width="24">
+              <div class="inline-name release-type">Swift Implemented</div>
+
+              <ul class="release-links">
+                <li><a href="https://github.com/horizontalsystems/bitcoin-kit-ios/">Repository</a></li>
+                <li><a href="https://github.com/horizontalsystems/bitcoin-kit-ios/commits/master">Full development history</a></li>
+                <li><a href="https://github.com/horizontalsystems/bitcoin-kit-ios/releases">Releases</a> <span class="release-date">(last 10.03.2019)</span></li>
+              </ul>
+            </div>
+            <div class="release">
+              <img class="inline-icon" src="/assets/images/kotlin.png" alt="Kotlin" width="24">
+              <div class="inline-name release-type">Kotlin Implemented</div>
+
+              <ul class="release-links">
+                <li><a href="https://github.com/horizontalsystems/bitcoin-kit-android">Repository</a></li>
+                <li><a href="https://github.com/horizontalsystems/bitcoin-kit-android/commits/master">Full development history</a></li>
+                <li><a href="https://github.com/horizontalsystems/bitcoin-kit-android/releases">Releases</a> <span class="release-date">(last 10.03.2019)</span></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="library">
+            <img class="inline-icon" src="/assets/images/eth-kit.png" alt="BTC" width="67">
+            <div class="inline-name library-title">Ethereum Light Client</div>
+          </div>
+
+          Light client implementation for Ethereum blockchain. <br><br>
+
+          Build any kind of decentralized applications on top of Ethereum blockchain without getting your hands dirty
+          dealing with protocol. The light client implementation is work in progress and can be closely followed in
+          respective branhes of the repositories.
+
+          <div class="releases">
+            <div class="release">
+              <img class="inline-icon" src="/assets/images/swift.png" alt="Swift" width="24">
+              <div class="inline-name release-type">Swift Implemented</div>
+
+              <ul class="release-links">
+                <li><a href="https://github.com/horizontalsystems/ethereum-kit-ios">Repository</a></li>
+                <li><a href="https://github.com/horizontalsystems/ethereum-kit-ios/commits/master">Full development history</a></li>
+                <li><a href="https://github.com/horizontalsystems/ethereum-kit-ios/releases">Releases</a> <span class="release-date">(last 10.03.2019)</span></li>
+              </ul>
+            </div>
+            <div class="release">
+              <img class="inline-icon" src="/assets/images/kotlin.png" alt="Kotlin" width="24">
+              <div class="inline-name release-type">Kotlin Implemented</div>
+
+              <ul class="release-links">
+                <li><a href="https://github.com/horizontalsystems/ethereum-kit-android">Repository</a></li>
+                <li><a href="https://github.com/horizontalsystems/ethereum-kit-android/commits/master">Full development history</a></li>
+                <li><a href="https://github.com/horizontalsystems/ethereum-kit-android/releases">Releases</a> <span class="release-date">(last 10.03.2019)</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </main>
+
+    {% include footer.html %}
+  </body>
+</html>

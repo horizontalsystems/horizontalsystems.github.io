@@ -31,8 +31,42 @@ body {
   }
 }
 
+.libraries {
+  .inline-icon {
+    vertical-align: bottom;
+  }
+
+  .inline-name {
+    display: inline-block;
+  }
+
+  .library, .releases {
+    padding: 25px 0;
+  }
+
+  .library-title {
+    font-weight: bold;
+    font-size: 24px;
+  }
+
+  .release {
+    ul {
+      margin-left: 2em;
+    }
+
+    .release-type {
+      padding-left: 25px;
+      font-weight: bold;
+    }
+
+    .release-date {
+      color: $grey;
+    }
+  }
+}
+
 a {
-  color: $yellow;
+  color: $green;
   text-decoration: none;
 
   &:hover {
@@ -90,7 +124,6 @@ nav {
     padding: 0;
     display: flex;
     list-style: none;
-    justify-content: center;
 
     @include small {
       justify-content: flex-start;
@@ -116,7 +149,7 @@ nav {
       display: none;
       height: 4px;
       width: 80%;
-      background: $yellow;
+      background: $green;
       border-radius: 4px 4px 0 0;
     }
 
@@ -126,7 +159,7 @@ nav {
       }
 
       .nav-link {
-        color: $yellow;
+        color: $green;
       }
     }
 
