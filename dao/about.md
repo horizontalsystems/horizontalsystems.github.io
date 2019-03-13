@@ -17,7 +17,7 @@ It aims to be governed by its shareholders via digital smart contracts and be dr
 
 ![Horizontal Systems DAO](/assets/images/hs_dao.png)
 
-Note that we are not a public DAO yet. It's work in progress!
+Note that we are not a public DAO yet. [Work in progress ... ](https://github.com/horizontalsystems/DAO-DAICO-Ethereum/commits/master)
 
 <br/>
 
