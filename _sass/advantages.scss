@@ -1,0 +1,19 @@
+@import "mixins";
+
+.advantages {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+
+  .advantage {
+    text-align: center;
+  }
+
+  img {
+    max-width: 50%;
+
+    @include small {
+      max-width: 100%;
+    }
+  }
+}

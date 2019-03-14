@@ -1,0 +1,141 @@
+@import "variables";
+@import "mixins";
+
+.easy-steps {
+  padding: 10% 0;
+
+  .steps-wrap {
+    display: flex;
+    flex-direction: row;
+
+    @include small {
+      flex-direction: column;
+    }
+  }
+
+  .frame {
+    position: relative;
+
+    @include small {
+      align-self: center;
+    }
+
+    .frame-border {
+      z-index: 1;
+    }
+
+    .frame-screen {
+      position: absolute;
+      width: 227px;
+      top: 15px;
+      left: 17px;
+      z-index: -1;
+      display: none;
+
+      -webkit-animation: fadeIn 2s;
+      -moz-animation: fadeIn 2s;
+      -o-animation: fadeIn 2s;
+      animation: fadeIn 2s;
+    }
+
+    .step-controls {
+      position: absolute;
+      top: 45%;
+      cursor: pointer;
+      display: none;
+
+      @include small {
+        display: block;
+      }
+    }
+
+    #step-left {
+      left: -20%;
+    }
+
+    #step-right {
+      right: -20%;
+    }
+
+    #frame-balance {
+      display: block;
+    }
+  }
+
+  .steps {
+    padding-left: 80px;
+    padding-top: 20px;
+
+    @include medium {
+      padding-left: 10px;
+      padding-top: 0;
+    }
+
+    @include small {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+
+      .item {
+        border-bottom: none !important;
+
+        &:not(.active) {
+          display: none;
+        }
+      }
+    }
+
+    .item {
+      position: relative;
+      border-bottom: 1px solid $silver;
+      cursor: pointer;
+    }
+
+    .item:last-child {
+      border-bottom: none;
+    }
+
+    .active > .list-style {
+      position: absolute;
+      width: 12px;
+      height: 12px;
+      background: $yellow;
+      border-radius: 50%;
+      left: -30px;
+      top: 7px;
+
+      @include medium {
+        width: 10px;
+        height: 10px;
+        left: -20px;
+        top: 8px;
+      }
+
+      @include small {
+        display: none;
+      }
+    }
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+
+    @include small {
+      padding: 0;
+    }
+  }
+
+  h3 {
+    margin-top: 1rem;
+    color: $dark;
+  }
+
+  p {
+    color: $grey;
+  }
+
+  img {
+    max-width: none;
+  }
+}
