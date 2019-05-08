@@ -2,6 +2,7 @@
 @import "mixins";
 @import "nav";
 @import "wallets-apps";
+@import "open-source-codes";
 
 * {
   box-sizing: border-box;
@@ -13,7 +14,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Lucida Grande", sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: $grey-light;
+  color: $silver;
   background: $dark
 }
 

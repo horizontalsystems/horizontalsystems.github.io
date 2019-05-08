@@ -1,8 +1,12 @@
 @import "variables";
 @import "mixins";
 
+#apps {
+  padding-top: 40px;
+}
+
 .wallets-apps {
-  margin-top: 15%;
+  margin: 15% 0 10%;
   display: flex;
   border-radius: 32px;
   background-image: linear-gradient(to bottom, rgba(115, 121, 140, 0.2), rgba(115, 121, 140, 0.1));

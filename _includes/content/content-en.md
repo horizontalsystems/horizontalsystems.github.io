@@ -15,6 +15,5 @@ We build Unstoppable Code: engineered to resist censorship and remain online ind
 + Can’t  be cheated
 
 <hr />
-<br />  
 
-We happen to make great applications. Applications that enforce and guarantee your freedom.
+
