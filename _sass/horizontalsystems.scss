@@ -1,6 +1,7 @@
 @import "variables";
 @import "mixins";
 @import "nav";
+@import "wallets-apps";
 
 * {
   box-sizing: border-box;
@@ -187,38 +188,6 @@ main {
 
   p {
     margin-bottom: 1em;
-  }
-
-}
-
-.slogan {
-  text-align: center;
-  font-weight: 800;
-  color: $white-soft;
-
-  @include large {
-    font-size: 50px;
-  }
-
-  @include medium {
-    font-size: 45px;
-  }
-
-  @include small {
-    font-size: 35px;
-  }
-}
-
-.download-apps {
-  padding-top: 20px;
-  text-align: center;
-
-  a {
-    padding-left: 15px;
-  }
-
-  img {
-    background-color: #2e323c;
   }
 }
 
