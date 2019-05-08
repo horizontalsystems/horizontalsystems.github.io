@@ -1,4 +1,0 @@
----
-active: index
-layout: default
----

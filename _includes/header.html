@@ -2,44 +2,33 @@
   <div class="container">
     <div class="banner">
       <div class="banner-logo">
-        <a href="/"><img alt={{site.title}} width="277"
-             src="/assets/images/hs-logo.png"
-             srcset="
+        <a href="/">
+          <img alt={{site.title}} width="277"
+               src="/assets/images/hs-logo.png"
+               srcset="
                    /assets/images/hs-logo@2x.png 2x,
                    /assets/images/hs-logo@3x.png 3x" /></a>
       </div>
-      <div class="banner-info">
-        <div class="banner-desc">
-          <i></i>
-        </div>
-        <div class="banner-link">
-          &nbsp;
-        </div>
+      <div class="banner-menu">
+        <nav role="navigation">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#apps" class="nav-link">Apps</a></li>
+            <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          </ul>
+        </nav>
       </div>
     </div>
   </div>
-  <nav role="navigation" id="nav">
+
+  <div class="banner-bottom">
     <div class="container">
-      <ul class="navbar-nav">
-
-        <li class="nav-item {% if include.menu == 'index' %}active{% endif %}">
-          <a class="nav-link" href="/">Apps</a>
-          <div class="nav-bottom"></div>
-        </li>
-
-        <li class="nav-item {% if include.menu == 'libraries' %}active{% endif %}">
-          <a class="nav-link" href="/libraries">Libraries</a>
-          <div class="nav-bottom"></div>
-        </li>
-
-
-        <li class="nav-item {% if include.menu == 'about' %}active{% endif %}">
-          <a class="nav-link" href="/dao/about">About</a>
-          <div class="nav-bottom"></div>
-        </li>
-
-
-      </ul>
+      <div class="banner-name">
+        UNSTOPPABLE<br>
+        CODE
+      </div>
     </div>
-  </nav>
+  </div>
+
 </header>

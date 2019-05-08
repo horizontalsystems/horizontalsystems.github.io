@@ -1,4 +1,0 @@
----
-active: libraries
-layout: libraries
----

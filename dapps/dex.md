@@ -1,6 +1,0 @@
----
-active: dapps
-layout: default
----
-
-

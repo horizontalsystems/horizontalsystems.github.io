@@ -1,8 +1,6 @@
 @import "variables";
 @import "mixins";
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700');
-@import "easy-steps";
-@import "advantages";
+@import "nav";
 
 * {
   box-sizing: border-box;
@@ -11,10 +9,11 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Lucida Grande", sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: $dark;
+  color: $grey-light;
+  background: $dark
 }
 
 .container {
@@ -33,40 +32,6 @@ body {
   }
 }
 
-.libraries {
-  .inline-icon {
-    vertical-align: bottom;
-  }
-
-  .inline-name {
-    display: inline-block;
-  }
-
-  .library, .releases {
-    padding: 25px 0;
-  }
-
-  .library-title {
-    font-weight: bold;
-    font-size: 24px;
-  }
-
-  .release {
-    ul {
-      margin-left: 2em;
-    }
-
-    .release-type {
-      padding-left: 25px;
-      font-weight: bold;
-    }
-
-    .release-date {
-      color: $grey;
-    }
-  }
-}
-
 a {
   color: $green;
   text-decoration: none;
@@ -77,16 +42,16 @@ a {
 }
 
 header {
-  background: linear-gradient(to bottom,
-    $dark-secondary,
-    $dark
-  );
 
   .banner {
     display: flex;
-    height: 316px;
+    height: 280px;
     justify-content: center;
     align-items: center;
+
+    @include small {
+      padding: 2rem 1rem;
+    }
   }
 
   .banner-logo {
@@ -94,9 +59,27 @@ header {
     flex-grow: 1;
   }
 
-  .banner-info {
-    flex: none;
-    text-align: right;
+  .banner-menu {
+    min-width: 95px;
+    height: 54px;
+    text-align: center;
+    z-index: 1;
+    color: $grey;
+  }
+
+  .banner-name {
+    color: $white;
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 1.1em;
+
+    @include medium {
+      font-size: 60px;
+    }
+
+    @include small {
+      font-size: 55px;
+    }
   }
 
   .banner-desc {
@@ -104,74 +87,21 @@ header {
     font-size: 18px;
   }
 
-  @include small {
-    .banner {
-      flex-wrap: wrap;
-      align-content: space-evenly;
-    }
-
-    .banner-logo {
-      flex-grow: 0;
-    }
-  }
-}
-
-nav {
-  height: 48px;
-  font-size: 18px;
-  background-color: $dark;
-
-  .navbar-nav {
-    margin: 0;
-    padding: 0;
+  .banner-bottom {
     display: flex;
-    list-style: none;
+    width: 100%;
+    z-index: 1;
+
+    height: 194px;
+    background-image: url("/assets/images/header-background/bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
     @include small {
-      justify-content: flex-start;
+      padding: 2rem 1rem;
     }
   }
-
-  .nav-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    .nav-link {
-      padding: 8.5px 30px;
-      color: $white;
-      white-space: nowrap; // otherwise will overlap .nav-bottom
-
-      &:hover {
-        text-decoration: none;
-      }
-    }
-
-    .nav-bottom {
-      display: none;
-      height: 4px;
-      width: 80%;
-      background: $green-light;
-      border-radius: 4px 4px 0 0;
-    }
-
-    &.active {
-      .nav-bottom {
-        display: flex;
-      }
-
-      .nav-link {
-        color: $green-light;
-      }
-    }
-
-    @include small {
-      .nav-link {
-        padding: 8.5px 10px;
-      }
-    }
-  }
-
 }
 
 main {
@@ -180,12 +110,12 @@ main {
   @include large {
     padding: 2rem 6rem;
     margin: 0 auto;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
   }
 
   @include medium {
-    padding: 2rem 4rem;
-    font-size: 1.1rem;
+    padding: 2rem 2rem;
+    font-size: 1.2rem;
   }
 
   @include small {
@@ -193,8 +123,56 @@ main {
     font-size: 1rem;
   }
 
-  img {
-    max-width: 100%;
+  .main-content {
+    ul {
+      padding: 20px 0;
+    }
+
+    li {
+      position: relative;
+      color: $white-soft;
+      font-weight: bold;
+      list-style: none;
+      padding-top: 32px;
+      padding-bottom: 10px;
+
+      @include large {
+        padding-left: 50px;
+        font-size: 50px;
+      }
+
+      @include medium {
+        font-size: 30px;
+        padding-left: 30px;
+      }
+
+      @include small {
+        font-size: 20px;
+        padding-left: 30px;
+      }
+    }
+
+    li::before {
+      color: $yellow;
+      content: "\2022";
+      font-size: 1.5em;
+      position: absolute;
+
+      @include large {
+        top: 6px;
+        left: -8px;
+      }
+
+      @include medium {
+        top: 16px;
+        left: -4px;
+      }
+
+      @include small {
+        top: 22px;
+        left: 3px;
+      }
+    }
   }
 
   h1,
@@ -203,69 +181,59 @@ main {
   h4,
   h5,
   h6 {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    color: $black;
-    font-weight: bold;
+    color: $white-soft;
+    font-weight: 800;
   }
 
   p {
     margin-bottom: 1em;
   }
 
-  blockquote {
-    padding: 0 1rem;
-    margin-left: 0;
-    color: $grey;
-    border-left: 0.3rem solid $yellow;
+}
 
-    > :first-child {
-      margin-top: 0;
-    }
+.slogan {
+  text-align: center;
+  font-weight: 800;
+  color: $white-soft;
 
-    > :last-child {
-      margin-bottom: 0;
-    }
+  @include large {
+    font-size: 50px;
   }
 
+  @include medium {
+    font-size: 45px;
+  }
+
+  @include small {
+    font-size: 35px;
+  }
+}
+
+.download-apps {
+  padding-top: 20px;
+  text-align: center;
+
+  a {
+    padding-left: 15px;
+  }
+
+  img {
+    background-color: #2e323c;
+  }
 }
 
 hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid $grey-light;
+  border-top: 1px solid rgba(115, 121, 140, 0.2);
   margin: 1em 0;
   padding: 0;
 }
 
 footer {
   padding: 2rem 0 3rem 0;
+  text-align: center;
   margin-left: 0;
   color: $grey;
-
-  .bottom-nav {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    list-style: none;
-    justify-content: center;
-
-    @include small {
-      justify-content: flex-start;
-    }
-  }
-
-  .nav-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    .nav-link {
-      padding: 0 30px;
-      color: $dark;
-      cursor: pointer;
-      font-size: 14px;
-    }
-  }
 }

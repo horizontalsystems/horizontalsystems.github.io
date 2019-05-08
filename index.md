@@ -1,4 +1,4 @@
 ---
-active: index
-layout: apps
+lang: en
+layout: default
 ---
