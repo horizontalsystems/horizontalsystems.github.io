@@ -59,6 +59,12 @@ header {
   .banner-logo {
     display: flex;
     flex-grow: 1;
+
+    img {
+      @include small {
+        width: 90%;
+      }
+    }
   }
 
   .banner-menu {
@@ -80,7 +86,7 @@ header {
     }
 
     @include small {
-      font-size: 55px;
+      font-size: 48px;
     }
   }
 
@@ -127,7 +133,7 @@ main {
 
   .main-content {
     ul {
-      padding: 20px 0;
+      padding: 20px 0 60px;
     }
 
     li {
@@ -149,7 +155,7 @@ main {
       }
 
       @include small {
-        font-size: 20px;
+        font-size: 25px;
         padding-left: 30px;
       }
     }
