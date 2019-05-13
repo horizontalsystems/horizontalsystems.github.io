@@ -1,8 +1,7 @@
 
-We believe in Unconditional Right to freedom. People are born free. Everything we do is aimed at enforcing this freedom on a global scale
+We believe in Unconditional Right to freedom. People are born free... 
 <br />
-
-[Knock, knock, Neo. Follow us on Github](https://github.com/horizontalsystems)
+Everything we do is aimed at enforcing this freedom on a global scale
 
 <br />
 <hr />
@@ -12,7 +11,7 @@ We build Unstoppable Code: engineered to resist censorship and remain online ind
 
 + Can’t be shut down
 + Can’t be censored 
-+ Can’t  be cheated
++ Can’t controlled externally
 
 <hr />
 
