@@ -11,7 +11,7 @@ We build Unstoppable Code: engineered to resist censorship and remain online.
 
 + Can’t be shut down
 + Can’t be censored 
-+ Can’t controlled externally
++ Can’t be controlled externally
 
 <hr />
 
