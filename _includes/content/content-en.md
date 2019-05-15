@@ -2,7 +2,9 @@
 We believe in unconditional freedom and justice for all... regardless of location, race or believes.
 <br /><br />
 We believe our freedom has been taken away by unjustly lobbied laws, covert banking cartels, privately motivated wars, self enriching dictators, fake media moguls and alike.
-<br /><hr><br />
+<br />
+<hr />
+<br />
 Everything we do is aimed at liberating ourseleves and those who share that worldview. 
 <br />
 <br />
