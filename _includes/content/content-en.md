@@ -1,19 +1,14 @@
 
-We believe in unconditional freedom and justice for all... regardless of location, race or believes.
+We believe in unconditional right to freedom and justice for all... regardless of race, place of residence or believes.
 <br /><br />
-We believe our freedom has been taken away by unjustly lobbied laws, covert banking cartels, privately motivated wars, self enriching dictators, fake media moguls and alike.
+We are here to serve ourselves and those who share that worldview by building tools for crypto-powered decentralized economies.
 <br />
 <hr />
 <br />
-Everything we do is aimed at liberating ourseleves and those who share that worldview. 
-<br />
-<br />
-We do so by building Unstoppable Code. It's engineered to resist censorship, protect your interests and enforce your freedom.
+We build code never seen before: a new breed of applications which are engineered to resist censorship and enforce individual freedoms.
 
 + Can’t be shut down
-+ Can’t be censored 
-+ Can’t be controlled externally
++ Can’t be censored
++ Controlled only by user
 
 <hr />
-
-

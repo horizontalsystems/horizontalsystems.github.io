@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"N",
+				"numberZ"
+			],
+			[
 				"new",
 				"newAddress"
 			],
@@ -510,10 +514,6 @@
 			[
 				"hsyst",
 				"HSYSToken"
-			],
-			[
-				"HSYS",
-				"HSYSToken"
 			]
 		]
 	},
@@ -560,6 +560,7 @@
 	],
 	"file_history":
 	[
+		"/Users/esengulov/Documents/code/Ivan-On-Tech/rest-parameters.html",
 		"/Users/esengulov/Documents/code/HS-website/horizontalsystems.github.io/_includes/open-source-codes.html",
 		"/Users/esengulov/Documents/code/HS-website/horizontalsystems.github.io/_includes/content/content-en.md",
 		"/Users/esengulov/Documents/code/HS-website/horizontalsystems.github.io/_includes/wallets-apps.html",
