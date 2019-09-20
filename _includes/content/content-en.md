@@ -1,15 +1,13 @@
 
+Secure your Financial Freedom. Invest in Bitcoin.
 
-
-Secure your financial freedom and privacy
-<br />
 <hr />
-<br />
-We build a new breed of serverless applications; engineered to resist-censorship, provide acccess to crypto markets and enforce personal privacy.
 
+Horizontal Systems builds serverless applications around the idea of private wealth and privacy. Your door to Bitcoin, Ethereum all other crypto assets.
+
++ Discover Assets
 + Grow Wealth
-+ Be Free
 + Stay Private
-+ @Control
++ Be Free
 
 <hr />
