@@ -1,29 +1,25 @@
 @import "variables";
 
-@mixin large {
-  @media screen and (min-width: #{$screen-lg}) {
-    @content;
-  }
-}
-
-@mixin medium {
-  @media screen and (min-width: #{$screen-md}) and (max-width: #{$screen-lg}) {
-    @content;
-  }
-}
-
-@mixin small {
+@mixin sm {
   @media screen and (max-width: #{$screen-md}) {
     @content;
   }
 }
 
-@keyframes fadeIn {
-  from {
-    opacity: 0.4;
+@mixin md {
+  @media screen and (min-width: #{$screen-md}) and (max-width: #{$screen-lg}) {
+    @content;
   }
+}
 
-  to {
-    opacity: 1;
+@mixin lg {
+  @media screen and (min-width: #{$screen-lg}) and (max-width: #{$screen-xl}) {
+    @content;
+  }
+}
+
+@mixin xl {
+  @media screen and (min-width: #{$screen-xl}) {
+    @content;
   }
 }

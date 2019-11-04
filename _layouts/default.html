@@ -11,29 +11,138 @@
   </head>
   <body>
     {% assign lang=site.lang[page.lang] %}
-    {% assign content_md = 'content/content-' | append: page.lang | append: '.md' %}
-
     {% include header.html lang=lang %}
 
     <main role="main">
-      <div class="container">
-        {% capture content_capture %}
-        {% include {{content_md}} %}
-        {% endcapture %}
+      <div class="section-gradient">
+        <div class="container">
+          <div class="section">
+            <div class="section-left">
+              <div class="image-review gallery-item"></div>
+              <div class="gallery-title">
+                <span>Photo Gallery</span>
+              </div>
+            </div>
 
-        <div class="main-content">
-          {{ content_capture | markdownify }}
+            <div class="section-right">
+              <div class="video-review gallery-item"></div>
+              <div class="gallery-title">
+                <img src="/assets/images/gallery/play.png" alt="Play Video"> <span>Our Team</span>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
 
-        {% include wallets-apps.html %}
+      <div class="section-gradient">
+        <div class="container">
+          <div class="section">
+            <div class="section-left">
+              <div class="section-title">
+                Product
+              </div>
 
-<!--         <hr>
+              <div class="section-info">
+                <div class="section-subtitle">
+                  Unstoppable Wallet
+                </div>
 
-        {% include open-source-codes.html %} -->
+                <div class="section-description">
+                  Invest in Bitcoin, Ethereum, EOS, Dash, Bitcoin Cash, Binance DEX and 60+ blockchain based
+                  projects.<br><br>
+                  Store cryptocurrency safely and privately. Get full and exclusive control over your assets. <br><br>
+                  Designed to detail and built by gifted engineers. <br><br>
+                  Get it @ <a href="#">https://unstoppable.money</a>
+                </div>
+              </div>
+            </div>
 
+            <div class="section-right">
+              <img alt={{site.title}}
+                   src="/assets/images/wallet/wallet.png"
+                   srcset="
+                      /assets/images/wallet/wallet@2x.png 2x,
+                      /assets/images/wallet/wallet@3x.png 3x"/>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-gradient">
+        <div class="container">
+          <div class="section">
+            <div class="section-left">
+              <div class="section-title">
+                Guide
+              </div>
+
+              <div class="section-info">
+                <div class="section-subtitle">
+                  Bitcoin Explained In Simple Terms
+                </div>
+
+                <div class="section-description">
+                  Invest in crypto safely and privately. Get unconditional control over YOUR assets. <br><br>
+                  Discover Bitcoin, Ethereum, EOS, and other respectful projects built on top of blockchain
+                  technology.<br><br>
+                  It gives you full control. It doesn’t ask for any data. <br><br>
+                  Get it @ <a href="#">https://bitcoin101</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="section-right">
+              <img alt={{site.title}}
+                   src="/assets/images/guides/guides.png"
+                   srcset="
+                      /assets/images/guides/guides@2x.png 2x,
+                      /assets/images/guides/guides@3x.png 3x"/>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-gradient">
+        <div class="container">
+          <div class="section">
+            <div class="section-left">
+              <div class="section-title">Meet</div>
+              <div class="section-avatar"></div>
+
+              <div class="section-info">
+                <div id="member-name" class="section-subtitle">
+                  Raphael
+                </div>
+
+                <div id="member-info" class="section-description">
+                  Nickname Raph, is a fictional character and one of the four main characters of the Teenage Mutant
+                  Ninja Turtles comics and all related media.
+                </div>
+              </div>
+            </div>
+
+            <div class="section-right">
+              <ul class="team-members">
+                <li><img class="team-member" alt="Arslan" src="/assets/images/team/Arslan.png"/></li>
+                <li><img class="team-member" alt="Nurkaly" src="/assets/images/team/Nurkaly.png"/></li>
+                <li><img class="team-member selected" alt="Rafael" src="/assets/images/team/Rafael.png"/></li>
+                <li><img class="team-member" alt="Kerim" src="/assets/images/team/kerim.png"/></li>
+                <li><img class="team-member" alt="Aibek" src="/assets/images/team/Aibek.png"/></li>
+                <li><img class="team-member" alt="Bakyt" src="/assets/images/team/Bakyt.png"/></li>
+                <li><img class="team-member" alt="Maxim" src="/assets/images/team/Maxim.png"/></li>
+                <li><img class="team-member" alt="Ermat" src="/assets/images/team/Ermat.png"/></li>
+                <li><img class="team-member" alt="Anton" src="/assets/images/team/Anton.png"/></li>
+                <li><img class="team-member" alt="Chyngyz" src="/assets/images/team/Chyngyz.png"/></li>
+                <li><img class="team-member" alt="Talgat" src="/assets/images/team/Talgat.png"/></li>
+                <li><img class="team-member" alt="Esen" src="/assets/images/team/Esen.png"/></li>
+                <li><img class="team-member" alt="Diana" src="/assets/images/team/Diana.png"/></li>
+                <li><img class="team-member" alt="Tallgat" src="/assets/images/team/Tallgat.png"/></li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
-
     {% include footer.html %}
   </body>
 </html>

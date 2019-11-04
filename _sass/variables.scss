@@ -1,15 +1,17 @@
 // Media Query Ranges
-$screen-md: 42em !default;
-$screen-lg: 64em !default;
+//
+// $screen-md: 42em !default;
+// $screen-lg: 64em !default;
+
+$screen-sm: 576px !default;  // Small tablets and large smartphones (landscape view)
+$screen-md: 768px !default;  // Small tablets (portrait view)
+$screen-lg: 992px !default;  // Tablets and small desktops
+$screen-xl: 1200px !default; // Large tablets and desktops
 
 // Colors
-$white: #FFFFFF !default;
-$white-soft: #F9F9F9 !default;
-$black: #000000 !default;
-$dark: #1F2129 !default;
-$dark-secondary: #2B2D37 !default;
-$yellow: #FFAD00 !default;
-$grey: #8A8A8F !default;
-$grey-lighter: rgba(115, 121, 140, 0.2);
-$green: #1EBF6B !default;
-$silver: #C8C7CC !default;
+$white:       #ffffff !default;
+$light:       #F5F5F5 !default;
+$gray-light:  #C8C7CC !default;
+$dark:        #13151A !default;
+$blue:        #0d6efd !default;
+$remus:       #13D670 !default;

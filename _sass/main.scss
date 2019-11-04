@@ -1,0 +1,220 @@
+@import "variables";
+@import "mixins";
+@import "gallery";
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  word-wrap: break-word;
+
+  @include xl {
+    max-width: $screen-xl;
+  }
+
+  @include lg {
+    max-width: $screen-lg;
+  }
+
+  @include md {
+    max-width: $screen-md;
+  }
+
+  @include sm {
+    max-width: $screen-sm;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+.nav {
+  display: flex;
+  font-size: 14px;
+  flex-direction: row;
+
+  @include sm {
+    justify-content: center;
+  }
+
+  .nav-item {
+    padding: 0 20px;
+  }
+}
+
+header .nav {
+  padding-top: 20px;
+  justify-content: flex-end;
+
+  @include sm {
+    justify-content: center;
+  }
+}
+
+footer .nav {
+  justify-content: center;
+  padding: 80px 0;
+
+  @include sm {
+    padding: 40px 0;
+  }
+}
+
+header, footer {
+  background: $dark;
+}
+
+.section-gradient {
+  width: 100%;
+  background: linear-gradient(180deg, #1F2129 0%, #13151A 100%);
+}
+
+.section {
+  padding: 80px 0;
+  display: flex;
+  position: relative;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+
+  @include md {
+    padding: 60px 0;
+    flex-direction: column;
+  }
+
+  @include sm {
+    padding: 50px 0;
+    flex-direction: column;
+  }
+}
+
+.section-logo img {
+  width: 245px;
+  padding: 10px 0;
+
+  @include sm {
+    width: 60%;
+  }
+}
+
+.section-left, .section-right {
+  padding: 20px;
+  position: relative;
+}
+
+.section-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 460px;
+
+  @include lg {
+    flex-shrink: 0.5;
+  }
+
+  @include md {
+    width: 100%;
+  }
+
+  @include sm {
+    width: 100%;
+  }
+}
+
+.section-right {
+  display: flex;
+  position: relative;
+  width: 100%;
+  justify-content: center;
+
+  &.section-horse {
+    @include md {
+      display: none;
+    }
+
+    @include sm {
+      display: none;
+    }
+  }
+}
+
+.section-title {
+  color: $remus;
+  font-size: 54px;
+  line-height: 64px;
+  font-weight: 600;
+
+  @include md {
+    font-size: 44px;
+  }
+
+  @include sm {
+    font-size: 24px;
+    line-height: 40px;
+  }
+}
+
+.section-avatar {
+  width: 200px;
+  height: 200px;
+  background-image: url("/assets/images/team/Rafael.png");
+}
+
+.section-subtitle {
+  color: $light;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+
+  @include md {
+    font-size: 44px;
+  }
+
+  @include sm {
+    font-size: 15px;
+  }
+}
+
+.section-description {
+  padding-top: 20px;
+  line-height: 21px;
+  font-size: 17px;
+  color: $gray-light;
+
+  @include sm {
+    font-size: 14px;
+  }
+}
+
+// Team
+
+ul.team-members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  .team-member {
+    cursor: pointer;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-sizing: border-box;
+  }
+
+  .team-member.selected {
+    border: 5px solid $remus;
+  }
+}

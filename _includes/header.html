@@ -1,34 +1,34 @@
-<header role="banner">
+<header>
   <div class="container">
-    <div class="banner">
-      <div class="banner-logo">
-        <a href="/">
-          <img alt={{site.title}} width="277"
-               src="/assets/images/hs-logo.png"
-               srcset="
-                   /assets/images/hs-logo@2x.png 2x,
-                   /assets/images/hs-logo@3x.png 3x" /></a>
+    {% include nav.html %}
+
+    <div class="section">
+      <div class="section-left">
+        <div class="section-logo">
+          <a href="/">
+            <img alt={{site.title}}
+                 src="/assets/images/hs-logo.png"
+                 srcset="
+                    /assets/images/hs-logo@2x.png 2x,
+                    /assets/images/hs-logo@3x.png 3x"/>
+          </a>
+        </div>
+
+        <div class="section-info">
+          <div class="section-title">
+            Unstoppable Code
+          </div>
+
+          <div class="section-description">
+            Horizontal Systems build serverless applications around the idea of private wealth and privacy. Your door to
+            Bitcoin, Ethereum, all other crypto assets.
+          </div>
+        </div>
       </div>
-      <div class="banner-menu">
-        <nav role="navigation">
-          <ul class="navbar-nav">
-            <li class="nav-item"><a href="/" class="nav-link">About</a></li>
-            <li class="nav-item"><a href="#apps" class="nav-link">Apps</a></li>
-            <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
-            <!--<li class="nav-item"><a href="#about" class="nav-link">About</a></li>-->
-          </ul>
-        </nav>
+
+      <div class="section-right section-horse">
+        <img src="/assets/images/horse.gif" alt="Binary horse"/>
       </div>
     </div>
   </div>
-
-  <div class="banner-bottom">
-    <div class="container">
-      <div class="banner-name">
-        UNSTOPPABLE<br>
-        CODE
-      </div>
-    </div>
-  </div>
-
 </header>
