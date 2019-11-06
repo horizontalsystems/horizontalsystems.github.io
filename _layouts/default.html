@@ -7,6 +7,9 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
     <link rel="stylesheet" href="{{ '/assets/css/styles.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
     <script type="application/javascript" src="{{ '/assets/js/script.js?v=' | append: site.github.build_revision | relative_url }}"></script>
   </head>
   <body>
@@ -19,16 +22,16 @@
           <div class="section">
             <div class="section-left">
               <div class="image-review gallery-item"></div>
-              <div class="gallery-title">
+              <div class="gallery-title" id="open-gallery">
                 <span>Photo Gallery</span>
               </div>
             </div>
 
             <div class="section-right">
               <div class="video-review gallery-item"></div>
-              <div class="gallery-title">
+              <a class="gallery-title" href="https://www.youtube.com/watch?v=-qjzSUdeId0" data-fancybox="video">
                 <img src="/assets/images/gallery/play.png" alt="Play Video"> <span>Our Team</span>
-              </div>
+              </a>
             </div>
           </div>
         </div>
