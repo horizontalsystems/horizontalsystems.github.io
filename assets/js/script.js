@@ -29,26 +29,26 @@ function team() {
 
 function openGallery() {
   $.fancybox.open([
-    {src: '/assets/images/gallery/4.jpg'},
-    {src: '/assets/images/gallery/1.jpg'},
-    {src: '/assets/images/gallery/2.jpg'},
-    {src: '/assets/images/gallery/3.jpg'},
-    {src: '/assets/images/gallery/5.jpg'},
-    {src: '/assets/images/gallery/6.jpg'},
-    {src: '/assets/images/gallery/7.jpg'},
-    {src: '/assets/images/gallery/8.jpg'},
-    {src: '/assets/images/gallery/9.jpg'},
-    {src: '/assets/images/gallery/10.jpg'},
-    {src: '/assets/images/gallery/11.jpg'},
-    {src: '/assets/images/gallery/12.jpg'},
-    {src: '/assets/images/gallery/13.jpg'},
-    {src: '/assets/images/gallery/14.jpg'},
-    {src: '/assets/images/gallery/15.jpg'},
-    {src: '/assets/images/gallery/16.jpg'},
-    {src: '/assets/images/gallery/17.jpg'},
-    {src: '/assets/images/gallery/18.jpg'},
-    {src: '/assets/images/gallery/19.jpg'},
-    {src: '/assets/images/gallery/20.jpg'}
+    {src: '/assets/images/gallery/4.JPG'},
+    {src: '/assets/images/gallery/1.JPG'},
+    {src: '/assets/images/gallery/2.JPG'},
+    {src: '/assets/images/gallery/3.JPG'},
+    {src: '/assets/images/gallery/5.JPG'},
+    {src: '/assets/images/gallery/6.JPG'},
+    {src: '/assets/images/gallery/7.JPG'},
+    {src: '/assets/images/gallery/8.JPG'},
+    {src: '/assets/images/gallery/9.JPG'},
+    {src: '/assets/images/gallery/10.JPG'},
+    {src: '/assets/images/gallery/11.JPG'},
+    {src: '/assets/images/gallery/12.JPG'},
+    {src: '/assets/images/gallery/13.JPG'},
+    {src: '/assets/images/gallery/14.JPG'},
+    {src: '/assets/images/gallery/15.JPG'},
+    {src: '/assets/images/gallery/16.JPG'},
+    {src: '/assets/images/gallery/17.JPG'},
+    {src: '/assets/images/gallery/18.JPG'},
+    {src: '/assets/images/gallery/19.JPG'},
+    {src: '/assets/images/gallery/20.JPG'}
   ]);
 }
 
