@@ -1,6 +1,8 @@
 @import "variables";
 @import "mixins";
+@import "header";
 @import "gallery";
+@import "card";
 
 body {
   padding: 0;
@@ -34,39 +36,7 @@ body {
   }
 }
 
-.nav {
-  display: flex;
-  font-size: 14px;
-  flex-direction: row;
-
-  @include sm {
-    justify-content: center;
-  }
-
-  .nav-item {
-    padding: 0 20px;
-  }
-}
-
-header .nav {
-  padding-top: 20px;
-  justify-content: flex-end;
-
-  @include sm {
-    justify-content: center;
-  }
-}
-
-footer .nav {
-  justify-content: center;
-  padding: 80px 0;
-
-  @include sm {
-    padding: 40px 0;
-  }
-}
-
-header, footer {
+.section-dark, header, footer {
   background: $dark;
 }
 
@@ -75,15 +45,10 @@ header, footer {
   background: linear-gradient(180deg, #1F2129 0%, #13151A 100%);
 }
 
-.section {
+.section, .section-colum {
   padding: 80px 0;
   display: flex;
   position: relative;
-
-  img {
-    width: 100%;
-    height: 100%;
-  }
 
   @include md {
     padding: 60px 0;
@@ -96,23 +61,28 @@ header, footer {
   }
 }
 
-.section-logo img {
-  width: 245px;
-
-  @include sm {
-    width: 60%;
-  }
+.section-colum {
+  flex-direction: column;
 }
 
-.section-left, .section-right {
+.wallet-screenshot {
+  width: 100%;
+}
+
+.section-half, .section-third, .section-right {
   padding: 20px;
   position: relative;
+  width: 100%;
 }
 
-.section-left {
+.section-half {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+}
+
+.section-third {
+  display: flex;
+  flex-direction: column;
   flex-shrink: 0;
   width: 460px;
 
@@ -134,19 +104,10 @@ header, footer {
   position: relative;
   width: 100%;
   justify-content: center;
-
-  &.section-horse {
-    @include md {
-      display: none;
-    }
-
-    @include sm {
-      display: none;
-    }
-  }
+  flex-grow: 1;
 }
 
-.section-title {
+.main-title {
   color: $remus;
   font-size: 54px;
   line-height: 64px;
@@ -162,17 +123,13 @@ header, footer {
   }
 }
 
-.section-avatar {
-  width: 200px;
-  height: 200px;
-  background-image: url("/assets/images/team/Rafael.png");
-}
-
-.section-subtitle {
+.secondary-title {
   color: $light;
   font-weight: 600;
   font-size: 32px;
   line-height: 38px;
+  padding-top: 10px;
+  padding-bottom: 40px;
 
   @include md {
     font-size: 44px;
@@ -194,7 +151,74 @@ header, footer {
   }
 }
 
+.guides {
+  padding: 60px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  .guide {
+    padding: 7px;
+    display: flex;
+    flex-grow: 1;
+    max-width: 50%;
+    min-width: 45%;
+  }
+}
+
+.form-wrap {
+  padding: 50px 0;
+  background: linear-gradient(180deg, #1F2129 0%, $dark 100%);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  form {
+    width: 420px;
+  }
+
+  .form-title {
+    padding-bottom: 32px;
+    font-weight: 800;
+    font-size: 36px;
+    color: $light;
+  }
+
+  input {
+    width: 100%;
+    height: 60px;
+    padding: 15px;
+    margin-bottom: 16px;
+
+    border: 1px solid rgba(115, 121, 140, 0.2);
+    background: rgba(115, 121, 140, 0.2);
+    border-radius: 8px;
+    color: white;
+  }
+
+  button {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%), $remus;
+    border-radius: 8px;
+    padding: 15px;
+    width: 100%;
+    color: #212529;
+    cursor: pointer;
+  }
+}
+
 // Team
+
+.user-avatar {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 80px;
+  background-image: url("/assets/images/hs.png");
+}
+
+.user-name {
+  padding-bottom: 0
+}
 
 ul.team-members {
   display: flex;

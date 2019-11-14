@@ -1,33 +1,31 @@
 <header>
   <div class="container">
-    {% include nav.html %}
+    <div class="navbar">
+      <a href="/">
+        <img class="logo"
+             alt="Horizontal Systems"
+             src="/assets/images/hs-logo.png"
+             srcset="/assets/images/hs-logo@2x.png 2x, /assets/images/hs-logo@3x.png 3x"/>
+      </a>
 
-    <div class="section">
-      <div class="section-left">
-        <div class="section-logo">
-          <a href="/">
-            <img alt={{site.title}}
-                 src="/assets/images/hs-logo.png"
-                 srcset="
-                    /assets/images/hs-logo@2x.png 2x,
-                    /assets/images/hs-logo@3x.png 3x"/>
-          </a>
-        </div>
+      <div class="nav">
+        <div class="nav-item"><a href="https://unstoppable.money">Home</a></div>
+        <div class="nav-item">Contact</div>
+        <div class="nav-item"><a href="https://github.com/horizontalsystems" target="_blank">GitHub</a></div>
+        <div class="nav-item"><a href="/privacy.md" target="_blank">Privacy</a></div>
+      </div>
+    </div>
 
-        <div class="section-info">
-          <div class="section-title">
-            Unstoppable Code
-          </div>
+    <div class="banner">
+      <img src="/assets/images/horse.gif" alt="Binary horse" class="horse"/>
 
-          <div class="section-description">
-            Horizontal Systems builds serverless applications around the idea of private wealth and privacy. Invest in
-            Bitcoin, Ethereum and other crypto assets.
-          </div>
-        </div>
+      <div class="main-title">
+        Unstoppable Code
       </div>
 
-      <div class="section-right section-horse">
-        <img src="/assets/images/horse.gif" alt="Binary horse"/>
+      <div class="section-description">
+        Horizontal Systems build serverless applications around the idea of private wealth and privacy. Your door to
+        Bitcoin, Ethereum, all other crypto assets.
       </div>
     </div>
   </div>

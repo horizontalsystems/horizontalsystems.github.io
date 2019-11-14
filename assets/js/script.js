@@ -1,6 +1,6 @@
 function team() {
   let members = document.querySelectorAll(".team-member");
-  let avatar = document.querySelector(".section-avatar");
+  let avatar = document.querySelector(".user-avatar");
   if (avatar == null) {
     return
   }
