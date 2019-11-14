@@ -11,6 +11,17 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
     <script type="application/javascript" src="{{ '/assets/js/script.js?v=' | append: site.github.build_revision | relative_url }}"></script>
+    <!-- MailerLite Universal -->
+    <script>
+      (function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){
+        var c={ a:arguments,q:[]};var r=this.push(c);return "number"!=typeof r?r:f.bind(c.q);}
+        f.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);
+        var _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime()/1000000));
+        _.parentNode.insertBefore(r,_);
+      })(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
+      var ml_account = ml('accounts', '1617404', 'k8t2o5l5o8', 'load');
+    </script>
+    <!-- End MailerLite Universal -->
   </head>
   <body>
     {% assign lang=site.lang[page.lang] %}
@@ -76,7 +87,7 @@
 
       <div class="section-gradient">
         <div class="container">
-          <div class="section-colum">
+          <div class="section-column">
             <div class="secondary-title">Guides</div>
 
             <div class="section-description">
@@ -130,16 +141,7 @@
             </div>
 
             <div class="form-wrap">
-              <div class="form-title">Get this ebook!</div>
-              <form>
-                <div class="form-group">
-                  <input type="text" id="inputName" placeholder="Name">
-                </div>
-                <div class="form-group">
-                  <input type="email" id="inputEmail" placeholder="Email">
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-              </form>
+              {% include subscribe-form.html %}
             </div>
           </div>
         </div>
@@ -147,7 +149,7 @@
 
       <div class="section-gradient">
         <div class="container">
-          <div class="section-colum">
+          <div class="section-column">
             <div class="secondary-title">Codes</div>
 
             <div class="section-description">
