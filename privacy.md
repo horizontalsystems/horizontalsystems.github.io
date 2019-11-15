@@ -1,6 +1,6 @@
 ---
 lang: en
-layout: default
+layout: default-md
 ---
 
 <h1>Privacy Policy</h1>
