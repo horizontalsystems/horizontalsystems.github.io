@@ -5,11 +5,11 @@ layout: default-md
 
 <h1>Privacy Policy</h1>
 
-Thank you for visiting Horizontal Systems (https://horizontalsystems.io).
+Thank you for visiting Horizontal Systems [https://horizontalsystems.io](https://horizontalsystems.io).
 
 Please read our privacy policy carefully to get a clear understanding of how we collect, use, protect or otherwise handle your Personally Identifiable Information in accordance with our website.
 
-On our website, we run several third-party services and use cookies to optimise your browsing experience.
+On this website, we run several third-party services and use cookies to optimise your browsing experience.
 
 ## Cookies
 
@@ -29,11 +29,11 @@ We have implemented the following data collection features in Google Analytics:
 
 1. Remarketing with Google AdSense
 
-“Enables data collection for Display and Search Remarketing. This includes data from Google’s signed-in users who have chosen to enable Google to associate their web and app browsing history with their Google account, and to use such information from their Google account to personalize ads. Google Analytics temporarily joins these identifiers to your Google Analytics data in order to support your audiences. When you enable this setting, you must adhere to the Google Analytics Advertising Features Policy, including rules around sensitive categories and the necessary privacy disclosures to your end users about the data you collect and share with Google.”
+> “Enables data collection for Display and Search Remarketing. This includes data from Google’s signed-in users who have chosen to enable Google to associate their web and app browsing history with their Google account, and to use such information from their Google account to personalize ads. Google Analytics temporarily joins these identifiers to your Google Analytics data in order to support your audiences. When you enable this setting, you must adhere to the Google Analytics Advertising Features Policy, including rules around sensitive categories and the necessary privacy disclosures to your end users about the data you collect and share with Google.”
 
 2. Advertising Reporting Features
 
-“Enables Advertising Reporting features like Audience Demographics and Interests Reporting, DoubleClick Campaign Manager reporting, DoubleClick Bid Manager reporting, and Google Display Network Impression Reporting that help you better understand your users.”
+> “Enables Advertising Reporting features like Audience Demographics and Interests Reporting, DoubleClick Campaign Manager reporting, DoubleClick Bid Manager reporting, and Google Display Network Impression Reporting that help you better understand your users.”
 
 The information collected by Google may be linked to your Google account if you’re signed in. Google may also collect information relating to your:
 
@@ -41,7 +41,7 @@ The information collected by Google may be linked to your Google account if you�
 - location;
 - operating system.
 
-Please read Google’s Privacy Policy for more information on how your data is collected and used: policies.google.com/privacy
+Please read Google’s Privacy Policy for more information on how your data is collected and used: [policies.google.com/privacy](https://policies.google.com/privacy)
 
 To opt out of Google’s data collection, you may also set your browser to block all cookies, including cookies associated with our services.
 
@@ -81,7 +81,7 @@ Occasionally, at our discretion, we may include or offer third-party products or
 
 CalOPPA is the first state law in the nation to require commercial websites and online services to post a privacy policy. The law’s reach stretches well beyond California to require any person or company in the United States (and conceivably the world) that operates websites collecting Personally Identifiable Information from California consumers to post a conspicuous privacy policy on its website stating exactly the information being collected and those individuals or companies with whom it is being shared. – See more at: consumercal.org/california-online-privacy-protection-act-caloppa/#sthash.0FdRbT51.dpuf
 
-#### According to CalOPPA, we agree to the following:
+According to CalOPPA, we agree to the following:
 
 - Users can visit our site anonymously.
 - Once this privacy policy is created, we will add a link to it on our home page or as a minimum, on the first significant page after entering our website.
@@ -89,7 +89,7 @@ CalOPPA is the first state law in the nation to require commercial websites and 
 - You will be notified of any Privacy Policy changes on our Privacy Policy Page. 
 - You can change your personal information by logging in to your account.
 
-#### How does our site handle Do Not Track signals?
+### How does our site handle Do Not Track signals?
 
 We honor Do Not Track signals and Do Not Track, plant cookies, or use advertising when a Do Not Track (DNT) browser mechanism is in place.
 
@@ -97,13 +97,13 @@ Does our site allow third-party behavioral tracking?
 
 It’s also important to note that we allow third-party behavioral tracking.
 
-#### COPPA (Children Online Privacy Protection Act)
+### COPPA (Children Online Privacy Protection Act)
 
 When it comes to the collection of personal information from children under the age of 13 years old, the Children’s Online Privacy Protection Act (COPPA) puts parents in control. The Federal Trade Commission, United States’ consumer protection agency, enforces the COPPA Rule, which spells out what operators of websites and online services must do to protect children’s privacy and safety online.
 
 We do not specifically market to children under the age of 13 years old.
 
-#### Fair Information Practices
+### Fair Information Practices
 
 The Fair Information Practices Principles form the backbone of privacy law in the United States and the concepts they include have played a significant role in the development of data protection laws around the globe. Understanding the Fair Information Practice Principles and how they should be implemented is critical to comply with the various privacy laws that protect personal information.
 
@@ -111,7 +111,7 @@ In order to be in line with Fair Information Practices we will take the followin
 
 We also agree to the Individual Redress Principle which requires that individuals have the right to legally pursue enforceable rights against data collectors and processors who fail to adhere to the law. This principle requires not only that individuals have enforceable rights against data users, but also that individuals have recourse to courts or government agencies to investigate and/or prosecute non-compliance by data processors.
 
-#### CAN SPAM Act
+### CAN SPAM Act
 
 The CAN-SPAM Act is a law that sets the rules for commercial email, establishes requirements for commercial messages, gives recipients the right to have emails stopped from being sent to them, and spells out tough penalties for violations.
 
@@ -128,13 +128,18 @@ To be in accordance with CANSPAM, we agree to the following:
 
 If at any time you would like to unsubscribe from receiving future emails, follow the instructions at the bottom of each email and we will promptly remove you from ALL correspondence.
 
-#### Contacting Us
+### Contact Us
 
 If there are any questions regarding this privacy policy, you may contact us using the information below.
 
-Horizontal Systems
-Building 7, 12th District
-Bishkek, Kyrgyz Republic
+email:
 hsdao@protonmail.ch
 
-Last Updated: 1 October 2019
+Postal Address:
+Horizontal Systems
+Building 7, 12th District
+Bishkek, 72000
+Kyrgyz Republic
+
+Last Updated: 
+1 October 2019
