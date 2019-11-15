@@ -24,8 +24,35 @@ function team() {
       }
     })
   });
-
 }
+
+function setCookie(name, value, expiry /* in days */) {
+  let d = new Date();
+  d.setTime(d.getTime() + (expiry * 24 * 60 * 60 * 1000));
+  let expires = 'expires=' + d.toUTCString();
+  document.cookie = name + '=' + value + ';' + expires + ';path=/'
+}
+
+function getCookie(name) {
+  name = name + '=';
+  let decodedCookie = decodeURIComponent(document.cookie);
+  let cookies = decodedCookie.split(';');
+
+  for (let i = 0; i < cookies.length; i++) {
+    let cookie = cookies[i];
+
+    while (cookie.charAt(0) === ' ') {
+      cookie = cookie.substring(1)
+    }
+
+    if (cookie.indexOf(name) === 0) {
+      return cookie.substring(name.length, cookie.length)
+    }
+  }
+
+  return null
+}
+
 
 function openGallery() {
   $.fancybox.open([
@@ -85,9 +112,33 @@ function showBtcSimple() {
   });
 }
 
+function closeGdpr(accept) {
+  if (accept === true) {
+    setCookie("gdpr-accepted", true, 365)
+  }
+
+  $(".gdpr-popup").css({"display": "none"})
+}
+
+function checkGdpr() {
+  if (getCookie("gdpr-accepted")) {
+    $(".gdpr-popup").css({"display": "none"})
+  }
+}
+
 $(function () {
+  checkGdpr();
   team();
 
   $("#open-gallery").on('click', openGallery);
   $("#btc-simple").on('click', showBtcSimple);
+
+  $("#accept-cookie").on('click', function () {
+    closeGdpr(true)
+  });
+
+  $("#close-cookie").on('click', function () {
+    closeGdpr(false)
+  })
+
 });

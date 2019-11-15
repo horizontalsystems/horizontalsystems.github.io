@@ -138,4 +138,8 @@
   width: 100%;
   color: #212529;
   border: none;
+
+  @include sm {
+    height: 40px;
+  }
 }
