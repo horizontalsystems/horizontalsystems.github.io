@@ -1,6 +1,7 @@
 @import "variables";
 @import "mixins";
 @import "header";
+@import "footer";
 @import "gallery";
 @import "card";
 @import "subscribe-form";
@@ -8,6 +9,7 @@
 body {
   padding: 0;
   margin: 0;
+  background: $dark;
 }
 
 .container {
