@@ -52,8 +52,21 @@ function openGallery() {
   ]);
 }
 
+function guidePreview(current) {
+  $(".guide-thumb").each(function () {
+    $(this).removeClass("current")
+  });
+
+  current.addClass("current");
+  let id = current.attr("datasrc");
+  $("#guide-selected").attr("src", "/assets/images/btc-in-simple-term/" + id + ".png")
+}
+
 $(function () {
   team();
 
   $("#open-gallery").on('click', openGallery);
+  $(".guide-thumb").on('click', function () {
+    guidePreview($(this));
+  });
 });

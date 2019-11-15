@@ -1,48 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Horizontal Systems</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-
-    <link rel="stylesheet" href="{{ '/assets/css/styles.css?v=' | append: site.github.build_revision | relative_url }}">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-    <script type="application/javascript" src="{{ '/assets/js/script.js?v=' | append: site.github.build_revision | relative_url }}"></script>
-    <!-- MailerLite Universal -->
-    <script>
-      (function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){
-        var c={ a:arguments,q:[]};var r=this.push(c);return "number"!=typeof r?r:f.bind(c.q);}
-        f.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);
-        var _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime()/1000000));
-        _.parentNode.insertBefore(r,_);
-      })(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
-      var ml_account = ml('accounts', '1617404', 'k8t2o5l5o8', 'load');
-    </script>
-    <!-- End MailerLite Universal -->
-  </head>
+  {% include html-head.html %}
   <body>
-    {% assign lang=site.lang[page.lang] %}
-    {% include header.html lang=lang %}
+    {% include header.html %}
 
     <main role="main">
-      <div class="section-gradient">
+      <div class="section-dark">
         <div class="container">
-          <div class="section">
-            <div class="section-third">
-              <div class="image-review gallery-item"></div>
-              <div class="gallery-title" id="open-gallery">
-                <span>Gallery</span>
-              </div>
+          <div class="banner">
+            <img src="/assets/images/horse.gif" alt="Binary horse" class="horse"/>
+
+            <div class="main-title">
+              Unstoppable Code
             </div>
 
-            <div class="section-right">
-              <div class="video-review gallery-item"></div>
-              <a class="gallery-title" href="https://www.youtube.com/watch?v=-qjzSUdeId0" data-fancybox="video">
-                <img src="/assets/images/gallery/play.png" alt="Play Video"> <span>Play Office</span>
-              </a>
+            <div class="section-description">
+              Horizontal Systems build serverless applications around the idea of private wealth and privacy.
+              Your door to Bitcoin, Ethereum, all other crypto assets.
+            </div>
+          </div>
+        </div>
+        <div class="section-gradient">
+          <div class="container">
+            <div class="section">
+              <div class="section-third gallery-section">
+                <div class="image-review gallery-item"></div>
+                <div class="gallery-title" id="open-gallery">
+                  <span>Gallery</span>
+                </div>
+              </div>
+
+              <div class="section-right gallery-section">
+                <div class="video-review gallery-item"></div>
+                <a class="gallery-title" href="https://www.youtube.com/watch?v=-qjzSUdeId0" data-fancybox="video">
+                  <img src="/assets/images/gallery/play.png" alt="Play Video"> <span>Play Office</span>
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -97,18 +90,20 @@
 
             <div class="guides">
               <div class="guide">
-                <div class="card">
-                  <div class="card-icon">
-                    <img src="/assets/images/card/in-simple-term.png" alt="Bitcoin Explaining in Simple Terms"/>
-                  </div>
-                  <div class="card-info">
-                    <div class="card-title">Bitcoin Explaining in Simple Terms</div>
-                    <div class="card-description">
-                      Let’s begin by learning a little about bitcoin’s basic principles knowladge education documental
-                      guide some word for filling third line
+                <a href="/in-simple-terms">
+                  <div class="card">
+                    <div class="card-icon">
+                      <img src="/assets/images/card/in-simple-term.png" alt="Bitcoin Explaining in Simple Terms"/>
+                    </div>
+                    <div class="card-info">
+                      <div class="card-title">Bitcoin Explaining in Simple Terms</div>
+                      <div class="card-description">
+                        Let’s begin by learning a little about bitcoin’s basic principles knowladge education documental
+                        guide some word for filling third line
+                      </div>
                     </div>
                   </div>
-                </div>
+                </a>
               </div>
               <div class="guide">
                 <div class="card">
@@ -222,7 +217,9 @@
         <div class="container">
           <div class="section">
             <div class="section-third">
-              <div class="user-avatar"></div>
+              <div class="user-avatar">
+                <img alt="Team" src="/assets/images/hs.png"/>
+              </div>
 
               <div class="secondary-title user-name">Team</div>
               <div class="section-description">

@@ -1,9 +1,20 @@
 @import "variables";
 @import "mixins";
 
+.gallery-section {
+  @include sm {
+    width: 80% !important;
+    align-self: center;
+  }
+}
+
 .gallery-item {
   height: 520px;
   border-radius: 20px;
+
+  @include md {
+    height: 400px;
+  }
 
   @include sm {
     height: 320px;

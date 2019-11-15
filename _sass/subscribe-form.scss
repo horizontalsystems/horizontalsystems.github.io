@@ -2,7 +2,7 @@
 @import "mixins";
 
 .form-wrap {
-  padding: 50px 0;
+  padding: 50px 10px;
   background: linear-gradient(180deg, #1F2129 0%, $dark 100%);
   border-radius: 16px;
   display: flex;
@@ -34,11 +34,10 @@
   width: 100% !important;
 }
 .ml-form-embedContainer .ml-form-embedWrapper {
-  width: 400px;
   display: inline-block;
 
-  @include sm {
-    width: 300px;
+  @include lg {
+    min-width: 400px;
   }
 }
 .ml-form-align-center { text-align: center; }
