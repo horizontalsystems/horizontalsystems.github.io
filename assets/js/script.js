@@ -52,21 +52,42 @@ function openGallery() {
   ]);
 }
 
-function guidePreview(current) {
-  $(".guide-thumb").each(function () {
-    $(this).removeClass("current")
+function showBtcSimple() {
+  $.fancybox.open([
+    {
+      src: '/assets/images/btc-in-simple-term/Bitcoin-Explained-Simple-Terms-002.png',
+      opts: {thumb: '/assets/images/btc-in-simple-term/Bitcoin-Explained-Simple-Terms-002.png'}
+    },
+    {
+      src: '/assets/images/btc-in-simple-term/Bitcoin-Explained-Simple-Terms-003.png',
+      opts: {thumb: '/assets/images/btc-in-simple-term/Bitcoin-Explained-Simple-Terms-003.png'}
+    },
+    {
+      src: '/assets/images/btc-in-simple-term/Bitcoin-Explained-Simple-Terms-004.png',
+      opts: {thumb: '/assets/images/btc-in-simple-term/Bitcoin-Explained-Simple-Terms-004.png'}
+    },
+    {
+      src: '/assets/images/btc-in-simple-term/Bitcoin-Explained-Simple-Terms-005.png',
+      opts: {thumb: '/assets/images/btc-in-simple-term/Bitcoin-Explained-Simple-Terms-005.png'}
+    },
+    {
+      src: '/assets/images/btc-in-simple-term/Bitcoin-Explained-Simple-Terms-006.png',
+      opts: {thumb: '/assets/images/btc-in-simple-term/Bitcoin-Explained-Simple-Terms-006.png'}
+    },
+    {
+      src: '/assets/images/btc-in-simple-term/Bitcoin-Explained-Simple-Terms-007.png',
+      opts: {thumb: '/assets/images/btc-in-simple-term/Bitcoin-Explained-Simple-Terms-007.png'}
+    }
+  ], {
+    thumbs: {
+      autoStart: true
+    }
   });
-
-  current.addClass("current");
-  let id = current.attr("datasrc");
-  $("#guide-selected").attr("src", "/assets/images/btc-in-simple-term/" + id + ".png")
 }
 
 $(function () {
   team();
 
   $("#open-gallery").on('click', openGallery);
-  $(".guide-thumb").on('click', function () {
-    guidePreview($(this));
-  });
+  $("#btc-simple").on('click', showBtcSimple);
 });

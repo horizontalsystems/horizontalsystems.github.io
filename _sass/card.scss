@@ -31,7 +31,7 @@
   overflow: hidden;
 
   @include sm {
-    padding-top: 0;
+    justify-content: center;
   }
 }
 
@@ -52,6 +52,6 @@
   color: $grey;
 
   @include sm {
-    font-size: 14px;
+    display: none;
   }
 }

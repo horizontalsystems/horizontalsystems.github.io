@@ -135,3 +135,18 @@
     transform: rotate(360deg);
   }
 }
+
+.btn {
+  box-shadow: none !important;
+  cursor: pointer;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  line-height: 20px !important;
+  height: 50px;
+  padding: 10px !important;
+
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%), $remus;
+  border-radius: 8px;
+  width: 100%;
+  color: #212529;
+}
