@@ -23,14 +23,13 @@
     justify-content: space-around;
 
     .logo {
-      width: 100px;
+      width: 120px;
     }
   }
 }
 
 .nav {
   display: flex;
-  font-size: 14px;
   flex-direction: row;
 
   .nav-item {

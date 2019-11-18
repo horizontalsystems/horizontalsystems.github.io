@@ -1,4 +1,5 @@
 @import "variables";
+@import "mixins";
 
 * {
   box-sizing: border-box;
@@ -6,19 +7,23 @@
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Lucida Grande", sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: 17px;
+  line-height: 20px;
   color: $gray-light;
+
+  @include sm {
+    font-size: 14px;
+  }
 }
 
 // Links
 
 a {
-  color: $remus;
+  color: $gray-light;
   text-decoration: none;
 
   &:hover {
-    color: darken($remus, 15%);
+    color: darken($gray-light, 15%);
     text-decoration: underline;
   }
 }
@@ -67,4 +72,71 @@ p {
   font-size: 1.125rem;
   font-weight: 200;
   line-height: 1.8;
+}
+
+// Custom
+
+.large-title {
+  font-size: 54px;
+  font-weight: 800;
+  line-height: 64px;
+  color: $remus;
+
+  @include md {
+    font-size: 44px;
+  }
+
+  @include sm {
+    font-size: 28px;
+    line-height: 40px;
+  }
+}
+
+.header-1 {
+  color: $light;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  padding-top: 10px;
+  padding-bottom: 40px;
+
+  @include md {
+    font-size: 44px;
+  }
+
+  @include sm {
+    font-size: 25px;
+    padding-bottom: 20px;
+  }
+}
+
+.header-2 {
+  color: $white;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 26px;
+
+  @include sm {
+    font-size: 18px;
+  }
+}
+
+.button-text {
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 20px;
+  color: $gray-light;
+}
+
+.body-text {
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+  color: $gray-light;
+}
+
+.small-text {
+  font-size: 14px;
+  line-height: 17px;
+  color: $gray-light;
 }

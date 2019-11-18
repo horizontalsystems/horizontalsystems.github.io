@@ -99,20 +99,9 @@
   font-size: 13px;
   text-align: left;
   padding-left: 25px;
-}
-.ml-form-embedBody .ml-form-embedSubmit button {
-  box-shadow: none !important;
-  cursor: pointer;
-  font-size: 14px !important;
-  font-weight: 700 !important;
-  line-height: 20px !important;
-  height: 50px;
-  padding: 10px !important;
-
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%), $remus;
-  border-radius: 8px;
-  width: 100%;
-  color: #212529;
+  a {
+    text-decoration: underline;
+  }
 }
 .ml-form-embedBody .ml-form-embedSubmit button.loading {
   display: none;
@@ -137,7 +126,6 @@
 }
 
 .btn {
-  box-shadow: none !important;
   cursor: pointer;
   font-size: 14px !important;
   font-weight: 700 !important;
@@ -149,4 +137,5 @@
   border-radius: 8px;
   width: 100%;
   color: #212529;
+  border: none;
 }

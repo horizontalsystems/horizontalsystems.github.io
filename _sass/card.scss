@@ -36,19 +36,10 @@
 }
 
 .card-title {
-  font-size: 22px;
-  line-height: 26px;
-  color: $light;
-
-  @include sm {
-    font-size: 18px;
-  }
 }
 
 .card-description {
   padding-top: 12px;
-  font-size: 17px;
-  line-height: 20px;
   color: $grey;
 
   @include sm {

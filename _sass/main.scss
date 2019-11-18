@@ -110,49 +110,17 @@ body {
   flex-grow: 1;
 }
 
-.main-title {
-  color: $remus;
-  font-size: 54px;
-  line-height: 64px;
-  font-weight: 600;
-
-  @include md {
-    font-size: 44px;
-  }
-
-  @include sm {
-    font-size: 28px;
-    line-height: 40px;
-  }
-}
-
 .secondary-title {
-  color: $light;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 38px;
   padding-top: 10px;
   padding-bottom: 40px;
 
-  @include md {
-    font-size: 44px;
-  }
-
   @include sm {
-    font-size: 25px;
     padding-bottom: 20px;
   }
 }
 
 .section-description {
   padding-top: 20px;
-  line-height: 21px;
-  font-size: 17px;
-  color: $gray-light;
-
-  @include sm {
-    font-size: 14px;
-  }
 }
 
 .guides {
