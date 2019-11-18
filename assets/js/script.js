@@ -1,12 +1,12 @@
 function team() {
   let members = document.querySelectorAll(".team-member");
-  let avatar = document.querySelector(".user-avatar");
+  let avatar = document.querySelector(".user-avatar img");
   if (avatar == null) {
     return
   }
 
   const onClick = function (element) {
-    avatar.style.backgroundImage = "url(\"" + element.getAttribute("src") + "\")";
+    avatar.setAttribute("src", element.getAttribute("src"));
   };
 
   members.forEach(element => {
