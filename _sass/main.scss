@@ -121,7 +121,7 @@ body {
   }
 
   @include sm {
-    font-size: 24px;
+    font-size: 28px;
     line-height: 40px;
   }
 }
@@ -140,6 +140,7 @@ body {
 
   @include sm {
     font-size: 25px;
+    padding-bottom: 20px;
   }
 }
 
@@ -173,6 +174,14 @@ body {
   }
 
   @include md {
+    flex-direction: column;
+
+    .guide {
+      max-width: 100%;
+    }
+  }
+
+  @include sm {
     flex-direction: column;
 
     .guide {

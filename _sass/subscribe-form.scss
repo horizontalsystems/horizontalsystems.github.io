@@ -51,6 +51,10 @@
   text-align: center;
   font-size: 36px;
   line-height: 43px;
+
+  @include sm {
+    font-size: 26px;
+  }
 }
 .ml-form-successBody .ml-form-successContent p {
   font-size: 14px;
