@@ -1,0 +1,23 @@
+@import "../scss/utils";
+
+.ButtonText {
+  border: 1px solid rgba(110, 120, 153, 0.2);
+  border-radius: 12px;
+  padding: 15px;
+  cursor: pointer;
+
+  font-weight: 600;
+  font-size: 17px;
+  text-align: center;
+  flex-grow: 1;
+  margin-right: 24px;
+  color: $remus;
+
+  @include sm {
+    padding: 10px;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+}

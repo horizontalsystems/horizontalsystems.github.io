@@ -1,0 +1,48 @@
+@import "../scss/utils";
+
+.Banner {
+  display: flex;
+  align-items: center;
+
+  @include sm {
+    flex-direction: column-reverse;
+  }
+}
+
+.banner-title {
+  font-weight: 800;
+  font-size: 54px;
+  color: $remus;
+
+  @include sm {
+    font-size: 40px;
+  }
+
+  @include md {
+    font-size: 40px;
+  }
+}
+
+.banner-bottom {
+  padding-top: 40px;
+  display: flex;
+  color: $gray-light;
+  justify-content: space-between;
+}
+
+.banner-nav {
+  display: flex;
+  font-weight: 600;
+  align-items: center;
+  font-size: 17px;
+  padding-right: 30px;
+
+  img {
+    padding-right: 10px;
+    width: 100%;
+  }
+}
+
+.horse {
+  width: 95%;
+}

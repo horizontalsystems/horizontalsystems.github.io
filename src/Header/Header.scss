@@ -1,3 +1,47 @@
+@import "../scss/utils";
 
 .Header {
+  height: 80px;
+  background: $black;
+  color: $remus;
+  display: flex;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+
+  .logo {
+    width: 165px;
+  }
+
+  @include md {
+    .logo {
+      width: 150px;
+    }
+  }
+
+  @include sm {
+    justify-content: space-around;
+
+    .logo {
+      width: 120px;
+    }
+  }
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+
+  .nav-item {
+    padding: 0 20px;
+  }
+
+  @include sm {
+    justify-content: center;
+  }
 }

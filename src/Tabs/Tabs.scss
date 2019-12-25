@@ -1,0 +1,41 @@
+@import "../scss/utils";
+
+.Tabs {
+  display: flex;
+  justify-content: space-around;
+
+  background: rgba(19, 214, 112, 0.5);
+  mix-blend-mode: normal;
+  border-radius: 16px;
+  padding: 8px;
+
+  @include sm {
+    margin-top: 80px;
+    flex-direction: column;
+  }
+}
+
+.tab-item {
+  padding: 32px;
+  color: $light;
+  cursor: pointer;
+
+  &.active {
+    color: $yellow;
+    background: linear-gradient(180deg, #1E2129 0%, #0F1014 100%);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+  }
+}
+
+.tab-title {
+  font-weight: 800;
+  font-size: 34px;
+  padding-bottom: 20px;
+}
+
+.tab-info {
+  font-size: 14px;
+  display: flex;
+  color: $light;
+}

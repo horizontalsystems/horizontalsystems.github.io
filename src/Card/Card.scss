@@ -1,0 +1,53 @@
+@import "../scss/utils";
+
+.card {
+  display: flex;
+  padding: 40px 80px;
+  background: #13151A;
+  border-radius: 16px;
+  margin-top: 20px;
+
+  .card-screen {
+    padding-left: 80px;
+    padding-right: 74px;
+  }
+
+  .card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .card-title {
+    color: $light;
+    font-weight: 800;
+    font-size: 34px;
+    padding-bottom: 30px;
+  }
+
+  .card-description {
+    font-size: 14px;
+    color: $gray-light;
+  }
+
+  .card-actions {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  @include md {
+    padding-left: 0;
+  }
+
+  @include sm {
+    padding-left: 0;
+    padding-right: 0;
+    flex-direction: column;
+
+    .card-screen {
+      padding-left: 0;
+    }
+  }
+}
