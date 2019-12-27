@@ -1,3 +1,62 @@
-.Team {
+@import "../scss/utils";
+
+.team-header {
+  padding-top: 80px;
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 41px;
   text-align: center;
+  color: $light
+}
+
+.team-info {
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: $gray-light;
+  padding-top: 21px;
+  padding-bottom: 65px;
+}
+
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0 13%;
+  margin: 0;
+  font-size: 14px;
+  text-align: center;
+  color: #808085;
+
+  @include sm {
+    padding: 0 5%;
+  }
+
+  .team-member {
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+
+    img {
+      width: 100%;
+      padding-bottom: 5px;
+    }
+  }
+
+  .team-member.selected {
+    border: 5px solid $remus;
+  }
+}
+
+.grid-gallery {
+  margin-top: 100px;
+}
+
+.github-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
 }

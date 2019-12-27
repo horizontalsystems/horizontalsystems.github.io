@@ -1,5 +1,6 @@
 import React from 'react'
 import Container from '../Container/Container'
+import ButtonNav from '../ButtonNav/ButtonNav'
 import './Banner.scss'
 
 function Banner() {
@@ -13,15 +14,9 @@ function Banner() {
             Networks <br />
           </div>
           <div className="banner-bottom">
-            <div className="banner-nav">
-              <img src="/images/team.png" alt="" /> Team
-            </div>
-            <div className="banner-nav">
-              <img src="/images/office.png" alt="" /> Office
-            </div>
-            <div className="banner-nav">
-              <img src="/images/github.png" alt="" /> Github
-            </div>
+            <ButtonNav img="/images/team.png" text="Team" />
+            <ButtonNav img="/images/office.png" text="Office" />
+            <ButtonNav img="/images/github.png" text="Github" />
           </div>
         </div>
         <div className="banner-animation">
