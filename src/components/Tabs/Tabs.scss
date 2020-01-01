@@ -39,3 +39,10 @@
   display: flex;
   color: $light;
 }
+
+// =======================
+
+.tab-content-slide {
+  transition: transform 1s ease-in-out 0s;
+  transform: translateX(0px);
+}

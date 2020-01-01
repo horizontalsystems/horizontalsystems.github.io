@@ -9,7 +9,7 @@ import events from '../../../core/EventEmitter.js'
 
 import './Guides.scss'
 
-class Guides extends Component{
+class Guides extends Component {
   showModal = title => {
     events.showModal(<Subscribe title={title} button="Subscribe" />)
   }
@@ -55,7 +55,7 @@ class Guides extends Component{
           <div className="Guides">
             <Card key="btc" img="/images/guides/btc-in-simple-term.png" title="Bitcoin Explained in Simple Terms"
                   actions={[
-                    <ButtonText key="0" text="Look inside" onClick={() => this.showGuide("simple-term")} />,
+                    <ButtonText key="0" text="Look inside" onClick={() => this.showGuide('simple-term')} />,
                     <ButtonText key="1" text="Download" onClick={() => this.showModal('Bitcoin Explained in Simple Terms')} />
                   ]}>
               - What is Bitcoin? <br />

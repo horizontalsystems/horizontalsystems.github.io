@@ -13,36 +13,37 @@ class Tabs extends Component {
     super(props);
 
     this.state = {
-      current: 'apps'
+      active: 'apps',
+      current: <Container children={<Apps />} />
     };
   }
 
   switch = tab => {
-    this.setState({ current: tab })
-  };
-
-  isActive = tab => {
-    return this.state.current === tab
-  }
-
-  getContent = tab => {
     let content
 
     switch (tab) {
       case 'apps': {
-        content = <Container children={<Apps />} />
+        content = <div className="fadeInLeft"><Container children={<Apps />} /></div>
         break
       }
       case 'guides': {
-        content = <Guides />
+        let animation = 'fadeInRight'
+        if (this.state.active !== 'apps') {
+          animation = 'fadeInLeft'
+        }
+        content = <div className={animation}><Guides animateToRight={animation} /></div>
         break
       }
       default: {
-        content = <Container children={<Code />} />
+        content = <div className="fadeInRight"><Container children={<Code />} /></div>
       }
     }
 
-    return content
+    this.setState({ active: tab, current: content })
+  };
+
+  isActive = tab => {
+    return this.state.active === tab
   }
 
   render() {
@@ -71,9 +72,7 @@ class Tabs extends Component {
             </div>
           </div>
         </Container>
-        <div className="tab-content">
-          {this.getContent(this.state.current)}
-        </div>
+        {this.state.current}
       </div>
     )
   }

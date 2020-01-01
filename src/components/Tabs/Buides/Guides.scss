@@ -23,3 +23,15 @@
     padding: 0 4%;
   }
 }
+
+.move-to-first {
+  transform: translateX(0px);
+}
+
+.move-to-second {
+  transform: translateX(-400px);
+}
+
+.move-to-third {
+  transform: translateX(-800px);
+}
