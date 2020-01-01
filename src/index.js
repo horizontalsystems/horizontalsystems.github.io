@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 import './index.scss'
 
 import Routes from './Routes'
-import unregister from './serviceWorker'
+import unregister from './core/serviceWorker'
 
 ReactDOM.render(<Routes />, document.getElementById('root'))
 
