@@ -5,14 +5,23 @@ import Subscribe from '../../Subscribe/Subscribe'
 import Card from '../../Card/Card'
 import Cheat from './Cheat/Cheat'
 
+import events from '../../../core/EventEmitter.js'
+
 import './Guides.scss'
 
 function Guides() {
+  const showModal = title => {
+    events.showModal(<Subscribe title={title} button="Subscribe" />)
+  }
+
   return (
     <div>
       <Container>
         <div className="Guides">
-          <Card key="btc" img="/images/guides/btc-in-simple-term.png" title="Bitcoin Explained in Simple Terms" actions={[<ButtonText key="0" text="Look inside" />, <ButtonText key="1" text="Download" />]}>
+          <Card key="btc" img="/images/guides/btc-in-simple-term.png" title="Bitcoin Explained in Simple Terms" actions={[
+            <ButtonText key="0" text="Look inside" />,
+            <ButtonText key="1" text="Download" onClick={() => showModal('Bitcoin Explained in Simple Terms')} />
+          ]}>
             - What is Bitcoin? <br />
             - What makes Bitcoin so unique?<br />
             - And how can you invest?<br /><br />
@@ -20,7 +29,10 @@ function Guides() {
             The purpose of this eBook is to answer those questions by introducing you to Bitcoin and other
             cryptocurrencies in simple terms and an easy-to-digest manner
           </Card>
-          <Card key="crypto" img="/images/guides/crypto-for-beginners.png" title="Crypto Terms for Beginners" actions={[<ButtonText key="0" text="Look inside" />, <ButtonText key="1" text="Download" />]}>
+          <Card key="crypto" img="/images/guides/crypto-for-beginners.png" title="Crypto Terms for Beginners" actions={[
+            <ButtonText key="0" text="Look inside" />,
+            <ButtonText key="1" text="Download" onClick={() => showModal('Crypto Terms for Beginners')} />
+          ]}>
             - Do you know a whale from a bear?<br />
             - A cold wallet from a decentralised wallet?<br /><br />
 

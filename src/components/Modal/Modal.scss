@@ -1,0 +1,52 @@
+
+.modal-container {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  align-items: center;
+  display: flex;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  left: 0;
+  right: 0;
+  padding: 0;
+  max-height: 80%;
+  margin: auto;
+  overflow: hidden;
+
+  animation-name: fadeInUp;
+  animation-duration: .1s;
+}
+
+.lean-overlay {
+  position: fixed;
+  z-index: 999;
+  top: -100px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 125%;
+  width: 100%;
+  background: #000;
+  display: block;
+  opacity: 0.8;
+
+  will-change: opacity;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
