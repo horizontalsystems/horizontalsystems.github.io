@@ -9,21 +9,36 @@ function Code() {
   return (
     <div>
       <div className="code">
-        <Card title="Bitcoin SPV Kit" actions={[<ButtonText key="0" text="Swift" />, <ButtonText key="1" text="Kotlin" />]}>
+        <Card title="Bitcoin SPV Kit" actions={[
+          <ButtonText key="0" text="Swift" link="https://github.com/horizontalsystems/bitcoin-kit-ios"/>,
+          <ButtonText key="1" text="Kotlin" link="https://github.com/horizontalsystems/bitcoin-kit-android" />
+        ]}>
           This is a full implementation of SPV node including wallet creation/restore, synchronization with network,
           send/receive transactions, and more.
         </Card>
-        <Card title="Ethereum Kit" actions={[<ButtonText key="0" text="Swift" />, <ButtonText key="1" text="Kotlin" />]}>
+        <Card title="Ethereum Kit" actions={[
+          <ButtonText key="0" text="Swift" link="https://github.com/horizontalsystems/ethereum-kit-ios" />,
+          <ButtonText key="1" text="Kotlin" link="https://github.com/horizontalsystems/ethereum-kit-android" />
+        ]}>
           Fully functional wallet implementation for Ethereum protocol. Using this toolkit you can built ethereum +
           ERC 20 token wallet in no time :)
         </Card>
-        <Card title="EOS Kit" actions={[<ButtonText key="0" text="Swift" />, <ButtonText key="1" text="Kotlin" />]}>
+        <Card title="EOS Kit" actions={[
+          <ButtonText key="0" text="Swift" link="https://github.com/horizontalsystems/eos-kit-ios"/>,
+          <ButtonText key="1" text="Kotlin" link="https://github.com/horizontalsystems/eos-kit-android" />
+        ]}>
           General purpose iOS library (SDK) for the EOS blockchain and EOSIO protocol, written on Swift and Kotlin
         </Card>
-        <Card title="Binance Chain Kit" actions={[<ButtonText key="0" text="Swift" />, <ButtonText key="1" text="Kotlin" />]}>
+        <Card title="Binance Chain Kit" actions={[
+          <ButtonText key="0" text="Swift" link="https://github.com/horizontalsystems/binance-chain-kit-ios"/>,
+          <ButtonText key="1" text="Kotlin" link="https://github.com/horizontalsystems/binance-chain-kit-android"/>
+        ]}>
           Full Binance DEX iOS library (SDK), implemented on Swift and Kotlin
         </Card>
-        <Card title="Atomic Swap Kit" actions={[<ButtonText key="0" text="Swift" />, <ButtonText key="1" text="Kotlin" />]}>
+        <Card title="Atomic Swap Kit" actions={[
+          <ButtonText key="0" text="Swift" link="https://github.com/horizontalsystems/atomic-swap-kit-ios" />,
+          <ButtonText key="1" text="Kotlin" link="https://github.com/horizontalsystems/atomic-swap-kit-android" />
+        ]}>
           Atomic Swap iOS library for Bitcoin (BTC) and Bitcoin Cash (BCH) swaps in decentralized manner.
           Implemented
           on Swift and Kotlin
@@ -34,7 +49,9 @@ function Code() {
           Follow Us on Github
         </div>
         <div className="follow-us-action">
-          <Button text="Go to Repos" />
+          <a href="https://github.com/horizontalsystems">
+            <Button text="Go to Repos" />
+          </a>
         </div>
       </div>
     </div>

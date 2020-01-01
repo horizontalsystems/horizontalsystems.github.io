@@ -13,6 +13,11 @@
   margin-right: 24px;
   color: $remus;
 
+  a {
+    color: $remus;
+    text-decoration: none;
+  }
+
   @include sm {
     padding: 10px;
   }

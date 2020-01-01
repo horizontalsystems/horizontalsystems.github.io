@@ -9,9 +9,15 @@ function Footer() {
         <div className="footer-block small-text">
           <div className="footer-menu">
             <div className="bottom-menu bottom-menu-title">Contact</div>
-            <div className="bottom-menu"><img src="/images/menu/email.png" alt="" /> hsdao@protonmail.ch</div>
-            <div className="bottom-menu"><img src="/images/menu/channel.png" alt="" /> Live Chat</div>
-            <div className="bottom-menu"><img src="/images/menu/github.png" alt="" /> Github</div>
+            <div className="bottom-menu">
+              <a href="mailto:hsdao@protonmail.ch"><img src="/images/menu/email.png" alt="" /> hsdao@protonmail.ch</a>
+            </div>
+            <div className="bottom-menu">
+              <a href="https://t.me/unstoppable_wallet"><img src="/images/menu/channel.png" alt="" /> Live Chat</a>
+            </div>
+            <div className="bottom-menu">
+              <a href="https://github.com/horizontalsystems"><img src="/images/menu/github.png" alt="" /> Github</a>
+            </div>
           </div>
           <div className="footer-menu">
             <div className="bottom-menu bottom-menu-title">Follow</div>

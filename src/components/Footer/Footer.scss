@@ -10,12 +10,16 @@
   padding-bottom: 70px;
   justify-content: space-around;
 
-  .bottom-menu {
+  .bottom-menu, a {
     display: flex;
-    padding: 10px 0;
     color: $gray-light;
     font-size: 14px;
     line-height: 17px;
+    text-decoration: none;
+  }
+
+  .bottom-menu {
+    padding: 10px 0;
   }
 
   .bottom-menu-title {

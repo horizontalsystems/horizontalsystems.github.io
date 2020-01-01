@@ -7,7 +7,7 @@ import './Apps.scss'
 function Apps() {
   return (
     <Card img="/images/guides/wallet-screenshot.png" title="Unstoppable Wallet" actions={[
-      <ButtonText key="0" text="Site" />,
+      <ButtonText key="0" text="Site" link="https://unstoppable.money/" />,
       <ButtonText key="1" text="AppStore" />,
       <ButtonText key="2" text="Google Play" />
     ]}>

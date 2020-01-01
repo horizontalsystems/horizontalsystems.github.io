@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Container from '../Container/Container'
 import ButtonNav from '../ButtonNav/ButtonNav'
 import './Banner.scss'
@@ -14,9 +15,15 @@ function Banner() {
             Networks <br />
           </div>
           <div className="banner-bottom">
-            <ButtonNav img="/images/team.png" text="Team" />
-            <ButtonNav img="/images/office.png" text="Office" />
-            <ButtonNav img="/images/github.png" text="Github" />
+            <Link to="/team">
+              <ButtonNav img="/images/team.png" text="Team" />
+            </Link>
+            <a href="https://www.youtube.com/watch?v=-qjzSUdeId0" target="_blank" rel="noopener noreferrer">
+              <ButtonNav img="/images/office.png" text="Office" />
+            </a>
+            <a href="https://github.com/horizontalsystems" target="_blank" rel="noopener noreferrer">
+              <ButtonNav img="/images/github.png" text="Github" />
+            </a>
           </div>
         </div>
         <div className="banner-animation">
