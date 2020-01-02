@@ -3,16 +3,17 @@
 .code {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 10px;
 
   .card {
-    width: 50%;
+    width: 45%;
     padding: 40px 48px;
     box-sizing: border-box;
+    margin: 5px;
 
     @include sm {
       width: 100%;
-      padding-left: 0;
-      padding-right: 0;
+      padding: 20px 28px;
     }
   }
 }
