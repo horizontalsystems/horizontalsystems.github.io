@@ -1,0 +1,64 @@
+@import "variables";
+@import "mixins";
+
+.gallery-section {
+  @include sm {
+    width: 80% !important;
+    align-self: center;
+  }
+}
+
+.gallery-item {
+  height: 520px;
+  border-radius: 20px;
+
+  @include md {
+    height: 400px;
+  }
+
+  @include sm {
+    height: 320px;
+  }
+}
+
+.image-review {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-image: url("/assets/images/gallery/image-poster.png");
+  background-image: image-set(
+          url("/assets/images/gallery/image-poster.png") 1x,
+          url("/assets/images/gallery/image-poster@2x.png") 2x,
+          url("/assets/images/gallery/image-poster@3x.png") 3x
+  );
+}
+
+.video-review {
+  width: 100%;
+  background-size: cover;
+  background-image: url("/assets/images/gallery/video-poster.png");
+  background-image: image-set(
+          url("/assets/images/gallery/video-poster.png") 1x,
+          url("/assets/images/gallery/video-poster@2x.png") 2x,
+          url("/assets/images/gallery/video-poster@3x.png") 3x
+  );
+}
+
+.gallery-title {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  img {
+    width: 48px !important;
+    margin-right: 20px;
+  }
+
+  &:hover {
+    text-decoration: none;
+  }
+}

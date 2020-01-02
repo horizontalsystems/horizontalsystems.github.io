@@ -24,7 +24,6 @@ class Markdown extends Component {
   }
 
   render() {
-    // return <Markdown source={this.state.markdown} />
     return (
       <Container>
         <div className="Markdown" dangerouslySetInnerHTML={{ __html: this.state.markdown }} />

@@ -1,0 +1,48 @@
+@import "variables";
+@import "mixins";
+
+.card {
+  display: flex;
+  padding: 16px;
+  width: 100%;
+  max-height: 140px;
+  overflow: hidden;
+  background: $black;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.card-wallet {
+  margin-top: 60px;
+
+  @include sm {
+    margin-top: 30px
+  }
+}
+
+.card-icon {
+  display: flex;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 0 5px 20px;
+  overflow: hidden;
+
+  @include sm {
+    justify-content: center;
+  }
+}
+
+.card-title {
+}
+
+.card-description {
+  padding-top: 12px;
+  color: $grey;
+
+  @include sm {
+    display: none;
+  }
+}

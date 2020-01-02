@@ -1,0 +1,34 @@
+@import "variables";
+@import "mixins";
+
+.footer-block {
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  justify-content: space-around;
+
+  .bottom-menu {
+    display: flex;
+    padding: 10px 0;
+    color: $grey;
+  }
+
+  .bottom-menu-title {
+    color: $gray-light;
+    font-weight: 500;
+  }
+
+  img {
+    padding-right: 10px;
+  }
+
+  @include sm {
+    flex-direction: column;
+
+    .footer-menu {
+      padding-left: 20%;
+      padding-bottom: 10px;
+      padding-top: 10px;
+    }
+  }
+}

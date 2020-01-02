@@ -1,0 +1,264 @@
+@import "variables";
+@import "mixins";
+@import "header";
+@import "footer";
+@import "gallery";
+@import "card";
+@import "subscribe-form";
+@import "gdpr-popup";
+
+body {
+  padding: 0;
+  margin: 0;
+  background: $dark;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  word-wrap: break-word;
+
+  @include xl {
+    max-width: $screen-xl;
+  }
+
+  @include lg {
+    max-width: $screen-lg;
+  }
+
+  @include md {
+    max-width: $screen-md;
+  }
+
+  @include sm {
+    max-width: $screen-sm;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.section-dark, header, footer {
+  background: $dark;
+}
+
+.section-gradient {
+  width: 100%;
+  background: linear-gradient(180deg, #1F2129 0%, #13151A 100%);
+}
+
+.section, .section-column {
+  padding: 80px 0;
+  display: flex;
+  position: relative;
+
+  @include md {
+    padding: 60px 0;
+    flex-direction: column;
+  }
+
+  @include sm {
+    padding: 50px 0;
+    flex-direction: column;
+  }
+}
+
+.section-column {
+  flex-direction: column;
+}
+
+.wallet-screenshot {
+  width: 100%;
+}
+
+.section-half, .section-third, .section-right {
+  padding: 20px;
+  position: relative;
+  width: 100%;
+}
+
+.section-half {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-third {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  width: 460px;
+
+  @include lg {
+    flex-shrink: 0.5;
+  }
+
+  @include md {
+    width: 100%;
+  }
+
+  @include sm {
+    width: 100%;
+  }
+}
+
+.section-right {
+  display: flex;
+  position: relative;
+  width: 100%;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.secondary-title {
+  padding-top: 10px;
+  padding-bottom: 40px;
+
+  @include sm {
+    padding-bottom: 20px;
+  }
+}
+
+.section-description {
+  padding-top: 20px;
+}
+
+.guides {
+  padding: 60px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  .guide {
+    padding: 7px;
+    display: flex;
+    flex-grow: 1;
+    max-width: 50%;
+    min-width: 45%;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  @include md {
+    flex-direction: column;
+
+    .guide {
+      max-width: 100%;
+    }
+  }
+
+  @include sm {
+    flex-direction: column;
+
+    .guide {
+      max-width: 100%;
+    }
+  }
+}
+
+.guides-viewer {
+  display: flex;
+
+  .guide-view {
+    padding-right: 80px;
+    flex-grow: 1;
+    align-self: center;
+  }
+
+  .guide-thumbs {
+    flex-grow: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .guide-thumb {
+    cursor: pointer;
+
+    img {
+      border: 3px solid transparent;
+    }
+
+    &.current > img {
+      border: 3px solid #13D670;
+    }
+  }
+
+  @include md {
+    flex-direction: column;
+
+    .guide-view {
+      padding-right: 0;
+      align-self: center;
+      padding-bottom: 20px;
+    }
+  }
+
+  @include sm {
+    flex-direction: column;
+
+    .guide-view {
+      padding-right: 0;
+      padding-bottom: 20px;
+
+      img {
+        max-width: 100%;
+      }
+    }
+
+    .guide-thumb {
+      width: 50%;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.author-info {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+// Team
+
+.user-avatar {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 80px;
+
+  @include sm {
+    align-self: center;
+  }
+}
+
+.user-name {
+  padding-bottom: 0
+}
+
+ul.team-members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  .team-member {
+    cursor: pointer;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-sizing: border-box;
+  }
+
+  .team-member.selected {
+    border: 5px solid $remus;
+  }
+}

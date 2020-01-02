@@ -1,0 +1,15 @@
+languages: [en] # ru, fr, de, tr, ko, zh
+langNames:
+  en: English
+  ru: Русский
+  fr: Français
+  de: Deutsch
+  tr: Türkçe
+  ko: 한국어
+  zh: 中文
+
+lang:
+  en:
+    # header
+    title: UNSTOPPABLE CODE
+    slogan: Be Free. Be Unstoppable.
