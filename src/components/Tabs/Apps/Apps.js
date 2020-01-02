@@ -14,7 +14,8 @@ function Apps() {
       Invest in Bitcoin, Ethereum, EOS, Dash, Bitcoin Cash, Binance DEX and 60+ blockchain based
       projects. <br /><br />
       Store cryptocurrency safely and privately. Get full and exclusive control over your assets. <br /><br />
-      Designed to detail and built by gifted engineers.
+      Designed to detail and built by gifted engineers.<br /><br />
+      Decentralized, non-custodial wallet app.
     </Card>
   )
 }
