@@ -1,5 +1,6 @@
 import React from 'react'
 import Container from '../Container/Container'
+import Icon from '../Icon/Icon'
 import './Footer.scss'
 
 function Footer() {
@@ -10,26 +11,38 @@ function Footer() {
           <div className="footer-menu">
             <div className="bottom-menu bottom-menu-title">Contact</div>
             <div className="bottom-menu">
-              <a href="mailto:hsdao@protonmail.ch"><img src="/images/menu/email.png" alt="" /> hsdao@protonmail.ch</a>
+              <a href="mailto:hsdao@protonmail.ch"><Icon name="mail" /> hsdao@protonmail.ch</a>
             </div>
             <div className="bottom-menu">
-              <a href="https://t.me/unstoppable_wallet"><img src="/images/menu/channel.png" alt="" /> Live Chat</a>
+              <a href="https://t.me/unstoppable_wallet"><Icon name="telegram" /> Live Chat</a>
             </div>
             <div className="bottom-menu">
-              <a href="https://github.com/horizontalsystems"><img src="/images/menu/github.png" alt="" /> Github</a>
+              <a href="https://github.com/horizontalsystems"><Icon name="github" /> Github</a>
             </div>
           </div>
           <div className="footer-menu">
             <div className="bottom-menu bottom-menu-title">Follow</div>
-            <div className="bottom-menu"><img src="/images/menu/email.png" alt="" /> Twitter</div>
-            <div className="bottom-menu"><img src="/images/menu/channel.png" alt="" /> Telegram</div>
-            <div className="bottom-menu"><img src="/images/menu/youtube.png" alt="" /> Youtube</div>
+            <div className="bottom-menu">
+              <a href="/"><Icon name="mail" /> Twitter</a>
+            </div>
+            <div className="bottom-menu">
+              <a href="https://t.me/unstoppable_wallet"><Icon name="telegram" /> Telegram</a>
+            </div>
+            <div className="bottom-menu">
+              <a href="https://www.youtube.com/channel/UCIL-VOiFRXDvrfUg0DlxFXA"><Icon name="youtube" /> Youtube</a>
+            </div>
           </div>
           <div className="footer-menu">
             <div className="bottom-menu bottom-menu-title">Donate</div>
-            <div className="bottom-menu"><img src="/images/menu/btc.png" alt="" /> Copy BTC address</div>
-            <div className="bottom-menu"><img src="/images/menu/eth.png" alt="" /> Copy ETH address</div>
-            <div className="bottom-menu"><img src="/images/menu/eos.png" alt="" /> Copy EOS address</div>
+            <div className="bottom-menu">
+              <a href="/"><Icon name="btc" /> Copy BTC address</a>
+            </div>
+            <div className="bottom-menu">
+              <a href="/"><Icon name="eth" /> Copy ETH address</a>
+            </div>
+            <div className="bottom-menu">
+              <a href="/"><Icon name="eos" /> Copy EOS address</a>
+            </div>
           </div>
         </div>
       </Container>

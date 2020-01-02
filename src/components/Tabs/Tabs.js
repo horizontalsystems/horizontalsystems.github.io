@@ -39,7 +39,10 @@ class Tabs extends Component {
       }
     }
 
-    this.setState({ active: tab, current: content })
+    // This trick is needed to animate tab content persistently
+    this.setState({ current: null }, () => {
+      this.setState({ active: tab, current: content })
+    })
   };
 
   isActive = tab => {

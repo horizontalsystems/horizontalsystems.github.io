@@ -1,10 +1,12 @@
 import React from 'react'
+import Icon from '../Icon/Icon'
+
 import './ButtonNav.scss'
 
-function ButtonNav({ img, text }) {
+function ButtonNav({ icon, text }) {
   return (
     <div className="bannerNav">
-      <img src={img} alt={text} /> {text}
+      <Icon name={icon} /> {text}
     </div>
   )
 }

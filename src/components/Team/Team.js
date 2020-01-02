@@ -69,7 +69,9 @@ function Team() {
       </div>
 
       <div className="github-link">
-        <ButtonNav img="/images/github.png" text="Github" />
+        <a href="https://github.com/horizontalsystems" target="_blank" rel="noopener noreferrer">
+          <ButtonNav icon="github" text="Github" />
+        </a>
       </div>
     </Container>
   )

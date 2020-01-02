@@ -10,7 +10,8 @@
   padding-bottom: 70px;
   justify-content: space-around;
 
-  .bottom-menu, a {
+  .bottom-menu {
+    padding: 10px 0;
     display: flex;
     color: $gray-light;
     font-size: 14px;
@@ -18,8 +19,14 @@
     text-decoration: none;
   }
 
-  .bottom-menu {
-    padding: 10px 0;
+  a {
+    color: $gray-light;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .bottom-menu-title {
@@ -29,7 +36,7 @@
     line-height: 41px;
   }
 
-  img {
+  img, svg {
     padding-right: 10px;
   }
 
