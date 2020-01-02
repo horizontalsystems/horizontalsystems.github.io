@@ -21,7 +21,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "scp -r ./build/* deploy@178.62.214.140:/var/www/horizontalsystems.io",
     "test": "react-scripts test"
   },
   "eslintConfig": {
@@ -38,8 +38,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^2.1.1"
   }
 }
