@@ -2,29 +2,65 @@
 
 .Tabs {
   display: flex;
-  justify-content: space-around;
+  position: relative;
+  overflow: hidden;
 
   background: rgba(19, 214, 112, 0.5);
-  mix-blend-mode: normal;
   border-radius: 16px;
   padding: 8px;
+  margin-bottom: 60px;
 
   @include sm {
+    justify-content: space-around;
+    border-radius: 8px;
     margin-top: 80px;
-    flex-direction: column;
+    margin-bottom: 20px;
+    padding: 2px;
+
+    .tab-info {
+      display: none;
+    }
+
+    .tab-title {
+      font-weight: 600;
+      font-size: 17px;
+      line-height: 20px;
+      padding: 0;
+      text-align: center;
+    }
+
+    .tab-item {
+      padding: 10px 0;
+      flex-grow: 1;
+    }
   }
+}
+
+.tab-background {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
 }
 
 .tab-item {
   padding: 32px;
   color: $light;
   cursor: pointer;
+  position: relative;
+  z-index: 1;
 
   &.active {
     color: $yellow;
-    background: linear-gradient(180deg, #1E2129 0%, #0F1014 100%);
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 8px;
+
+    .tab-background {
+      left: 0;
+      background: linear-gradient(180deg, #1E2129 0%, #0F1014 100%);
+      box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 8px;
+      z-index: -1;
+    }
   }
 }
 
@@ -38,11 +74,4 @@
   font-size: 14px;
   display: flex;
   color: $light;
-}
-
-// =======================
-
-.tab-content-slide {
-  transition: transform 1s ease-in-out 0s;
-  transform: translateX(0px);
 }

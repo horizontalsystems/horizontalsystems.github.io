@@ -6,8 +6,7 @@
 
 .footer-block {
   display: flex;
-  padding-top: 50px;
-  padding-bottom: 70px;
+  padding: 50px 50px 70px;
   justify-content: space-around;
 
   .bottom-menu {
@@ -41,8 +40,7 @@
   }
 
   @include sm {
-    flex-wrap: wrap;
-    //flex-direction: column;
+    flex-direction: column;
 
     .footer-menu {
       //padding-left: 20%;

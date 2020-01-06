@@ -4,10 +4,28 @@
   margin-top: 80px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 
   @include sm {
     flex-direction: column-reverse;
+    align-items: normal;
+
+    .banner-info {
+      margin-top: 40px;
+    }
   }
+
+  @include md {
+    height: 280px;
+  }
+
+  @include lg {
+    height: 460px;
+  }
+}
+
+.banner-info {
+  flex-grow: 1;
 }
 
 .banner-title {
@@ -25,16 +43,22 @@
 }
 
 .banner-bottom {
-  padding-top: 40px;
   display: flex;
   color: $gray-light;
   justify-content: space-between;
 
   a {
     text-decoration: none;
+    padding-top: 40px;
+  }
+
+  @include sm {
+    flex-wrap: wrap;
   }
 }
 
 .horse {
-  width: 95%;
+  max-height: 450px;
+  max-width: 600px;
+  width: 100%;
 }

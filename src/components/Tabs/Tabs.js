@@ -10,71 +10,85 @@ import './Tabs.scss'
 class Tabs extends Component {
 
   constructor(props) {
-    super(props);
+    super(props)
 
     this.state = {
-      active: 'apps',
-      current: <Container children={<Apps />} />
+      active: 'guides',
+      current: <Guides />,
+      tabBack: <div className="tab-background" />
     };
   }
 
   switch = tab => {
+    if (tab === this.state.active) {
+      return
+    }
+    this.setState({ current: null, tabBack: null })
+
+    let animateTab
+    let animate
     let content
 
     switch (tab) {
       case 'apps': {
-        content = <div className="fadeInLeft"><Container children={<Apps />} /></div>
+        animateTab = 'fadeInRight'
+        animate = 'fadeInLeft'
+        content = <Container children={<Apps />} />
         break
       }
       case 'guides': {
-        let animation = 'fadeInRight'
-        if (this.state.active !== 'apps') {
-          animation = 'fadeInLeft'
-        }
-        content = <div className={animation}><Guides animateToRight={animation} /></div>
+        animateTab = ('apps' !== this.state.active) ? 'fadeInRight' : 'fadeInLeft'
+        animate = ('apps' !== this.state.active) ? 'fadeInLeft' : 'fadeInRight'
+        content = <Guides />
         break
       }
       default: {
-        content = <div className="fadeInRight"><Container children={<Code />} /></div>
+        animateTab = 'fadeInLeft'
+        animate = 'fadeInRight'
+        content = <Container children={<Code />} />
       }
     }
 
     // This trick is needed to animate tab content persistently
-    this.setState({ current: null }, () => {
-      this.setState({ active: tab, current: content })
+    setTimeout(() => {
+      const current = <div className={animate}>{content}</div>
+      const tabBack = <div className={`tab-background ${animateTab}`} />
+      this.setState({ active: tab, current: current, tabBack })
     })
   };
 
-  isActive = tab => {
-    return this.state.active === tab
-  }
-
   render() {
+    const { current, active, tabBack } = this.state
+    const isActive = tab => tab === active
+
     return (
       <div>
         <Container>
           <div className="Tabs">
-            <div className={cn('tab-item', { active: this.isActive('apps') })} onClick={() => this.switch('apps')}>
+            <div className={cn('tab-item', { active: isActive('apps') })} onClick={() => this.switch('apps')}>
               <div className="tab-title">Apps</div>
               <div className="tab-info">
                 Horizontal Systems builds serverless applications around the idea of private wealth and privacy.
               </div>
+              {tabBack}
             </div>
-            <div className={cn('tab-item', { active: this.isActive('guides') })} onClick={() => this.switch('guides')}>
+            <div className={cn('tab-item', { active: isActive('guides') })} onClick={() => this.switch('guides')}>
               <div className="tab-title">Guides</div>
               <div className="tab-info">
                 Understand Bitcoin, Ethereum, EOS, Libra and other major blockchains. Explained in simple terms.
               </div>
+              {tabBack}
             </div>
-            <div className={cn('tab-item', { active: this.isActive('code') })} onClick={() => this.switch('code')}>
+            <div className={cn('tab-item', { active: isActive('code') })} onClick={() => this.switch('code')}>
               <div className="tab-title">Code</div>
               <div className="tab-info">
                 Build unstoppable apps. Use our libraries to design autonomous systems that can't go offline.
               </div>
+              {tabBack}
             </div>
           </div>
         </Container>
-        {this.state.current}
+        {current}
       </div>
     )
   }

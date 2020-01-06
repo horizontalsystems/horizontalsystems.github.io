@@ -2,13 +2,14 @@
 
 .Header {
   height: 80px;
-  background: $black;
+  background: #0F1014;
   color: $remus;
   display: flex;
   align-items: center;
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 2;
 }
 
 .navbar {
@@ -21,6 +22,10 @@
     width: 165px;
   }
 
+  .logo-icon {
+    display: none;
+  }
+
   @include md {
     .logo {
       width: 150px;
@@ -28,10 +33,13 @@
   }
 
   @include sm {
-    justify-content: space-around;
-
     .logo {
       width: 120px;
+      display: none;
+    }
+
+    .logo-icon {
+      display: block;
     }
   }
 }
@@ -41,8 +49,14 @@
   flex-direction: row;
 
   .nav-item {
-    padding: 0 20px;
+    height: 32px;
+    padding: 0 30px;
     cursor: pointer;
+    border: 1px solid rgba(110, 120, 153, 0.2);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    background: darken(#0F1014, 80%);
   }
 
   @include sm {

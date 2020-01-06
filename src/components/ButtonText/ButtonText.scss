@@ -10,7 +10,7 @@
   font-size: 17px;
   text-align: center;
   flex-grow: 1;
-  margin-right: 24px;
+  margin: 12px;
   color: $remus;
 
   a {
@@ -20,9 +20,6 @@
 
   @include sm {
     padding: 10px;
-  }
-
-  &:last-child {
-    margin-right: 0;
+    margin: 5px;
   }
 }

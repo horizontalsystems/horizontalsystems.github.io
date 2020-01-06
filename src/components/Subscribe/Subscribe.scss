@@ -2,7 +2,7 @@
 
 .form-wrap {
   margin-top: 45px;
-  padding: 50px 10px;
+  padding: 32px;
   background: linear-gradient(180deg, #1F2129 0%, $dark 100%);
   border-radius: 16px;
   display: flex;
@@ -111,6 +111,7 @@
   a {
     text-decoration: underline;
     color: white;
+    font-size: 13px;
   }
 }
 .ml-form-embedBody .ml-form-embedSubmit button.loading {

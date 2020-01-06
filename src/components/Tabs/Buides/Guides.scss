@@ -4,11 +4,9 @@
   position: relative;
   height: 222px;
   overflow: hidden;
-  z-index: -1;
 }
 
 .cheat-header {
-  padding-top: 40px;
   padding-bottom: 20px;
   font-weight: 600;
   font-size: 17px;
@@ -21,18 +19,6 @@
   padding: 0 11%;
 
   @include sm {
-    padding: 0 4%;
+    padding: 0 10%;
   }
-}
-
-.move-to-first {
-  transform: translateX(0px);
-}
-
-.move-to-second {
-  transform: translateX(-400px);
-}
-
-.move-to-third {
-  transform: translateX(-800px);
 }

@@ -21,7 +21,7 @@
   .card-title {
     color: $light;
     font-weight: 800;
-    font-size: 34px;
+    font-size: 22px;
     padding-bottom: 30px;
   }
 
@@ -32,9 +32,15 @@
 
   .card-actions {
     padding-top: 30px;
+    margin: 0 -12px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+
+    @include sm {
+      margin: 0 -5px;
+      flex-direction: column;
+    }
   }
 
   @include md {
@@ -45,9 +51,15 @@
     padding-left: 0;
     padding-right: 0;
     flex-direction: column;
+    align-items: center;
 
     .card-screen {
       padding-left: 0;
+      padding-right: 0;
+    }
+
+    .card-info {
+      padding: 32px;
     }
   }
 }

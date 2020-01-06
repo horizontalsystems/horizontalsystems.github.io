@@ -7,7 +7,7 @@ function Footer() {
   return (
     <footer className="Footer">
       <Container>
-        <div className="footer-block small-text">
+        <div className="footer-block">
           <div className="footer-menu">
             <div className="bottom-menu bottom-menu-title">Contact</div>
             <div className="bottom-menu">

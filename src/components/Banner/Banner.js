@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Container from '../Container/Container'
 import ButtonNav from '../ButtonNav/ButtonNav'
+import Horse from './horse.gif'
 import './Banner.scss'
 
 function Banner() {
@@ -27,7 +28,7 @@ function Banner() {
           </div>
         </div>
         <div className="banner-animation">
-          <img src="/images/horse.gif" alt="Binary horse" className="horse" />
+          <img src={Horse} className="horse" alt="Binary horse" />
         </div>
       </div>
     </Container>

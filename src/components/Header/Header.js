@@ -19,6 +19,7 @@ function Header() {
                  alt="Horizontal Systems"
                  src="/images/logo.png"
                  srcSet="/images/logo@2x.png 2x, /images/logo@3x.png 3x" />
+            <img className="logo-icon" alt="Horizontal Systems" src="/images/logo-icon.png" />
           </Link>
 
           <div className="nav" onClick={onClickJoin}>
