@@ -2,8 +2,6 @@
 
 .Container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
   word-wrap: break-word;
@@ -12,6 +10,8 @@
 
   @include sm {
     max-width: 540px;
+    padding-right: 40px;
+    padding-left: 40px;
   }
 
   @include md {
@@ -19,10 +19,10 @@
   }
 
   @include lg {
-    max-width: 960px;
+    max-width: 968px;
   }
 
-  @include xl {
-    max-width: 1140px;
-  }
+//  @include xl {
+//    max-width: 1140px;
+//  }
 }
