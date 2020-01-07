@@ -23,7 +23,6 @@
   flex-wrap: wrap;
   justify-content: space-around;
   list-style: none;
-  padding: 0 13%;
   margin: 0;
   font-size: 14px;
   text-align: center;
@@ -31,6 +30,20 @@
 
   @include sm {
     padding: 0 5%;
+  }
+
+  @include md {
+    padding: 0 8%;
+  }
+
+  @include lg {
+    padding: 0 15%;
+  }
+
+  a {
+    color: #808085;
+    font-size: 14px;
+    text-decoration: none;
   }
 
   .team-member {

@@ -2,14 +2,13 @@
 
 .card {
   display: flex;
-  padding: 40px 80px;
+  padding: 40px;
   background: #13151A;
   border-radius: 16px;
   margin-top: 20px;
 
   .card-screen {
-    padding-left: 80px;
-    padding-right: 74px;
+    padding: 0 40px;
   }
 
   .card-info {
