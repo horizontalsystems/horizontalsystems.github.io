@@ -3,7 +3,6 @@ import Container from '../../Container/Container'
 import ButtonText from '../../ButtonText/ButtonText'
 import Subscribe from '../../Subscribe/Subscribe'
 import Card from '../../Card/Card'
-import Cheat from './Cheat/Cheat'
 
 import events from '../../../core/EventEmitter.js'
 
@@ -80,20 +79,6 @@ class Guides extends Component {
             </Card>
           </div>
         </Container>
-        <div className="cheat-cheets">
-          <Container>
-            <div className="cheat-header">
-              Cheat-Sheets
-            </div>
-          </Container>
-          <div className="cheat-items">
-            <Cheat title="Market Capitalization" description="The total number of coins in circulation multiplied by individ- ual coin price" />
-            <Cheat title="Software Wallet" description="A method of storing cryptocur-rency keys within software files on your computer or mobile device" />
-            <Cheat title="Shilling" description="Spreading fake news to increase the price of a crypto- currency" />
-            <Cheat title="Token" description="Used interchangeably with “coin”. Technically, a subset of cryptocurrency that has its own blockchain and represents an asset or utility" />
-            <Cheat title="Bull" description="Someone who is opti- mistic about the market or asset value" />
-          </div>
-        </div>
         <Container>
           <Subscribe />
         </Container>
