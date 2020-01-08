@@ -56,6 +56,7 @@ class Modal extends React.Component {
     return (
       <div className="modal-container" ref={ref => this.manager = ref}>
         <div className="Container modal fadeInUp">
+          <span className="close" onClick={this.hideModal}>&times;</span>
           {this.state.modal}
         </div>
         <div className="lean-overlay" onClick={this.hideModal} />
