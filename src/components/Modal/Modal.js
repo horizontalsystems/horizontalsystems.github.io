@@ -1,5 +1,4 @@
 import React from 'react'
-import Container from '../Container/Container'
 import './Modal.scss'
 
 import events from '../../core/EventEmitter'
@@ -56,8 +55,8 @@ class Modal extends React.Component {
 
     return (
       <div className="modal-container" ref={ref => this.manager = ref}>
-        <div className="modal fadeInUp">
-          <Container children={this.state.modal} />
+        <div className="Container modal fadeInUp">
+          {this.state.modal}
         </div>
         <div className="lean-overlay" onClick={this.hideModal} />
       </div>

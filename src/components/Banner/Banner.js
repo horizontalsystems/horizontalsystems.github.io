@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import Container from '../Container/Container'
 import ButtonNav from '../ButtonNav/ButtonNav'
 import Horse from './horse.gif'
+
 import './Banner.scss'
 
 function Banner() {

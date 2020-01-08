@@ -13,8 +13,8 @@ class Tabs extends Component {
     super(props)
 
     this.state = {
-      active: 'code',
-      current: <Container children={<Code />} />,
+      active: 'guides',
+      current: <Guides />,
       tabBack: <div className="tab-background" />
     };
   }
