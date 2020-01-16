@@ -69,13 +69,14 @@ class Guides extends Component {
                     <ButtonText key="0" text="Look inside" onClick={() => this.showGuide()} />,
                     <ButtonText key="1" text="Download" onClick={() => this.showModal('Crypto Terms for Beginners')} />
                   ]}>
-              - Do you know a whale from a bear?<br />
-              - A cold wallet from a decentralised wallet?<br /><br />
+              - Do you know what a whale means in crypto?<br />
+              - The difference between non-custodial and custodial wallets?<br>
+              - What KYC and AML mean and why you should care?
+              - <br /><br />
 
-              If not, this cheat sheet of 50 beginner cryptocurrency terms is for you. <br />
-              So the next time you're in a conversation about crypt and someone asks you to "buy the dip", you'll know
-              what
-              they mean!
+              If not, this cheat sheet of 50 beginner cryptocurrency terms is for you. <br /><br />
+              So the next time you are having conversation about crypto and someone tells you to "buy the dip" or "avoid FOMO", you'll know
+              what they mean!
             </Card>
           </div>
         </Container>

@@ -66,23 +66,23 @@ class Tabs extends Component {
         <Container>
           <div className="Tabs">
             <div className={cn('tab-item', { active: isActive('apps') })} onClick={() => this.switch('apps')}>
-              <div className="tab-title">Apps</div>
+              <div className="tab-title">Invest</div>
               <div className="tab-info">
-                Horizontal Systems builds serverless applications around the idea of private wealth and privacy.
+                Invest in crypto safely and privately. We build beautiful and uncensorable apps for those long on crypto.
               </div>
               {tabBack}
             </div>
             <div className={cn('tab-item', { active: isActive('guides') })} onClick={() => this.switch('guides')}>
-              <div className="tab-title">Guides</div>
+              <div className="tab-title">Learn</div>
               <div className="tab-info">
-                Understand Bitcoin, Ethereum, EOS, Libra and other major blockchains. Explained in simple terms.
+                Learn how Bitcoin and other blockchains work. Discover prooven decentralized projects operating on top of them. 
               </div>
               {tabBack}
             </div>
             <div className={cn('tab-item', { active: isActive('code') })} onClick={() => this.switch('code')}>
-              <div className="tab-title">Code</div>
+              <div className="tab-title">Build</div>
               <div className="tab-info">
-                Build unstoppable apps. Use our libraries to design autonomous systems that can't go offline.
+                Build unstoppable apps that never go offline and censorship-resistant. Our code is open and unconditionally free.
               </div>
               {tabBack}
             </div>

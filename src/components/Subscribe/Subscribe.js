@@ -6,7 +6,7 @@ class Subscribe extends Component {
   }
 
   static defaultProps = {
-    title: 'Be inform a new releases',
+    title: 'Get our crypto guides over the email',
     button: 'Join'
   }
 
@@ -46,7 +46,7 @@ class Subscribe extends Component {
                     <label className="checkbox">
                       <input type="checkbox" />
                       <div className="label-description">
-                        By signing up, you agree to Horizontal System's <a href="/privacy">Privacy Policy</a>
+                        By signing up, you agree to Horizontal Systems <a href="/privacy">Privacy Policy</a>
                       </div>
                     </label>
                   </div>
@@ -63,7 +63,7 @@ class Subscribe extends Component {
               <div className="ml-form-successBody row-success" style={{ display: 'none' }}>
                 <div className="ml-form-successContent">
                   <h4>Thank you!</h4>
-                  <p>Please check your email for the download links.</p>
+                  <p>Done! Check your email.</p>
                 </div>
               </div>
             </div>
