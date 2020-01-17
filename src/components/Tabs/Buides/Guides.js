@@ -70,7 +70,7 @@ class Guides extends Component {
                     <ButtonText key="1" text="Download" onClick={() => this.showModal('Crypto Terms for Beginners')} />
                   ]}>
               - Do you know what a whale means in crypto?<br />
-              - The difference between non-custodial and custodial wallets?<br>
+              - The difference between non-custodial and custodial wallets?<br />
               - What KYC and AML mean and why you should care?
               - <br /><br />
 

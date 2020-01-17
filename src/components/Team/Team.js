@@ -15,7 +15,8 @@ function Team() {
           Horizontal Systems Team
         </div>
         <div className="team-info">
-          We are a team of free-minded engineers sepcializing on building censorship-resistant services.
+          We are a team of like minded people who believe in a fair future. Ans we build serverless applications around
+          the idea of private wealth and privacy.
         </div>
 
         <ul className="team-members">

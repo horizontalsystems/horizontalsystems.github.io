@@ -50,12 +50,16 @@
     padding-left: 0;
     padding-right: 0;
     flex-direction: column;
-    align-items: center;
 
     .card-screen {
-      padding-left: 0;
+      padding-left: 32px;
       padding-right: 0;
+
+      img {
+        width: 90%;
+      }
     }
+
 
     .card-info {
       padding: 32px;

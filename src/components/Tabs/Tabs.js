@@ -33,7 +33,7 @@ class Tabs extends Component {
       case 'apps': {
         animateTab = 'fadeInRight'
         animate = 'fadeInLeft'
-        content = <Container children={<Apps />} />
+        content = <Apps />
         break
       }
       case 'guides': {
