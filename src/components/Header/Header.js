@@ -12,18 +12,26 @@ function Header() {
 
   return (
     <header className="Header">
-      <Container>
+      <Container className="Banner-header">
         <div className="navbar">
           <Link to="/">
             <img className="logo"
                  alt="Horizontal Systems"
                  src="/images/logo.png"
                  srcSet="/images/logo@2x.png 2x, /images/logo@3x.png 3x" />
-            <img className="logo-icon" alt="Horizontal Systems" src="/images/logo-icon.png" />
           </Link>
 
-          <div className="nav" onClick={onClickJoin}>
-            <div className="nav-item">Join</div>
+          <div className="nav">
+            <div className="nav-item">
+              <Link to="/team">Team</Link>
+            </div>
+            <div className="nav-item">
+              <a href="https://www.youtube.com/watch?v=-qjzSUdeId0" target="_blank" rel="noopener noreferrer">Office</a>
+            </div>
+            <div className="nav-item">
+              <a href="https://github.com/horizontalsystems" target="_blank" rel="noopener noreferrer">Github</a>
+            </div>
+            <div className="nav-item nav-item-btn" onClick={onClickJoin}>Join</div>
           </div>
         </div>
       </Container>

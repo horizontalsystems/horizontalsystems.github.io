@@ -1,5 +1,12 @@
 @import "../../scss/utils";
 
+.Banner-header {
+  @include sm {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
 .Header {
   height: 80px;
   background: #0F1014;
@@ -22,10 +29,6 @@
     width: 165px;
   }
 
-  .logo-icon {
-    display: none;
-  }
-
   @include md {
     .logo {
       width: 150px;
@@ -37,10 +40,6 @@
       width: 120px;
       display: none;
     }
-
-    .logo-icon {
-      display: block;
-    }
   }
 }
 
@@ -51,15 +50,27 @@
   .nav-item {
     height: 32px;
     padding: 0 30px;
-    cursor: pointer;
-    border: 1px solid rgba(110, 120, 153, 0.2);
     border-radius: 4px;
+    cursor: pointer;
     display: flex;
     align-items: center;
+
+    a {
+      text-decoration: none;
+      color: #C8C7CC;
+    }
+  }
+
+  .nav-item-btn {
+    color: #05C46B;
+    border: 1px solid rgba(110, 120, 153, 0.2);
     background: darken(#0F1014, 80%);
+    margin-right: 15px;
   }
 
   @include sm {
-    justify-content: center;
+    .nav-item {
+      padding: 0 20px;
+    }
   }
 }
