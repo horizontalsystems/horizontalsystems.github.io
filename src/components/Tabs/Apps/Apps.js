@@ -9,11 +9,14 @@ function Apps() {
   return (
     <div>
       <Container>
-        <Card img="/images/guides/wallet-screenshot.png" title="Unstoppable Wallet" actions={[
-          <ButtonText key="0" text="Site" link="https://unstoppable.money/" />,
-          <ButtonText key="1" text="AppStore" />,
-          <ButtonText key="2" text="Google Play" />
-        ]}>
+        <Card img="/images/guides/wallet-screenshot.png"
+              srcSet="/images/guides/wallet-screenshot@2x.png 2x"
+              title="Unstoppable Wallet"
+              actions={[
+                <ButtonText key="0" text="Site" link="https://unstoppable.money/" />,
+                <ButtonText key="1" text="AppStore" />,
+                <ButtonText key="2" text="Google Play" />
+              ]}>
           Invest in Bitcoin, Ethereum, EOS, Dash, Bitcoin Cash, Binance DEX and 50+ blockchain based
           projects. <br /><br />
           Store cryptocurrency safely and privately. Get full and exclusive control over your assets in a decentralized
@@ -22,11 +25,7 @@ function Apps() {
         </Card>
       </Container>
       <Container>
-        <Card img="/images/guides/bitcoin-lnd.png" title="Bitcoin ID" actions={[
-          <ButtonText key="0" text="Site" link="https://unstoppable.money/" />,
-          <ButtonText key="1" text="AppStore" />,
-          <ButtonText key="2" text="Google Play" />
-        ]}>
+        <Card img="/images/guides/bitcoin-lnd.png" title="Bitcoin ID">
           Invest in Bitcoin, Ethereum, EOS, Dash, Bitcoin Cash, Binance DEX and 50+ blockchain based
           projects. <br /><br />
           Store cryptocurrency safely and privately. Get full and exclusive control over your assets in a decentralized

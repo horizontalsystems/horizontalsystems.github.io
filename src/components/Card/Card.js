@@ -1,11 +1,19 @@
-import React from 'react'
+import React, { createElement } from 'react'
 import './Card.scss'
 
-function Card({ img, title, actions, children }) {
+function Card({ img, srcSet, title, actions, children }) {
+  let imageTag = null
+  if (img) {
+    imageTag = createElement('img', {
+      src: img,
+      alt: title,
+      srcSet: srcSet
+    })
+  }
   return (
     <div className="card">
-      {img && <div className="card-screen">
-        <img src={img} alt={title} />
+      {imageTag && <div className="card-screen">
+        {imageTag}
       </div>}
       <div className="card-info">
         <div>

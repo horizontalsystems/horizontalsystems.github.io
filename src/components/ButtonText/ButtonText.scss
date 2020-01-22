@@ -22,4 +22,8 @@
     padding: 10px;
     margin: 5px;
   }
+
+  &.disabled {
+    color: rgba(128, 128, 133, 0.5);
+  }
 }

@@ -1,13 +1,14 @@
 import React from 'react'
+import cn from 'classnames'
 import './ButtonText.scss'
 
 function ButtonText({ text, onClick, link }) {
-  let content = text
-  if (link) {
-    content = <a href={link} target="_blank" rel="noopener noreferrer">{text}</a>
-  }
+  const content = link
+    ? <a href={link} target="_blank" rel="noopener noreferrer">{text}</a>
+    : text
+
   return (
-    <div className="ButtonText" onClick={onClick}>
+    <div className={cn('ButtonText', { disabled: !onClick })} onClick={onClick}>
       {content}
     </div>
   )
