@@ -14,33 +14,34 @@ class Guides extends Component {
   }
 
   showGuide = name => {
-    // eslint-disable-next-line no-undef
-    $.fancybox.open([
-      {
-        src: '/images/btc-in-simple-term/Bitcoin-Explained-Simple-Terms-002.png',
-        opts: { thumb: '/images/btc-in-simple-term/Bitcoin-Explained-Simple-Terms-002.png' }
-      },
-      {
-        src: '/images/btc-in-simple-term/Bitcoin-Explained-Simple-Terms-003.png',
-        opts: { thumb: '/images/btc-in-simple-term/Bitcoin-Explained-Simple-Terms-003.png' }
-      },
-      {
-        src: '/images/btc-in-simple-term/Bitcoin-Explained-Simple-Terms-004.png',
-        opts: { thumb: '/images/btc-in-simple-term/Bitcoin-Explained-Simple-Terms-004.png' }
-      },
-      {
-        src: '/images/btc-in-simple-term/Bitcoin-Explained-Simple-Terms-005.png',
-        opts: { thumb: '/images/btc-in-simple-term/Bitcoin-Explained-Simple-Terms-005.png' }
-      },
-      {
-        src: '/images/btc-in-simple-term/Bitcoin-Explained-Simple-Terms-006.png',
-        opts: { thumb: '/images/btc-in-simple-term/Bitcoin-Explained-Simple-Terms-006.png' }
-      },
-      {
-        src: '/images/btc-in-simple-term/Bitcoin-Explained-Simple-Terms-007.png',
-        opts: { thumb: '/images/btc-in-simple-term/Bitcoin-Explained-Simple-Terms-007.png' }
+    let images = []
+    switch (name) {
+      case 'libra': {
+        images = [
+          { src: '/images/libra/01.png', opts: { thumb: '/images/libra/01.png' } },
+          { src: '/images/libra/02.png', opts: { thumb: '/images/libra/02.png' } },
+          { src: '/images/libra/03.png', opts: { thumb: '/images/libra/03.png' } },
+          { src: '/images/libra/04.png', opts: { thumb: '/images/libra/04.png' } },
+          { src: '/images/libra/05.png', opts: { thumb: '/images/libra/05.png' } },
+          { src: '/images/libra/06.png', opts: { thumb: '/images/libra/06.png' } },
+          { src: '/images/libra/07.png', opts: { thumb: '/images/libra/07.png' } }
+        ]
+
+        break
       }
-    ], {
+      default:
+        images = [
+          { src: '/images/btc-in-simple-term/Bitcoin-Explained-Simple-Terms-002.png', opts: { thumb: '/images/btc-in-simple-term/Bitcoin-Explained-Simple-Terms-002.png' } },
+          { src: '/images/btc-in-simple-term/Bitcoin-Explained-Simple-Terms-003.png', opts: { thumb: '/images/btc-in-simple-term/Bitcoin-Explained-Simple-Terms-003.png' } },
+          { src: '/images/btc-in-simple-term/Bitcoin-Explained-Simple-Terms-004.png', opts: { thumb: '/images/btc-in-simple-term/Bitcoin-Explained-Simple-Terms-004.png' } },
+          { src: '/images/btc-in-simple-term/Bitcoin-Explained-Simple-Terms-005.png', opts: { thumb: '/images/btc-in-simple-term/Bitcoin-Explained-Simple-Terms-005.png' } },
+          { src: '/images/btc-in-simple-term/Bitcoin-Explained-Simple-Terms-006.png', opts: { thumb: '/images/btc-in-simple-term/Bitcoin-Explained-Simple-Terms-006.png' } },
+          { src: '/images/btc-in-simple-term/Bitcoin-Explained-Simple-Terms-007.png', opts: { thumb: '/images/btc-in-simple-term/Bitcoin-Explained-Simple-Terms-007.png' } }
+        ]
+    }
+
+    // eslint-disable-next-line no-undef
+    $.fancybox.open(images, {
       thumbs: {
         autoStart: true
       }
@@ -89,7 +90,7 @@ class Guides extends Component {
                 srcSet="/images/guides/libra@2x.png 2x"
                 title="Libra Explained In Simple Terms"
                 actions={[
-                  <ButtonText key="0" text="Look inside" onClick={() => this.showGuide()} />,
+                  <ButtonText key="0" text="Look inside" onClick={() => this.showGuide('libra')} />,
                   <ButtonText key="1" text="Download" onClick={() => this.showModal('Crypto Terms for Beginners')} />
                 ]}>
 
