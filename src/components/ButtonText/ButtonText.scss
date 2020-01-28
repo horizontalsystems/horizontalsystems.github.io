@@ -3,7 +3,6 @@
 .ButtonText {
   border: 1px solid rgba(110, 120, 153, 0.2);
   border-radius: 12px;
-  padding: 15px;
   cursor: pointer;
 
   font-weight: 600;
@@ -12,14 +11,21 @@
   flex-grow: 1;
   margin: 12px;
   color: $remus;
+  display: flex;
+  justify-content: center;
+  max-width: 50%;
 
   a {
     color: $remus;
     text-decoration: none;
   }
 
+  a, span {
+    width: 100%;
+    padding: 15px;
+  }
+
   @include sm {
-    padding: 10px;
     margin: 5px;
   }
 

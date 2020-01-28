@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import marked from 'marked'
 import Container from '../Container/Container'
+import Header from '../Header/Header'
 
 import './Markdown.scss'
 
@@ -25,9 +26,12 @@ class Markdown extends Component {
 
   render() {
     return (
-      <Container>
-        <div className="Markdown" dangerouslySetInnerHTML={{ __html: this.state.markdown }} />
-      </Container>
+      <div>
+        <Header />
+        <Container>
+          <div className="Markdown" dangerouslySetInnerHTML={{ __html: this.state.markdown }} />
+        </Container>
+      </div>
     )
   }
 }

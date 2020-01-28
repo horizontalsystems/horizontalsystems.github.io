@@ -5,7 +5,7 @@ import './ButtonText.scss'
 function ButtonText({ text, onClick, link }) {
   const content = link
     ? <a href={link} target="_blank" rel="noopener noreferrer">{text}</a>
-    : text
+    : <span>{text}</span>
 
   return (
     <div className={cn('ButtonText', { disabled: !onClick })} onClick={onClick}>

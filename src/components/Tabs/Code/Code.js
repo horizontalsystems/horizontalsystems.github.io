@@ -55,6 +55,12 @@ function Code() {
         ]}>
           Hodler Kit library
         </Card>
+        <Card title="Lightning Kit" actions={[
+          <ButtonText key="0" text="Swift" link="https://github.com/horizontalsystems/lightning-kit-ios" />,
+          <ButtonText key="1" text="Kotlin" link="https://github.com/horizontalsystems/lightning-kit-android" />
+        ]}>
+          Lightning Kit library
+        </Card>
       </div>
       <div className="follow-us">
         <div className="follow-us-title">

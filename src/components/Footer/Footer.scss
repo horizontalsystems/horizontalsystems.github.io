@@ -16,6 +16,49 @@
     font-size: 14px;
     line-height: 17px;
     text-decoration: none;
+    position: relative;
+
+    &:hover {
+      .tooltip {
+        display: block;
+      }
+    }
+  }
+
+  .copiable::before {
+    display: none;
+    content: attr(data-value);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translate(-50%, -4px);
+    white-space: nowrap;
+    font-size: 12px;
+    padding: 4px 8px;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 4px;
+  }
+
+  .copiable::after {
+    display: none;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translate(-50%, 8px);
+    content: " ";
+    border-width: 6px;
+    border-style: solid;
+    border-color: #ffffff transparent transparent;
+  }
+
+  .copiable {
+    position: relative;
+
+    &:hover::before,
+    &:hover::after {
+      display: block;
+    }
   }
 
   a {

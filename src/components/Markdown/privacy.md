@@ -1,4 +1,4 @@
-<h1>Privacy Policy</h1>
+# Privacy Policy
 
 Thank you for visiting Horizontal Systems [https://horizontalsystems.io](https://horizontalsystems.io).
 

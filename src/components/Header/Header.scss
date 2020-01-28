@@ -46,6 +46,7 @@
 .nav {
   display: flex;
   flex-direction: row;
+  font-size: 14px;
 
   .nav-item {
     height: 32px;
@@ -58,6 +59,7 @@
     a {
       text-decoration: none;
       color: #C8C7CC;
+      font-size: 14px;
     }
   }
 

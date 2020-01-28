@@ -1,4 +1,7 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
+import events from '../../core/EventEmitter.js'
+
 import './Subscribe.scss'
 
 class Subscribe extends Component {
@@ -19,6 +22,9 @@ class Subscribe extends Component {
 
   render() {
     const props = this.props
+    const onClickPrivacy = () =>  {
+      events.hideModal()
+    }
 
     return (
       <div className="form-wrap" ref={e => (this.div = e)}>
@@ -45,8 +51,8 @@ class Subscribe extends Component {
                   <div className="ml-form-checkboxRow ml-validate-required">
                     <label className="checkbox">
                       <input type="checkbox" />
-                      <div className="label-description">
-                        By signing up, you agree to Horizontal Systems <a href="/privacy">Privacy Policy</a>
+                      <div className="label-description" >
+                        By signing up, you agree to Horizontal Systems <Link to="/privacy" onClick={onClickPrivacy}>Privacy Policy</Link>
                       </div>
                     </label>
                   </div>

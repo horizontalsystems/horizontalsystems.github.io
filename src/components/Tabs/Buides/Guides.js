@@ -42,6 +42,7 @@ class Guides extends Component {
 
     // eslint-disable-next-line no-undef
     $.fancybox.open(images, {
+      baseClass: "guides-gallery",
       thumbs: {
         autoStart: true
       }
@@ -72,8 +73,7 @@ class Guides extends Component {
                 srcSet="/images/guides/crypto-for-beginners@2x.png 2x"
                 title="Crypto Terms for Beginners"
                 actions={[
-                  <ButtonText key="0" text="Look inside" onClick={() => this.showGuide()} />,
-                  <ButtonText key="1" text="Download" onClick={() => this.showModal('Crypto Terms for Beginners')} />
+                  <ButtonText key="1" text="Download" link="/images/cryptoterms.pdf" />
                 ]}>
             - Do you know what a whale means in crypto?<br />
             - The difference between non-custodial and custodial wallets?<br />

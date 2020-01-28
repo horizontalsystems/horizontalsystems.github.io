@@ -5,6 +5,7 @@ function Card({ img, srcSet, title, actions, children }) {
   let imageTag = null
   if (img) {
     imageTag = createElement('img', {
+      className: "card-screen-img",
       src: img,
       alt: title,
       srcSet: srcSet
@@ -16,7 +17,7 @@ function Card({ img, srcSet, title, actions, children }) {
         {imageTag}
       </div>}
       <div className="card-info">
-        <div>
+        <div className="card-content">
           <div className="card-title">
             {title}
           </div>
