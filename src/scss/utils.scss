@@ -2,7 +2,8 @@
  * Typography
  * ======================================================================== */
 
-$font-family-base: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Lucida Grande", sans-serif;
+// $font-family-base: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Lucida Grande", sans-serif;
+$font-family-base: 'IBM Plex Sans', sans-serif;
 
 /*
  * Colors
@@ -28,12 +29,14 @@ $max-content-width: 1000px;
  * Media queries breakpoints
  * ======================================================================== */
 
-$screen-sm: 576px  !default;
-$screen-md: 768px  !default;
-$screen-lg: 992px  !default;
-$screen-xl: 1200px !default;
+$screen-sm:  576px  !default;
+$screen-md:  768px  !default;
+$screen-lg:  992px  !default;
+$screen-xl:  1200px !default;
+$screen-xxl: 1400px !default;
 
-@mixin sm { @media (max-width: $screen-md) { @content; } }
-@mixin md { @media (min-width: $screen-md) { @content; } }
-@mixin lg { @media (min-width: $screen-lg) { @content; } }
-@mixin xl { @media (min-width: $screen-xl) { @content; } }
+@mixin sm  { @media (max-width: $screen-md)  { @content; } }
+@mixin md  { @media (min-width: $screen-md)  { @content; } }
+@mixin lg  { @media (min-width: $screen-lg)  { @content; } }
+@mixin xl  { @media (min-width: $screen-xl)  { @content; } }
+@mixin xxl { @media (min-width: $screen-xxl) { @content; } }

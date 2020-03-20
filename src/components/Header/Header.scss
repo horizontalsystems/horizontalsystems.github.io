@@ -1,46 +1,38 @@
 @import "../../scss/utils";
 
 .Banner-header {
-  @include sm {
-    padding-right: 0;
-    padding-left: 0;
-  }
 }
 
 .Header {
-  height: 80px;
-  background: #0F1014;
-  color: $remus;
+  position: absolute;
+  height: 110px;
+  width: 100vw;
   display: flex;
   align-items: center;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 2;
+  background: #0F1014;
+  color: $remus;
+  z-index: 1;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0;
 
-  .logo {
-    width: 165px;
-  }
-
-  @include md {
-    .logo {
-      width: 150px;
-    }
+  .Logo-icon {
+    display: none;
   }
 
   @include sm {
-    .logo {
-      width: 120px;
+    .Logo {
       display: none;
     }
+
+    .Logo-icon {
+      display: block;
+    }
   }
+
 }
 
 .nav {
@@ -50,7 +42,7 @@
 
   .nav-item {
     height: 32px;
-    padding: 0 30px;
+    padding: 0 20px;
     border-radius: 4px;
     cursor: pointer;
     display: flex;
@@ -58,21 +50,19 @@
 
     a {
       text-decoration: none;
-      color: #C8C7CC;
       font-size: 14px;
+      color: $grey;
     }
   }
 
   .nav-item-btn {
-    color: #05C46B;
-    border: 1px solid rgba(110, 120, 153, 0.2);
-    background: darken(#0F1014, 80%);
-    margin-right: 15px;
+    margin-left: 20px;
+    border: 1px solid #05C46B;
+    box-sizing: border-box;
+    border-radius: 8px;
   }
 
   @include sm {
-    .nav-item {
-      padding: 0 20px;
-    }
+    display: none;
   }
 }

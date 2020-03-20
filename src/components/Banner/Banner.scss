@@ -1,62 +1,43 @@
 @import "../../scss/utils";
 
 .Banner {
-  margin-top: 80px;
+  position: relative;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  height: 100vh;
+}
+
+.Slogan {
+  font-size: 64px;
+  line-height: 70px;
+
+  color: $light;
 
   @include sm {
-    flex-direction: column-reverse;
-    align-items: normal;
-
-    .banner-info {
-      margin-top: 40px;
-    }
-  }
-
-  @include md {
-    height: 280px;
-  }
-
-  @include lg {
-    height: 460px;
+    font-size: 38px;
+    line-height: 49px;
   }
 }
 
-.banner-info {
-  flex-grow: 1;
-}
-
-.banner-title {
-  font-weight: 800;
-  font-size: 54px;
+.Mission {
+  position: absolute;
+  bottom: 80px;
   color: $remus;
+  font-size: 22px;
 
   @include sm {
-    font-size: 40px;
-  }
-
-  @include md {
-    font-size: 40px;
-  }
-
-  @include lg {
-    font-size: 54px;
+    font-size: 24px;
+    line-height: 31px;
   }
 }
 
-.banner-bottom {
-  display: flex;
-  color: $gray-light;
-  justify-content: space-between;
-  padding-top: 20px;
-  font-size: 17px;
-  line-height: 24px;
-}
+.Page-down {
+  cursor: pointer;
+  position: absolute;
+  right: 70px;
+  bottom: 70px;
 
-.horse {
-  max-height: 450px;
-  max-width: 600px;
-  width: 100%;
+  @include sm {
+    display: none;
+  }
 }

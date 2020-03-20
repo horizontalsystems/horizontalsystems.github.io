@@ -7,22 +7,25 @@
   word-wrap: break-word;
   overflow: hidden;
   box-sizing: border-box;
+  position: relative;
 
   @include sm {
-    max-width: 540px;
-    padding-right: 40px;
-    padding-left: 40px;
+    //max-width: 540px;
+    padding: 0 24px;
   }
 
   @include md {
-    max-width: 720px;
+    // max-width: 720px;
+    padding: 0 60px;
   }
 
   @include lg {
-    max-width: 968px;
+    //max-width: 968px;
+    padding: 0 60px;
   }
 
-//  @include xl {
-//    max-width: 1140px;
-//  }
+  @include xxl {
+    max-width: 1320px;
+    padding: 0;
+  }
 }

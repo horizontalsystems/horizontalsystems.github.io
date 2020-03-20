@@ -1,6 +1,7 @@
 import React from 'react'
+
 import Container from '../Container/Container'
-import horse from './horse.gif'
+import Icon from '../Icon/Icon'
 
 import './Banner.scss'
 
@@ -8,20 +9,18 @@ function Banner() {
   return (
     <Container>
       <div className="Banner">
-        <div className="banner-info">
-          <div className="banner-title">
-            Join <br />
-            Unstoppable <br />
-            Networks <br />
-          </div>
-          <div className="banner-bottom">
-            Get unconditional control over <br />
-            your data and finances
-          </div>
+        <div className="Slogan">
+          Solutions for Smart <br />
+          Investments
         </div>
-        <div className="banner-animation">
-          <img src={horse} className="horse" alt="Binary horse" />
-        </div>
+      </div>
+      <div className="Mission">
+        Inspiring borderless investments by guiding investor <br />
+        through blockchain techs
+      </div>
+
+      <div className="Page-down">
+        <Icon name="arrow-down" viewBox="0 0 28 28" color="none" />
       </div>
     </Container>
   )
