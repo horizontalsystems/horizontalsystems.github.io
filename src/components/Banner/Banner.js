@@ -9,18 +9,18 @@ function Banner() {
   return (
     <Container>
       <div className="Banner">
-        <div className="Slogan">
+        <div className="Banner-title">
           Solutions for Smart <br />
           Investments
         </div>
       </div>
-      <div className="Mission">
+      <div className="Banner-desc">
         Inspiring borderless investments by guiding investor <br />
         through blockchain techs
       </div>
 
       <div className="Page-down">
-        <Icon name="arrow-down" viewBox="0 0 28 28" color="none" />
+        <Icon name="arrow-down" viewBox="0 0 28 28" fill="none" stroke="#05C46B" />
       </div>
     </Container>
   )

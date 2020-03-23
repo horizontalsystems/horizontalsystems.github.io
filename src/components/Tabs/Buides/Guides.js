@@ -52,7 +52,7 @@ class Guides extends Component {
   render() {
     return (
       <div>
-        <Container className="Guides">
+        <Container className="Container-Guides">
           <Card key="btc"
                 img="/images/guides/btc-in-simple-term.png"
                 srcSet="/images/guides/btc-in-simple-term@2x.png 2x"

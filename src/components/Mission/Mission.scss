@@ -1,0 +1,21 @@
+@import "../../scss/utils";
+
+.Mission {
+  z-index: 1;
+}
+
+.Mission-bg {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+}
+
+.Mission-text {
+  width: 55%;
+  margin-top: 145px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 4rem;
+  line-height: 70px;
+  color: $remus;
+}

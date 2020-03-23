@@ -3,17 +3,60 @@ import React, { Component } from 'react'
 class Icon extends Component {
   static defaultProps = {
     size: 24,
-    color: '#9e9e9e',
-    viewBox: '0 0 24 24'
+    fill: '#9e9e9e',
+    viewBox: '0 0 24 24',
+    stroke: '#fff'
   }
 
   getIcon() {
     switch (this.props.name) {
+      case 'apps':
+        return (
+          <g>
+            <rect x="10.998" y="1" width="40" height="39.9999" rx="4" stroke="#05C46B" strokeWidth="2" strokeLinejoin="round"/>
+            <rect x="1" y="10.9985" width="40" height="39.9999" rx="4" stroke="#05C46B" strokeWidth="2" strokeLinejoin="round"/>
+          </g>
+        )
+
+      case 'guides':
+        return (
+          <g>
+            <path d="M3 16.7393L23.9998 16.7393C25.1044 16.7393 25.9998 17.6347 25.9998 18.7393V53C25.9998 54.1046 25.1044 55.0001 23.9998 55L3 55C1.89543 55 1 54.1046 1 53V18.7393C1 17.6347 1.89543 16.7393 3 16.7393Z" stroke="#05C46B" strokeWidth="2" strokeLinejoin="round"/>
+            <path d="M49 16.7393L28.0002 16.7393C26.8956 16.7393 26.0002 17.6347 26.0002 18.7393V53C26.0002 54.1046 26.8956 55.0001 28.0002 55L49 55C50.1046 55 51 54.1046 51 53V18.7393C51 17.6347 50.1046 16.7393 49 16.7393Z" stroke="#05C46B" strokeWidth="2" strokeLinejoin="round"/>
+            <path d="M25.3823 16.1485L11.8825 3.23542C10.6103 2.01854 8.5 2.92023 8.5 4.6807V37.4062C8.5 37.952 8.7231 38.4742 9.11755 38.8515L22.6174 51.7645C23.8896 52.9814 25.9999 52.0797 25.9999 50.3192V17.5937C25.9999 17.0479 25.7768 16.5258 25.3823 16.1485Z" stroke="#05C46B" strokeWidth="2" strokeLinejoin="round"/>
+            <path d="M26.6177 16.1485L40.1175 3.23542C41.3897 2.01854 43.5 2.92023 43.5 4.6807V37.4062C43.5 37.952 43.2769 38.4742 42.8825 38.8515L29.3826 51.7645C28.1104 52.9814 26.0001 52.0797 26.0001 50.3192V17.5937C26.0001 17.0479 26.2232 16.5258 26.6177 16.1485Z" stroke="#05C46B" strokeWidth="2" strokeLinejoin="round"/>
+          </g>
+        )
+      case 'code':
+        return (
+          <g>
+            <path d="M48.643 1L3.35702 1C2.05528 1 1 2.05528 1 3.35703L1 48.643C0.999999 49.9447 2.05528 51 3.35703 51H48.643C49.9447 51 51 49.9447 51 48.643V3.35702C51 2.05528 49.9447 1 48.643 1Z" stroke="white" strokeWidth="2" strokeLinejoin="round"/>
+            <line x1="1" y1="16.667" x2="51" y2="16.667" stroke="white" strokeWidth="2"/>
+            <path d="M32.25 27.667L37.0858 32.5028C37.8668 33.2838 37.8668 34.5502 37.0858 35.3312L32.25 40.167M19.75 40.167L14.9142 35.3312C14.1332 34.5502 14.1332 33.2838 14.9142 32.5028L19.75 27.667" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+          </g>
+        )
+      case 'team-new':
+          return (
+            <g>
+              <ellipse cx="25.9969" cy="10.9999" rx="9.99986" ry="9.99993" stroke="#05C46B" strokeWidth="2" />
+              <ellipse cx="10.9999" cy="40.9999" rx="9.99986" ry="9.99993" stroke="#05C46B" strokeWidth="2" />
+              <ellipse cx="40.9999" cy="40.9999" rx="9.99986" ry="9.99993" stroke="#05C46B" strokeWidth="2" />
+              <ellipse cx="25.9997" cy="30.9999" rx="19.9997" ry="19.9999" stroke="#05C46B" strokeWidth="2" />
+            </g>
+          )
+      case 'join':
+          return (
+            <g>
+              <path d="M27.1847 1.36397L4.09086 11.6737C2.51126 12.3789 2.51126 14.6211 4.09085 15.3263L27.1847 25.636C27.7036 25.8677 28.2964 25.8677 28.8153 25.636L51.9091 15.3263C53.4887 14.6211 53.4887 12.3789 51.9091 11.6737L28.8153 1.36397C28.2964 1.13234 27.7036 1.13234 27.1847 1.36397Z" stroke="#05C46B" strokeWidth="2" strokeLinejoin="round" />
+              <path d="M27.1847 13.864L4.09086 24.1737C2.51126 24.8789 2.51126 27.1211 4.09085 27.8263L27.1847 38.136C27.7036 38.3677 28.2964 38.3677 28.8153 38.136L51.9091 27.8263C53.4887 27.1211 53.4887 24.8789 51.9091 24.1737L28.8153 13.864C28.2964 13.6323 27.7036 13.6323 27.1847 13.864Z" stroke="#05C46B" strokeWidth="2" strokeLinejoin="round" />
+              <path d="M27.1847 26.364L4.09086 36.6737C2.51126 37.3789 2.51126 39.6211 4.09085 40.3263L27.1847 50.636C27.7036 50.8677 28.2964 50.8677 28.8153 50.636L51.9091 40.3263C53.4887 39.6211 53.4887 37.3789 51.9091 36.6737L28.8153 26.364C28.2964 26.1323 27.7036 26.1323 27.1847 26.364Z" stroke="#05C46B" strokeWidth="2" strokeLinejoin="round" />
+            </g>
+          )
       case 'arrow-down':
         return (
           <g>
-            <path d="M26 13.999L14 25.999L2.01325 14.0122" stroke="#05C46B" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-            <path d="M13.9872 2.01318L14.0137 25.9812" stroke="#05C46B" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M26 13.999L14 25.999L2.01325 14.0122" stroke={this.props.stroke} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M13.9872 2.01318L14.0137 25.9812" stroke={this.props.stroke} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
           </g>
         )
       case "logo":
@@ -66,10 +109,10 @@ class Icon extends Component {
   }
 
   render() {
-    const { size, viewBox, color } = this.props
+    const { size, viewBox, fill } = this.props
 
     return (
-      <svg viewBox={viewBox} fill={color} preserveAspectRatio="xMidYMid meet" width={size} height={size}>
+      <svg viewBox={viewBox} fill={fill} preserveAspectRatio="xMidYMid meet" width={size} height={size}>
         {this.getIcon()}
       </svg>
     )

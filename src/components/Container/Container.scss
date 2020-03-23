@@ -10,17 +10,17 @@
   position: relative;
 
   @include sm {
-    //max-width: 540px;
+    //  max-width: 540px;
     padding: 0 24px;
   }
 
   @include md {
-    // max-width: 720px;
+    //  max-width: 720px;
     padding: 0 60px;
   }
 
   @include lg {
-    //max-width: 968px;
+    //  max-width: 968px;
     padding: 0 60px;
   }
 
@@ -28,4 +28,11 @@
     max-width: 1320px;
     padding: 0;
   }
+}
+
+.Container-fluid {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
 }

@@ -1,0 +1,77 @@
+@import "../../scss/utils";
+
+.Edge {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+}
+
+.Edge-header,
+.Edge-bottom {
+  position: absolute;
+  height: 160px;
+}
+
+.Edge-header {
+  top: 0;
+}
+
+.Edge-bottom {
+  bottom: 0;
+}
+
+.Edge-content {
+  display: flex;
+  color: #ffffff;
+  justify-content: space-between;
+}
+
+.Edge-content-start,
+.Edge-content-end {
+  z-index: 1;
+  display: flex;
+  align-items: center;
+}
+
+.Edge-content-end-text {
+  width: 40%;
+  font-size: 22px;
+  line-height: 29px;
+}
+
+.Edge-next-page {
+  padding-left: 25px;
+  cursor: pointer;
+}
+
+.Edge-start {
+  position: absolute;
+  left: 0;
+  width: 60%;
+  height: 160px;
+  transform: skew(-45deg, 0deg);
+  transform-origin: top right;
+  border-bottom-right-radius: 30px;
+}
+
+.Edge-end {
+  position: absolute;
+  right: 0;
+  width: 40%;
+  height: 160px;
+  transform: skew(-45deg, 0deg);
+  transform-origin: bottom left;
+  border-top-left-radius: 30px;
+}
+
+.Icon-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.Icon-label {
+  padding-left: 25px;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 47px;
+}

@@ -1,0 +1,51 @@
+@import "utils";
+
+/*
+ * Colors
+ * ======================================================================== */
+
+
+// background colors
+
+.bg-white {
+  background: #ffffff;
+}
+
+.bg-white-50 {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.bg-green {
+  background: #05C46B;
+}
+
+.bg-dark {
+  background: #13151A;
+}
+
+.bg-steal-dark {
+  background: #252933;
+}
+
+// text colors
+
+.color-white {
+  color: #ffffff;
+}
+
+.color-white-50 {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.color-grey {
+  color: #808085;
+}
+
+.color-dark {
+  color: #13151A;
+}
+
+.color-steal-dark {
+  color: #252933;
+}
+

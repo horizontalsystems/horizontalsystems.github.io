@@ -25,7 +25,7 @@ function Header() {
             />
 
             <div className="Logo-icon">
-              <Icon name="logo" color="#05C46B" viewBox="0 0 40 40" size="40" />
+              <Icon name="logo" fill="#05C46B" viewBox="0 0 40 40" size="40" />
             </div>
           </Link>
 
