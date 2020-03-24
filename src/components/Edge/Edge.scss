@@ -9,7 +9,21 @@
 .Edge-header,
 .Edge-bottom {
   position: absolute;
-  height: 160px;
+
+  @include sm {
+  }
+
+  @include md {
+    height: 160px;
+  }
+
+  @include lg {
+    height: 160px;
+  }
+
+  @include xxl {
+    height: 160px;
+  }
 }
 
 .Edge-header {
@@ -24,6 +38,10 @@
   display: flex;
   color: #ffffff;
   justify-content: space-between;
+
+  @include sm {
+    flex-direction: column;
+  }
 }
 
 .Edge-content-start,
@@ -33,40 +51,97 @@
   align-items: center;
 }
 
-.Edge-content-end-text {
-  width: 40%;
-  font-size: 22px;
-  line-height: 29px;
-}
+.Edge-content-start {
+  height: 160px;
 
-.Edge-next-page {
-  padding-left: 25px;
-  cursor: pointer;
+  @include sm {
+    height: 96px;
+  }
 }
 
 .Edge-start {
   position: absolute;
+  top: 0;
   left: 0;
   width: 60%;
   height: 160px;
   transform: skew(-45deg, 0deg);
   transform-origin: top right;
   border-bottom-right-radius: 30px;
+
+  @include sm {
+    width: 100%;
+    height: 96px;
+  }
 }
 
 .Edge-end {
   position: absolute;
+  top: 0;
   right: 0;
   width: 40%;
   height: 160px;
   transform: skew(-45deg, 0deg);
   transform-origin: bottom left;
   border-top-left-radius: 30px;
+
+  @include sm {
+    display: none;
+  }
+}
+
+.Edge-content-end-text {
+  width: 38%;
+
+  @include sm {
+    padding-top: 40px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  @include md {
+    padding-top: 10px;
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+  @include lg {
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+  @include xxl {
+    font-size: 22px;
+    line-height: 29px;
+  }
+}
+
+.Edge-pagination {
+  font-size: 22px;
+  line-height: 29px;
+
+  @include sm {
+    display: none;
+  }
+}
+
+.Edge-pagination-icon {
+  padding-left: 25px;
+  cursor: pointer;
+
+  @include sm {
+    display: none;
+  }
 }
 
 .Icon-wrap {
   display: flex;
   align-items: center;
+
+  svg {
+    width: 30px;
+  }
 }
 
 .Icon-label {
@@ -74,4 +149,9 @@
   font-weight: 500;
   font-size: 36px;
   line-height: 47px;
+
+  @include sm {
+    font-size: 22px;
+    line-height: 29px;
+  }
 }

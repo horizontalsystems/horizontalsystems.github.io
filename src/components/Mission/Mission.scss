@@ -7,15 +7,45 @@
 .Mission-bg {
   position: absolute;
   z-index: -1;
+  height: 100%;
   width: 100%;
+  object-fit: cover;
 }
 
 .Mission-text {
-  width: 55%;
-  margin-top: 145px;
   font-style: normal;
   font-weight: 600;
-  font-size: 4rem;
+  font-size: 64px;
   line-height: 70px;
   color: $remus;
+
+  @include sm {
+    margin-top: 60px;
+    font-size: 40px;
+    line-height: 50px;
+    width: 90vw;
+  }
+
+  @include md {
+    font-size: 50px;
+    line-height: 60px;
+    margin-top: 80px;
+    width: 90vw;
+  }
+
+  @include lg {
+    margin-top: 80px;
+    width: 90%;
+  }
+
+  @include xxl {
+    margin-top: 145px;
+    width: 55%;
+  }
+}
+
+.Mission-bottom {
+  @include sm {
+    display: none;
+  }
 }

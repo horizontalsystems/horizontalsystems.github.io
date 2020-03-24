@@ -35,8 +35,8 @@ function TeamPage() {
           <div className="Edge-content">
             <div className="Edge-content-start" />
             <div className="Edge-content-end">
-              <span className="Edge-page color-white-50">06 / 07</span>
-              <div className="Edge-next-page">
+              <div className="Edge-pagination color-white-50">06 / 07</div>
+              <div className="Edge-pagination-icon">
                 <Icon name="arrow-down" viewBox="0 0 28 28" fill="none" />
               </div>
             </div>

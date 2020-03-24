@@ -10,24 +10,26 @@
 .Banner-title {
   font-size: 64px;
   line-height: 70px;
-
   color: $light;
 
   @include sm {
     font-size: 38px;
     line-height: 49px;
+    margin-bottom: 30px;
   }
 }
 
 .Banner-desc {
   position: absolute;
   bottom: 80px;
+  width: 73vw;
   color: $remus;
   font-size: 22px;
 
   @include sm {
     font-size: 24px;
     line-height: 31px;
+    bottom: 60px;
   }
 }
 
