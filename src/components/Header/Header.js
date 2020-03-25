@@ -2,15 +2,14 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 import Container from '../Container/Container'
-import Subscribe from '../Subscribe/Subscribe'
 import Icon from '../Icon/Icon'
 
 import './Header.scss'
 
-import events from '../../core/EventEmitter.js'
-
 function Header() {
-  const onClickJoin = () => events.showModal(<Subscribe />)
+  const onClickJoin = () => {
+
+  }
 
   return (
     <header className="Header">
