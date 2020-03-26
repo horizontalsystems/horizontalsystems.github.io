@@ -1,0 +1,52 @@
+@import "../../scss/utils";
+
+.Scroller-wrap {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.Scroller {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  position: relative;
+  height: 340px;
+  width: 100%;
+  scroll-behavior: smooth;
+
+  //@include sm {
+  //  padding-top: 150px;
+  //  height: 256px;
+  //}
+
+  &::after {
+    content: '';
+    padding-right: 5%;
+  }
+}
+
+.Scroller-pagination {
+  position: absolute;
+  top: calc(100vh / 2 + 340px / 2);
+  z-index: 2;
+
+  @include sm {
+    top: calc(100vh / 2 + 400px / 2);
+  }
+}
+
+.Pagination-item {
+  height: 10px;
+  width: 10px;
+  margin: 0 5px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+
+  &.active {
+    background-color: $remus;
+  }
+}
