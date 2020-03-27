@@ -6,47 +6,79 @@ import Icon from '../Icon/Icon'
 
 import './Header.scss'
 
-function Header() {
-  const onClickJoin = () => {
+class Header extends React.Component {
 
-  }
+  render() {
+    let dropdown = false
 
-  return (
-    <header className="Header">
-      <Container className="Banner-header">
-        <div className="navbar">
-          <Link to="/">
-            <img
-              className="Logo"
-              alt="Horizontal Systems"
-              src="/images/logo.png"
-              srcSet="/images/logo@2x.png 2x, /images/logo@3x.png 3x"
-            />
+    const onClickJoin = () => {
 
-            <div className="Logo-icon">
-              <Icon name="logo" fill="#05C46B" viewBox="0 0 40 40" size="40" />
-            </div>
-          </Link>
+    }
 
-          <div className="nav">
-            <div className="nav-item">
-              <Link to="/apps">Apps</Link>
+    const onToggleMenu = () => {
+      const close = this.menuClose
+      const toggle = this.menuToggle
+      const dropdownNav = this.dropdownNav
+
+      if (dropdown) {
+        dropdownNav.style.display = "none"
+        close.style.display = 'none'
+        toggle.style.display = 'block'
+      } else {
+        dropdownNav.style.display = "block"
+        close.style.display = 'block'
+        toggle.style.display = 'none'
+      }
+
+      dropdown = !dropdown
+    }
+
+    const navigation = (
+      <div className="nav">
+        <div className="nav-item"><Link to="/">Apps</Link></div>
+        <div className="nav-item"><Link to="/">Guides</Link></div>
+        <div className="nav-item"><Link to="/">Code</Link></div>
+        <div className="nav-item"><Link to="/">Teams</Link></div>
+        <div className="nav-item nav-item-btn" onClick={onClickJoin}>Join</div>
+      </div>
+    )
+
+    return (
+      <header className="Header">
+        <Container>
+          <div className="navbar">
+            <Link to="/">
+              <img
+                className="Logo"
+                alt="Horizontal Systems"
+                src="/images/logo.png"
+                srcSet="/images/logo@2x.png 2x, /images/logo@3x.png 3x"
+              />
+
+              <div className="Logo-icon">
+                <Icon name="logo" fill="#05C46B" viewBox="0 0 40 40" size="40" />
+              </div>
+            </Link>
+
+            {navigation}
+
+            <div className="Menu-wrap" onClick={onToggleMenu}>
+              <div className="Menu-close" ref={r => this.menuClose = r}>
+                <Icon name="menu-close" viewBox="0 0 26 26" />
+              </div>
+              <div className="Menu-toggle" ref={r => this.menuToggle = r}>
+                <Icon name="menu" viewBox="0 0 30 30" />
+              </div>
             </div>
-            <div className="nav-item">
-              <a href="https://www.youtube.com/watch?v=-qjzSUdeId0" target="_blank" rel="noopener noreferrer">Office</a>
-            </div>
-            <div className="nav-item">
-              <a href="https://github.com/horizontalsystems" target="_blank" rel="noopener noreferrer">Github</a>
-            </div>
-            <div className="nav-item">
-              <Link to="/team">Team</Link>
-            </div>
-            <div className="nav-item nav-item-btn" onClick={onClickJoin}>Join</div>
           </div>
+        </Container>
+        <div className="navbar-dropdown" ref={r => this.dropdownNav = r}>
+          {navigation}
         </div>
-      </Container>
-    </header>
-  )
+      </header>
+    )
+  }
 }
+
 
 export default Header
