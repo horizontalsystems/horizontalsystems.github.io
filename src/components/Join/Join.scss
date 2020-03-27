@@ -2,4 +2,63 @@
 
 .Join {
   background: #04AD5F;
+  display: flex;
+  align-items: center;
 }
+
+.Join-form-wrap {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Join-form {
+  width: 50%;
+
+  @include sm {
+    width: 100%;
+  }
+}
+
+.Join-links {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+
+.Join-link {
+  display: flex;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+
+  color: #FFFFFF;
+
+  svg {
+    padding-right: 12px;
+  }
+}
+
+input, .btn {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 15px 24px;
+  border: none;
+  border-radius: 4px;
+  margin: 16px 0;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.btn {
+  cursor: pointer;
+  background: $remus;
+  font-size: 24px;
+  line-height: 31px;
+  color: #FFFFFF;
+
+  &:hover {
+    background: lighten($remus, 2%);
+  }
+}
+

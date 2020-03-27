@@ -25,7 +25,20 @@ function Join() {
       </Edge>
 
       <Container>
+        <div className="Join-form-wrap">
+          <form className="Join-form" action="/">
+            <input type="text" placeholder="Email" />
+            <input type="text" placeholder="Name" />
 
+            <button type="submit" className="btn">Join</button>
+
+            <div className="Join-links">
+              <div className="Join-link"><Icon name="mail" viewBox="0 0 18 18" /> Email</div>
+              <div className="Join-link"><Icon name="telegram" viewBox="0 0 20 17" /> Live Chat</div>
+              <div className="Join-link"><Icon name="github" viewBox="0 0 22 21" stroke="#fff" /> Github</div>
+            </div>
+          </form>
+        </div>
       </Container>
 
       <Edge className="Edge-bottom">
