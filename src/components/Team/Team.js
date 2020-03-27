@@ -26,9 +26,12 @@ function Team() {
         </Container>
       </Edge>
 
-      <Container>
-
-      </Container>
+      <img
+        className="Team-image"
+        src="/images/team/group.png"
+        srcSet="/images/team/group@2x.png 2x, /images/team/group@3x.png 3x"
+        alt=""
+      />
 
       <Edge className="Edge-bottom">
         <Container>
