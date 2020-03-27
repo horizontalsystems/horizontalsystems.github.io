@@ -1,19 +1,36 @@
 @import "../../scss/utils";
 
-.Scroller-wrap {
+.Scroller-container {
   height: 100vh;
   display: flex;
   align-items: center;
 }
 
+.Scroller-inner {
+  width: 100%;
+  z-index: 1;
+
+  @include sm {
+    padding-top: 20%;
+  }
+}
+
+.Scroller-wrap {
+  height: 340px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
 .Scroller {
+  position: absolute;
   display: flex;
   overflow-x: scroll;
   overflow-y: hidden;
-  position: relative;
-  height: 340px;
+  height: 100%;
   width: 100%;
   scroll-behavior: smooth;
+  bottom: -13px;
 
   //@include sm {
   //  padding-top: 150px;
@@ -27,13 +44,8 @@
 }
 
 .Scroller-pagination {
-  position: absolute;
-  top: calc(100vh / 2 + 340px / 2);
   z-index: 2;
-
-  @include sm {
-    top: calc(100vh / 2 + 400px / 2);
-  }
+  padding-top: 20px;
 }
 
 .Pagination-item {

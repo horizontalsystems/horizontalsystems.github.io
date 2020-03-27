@@ -27,12 +27,16 @@ function Scroller({ children, padding }) {
     />)
 
   return (
-    <div className="Scroller-wrap">
-      <div className="Scroller" style={style} ref={r => scroller = r}>
-        {children}
-      </div>
-      <div className="Scroller-pagination" style={style}>
-        {pagination}
+    <div className="Scroller-container">
+      <div className="Scroller-inner">
+        <div className="Scroller-wrap">
+          <div className="Scroller" style={style} ref={r => scroller = r}>
+            {children}
+          </div>
+        </div>
+        <div className="Scroller-pagination" style={style}>
+          {pagination}
+        </div>
       </div>
     </div>
   )
