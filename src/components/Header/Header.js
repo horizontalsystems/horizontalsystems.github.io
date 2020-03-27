@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 
 import Container from '../Container/Container'
 import Icon from '../Icon/Icon'
+import events from '../../core/EventEmitter'
 
 import './Header.scss'
 
@@ -11,21 +12,17 @@ class Header extends React.Component {
   render() {
     let dropdown = false
 
-    const onClickJoin = () => {
-
-    }
-
     const onToggleMenu = () => {
       const close = this.menuClose
       const toggle = this.menuToggle
       const dropdownNav = this.dropdownNav
 
       if (dropdown) {
-        dropdownNav.style.display = "none"
+        dropdownNav.style.display = 'none'
         close.style.display = 'none'
         toggle.style.display = 'block'
       } else {
-        dropdownNav.style.display = "block"
+        dropdownNav.style.display = 'block'
         close.style.display = 'block'
         toggle.style.display = 'none'
       }
@@ -33,13 +30,18 @@ class Header extends React.Component {
       dropdown = !dropdown
     }
 
+    const onClickMenu = page => {
+      onToggleMenu()
+      events.navigate(page)
+    }
+
     const navigation = (
       <div className="nav">
-        <div className="nav-item"><Link to="/">Apps</Link></div>
-        <div className="nav-item"><Link to="/">Guides</Link></div>
-        <div className="nav-item"><Link to="/">Code</Link></div>
-        <div className="nav-item"><Link to="/">Teams</Link></div>
-        <div className="nav-item nav-item-btn" onClick={onClickJoin}>Join</div>
+        <div className="nav-item"><Link to="/" onClick={() => onClickMenu(3)}>Apps</Link></div>
+        <div className="nav-item"><Link to="/" onClick={() => onClickMenu(4)}>Guides</Link></div>
+        <div className="nav-item"><Link to="/" onClick={() => onClickMenu(5)}>Code</Link></div>
+        <div className="nav-item"><Link to="/" onClick={() => onClickMenu(6)}>Teams</Link></div>
+        <div className="nav-item nav-item-btn" onClick={() => onClickMenu(7)}>Join</div>
       </div>
     )
 

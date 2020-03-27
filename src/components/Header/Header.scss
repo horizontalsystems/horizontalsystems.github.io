@@ -67,6 +67,7 @@
 .Menu-wrap {
   z-index: 2;
   display: none;
+  cursor: pointer;
 
   @include sm {
     display: block;

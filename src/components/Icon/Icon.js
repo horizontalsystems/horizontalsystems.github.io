@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 
+import './Icon.scss'
+
 class Icon extends Component {
   static defaultProps = {
     size: 24,
@@ -124,10 +126,10 @@ class Icon extends Component {
   }
 
   render() {
-    const { size, viewBox, fill } = this.props
+    const { size, viewBox, fill, className } = this.props
 
     return (
-      <svg viewBox={viewBox} fill={fill} preserveAspectRatio="xMidYMid meet" width={size} height={size}>
+      <svg className={className} viewBox={viewBox} fill={fill} preserveAspectRatio="xMidYMid meet" width={size} height={size}>
         {this.getIcon()}
       </svg>
     )

@@ -5,6 +5,7 @@ import Icon from '../Icon/Icon'
 
 import Card from '../Card/Card'
 import Scroller from '../Scroller/Scroller'
+import events from '../../core/EventEmitter'
 
 import './Guides.scss'
 
@@ -63,7 +64,7 @@ class Guides extends React.Component {
               <div className="Edge-content-start" />
               <div className="Edge-content-end">
                 <div className="Edge-pagination color-white-50">04 / 07</div>
-                <div className="Edge-pagination-icon">
+                <div className="Edge-pagination-icon" onClick={() => events.navigate(5)}>
                   <Icon name="arrow-down" viewBox="0 0 28 28" fill="none" />
                 </div>
               </div>

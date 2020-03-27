@@ -8,20 +8,54 @@ import Code from '../Code/Code'
 import Team from '../Team/Team'
 import Join from '../Join/Join'
 
+import events from '../../core/EventEmitter'
+
 import './App.scss'
 
-function App() {
-  return (
-    <div className="App">
-      <Home />
-      <Mission />
-      <Apps />
-      <Guides />
-      <Code />
-      <Team />
-      <Join />
-    </div>
-  )
+class App extends React.Component {
+  componentDidMount() {
+    events.on('navigate', number => {
+      const element = document.getElementById(`page-${number}`)
+      if (!!element) {
+        element.scrollIntoView({
+          behavior: 'smooth'
+        })
+      }
+    })
+  }
+
+  componentWillUnmount() {
+    events.removeAllListeners('navigate')
+  }
+
+  render() {
+    return (
+      <div className="App">
+        <div id="page-1">
+          <Home />
+        </div>
+        <div id="page-2">
+          <Mission />
+        </div>
+        <div id="page-3">
+          <Apps />
+        </div>
+        <div id="page-4">
+          <Guides />
+        </div>
+        <div id="page-5">
+          <Code />
+        </div>
+        <div id="page-6">
+          <Team />
+        </div>
+        <div id="page-7">
+          <Join />
+        </div>
+      </div>
+    )
+  }
+
 }
 
 export default App

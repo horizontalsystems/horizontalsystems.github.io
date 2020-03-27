@@ -3,6 +3,7 @@ import React from 'react'
 import Container from '../Container/Container'
 import Edge from '../Edge/Edge'
 import Icon from '../Icon/Icon'
+import events from '../../core/EventEmitter'
 
 import './Team.scss'
 
@@ -39,7 +40,7 @@ function Team() {
             <div className="Edge-content-start" />
             <div className="Edge-content-end">
               <div className="Edge-pagination color-white-50">06 / 07</div>
-              <div className="Edge-pagination-icon">
+              <div className="Edge-pagination-icon" onClick={() => events.navigate(7)}>
                 <Icon name="arrow-down" viewBox="0 0 28 28" fill="none" />
               </div>
             </div>

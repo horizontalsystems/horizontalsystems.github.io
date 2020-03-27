@@ -36,8 +36,8 @@
 .Page-down {
   cursor: pointer;
   position: absolute;
-  right: 70px;
   bottom: 70px;
+  right: 0;
 
   @include sm {
     display: none;

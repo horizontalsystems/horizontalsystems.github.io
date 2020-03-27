@@ -3,10 +3,11 @@ import React from 'react'
 import Edge from '../Edge/Edge'
 import Container from '../Container/Container'
 import Icon from '../Icon/Icon'
-
-import './Code.scss'
 import Card from '../Card/Card'
 import Scroller from '../Scroller/Scroller'
+import events from '../../core/EventEmitter'
+
+import './Code.scss'
 
 class Code extends React.Component {
   state = {
@@ -112,7 +113,7 @@ class Code extends React.Component {
               <div className="Edge-content-start" />
               <div className="Edge-content-end">
                 <div className="Edge-pagination color-dark">05 / 07</div>
-                <div className="Edge-pagination-icon">
+                <div className="Edge-pagination-icon" onClick={() => events.navigate(6)}>
                   <Icon name="arrow-down" viewBox="0 0 28 28" fill="none" stroke="#05C46B" />
                 </div>
               </div>

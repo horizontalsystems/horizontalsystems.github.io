@@ -10,7 +10,7 @@ function Routes() {
 
       <Switch>
         <Route path="/privacy" render={() => <Markdown markdown="privacy.md" />} />
-        <Route path="/" render={App} />
+        <Route path="/" component={App} />
       </Switch>
     </BrowserRouter>
   )
