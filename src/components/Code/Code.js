@@ -110,7 +110,11 @@ class Code extends React.Component {
         <Edge className="Edge-bottom">
           <Container>
             <div className="Edge-content">
-              <div className="Edge-content-start" />
+              <div className="Edge-content-start">
+                <a className="Edge-icon-text" href="https://github.com/horizontalsystems">
+                  <Icon name="github" fill="#fff" viewBox="0 0 30 30" size="30" /> Start on Github
+                </a>
+              </div>
               <div className="Edge-content-end">
                 <div className="Edge-pagination color-dark">05 / 07</div>
                 <div className="Edge-pagination-icon" onClick={() => events.navigate(6)}>

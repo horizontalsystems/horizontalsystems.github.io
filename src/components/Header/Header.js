@@ -31,7 +31,6 @@ class Header extends React.Component {
     }
 
     const onClickMenu = page => {
-      onToggleMenu()
       events.navigate(page)
     }
 

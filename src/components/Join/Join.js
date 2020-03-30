@@ -64,9 +64,21 @@ class Join extends React.Component {
                 </div>
 
                 <div className="Join-links">
-                  <div className="Join-link"><Icon name="mail" viewBox="0 0 18 18" /> Email</div>
-                  <div className="Join-link"><Icon name="telegram" viewBox="0 0 20 17" /> Live Chat</div>
-                  <div className="Join-link"><Icon name="github" viewBox="0 0 22 21" stroke="#fff" /> Github</div>
+                  <a href="mailto:hsdao@protonmail.ch">
+                    <div className="Join-link">
+                      <Icon name="mail" viewBox="0 0 18 18" /> Email
+                    </div>
+                  </a>
+                  <a href="https://t.me/unstoppable_wallet">
+                    <div className="Join-link">
+                      <Icon name="telegram" viewBox="0 0 20 17" /> Live Chat
+                    </div>
+                  </a>
+                  <a href="https://github.com/horizontalsystems">
+                    <div className="Join-link">
+                      <Icon name="github" viewBox="0 0 22 21" stroke="#fff" /> Github
+                    </div>
+                  </a>
                 </div>
               </form>
 
