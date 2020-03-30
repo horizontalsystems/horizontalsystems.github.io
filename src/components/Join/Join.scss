@@ -9,13 +9,27 @@
 .Join-form-wrap {
   display: flex;
   justify-content: flex-end;
+
+  @include sm {
+    justify-content: center;
+  }
 }
 
 .Join-form {
-  width: 50%;
+  
+}
 
-  @include sm {
-    width: 100%;
+.Join-success {
+  display: none;
+  color: white;
+  text-align: center;
+
+  h4 {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 30px;
   }
 }
 
@@ -31,7 +45,7 @@
   line-height: 21px;
   text-align: center;
 
-  color: #FFFFFF;
+  color: $white;
 
   svg {
     padding-right: 12px;
@@ -54,11 +68,35 @@ input, .btn {
   cursor: pointer;
   background: $remus;
   font-size: 24px;
-  line-height: 31px;
-  color: #FFFFFF;
+  color: $white;
 
   &:hover {
     background: lighten($remus, 2%);
   }
+
+  &.loading {
+    display: none;
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
 }
 
+.Join-checkbox-wrap {
+  display: flex;
+  align-items: center;
+
+  .Join-checkbox {
+    width: 20px;
+  }
+
+  .Join-checkbox-description {
+    padding-left: 5px;
+    font-size: 14px;
+    line-height: 20px;
+    color: $white;
+  }
+
+  a {
+    color: $white;
+  }
+}
