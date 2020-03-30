@@ -74,7 +74,8 @@
   color: #05C46B;
   z-index: 1;
 
-  a {
+  span, a {
+    cursor: pointer;
     color: #05C46B;
     text-decoration: none;
   }
@@ -100,4 +101,8 @@
 
 .action-separator {
 
+}
+
+.guides-gallery .fancybox-thumbs__list a {
+  height: 145px;
 }
