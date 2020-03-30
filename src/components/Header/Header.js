@@ -31,6 +31,7 @@ class Header extends React.Component {
     }
 
     const onClickMenu = page => {
+      this.dropdownNav.style.display = "none"
       events.navigate(page)
     }
 
