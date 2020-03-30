@@ -1,0 +1,14 @@
+@import "../../scss/utils.scss";
+
+.Home-half {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  right: 0;
+  z-index: 1;
+  background: url("/images/home/bg.svg") repeat;
+
+  @include sm {
+    width: 100%;
+  }
+}
