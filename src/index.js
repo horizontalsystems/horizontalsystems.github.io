@@ -4,6 +4,10 @@ import './index.scss'
 
 import Routes from './Routes'
 import unregister from './core/serviceWorker'
+import smoothscroll from 'smoothscroll-polyfill';
+
+// kick off the polyfill!
+smoothscroll.polyfill();
 
 ReactDOM.render(<Routes />, document.getElementById('root'))
 

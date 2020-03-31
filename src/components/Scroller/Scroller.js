@@ -15,8 +15,13 @@ function Scroller({ children, padding }) {
 
     const index = parseInt(i)
     const first = scroller.childNodes.item(1)
+    const scrollLeft = (first.offsetWidth + 24) * index
 
-    scroller.scrollLeft = (first.offsetWidth + 24) * index
+    scroller.scroll({
+      top: 0,
+      left: scrollLeft,
+      behavior: 'smooth'
+    });
   }
 
   const pagination = [...Array(children.length)].map((_, index) =>
