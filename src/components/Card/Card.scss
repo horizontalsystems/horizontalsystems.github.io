@@ -5,8 +5,6 @@
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
   border-radius: 24px;
   height: 320px;
-  width: 50vw;
-  min-width: 50vw;
   margin-right: 24px;
   position: relative;
   display: flex;
@@ -14,7 +12,20 @@
   justify-content: space-between;
 
   @include sm {
-    min-width: 80vw;
+    min-width: 250px;
+    border-radius: 12px;
+  }
+
+  @include md {
+    min-width: 536px;
+  }
+
+  @include lg {
+    min-width: 536px;
+  }
+
+  @include xxl {
+    min-width: 650px;
   }
 }
 
@@ -37,6 +48,8 @@
   }
 
   @include sm {
+    padding-top: 24px;
+    padding-left: 24px;
     font-size: 20px;
     line-height: 26px;
     width: 80%;
@@ -56,7 +69,8 @@
     width: 80%;
     font-size: 14px;
     line-height: 18px;
-    margin-bottom: 40px;
+    padding-left: 24px;
+    margin-bottom: 50px;
   }
 }
 
@@ -81,7 +95,9 @@
   }
 
   @include sm {
-    padding: 27px;
+    padding: 27px 24px;
+    font-size: 14px;
+    line-height: 18px;
   }
 }
 

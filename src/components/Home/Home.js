@@ -9,7 +9,7 @@ import './Home.scss'
 function Home() {
   return (
     <Container fluid>
-      <div className="Home-half" />
+      <div className="Screen-half" />
       <Header />
       <Banner />
     </Container>

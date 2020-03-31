@@ -6,8 +6,8 @@
   width: 100vw;
   display: flex;
   align-items: center;
-  background: #0F1014;
   color: $remus;
+  z-index: 1;
 }
 
 .navbar {
@@ -35,7 +35,6 @@
   display: flex;
   flex-direction: row;
   font-size: 14px;
-  z-index: 1;
 
   .nav-item {
     height: 32px;

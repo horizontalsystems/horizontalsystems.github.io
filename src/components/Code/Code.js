@@ -22,6 +22,8 @@ class Code extends React.Component {
   render() {
     return (
       <Container className="bg-steal-dark" fluid>
+        <div className="Screen-half" />
+
         <Edge className="Edge-header">
           <div className="Edge-start bg-green" />
           <Container>
@@ -111,7 +113,7 @@ class Code extends React.Component {
           <Container>
             <div className="Edge-content">
               <div className="Edge-content-start">
-                <a className="Edge-icon-text" href="https://github.com/horizontalsystems">
+                <a className="Edge-icon-text Start-on-github" href="https://github.com/horizontalsystems">
                   <Icon name="github" fill="#fff" viewBox="0 0 30 30" size="30" /> Start on Github
                 </a>
               </div>

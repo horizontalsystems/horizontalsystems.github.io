@@ -73,6 +73,10 @@
     width: 100%;
     height: 96px;
   }
+
+  @include xxl {
+    width: 55%;
+  }
 }
 
 .Edge-end {
@@ -88,13 +92,17 @@
   @include sm {
     display: none;
   }
+
+  @include xxl {
+    width: 45%;
+  }
 }
 
 .Edge-content-end-text {
   width: 38%;
 
   @include sm {
-    padding-top: 40px;
+    padding-top: 15px;
     width: 100%;
     font-size: 14px;
     line-height: 18px;
@@ -166,5 +174,11 @@
 
   svg {
     padding-right: 24px
+  }
+}
+
+.Start-on-github {
+  @include sm {
+    display: none;
   }
 }
