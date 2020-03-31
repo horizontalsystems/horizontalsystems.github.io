@@ -5,13 +5,27 @@ import './Scroller.scss'
 
 function Scroller({ children, padding }) {
   let scroller = null
+  let pagination = null
 
   const style = {
     paddingLeft: `${padding}px`,
   }
 
+  const selectItem = id => {
+      pagination.childNodes.forEach((item, index) => {
+      const classNames = item.classList
+
+      if (index === id) {
+        classNames.add('active')
+      } else {
+        classNames.remove('active')
+      }
+    })
+  }
+
   const onClick = i => {
     if (scroller == null) return
+    if (pagination != null) selectItem(i)
 
     const index = parseInt(i)
     const first = scroller.childNodes.item(1)
@@ -24,7 +38,7 @@ function Scroller({ children, padding }) {
     });
   }
 
-  const pagination = [...Array(children.length)].map((_, index) =>
+  const paginationItems = [...Array(children.length)].map((_, index) =>
     <span
       key={index}
       className={cn('Pagination-item', { active: index === 0 })}
@@ -39,8 +53,8 @@ function Scroller({ children, padding }) {
             {children}
           </div>
         </div>
-        <div className="Scroller-pagination" style={style}>
-          {pagination}
+        <div className="Scroller-pagination" style={style} ref={r => pagination = r}>
+          {paginationItems}
         </div>
       </div>
     </div>
