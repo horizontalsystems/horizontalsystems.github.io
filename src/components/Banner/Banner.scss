@@ -41,6 +41,7 @@
   z-index: 2;
 
   @include sm {
-    display: none;
+    right: 24px;
+    bottom: 24px;
   }
 }

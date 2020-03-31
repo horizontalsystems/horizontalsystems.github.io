@@ -49,3 +49,10 @@
   color: #252933;
 }
 
+//
+
+@include sm {
+  .sm-svg-green path {
+    stroke: #05C46B;
+  }
+}

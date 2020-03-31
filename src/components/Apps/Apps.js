@@ -81,7 +81,7 @@ class Apps extends React.Component {
               <div className="Edge-content-start" />
               <div className="Edge-content-end">
                 <div className="Edge-pagination color-white-50">03 / 07</div>
-                <div className="Edge-pagination-icon" onClick={() => events.navigate(4)}>
+                <div className="Edge-pagination-icon sm-svg-green" onClick={() => events.navigate(4)}>
                   <Icon name="arrow-down" viewBox="0 0 28 28" fill="none" />
                 </div>
               </div>

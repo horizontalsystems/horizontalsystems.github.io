@@ -44,8 +44,8 @@
   }
 }
 
-.Mission-bottom {
-  @include sm {
+@include sm {
+  .sm-hidden {
     display: none;
   }
 }

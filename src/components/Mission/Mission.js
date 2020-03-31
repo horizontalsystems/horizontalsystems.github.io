@@ -23,11 +23,13 @@ function Mission() {
         </div>
       </Container>
 
-      <Edge className="Edge-bottom Mission-bottom">
+      <Edge className="Edge-bottom">
         <Container>
           <div className="Edge-content">
             <div className="Edge-content-start">
-              <Icon name="logo" fill="#fff" viewBox="0 0 40 40" size="40" />
+              <div className="sm-hidden">
+                <Icon name="logo" fill="#fff" viewBox="0 0 40 40" size="40" />
+              </div>
             </div>
             <div className="Edge-content-end">
               <div className="Edge-pagination color-grey">02 / 07</div>

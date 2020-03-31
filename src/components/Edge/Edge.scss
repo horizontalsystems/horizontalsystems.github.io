@@ -139,7 +139,9 @@
   cursor: pointer;
 
   @include sm {
-    display: none;
+    position: absolute;
+    right: 24px;
+    bottom: 24px;
   }
 }
 
