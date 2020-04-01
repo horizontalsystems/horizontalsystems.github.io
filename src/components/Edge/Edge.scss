@@ -99,24 +99,16 @@
 }
 
 .Edge-content-end-text {
+  font-size: 18px;
+  line-height: 23px;
   width: 38%;
 
   @include sm {
-    padding-top: 35px;
+    padding-top: 24px;
     width: 100%;
-    font-size: 14px;
-    line-height: 18px;
   }
 
   @include md {
-    padding-top: 10px;
-    font-size: 18px;
-    line-height: 23px;
-  }
-
-  @include lg {
-    font-size: 18px;
-    line-height: 23px;
   }
 
   @include xxl {

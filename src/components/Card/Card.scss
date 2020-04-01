@@ -2,7 +2,7 @@
 
 .Card {
   background: #252933;
-  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 4px 0 2px rgba(0, 0, 0, 0.3);
   border-radius: 24px;
   height: 320px;
   margin-right: 24px;
@@ -98,6 +98,8 @@
     padding: 27px 24px;
     font-size: 14px;
     line-height: 18px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
   }
 }
 
