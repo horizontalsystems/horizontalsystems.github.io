@@ -22,7 +22,7 @@ class Code extends React.Component {
   render() {
     return (
       <Container className="bg-steal-dark" fluid>
-        <div className="Screen-half" />
+        <div className="Screen-right-half paths-grey" />
 
         <Edge className="Edge-header">
           <div className="Edge-start bg-green" />

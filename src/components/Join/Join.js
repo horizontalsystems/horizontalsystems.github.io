@@ -27,6 +27,8 @@ class Join extends React.Component {
 
     return (
       <Container className="Join bg-steal-dark" fluid>
+        <div className="Screen-left-half paths-green" />
+
         <Edge className="Edge-header">
           <div className="Edge-start bg-dark" />
           <Container>

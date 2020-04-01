@@ -22,6 +22,8 @@ class Apps extends React.Component {
   render() {
     return (
       <Container className="Apps" fluid>
+        <div className="Screen-right-half paths-white" />
+
         <Edge className="Edge-header">
           <div className="Edge-start bg-steal-dark" />
           <Container>
