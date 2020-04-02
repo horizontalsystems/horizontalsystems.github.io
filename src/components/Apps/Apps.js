@@ -46,7 +46,7 @@ class Apps extends React.Component {
             title={
               <img src="/images/cards/unstoppable-wallet.png" alt="" />
             }
-            info={<>Secure your crypto assets, get unconditional control, discover emerging projects, analyze asset performance and time market tops and bottoms.</>}
+            info={<>Store crypto safely, enjoy unconditional control, discover emerging projects, monitor performance and time market tops and bottoms.</>}
             cover="/images/cards/unstoppable-wallet-screen.png"
             actionsLeft={
               <a href="https://unstoppable.money">Learn more</a>

@@ -19,7 +19,7 @@ function Banner() {
         </div>
       </div>
       <div className="Banner-desc">
-        Inspiring borderless investments by guiding millenial investors <br />
+        Inspiring borderless investments by guiding investors <br />
         through blockchain tech
       </div>
     </Container>

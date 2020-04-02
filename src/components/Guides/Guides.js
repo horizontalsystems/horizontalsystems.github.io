@@ -69,29 +69,32 @@ class Guides extends React.Component {
                 </div>
               </div>
               <div className="Edge-content-end Edge-content-end-text color-white">
-                We digg into different blockchain projects that gained attention and explain them thoroughly in simple terms.
+                We digg into promising blockchain projects that are already online and explain them in simple terms.
               </div>
             </div>
           </Container>
         </Edge>
 
         <Scroller padding={this.state.padding}>
+
           <Card
-            title="Libra Explained In Simple Terms"
-            info={<>Do you know a whale from a bear? <br />A cold wallet from a decentralised wallet?<br /></>}
-            cover="/images/cards/libra.png"
-            actionsLeft={
-              <span onClick={() => this.showGuide('libra')}>Preview</span>
-            }
-          />
-          <Card
-            title="Bitcoin Explained In Simple Terms"
-            info={<>What is Bitcoin? <br />What makes Bitcoin so unique? <br />And how can you invest? <br /></>}
+            title="Bitcoin in Simple Terms"
+            info={<>Get familiar with Bitcoin phenomena and other cryptocurrencies in simple and easy to digest manner, without skipping the essentials. <br /></>}
             cover="/images/cards/bitcoin.png"
             actionsLeft={
               <span onClick={() => this.showGuide('simple-term')}>Preview</span>
             }
           />
+
+          <Card
+            title="Libra in Simple Terms"
+            info={<>The Facebook's Libra have been on world headlines lately. In this guide we explain how it's going to work and the impact it's likely to have on the payments ecosystem globally <br /></>}
+            cover="/images/cards/libra.png"
+            actionsLeft={
+              <span onClick={() => this.showGuide('libra')}>Preview</span>
+            }
+          />
+
           <Card
             title="Crypto Terms for Beginners"
             info={<>

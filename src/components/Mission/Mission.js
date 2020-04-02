@@ -19,7 +19,7 @@ function Mission() {
 
       <Container>
         <div className="Mission-text">
-          We build products that help blockchain and cryptocurrency investors make better decisions.
+          We build products that help blockchain investors make better decisions.
         </div>
       </Container>
 
