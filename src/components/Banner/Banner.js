@@ -19,8 +19,8 @@ function Banner() {
         </div>
       </div>
       <div className="Banner-desc">
-        Inspiring borderless investments by guiding investor <br />
-        through blockchain techs
+        Inspiring borderless investments by guiding millenial investors <br />
+        through blockchain tech
       </div>
     </Container>
   )

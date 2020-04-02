@@ -69,7 +69,7 @@ class Guides extends React.Component {
                 </div>
               </div>
               <div className="Edge-content-end Edge-content-end-text color-white">
-                We study what different blockchain projects are and provide them in an accessible language
+                We digg into different blockchain projects that gained attention and explain them thoroughly in simple terms.
               </div>
             </div>
           </Container>

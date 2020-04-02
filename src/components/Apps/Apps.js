@@ -35,8 +35,7 @@ class Apps extends React.Component {
                 </div>
               </div>
               <div className="Edge-content-end Edge-content-end-text color-dark">
-                Only you can manage your funds. Privacy, independence and reliability are the main principles of our
-                products Only you can manage your funds.
+                Independence, knowledge and privacy are the main principles behind the products we build.
               </div>
             </div>
           </Container>
@@ -47,15 +46,15 @@ class Apps extends React.Component {
             title={
               <img src="/images/cards/unstoppable-wallet.png" alt="" />
             }
-            info={<>Only you can manage your funds. Privacy, independence and reliability are the main principles of our products</>}
+            info={<>Secure your crypto assets, get unconditional control, discover emerging projects, analyze asset performance and time market tops and bottoms.</>}
             cover="/images/cards/unstoppable-wallet-screen.png"
             actionsLeft={
-              <a href="/">Learn more</a>
+              <a href="https://unstoppable.money">Learn more</a>
             }
             actionsRight={
               <>
-                <a href="https://github.com/horizontalsystems/unstoppable-wallet-ios">IOS</a> |&nbsp;
-                <a href="https://github.com/horizontalsystems/unstoppable-wallet-android">Android</a>
+                <a href="https://itunes.apple.com/app/bank-bitcoin-wallet/id1447619907?ls=1&mt=8">iOS</a> |&nbsp;
+                <a href="https://play.google.com/store/apps/details?id=io.horizontalsystems.bankwallet">Android</a>
               </>
             }
           />
@@ -63,15 +62,14 @@ class Apps extends React.Component {
             title={
               <img src="/images/cards/unstoppable-wallet.png" alt="" />
             }
-            info={<>Only you can manage your funds. Privacy, independence and reliability are the main principles of our products</>}
+            info={<>Discover lightning network. Accept instant Bitcoin payments</>}
             cover="/images/cards/unstoppable-wallet-screen.png"
             actionsLeft={
-              <a href="/">Learn more</a>
+              <a href="/"></a>
             }
             actionsRight={
               <>
-                <a href="https://github.com/horizontalsystems/unstoppable-wallet-ios">IOS</a> |s&nbsp;
-                <a href="https://github.com/horizontalsystems/unstoppable-wallet-android">Android</a>
+                <a href="https://github.com/horizontalsystems/unstoppable-wallet-ios">Coming Soon ...</a>
               </>
             }
           />
