@@ -69,7 +69,7 @@ class Guides extends React.Component {
                 </div>
               </div>
               <div className="Edge-content-end Edge-content-end-text color-white">
-                We digg into promising blockchain projects that are already online and explain them in simple terms.
+                We digg into best blockchain projects that and explain them in simple terms.
               </div>
             </div>
           </Container>
@@ -79,7 +79,7 @@ class Guides extends React.Component {
 
           <Card
             title="Bitcoin in Simple Terms"
-            info={<>Get familiar with Bitcoin phenomena and other cryptocurrencies in simple and easy to digest manner, without skipping the essentials. <br /></>}
+            info={<>Get familiar with Bitcoin phenomena and the ecosystem around it, in an easy to digest manner. <br /><br />This 30 pager illustrated guide will take you from zero to a level where you understand all essentials without eating your head. <br /></>}
             cover="/images/cards/bitcoin.png"
             actionsLeft={
               <span onClick={() => this.showGuide('simple-term')}>Preview</span>
@@ -87,8 +87,18 @@ class Guides extends React.Component {
           />
 
           <Card
+            title="Ethereum in Simple Terms"
+            info={<>Wondering what's a big deal with Ethereum and how it's different from Bitcoin? <br /><br />This guide explains what Ethereum is and how are decentralized financial services built on top of it work.<br /></>}
+            cover="/images/cards/libra.png"
+            actionsLeft={
+              <span>Coming Soon</span>
+            }
+          />
+
+
+          <Card
             title="Libra in Simple Terms"
-            info={<>The Facebook's Libra have been on world headlines lately. In this guide we explain how it's going to work and the impact it's likely to have on the payments ecosystem globally <br /></>}
+            info={<>In this guide we look at what Facebook's Libra project is, how it's going to work and the impact it may have on the payments ecosystem globally. <br /></>}
             cover="/images/cards/libra.png"
             actionsLeft={
               <span onClick={() => this.showGuide('libra')}>Preview</span>
@@ -96,17 +106,39 @@ class Guides extends React.Component {
           />
 
           <Card
-            title="Crypto Terms for Beginners"
+            title="MakerDAO in Simple Terms"
+            info={<>MakerDAO is a lending facility built on Ethereum which currently manages over half a billion USD.<br /><br />This guide explains what DAO projects are, how exactly MakerDAO works and what services it provides.<br /></>}
+            cover="/images/cards/libra.png"
+            actionsLeft={
+              <span>Coming Soon</span>
+            }
+          />          
+
+
+          <Card
+            title="Cheat Sheet : Crypto Terms for Beginners"
             info={<>
-              Do you know what a whale means in crypto? <br />
-              The difference between non-custodial and custodial wallets? <br />
-              What KYC and AML mean and why you should care? <br />
+              Do you know what a whale means in crypto? The difference between non-custodial and custodial wallets? What KYC and AML mean and why you should care? <br />
               </>}
             cover="/images/cards/question.png"
             actionsLeft={
-              <span>Preview</span>
+              <span>Download</span>
             }
           />
+
+
+          <Card
+            title="Cheat Sheet : Stablecoins Explained"
+            info={<>
+              Do you know what a whale means in crypto? The difference between non-custodial and custodial wallets? What KYC and AML mean and why you should care? <br />
+              </>}
+            cover="/images/cards/question.png"
+            actionsLeft={
+              <span>Download</span>
+            }
+          />
+
+
         </Scroller>
 
         <Edge className="Edge-bottom">

@@ -40,7 +40,7 @@ class Header extends React.Component {
         <div className="nav-item"><Link to="/" onClick={() => onClickMenu(3)}>Apps</Link></div>
         <div className="nav-item"><Link to="/" onClick={() => onClickMenu(4)}>Guides</Link></div>
         <div className="nav-item"><Link to="/" onClick={() => onClickMenu(5)}>Code</Link></div>
-        <div className="nav-item"><Link to="/" onClick={() => onClickMenu(6)}>Teams</Link></div>
+        <div className="nav-item"><Link to="/" onClick={() => onClickMenu(6)}>Team</Link></div>
         <div className="nav-item nav-item-btn" onClick={() => onClickMenu(7)}>Join</div>
       </div>
     )
