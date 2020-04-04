@@ -124,3 +124,10 @@
 .guides-gallery .fancybox-thumbs__list a {
   height: 145px;
 }
+
+.Card-coming-soon {
+  .Card-bottom {
+    background: transparent;
+    backdrop-filter: none;
+  }
+}

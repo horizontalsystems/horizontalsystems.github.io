@@ -20,13 +20,14 @@ function Team() {
                 <div className="Icon-label color-white">Team</div>
               </div>
             </div>
-            <div className="Edge-content-end Edge-content-end-text color-white">
+            <div className="Edge-content-end Edge-content-end-text color-dark">
               We believe open blockchain are at the verge of fundamentally transforming global finance.
             </div>
           </div>
         </Container>
       </Edge>
 
+      <div className="Team-gradient" />
       <img
         className="Team-image"
         src="/images/team/group.png"

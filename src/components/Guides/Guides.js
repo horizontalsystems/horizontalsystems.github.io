@@ -8,6 +8,7 @@ import Scroller from '../Scroller/Scroller'
 import events from '../../core/EventEmitter'
 
 import './Guides.scss'
+import JoinForm from '../Join/JoinForm'
 
 class Guides extends React.Component {
   state = {
@@ -55,6 +56,14 @@ class Guides extends React.Component {
     });
   }
 
+  openFormModal = () => {
+    events.showModal(
+      <div className="Join-modal">
+        <JoinForm formCode="m3g0e6" formId="1561498" />
+      </div>
+    )
+  }
+
   render() {
     return (
       <Container className="Guides" fluid>
@@ -84,6 +93,9 @@ class Guides extends React.Component {
             actionsLeft={
               <span onClick={() => this.showGuide('simple-term')}>Preview</span>
             }
+            actionsRight={
+              <span onClick={() => this.openFormModal()}>Download</span>
+            }
           />
 
           <Card
@@ -102,6 +114,9 @@ class Guides extends React.Component {
             cover="/images/cards/libra.png"
             actionsLeft={
               <span onClick={() => this.showGuide('libra')}>Preview</span>
+            }
+            actionsRight={
+              <span onClick={() => this.openFormModal()}>Download</span>
             }
           />
 

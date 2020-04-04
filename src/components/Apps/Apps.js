@@ -59,19 +59,12 @@ class Apps extends React.Component {
             }
           />
           <Card
+            dark
+            comingSoon
             title={
-              <img src="/images/cards/unstoppable-wallet.png" alt="" />
+              <img src="/images/cards/hs-project.png" alt="" />
             }
-            info={<>Discover lightning network. Accept instant Bitcoin payments</>}
-            cover="/images/cards/unstoppable-wallet-screen.png"
-            actionsLeft={
-              <a href="/"></a>
-            }
-            actionsRight={
-              <>
-                <a href="https://github.com/horizontalsystems/unstoppable-wallet-ios">Coming Soon ...</a>
-              </>
-            }
+            info={<>Coming Soon...</>}
           />
         </Scroller>
 
