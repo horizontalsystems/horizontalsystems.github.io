@@ -137,7 +137,7 @@ class Guides extends React.Component {
               </>}
             cover="/images/cards/question.png"
             actionsLeft={
-              <span>Download</span>
+              <a href="/guides/cryptoterms.pdf" target="_blank">Download</a>
             }
           />
 
@@ -149,7 +149,7 @@ class Guides extends React.Component {
               </>}
             cover="/images/cards/question.png"
             actionsLeft={
-              <span>Download</span>
+              <a href="/guides/stablecoins.pdf" target="_blank">Download</a>
             }
           />
 
