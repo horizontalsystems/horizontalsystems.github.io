@@ -43,64 +43,64 @@ class Code extends React.Component {
 
         <Scroller padding={this.state.padding}>
           <Card
-            title="Unstoppable Wallet Kit"
-            info={<>A secure and decentralized Bitcoin and other cryptocurrency wallet. Supports Bitcoin, Ethereum, EOS, Binance Chain, Bitcoin Cash, DASH ...</>}
+            title="Unstoppable Wallet Library"
+            info={<>A decentralized multi-blockchain wallet for Bitcoin and other cryptocurrencies. This wallet app fully supports Bitcoin, Ethereum, Litecoin, EOS, Binance DEX, Bitcoin Cash and DASH blockchains.</>}
             actionsLeft={<>
               <a href="https://github.com/horizontalsystems/unstoppable-wallet-android">Kotlin</a>&nbsp;|&nbsp;
               <a href="https://github.com/horizontalsystems/unstoppable-wallet-ios">Swift</a></>}
             dark
           />
           <Card
-            title="Ethereum Kit"
-            info={<>This is a full implementation of SPV node including wallet creation/restore, synchronization with network, send/receive transactions, and more.</>}
+            title="Bitcoin Library"
+            info={<>Full implementation of SPV protocol including standard-compliant wallet creation/restore, synchronization with network, send/receive transactions, and a lot more.</>}
             actionsLeft={<>
               <a href="https://github.com/horizontalsystems/bitcoin-kit-android">Kotlin</a>&nbsp;|&nbsp;
               <a href="https://github.com/horizontalsystems/bitcoin-kit-ios">Swift</a></>}
             dark
           />
           <Card
-            title="Ethereum Kit"
-            info={<>Fully functional wallet implementation for Ethereum protocol. Using this toolkit you can built ethereum + ERC 20 token wallet in no time :)</>}
+            title="Ethereum Library"
+            info={<>Full wallet/account implementation for Ethereum blockchain. Can be a great time saver if you are building a DApp on Ethereum.</>}
             actionsLeft={<>
               <a href="https://github.com/horizontalsystems/ethereum-kit-android">Kotlin</a>&nbsp;|&nbsp;
               <a href="https://github.com/horizontalsystems/ethereum-kit-ios">Swift</a></>}
             dark
           />
           <Card
-            title="EOS Kit"
-            info={<>General purpose library (SDK) for the EOS blockchain and EOSIO protocol, written on Swift and Kotlin</>}
+            title="EOS Library"
+            info={<>General purpose wallet library for the EOS blockchain and EOSIO protocol.</>}
             actionsLeft={<>
               <a href="https://github.com/horizontalsystems/eos-kit-android">Kotlin</a>&nbsp;|&nbsp;
               <a href="https://github.com/horizontalsystems/eos-kit-ios">Swift</a></>}
             dark
           />
           <Card
-            title="Binance Chain Kit"
-            info={<>Full Binance DEX library (SDK), implemented on Swift and Kotlin</>}
+            title="Binance DEX Library"
+            info={<>Binance DEX wallet for BEP2 tokens, most popular token type on Binance DEX. Easily extandable to support other Binance DEX features.</>}
             actionsLeft={<>
               <a href="https://github.com/horizontalsystems/binance-chain-kit-android">Kotlin</a>&nbsp;|&nbsp;
               <a href="https://github.com/horizontalsystems/binance-chain-kit-ios">Swift</a></>}
             dark
           />
           <Card
-            title="Atomic Swap Kit"
-            info={<>Atomic Swap library for Bitcoin (BTC) and Bitcoin Cash (BCH) swaps in decentralized manner. Implemented on Swift and Kotlin</>}
+            title="Atomic Swap Library"
+            info={<>Atomic Swap library for Bitcoin (BTC) and Bitcoin Cash (BCH) swaps in decentralized manner. This library has not been tested in production environment yet.</>}
             actionsLeft={<>
               <a href="https://github.com/horizontalsystems/atomic-swap-kit-android">Kotlin</a>&nbsp;|&nbsp;
               <a href="https://github.com/horizontalsystems/atomic-swap-kit-ios">Swift</a></>}
             dark
           />
           <Card
-            title="Hodler Kit"
-            info={<>Hodler Kit library</>}
+            title="Bitcoin Hodler Library"
+            info={<>Using native Bitcoin protocol this kit enables construction of Bitcoin transactions which can not be spent by the receiver until a certain date in the future.</>}
             actionsLeft={<>
               <a href="https://github.com/horizontalsystems/bitcoin-kit-android/tree/master/hodler">Kotlin</a>&nbsp;|&nbsp;
               <a href="https://github.com/horizontalsystems/bitcoin-kit-ios/tree/master/Hodler">Swift</a></>}
             dark
           />
           <Card
-            title="Lightning Kit"
-            info={<>Lightning Kit library</>}
+            title="Lightning Library"
+            info={<>Add Lightning Network capabilities to your project. Lighning wallet creation, channels and so on. Work in progress.</>}
             actionsLeft={<>
               <a href="https://github.com/horizontalsystems/lightning-kit-android">Kotlin</a>&nbsp;|&nbsp;
               <a href="https://github.com/horizontalsystems/lightning-kit-ios">Swift</a></>}
