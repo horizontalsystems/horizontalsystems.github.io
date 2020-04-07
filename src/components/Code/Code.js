@@ -35,8 +35,7 @@ class Code extends React.Component {
                 </div>
               </div>
               <div className="Edge-content-end Edge-content-end-text color-white">
-                We are indeptedly grateful to the army of open source blockchain engeineers thet contributed to the
-                emergence of decentralized systems
+                We are indeptedly grateful to the army of engineers for the emergence of decentralized systems. You're welcome to contribute and reuse our code unconditionally.
               </div>
             </div>
           </Container>
@@ -114,7 +113,7 @@ class Code extends React.Component {
             <div className="Edge-content">
               <div className="Edge-content-start">
                 <a className="Edge-icon-text Start-on-github" href="https://github.com/horizontalsystems">
-                  <Icon name="github" fill="#fff" viewBox="0 0 30 30" size="30" /> Start on Github
+                  <Icon name="github" fill="#fff" viewBox="0 0 30 30" size="30" /> Follow our work Github
                 </a>
               </div>
               <div className="Edge-content-end">

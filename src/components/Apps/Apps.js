@@ -35,7 +35,7 @@ class Apps extends React.Component {
                 </div>
               </div>
               <div className="Edge-content-end Edge-content-end-text color-dark">
-                Independence, knowledge and privacy are the main principles behind our products.
+                Independence, knowledge and privacy are the main principles behind the products we build.
               </div>
             </div>
           </Container>
@@ -46,7 +46,7 @@ class Apps extends React.Component {
             title={
               <img src="/images/cards/unstoppable-wallet.png" alt="" />
             }
-            info={<>Store crypto safely, enjoy unconditional control, discover emerging projects, monitor performance and time market tops and bottoms.</>}
+            info={<>Store crypto safely, enjoy unconditional control, learn about projects, and time market tops and bottoms for different coins.<br /><br /> This wallet is years ahead of compeeting products. Give it a try!</>}
             cover="/images/cards/unstoppable-wallet-screen.png"
             actionsLeft={
               <a href="https://unstoppable.money">https://unstoppable.money</a>
@@ -64,7 +64,7 @@ class Apps extends React.Component {
             title={
               <img src="/images/cards/hs-project.png" alt="" />
             }
-            info={<>Coming Soon...</>}
+            info={<>Under the hood Lightning Network project. Will be announced once it's ready for prime time.</>}
           />
         </Scroller>
 
