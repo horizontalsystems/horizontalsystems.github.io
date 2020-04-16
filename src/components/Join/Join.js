@@ -23,8 +23,9 @@ function Join() {
                 <div className="Icon-label color-white">Newsletter</div>
               </div>
             </div>
-            <div className="Edge-content-end" />
-             Subscribe to our newsletter to get new products, guides and cheat sheets when they are published.
+            <div className="Edge-content-end Edge-content-end-text color-white">
+              Subscribe to our newsletter to get new products, guides and cheat sheets when they are published.
+            </div>
           </div>
         </Container>
       </Edge>
