@@ -20,10 +20,11 @@ function Join() {
             <div className="Edge-content-start">
               <div className="Icon-wrap">
                 <Icon name="join" fill="none" viewBox="0 0 56 52" size="52" />
-                <div className="Icon-label color-white">Join Us</div>
+                <div className="Icon-label color-white">Newsletter</div>
               </div>
             </div>
             <div className="Edge-content-end" />
+             Subscribe to our newsletter to get new products, guides and cheat sheets when they are published.
           </div>
         </Container>
       </Edge>
