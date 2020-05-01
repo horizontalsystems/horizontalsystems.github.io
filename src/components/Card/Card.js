@@ -17,7 +17,12 @@ function Card({ title, info, actionsLeft, actionsRight, cover, dark, comingSoon 
         </div>}
       </div>
 
-      {cover && <img className="Card-cover" src={cover} alt="" />}
+      {cover && <img
+        className="Card-cover"
+        src={`/images/cards/${cover}.png`}
+        srcSet={`/images/cards/${cover}@2x.png 2x, /images/cards/${cover}@3x.png 3x`}
+        alt=""
+      />}
       {comingSoon && <div className="Screen-right-half paths-green" />}
     </div>
   )

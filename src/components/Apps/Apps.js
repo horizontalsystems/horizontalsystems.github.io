@@ -7,6 +7,9 @@ import Edge from '../Edge/Edge'
 import Card from '../Card/Card'
 import events from '../../core/EventEmitter'
 
+import uw from './uw.svg'
+import soon from './coming-soon.svg'
+
 import './Apps.scss'
 
 class Apps extends React.Component {
@@ -44,10 +47,10 @@ class Apps extends React.Component {
         <Scroller padding={this.state.padding}>
           <Card
             title={
-              <img src="/images/cards/unstoppable-wallet.png" alt="" />
+              <img src={uw} alt="" />
             }
             info={<>Store crypto safely, enjoy unconditional control, learn about projects, and time market tops and bottoms for different coins.<br /><br /> This wallet is years ahead of compeeting products. Give it a try!</>}
-            cover="/images/cards/unstoppable-wallet-screen.png"
+            cover="unstoppable-wallet-screen"
             actionsLeft={
               <a href="https://unstoppable.money">https://unstoppable.money</a>
             }
@@ -62,7 +65,7 @@ class Apps extends React.Component {
             dark
             comingSoon
             title={
-              <img src="/images/cards/hs-project.png" alt="" />
+              <img src={soon} alt="" />
             }
             info={<>Under the hood Lightning Network project. Will be announced once it's ready for prime time.</>}
           />
