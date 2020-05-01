@@ -117,15 +117,15 @@ class Code extends React.Component {
                 </a>
               </div>
               <div className="Edge-content-end">
-                <div className="Edge-pagination color-dark">05 / 07</div>
+                <div className="Edge-pagination color-white-50">05 / 07</div>
                 <div className="Edge-pagination-icon" onClick={() => events.navigate(6)}>
-                  <Icon name="arrow-down" viewBox="0 0 28 28" fill="none" stroke="#05C46B" />
+                  <Icon name="arrow-down" viewBox="0 0 28 28" fill="none" />
                 </div>
               </div>
             </div>
           </Container>
 
-          <div className="Edge-end bg-white" />
+          <div className="Edge-end bg-green" />
         </Edge>
       </Container>
     )
