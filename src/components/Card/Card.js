@@ -23,7 +23,7 @@ function Card({ title, info, actionsLeft, actionsRight, cover, dark, comingSoon 
         srcSet={`/images/cards/${cover}@2x.png 2x, /images/cards/${cover}@3x.png 3x`}
         alt=""
       />}
-      {comingSoon && <div className="Screen-right-half paths-green" />}
+      {comingSoon && <div className="Screen-right-half paths-dark" />}
     </div>
   )
 }
