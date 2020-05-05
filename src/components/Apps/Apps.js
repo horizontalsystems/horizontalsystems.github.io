@@ -5,6 +5,8 @@ import Scroller from '../Scroller/Scroller'
 import Icon from '../Icon/Icon'
 import Edge from '../Edge/Edge'
 import Card from '../Card/Card'
+import EdgeStart from '../Edge/EdgeStart'
+import EdgeEnd from '../Edge/EdgeEnd'
 import events from '../../core/EventEmitter'
 
 import uw from './uw.svg'
@@ -28,7 +30,7 @@ class Apps extends React.Component {
         <div className="Screen-right-half paths-white" />
 
         <Edge className="Edge-header">
-          <div className="Edge-start bg-steal-dark" />
+          <EdgeStart colorName="dark-steal" />
           <Container>
             <div className="Edge-content" ref={r => this.content = r}>
               <div className="Edge-content-start">
@@ -84,7 +86,7 @@ class Apps extends React.Component {
             </div>
           </Container>
 
-          <div className="Edge-end bg-green" />
+          <EdgeEnd colorName="green" />
         </Edge>
       </Container>
     )

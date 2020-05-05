@@ -7,52 +7,36 @@
 
 // background colors
 
-.bg-white {
-  background: #ffffff;
-}
-
-.bg-white-50 {
-  background: rgba(255, 255, 255, 0.5);
-}
-
-.bg-green {
-  background: #05C46B;
-}
-
-.bg-dark {
-  background: #13151A;
-}
-
 .bg-steal-dark {
-  background: #252933;
+  background: $dark-steal;
 }
 
 // text colors
 
 .color-white {
-  color: #ffffff;
+  color: $white;
 }
 
 .color-white-50 {
-  color: rgba(255, 255, 255, 0.5);
+  color: $white-50;
 }
 
 .color-grey {
-  color: #808085;
+  color: $grey;
 }
 
 .color-dark {
-  color: #13151A;
+  color: $dark;
 }
 
 .color-steal-dark {
-  color: #252933;
+  color: $dark-steal;
 }
 
 //
 
 @include sm {
   .sm-svg-green path {
-    stroke: #05C46B;
+    stroke: $green;
   }
 }

@@ -9,6 +9,8 @@ import events from '../../core/EventEmitter'
 
 import './Guides.scss'
 import JoinForm from '../Join/JoinForm'
+import EdgeStart from '../Edge/EdgeStart'
+import EdgeEnd from '../Edge/EdgeEnd'
 
 class Guides extends React.Component {
   state = {
@@ -68,7 +70,7 @@ class Guides extends React.Component {
     return (
       <Container className="Guides" fluid>
         <Edge className="Edge-header">
-          <div className="Edge-start bg-white" />
+          <EdgeStart colorName="white" />
           <Container>
             <div className="Edge-content" ref={r => this.content = r}>
               <div className="Edge-content-start">
@@ -169,7 +171,7 @@ class Guides extends React.Component {
             </div>
           </Container>
 
-          <div className="Edge-end bg-dark" />
+          <EdgeEnd colorName="dark" />
         </Edge>
       </Container>
     )

@@ -3,15 +3,17 @@ import React from 'react'
 import Container from '../Container/Container'
 import Edge from '../Edge/Edge'
 import Icon from '../Icon/Icon'
+import EdgeStart from '../Edge/EdgeStart'
 import events from '../../core/EventEmitter'
 
 import './Team.scss'
+import EdgeEnd from '../Edge/EdgeEnd'
 
 function Team() {
   return (
     <Container className="Team" fluid>
       <Edge className="Edge-header">
-        <div className="Edge-start bg-dark" />
+        <EdgeStart colorName="dark" />
         <Container>
           <div className="Edge-content">
             <div className="Edge-content-start">
@@ -48,7 +50,7 @@ function Team() {
           </div>
         </Container>
 
-        <div className="Edge-end bg-green" />
+        <EdgeEnd colorName="green" />
       </Edge>
     </Container>
   )

@@ -3,6 +3,7 @@ import React from 'react'
 import Container from '../Container/Container'
 import Edge from '../Edge/Edge'
 import Icon from '../Icon/Icon'
+import EdgeEnd from '../Edge/EdgeEnd'
 import events from '../../core/EventEmitter'
 
 import './Mission.scss'
@@ -40,7 +41,7 @@ function Mission() {
           </div>
         </Container>
 
-        <div className="Edge-end bg-white" />
+        <EdgeEnd colorName="white" />
       </Edge>
     </Container>
   )

@@ -11,18 +11,35 @@
   position: absolute;
 
   @include sm {
+    .Edge-start-corner,
+    .Edge-end-corner {
+      height: 96px;
+    }
   }
 
   @include md {
     height: 160px;
+
+    .Edge-start-corner,
+    .Edge-end-corner {
+      height: 160px;
+    }
   }
 
   @include lg {
     height: 160px;
+    .Edge-start-corner,
+    .Edge-end-corner {
+      height: 160px;
+    }
   }
 
   @include xxl {
     height: 160px;
+    .Edge-start-corner,
+    .Edge-end-corner {
+      height: 160px;
+    }
   }
 }
 
@@ -32,6 +49,22 @@
 
 .Edge-bottom {
   bottom: 0;
+}
+
+.Edge-bg {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Edge-start-corner,
+.Edge-end-corner {
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.Edge-start-rest,
+.Edge-end-rest {
+  flex-grow: 1;
 }
 
 .Edge-content {
@@ -65,9 +98,9 @@
   left: 0;
   width: 60%;
   height: 160px;
-  transform: skew(-45deg, 0deg);
-  transform-origin: top right;
-  border-bottom-right-radius: 30px;
+  //transform: skew(-45deg, 0deg);
+  //transform-origin: top right;
+  //border-bottom-right-radius: 30px;
 
   @include sm {
     width: 100%;
@@ -85,9 +118,9 @@
   right: 0;
   width: 40%;
   height: 160px;
-  transform: skew(-45deg, 0deg);
-  transform-origin: bottom left;
-  border-top-left-radius: 30px;
+  //transform: skew(-45deg, 0deg);
+  //transform-origin: bottom left;
+  //border-top-left-radius: 30px;
 
   @include sm {
     display: none;

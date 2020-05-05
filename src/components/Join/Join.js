@@ -3,8 +3,10 @@ import React from 'react'
 import Edge from '../Edge/Edge'
 import Container from '../Container/Container'
 import Icon from '../Icon/Icon'
-import events from '../../core/EventEmitter'
+import EdgeStart from '../Edge/EdgeStart'
+import EdgeEnd from '../Edge/EdgeEnd'
 import JoinForm from './JoinForm'
+import events from '../../core/EventEmitter'
 
 import './Join.scss'
 
@@ -14,7 +16,7 @@ function Join() {
       <div className="Screen-left-half paths-green" />
 
       <Edge className="Edge-header">
-        <div className="Edge-start bg-dark" />
+        <EdgeStart colorName="dark" />
         <Container>
           <div className="Edge-content">
             <div className="Edge-content-start">
@@ -49,7 +51,7 @@ function Join() {
           </div>
         </Container>
 
-        <div className="Edge-end bg-dark" />
+        <EdgeEnd colorName="dark" />
       </Edge>
     </Container>
   )

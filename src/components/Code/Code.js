@@ -5,6 +5,8 @@ import Container from '../Container/Container'
 import Icon from '../Icon/Icon'
 import Card from '../Card/Card'
 import Scroller from '../Scroller/Scroller'
+import EdgeStart from '../Edge/EdgeStart'
+import EdgeEnd from '../Edge/EdgeEnd'
 import events from '../../core/EventEmitter'
 
 import './Code.scss'
@@ -25,7 +27,7 @@ class Code extends React.Component {
         <div className="Screen-right-half paths-grey" />
 
         <Edge className="Edge-header">
-          <div className="Edge-start bg-green" />
+          <EdgeStart colorName="green" />
           <Container>
             <div className="Edge-content" ref={r => this.content = r}>
               <div className="Edge-content-start">
@@ -125,7 +127,7 @@ class Code extends React.Component {
             </div>
           </Container>
 
-          <div className="Edge-end bg-green" />
+          <EdgeEnd colorName="green" />
         </Edge>
       </Container>
     )
