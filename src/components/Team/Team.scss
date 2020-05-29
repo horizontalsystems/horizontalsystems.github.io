@@ -1,6 +1,11 @@
 @import "../../scss/utils";
 
 .Team {
+  .Edge-header,
+  .Edge-bottom {
+    position: absolute;
+  }
+
   .Edge {
     z-index: 1;
   }

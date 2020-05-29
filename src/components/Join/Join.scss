@@ -4,9 +4,11 @@
   background: #04AD5F;
   display: flex;
   align-items: center;
+  flex-direction: column;
 }
 
 .Join-form-wrap {
+  padding: 5% 0;
   display: flex;
   justify-content: flex-end;
 

@@ -4,11 +4,11 @@
   width: 100vw;
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 .Edge-header,
 .Edge-bottom {
-  position: absolute;
 
   @include sm {
     .Edge-start-corner,

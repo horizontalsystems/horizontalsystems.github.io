@@ -7,11 +7,12 @@ class Icon extends Component {
     size: 24,
     fill: '#9e9e9e',
     viewBox: '0 0 24 24',
-    stroke: '#fff'
+    stroke: '#fff',
   }
 
   getIcon() {
-    switch (this.props.name) {
+    const { name, stroke} = this.props
+    switch (name) {
       case 'apps':
         return (
           <g>
@@ -57,9 +58,17 @@ class Icon extends Component {
       case 'arrow-down':
         return (
           <g>
-            <path d="M26 13.999L14 25.999L2.01325 14.0122" stroke={this.props.stroke} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-            <path d="M13.9872 2.01318L14.0137 25.9812" stroke={this.props.stroke} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M26 13.999L14 25.999L2.01325 14.0122" stroke={stroke} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M13.9872 2.01318L14.0137 25.9812" stroke={stroke} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
           </g>
+        )
+      case 'arrow-right':
+        return (
+          <path d="M1 1L11 21L1 41" stroke={stroke} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+        )
+      case 'arrow-left':
+        return (
+          <path d="M11 1L1 21L11 41" stroke={stroke} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
         )
       case "logo":
         return (
@@ -128,8 +137,17 @@ class Icon extends Component {
   render() {
     const { size, viewBox, fill, className } = this.props
 
+    let { width, height} = this.props
+    if (!width) {
+      width = size
+    }
+
+    if (!height) {
+      height = size
+    }
+
     return (
-      <svg className={className} viewBox={viewBox} fill={fill} preserveAspectRatio="xMidYMid meet" width={size} height={size}>
+      <svg className={className} viewBox={viewBox} fill={fill} preserveAspectRatio="xMidYMid meet" width={width} height={height}>
         {this.getIcon()}
       </svg>
     )

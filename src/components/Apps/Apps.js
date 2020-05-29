@@ -1,12 +1,12 @@
 import React from 'react'
 
 import Container from '../Container/Container'
-import Scroller from '../Scroller/Scroller'
 import Icon from '../Icon/Icon'
 import Edge from '../Edge/Edge'
 import Card from '../Card/Card'
 import EdgeStart from '../Edge/EdgeStart'
 import EdgeEnd from '../Edge/EdgeEnd'
+import Slider from '../Slider/Slider'
 import events from '../../core/EventEmitter'
 
 import uw from './uw.svg'
@@ -46,32 +46,24 @@ class Apps extends React.Component {
           </Container>
         </Edge>
 
-        <Scroller padding={this.state.padding}>
-          <Card
-            title={
-              <img src={uw} alt="" />
-            }
-            info={<>Store crypto safely, enjoy unconditional control, learn about projects, and time market tops and bottoms for different coins.<br /><br /> This wallet is years ahead of compeeting products. Give it a try!</>}
-            cover="unstoppable-wallet-screen"
-            actionsLeft={
-              <a href="https://unstoppable.money">https://unstoppable.money</a>
-            }
-            actionsRight={
-              <>
-                <a href="https://itunes.apple.com/app/bank-bitcoin-wallet/id1447619907?ls=1&mt=8">iOS</a> |&nbsp;
-                <a href="https://play.google.com/store/apps/details?id=io.horizontalsystems.bankwallet">Android</a>
-              </>
-            }
-          />
-          <Card
-            dark
-            comingSoon
-            title={
-              <img src={soon} alt="" />
-            }
-            info={<>Under the hood Lightning Network project. Will be announced once it's ready for prime time.</>}
-          />
-        </Scroller>
+        <Container clipped={false}>
+          <Slider slidesToScroll={1} slidesToShow={1}  bgColor="light">
+            <Card
+              title={
+                <img src={uw} alt="" />
+              }
+              cover="unstoppable-wallet-screen"
+              actions="Privacy, independence and reliability"
+            />
+            <Card
+              dark
+              title={
+                <img src={soon} alt="" />
+              }
+              info={<>Under the hood Lightning Network project. Will be announced once it's ready for prime time.</>}
+            />
+          </Slider>
+        </Container>
 
         <Edge className="Edge-bottom">
           <Container>
