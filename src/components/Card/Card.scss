@@ -3,7 +3,7 @@
 .Card {
   background: #252933;
   border-radius: 24px;
-  height: 310px;
+  width: 100%;
   margin: 0 12px;
   position: relative;
   display: flex;
@@ -42,11 +42,11 @@
 }
 
 .Card-title {
-  padding-top: 32px;
-  padding-left: 32px;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 31px;
+  padding: 32px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 42px;
   color: #FFFFFF;
   z-index: 1;
   width: 50%;
@@ -65,13 +65,13 @@
 }
 
 .Card-info {
-  padding-left: 32px;
+  padding: 0 32px;
+  font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 21px;
-  color: #FFFFFF;
+  font-size: 18px;
+  line-height: 23px;
+  color: $grey;
   z-index: 1;
-  width: 50%;
 
   @include sm {
     width: 80%;
@@ -83,7 +83,7 @@
 }
 
 .Card-bottom {
-  padding: 28px 32px;
+  padding: 32px;
   display: flex;
   justify-content: space-between;
   font-weight: normal;

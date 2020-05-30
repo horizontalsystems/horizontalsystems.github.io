@@ -61,3 +61,18 @@
     background-color: #13151A;
   }
 }
+
+//  Keeps divs the same height
+.slick-list,
+.slick-track {
+  display: flex;
+}
+
+.slick-initialized .slick-slide {
+  display: flex;
+}
+
+.slick-slide > div {
+  display: flex;
+  width: 100%;
+}
