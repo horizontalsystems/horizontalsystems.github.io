@@ -1,0 +1,38 @@
+@import "../../scss/utils";
+
+.CardFeatured {
+  width: 100%;
+  background: #252933;
+  border-radius: 16px;
+  margin: 0 12px;
+  display: flex;
+  position: relative;
+}
+
+.Card-Slogan {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 47px;
+  color: $white;
+  z-index: 1;
+
+  @include sm {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+.CardFeatured-image {
+  max-width: 100%;
+  position: absolute;
+  right: 20px;
+  top: 23px;
+
+  @include sm {
+    width: 110px;
+    top: unset;
+    bottom: 0;
+    left: 30%;
+  }
+}

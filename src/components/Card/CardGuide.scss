@@ -1,0 +1,28 @@
+@import "../../scss/utils";
+
+.CardGuide {
+  width: 100%;
+  background: #252933;
+  border-radius: 16px;
+  margin: 0 12px;
+  display: flex;
+  position: relative;
+
+  .Card {
+    width: 50%;
+  }
+}
+
+.CardGuide-image {
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+
+  @include sm {
+    width: 110px;
+    top: unset;
+    bottom: 0;
+    left: 30%;
+  }
+}

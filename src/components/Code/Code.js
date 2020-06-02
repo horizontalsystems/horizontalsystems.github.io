@@ -3,7 +3,7 @@ import React from 'react'
 import Edge from '../Edge/Edge'
 import Container from '../Container/Container'
 import Icon from '../Icon/Icon'
-import Card from '../Card/Card'
+import CardCode from '../Card/CardCode'
 import EdgeStart from '../Edge/EdgeStart'
 import EdgeEnd from '../Edge/EdgeEnd'
 import Slider from '../Slider/Slider'
@@ -37,7 +37,7 @@ class Code extends React.Component {
 
         <Container clipped={false}>
           <Slider slidesToScroll={3} slidesToShow={3} bgColor="dark">
-            <Card
+            <CardCode
               title="Unstoppable Wallet Library"
               info={<>A decentralized multi-blockchain wallet for Bitcoin and other cryptocurrencies. This wallet app fully supports Bitcoin, Ethereum, Litecoin, EOS, Binance DEX, Bitcoin Cash and DASH blockchains.</>}
               actions={<>
@@ -45,7 +45,7 @@ class Code extends React.Component {
                 <a href="https://github.com/horizontalsystems/unstoppable-wallet-ios">Swift</a></>}
               dark
             />
-            <Card
+            <CardCode
               title="Bitcoin Library"
               info={<>Full implementation of SPV protocol including standard-compliant wallet creation/restore, synchronization with network, send/receive transactions, and a lot more.</>}
               actions={<>
@@ -53,7 +53,7 @@ class Code extends React.Component {
                 <a href="https://github.com/horizontalsystems/bitcoin-kit-ios">Swift</a></>}
               dark
             />
-            <Card
+            <CardCode
               title="Ethereum Library"
               info={<>Full wallet/account implementation for Ethereum blockchain. Can be a great time saver if you are building a DApp on Ethereum.</>}
               actions={<>
@@ -61,7 +61,7 @@ class Code extends React.Component {
                 <a href="https://github.com/horizontalsystems/ethereum-kit-ios">Swift</a></>}
               dark
             />
-            <Card
+            <CardCode
               title="EOS Library"
               info={<>General purpose wallet library for the EOS blockchain and EOSIO protocol.</>}
               actions={<>
@@ -69,7 +69,7 @@ class Code extends React.Component {
                 <a href="https://github.com/horizontalsystems/eos-kit-ios">Swift</a></>}
               dark
             />
-            <Card
+            <CardCode
               title="Binance DEX Library"
               info={<>Binance DEX wallet for BEP2 tokens, most popular token type on Binance DEX. Easily extandable to support other Binance DEX features.</>}
               actions={<>
@@ -77,7 +77,7 @@ class Code extends React.Component {
                 <a href="https://github.com/horizontalsystems/binance-chain-kit-ios">Swift</a></>}
               dark
             />
-            <Card
+            <CardCode
               title="Atomic Swap Library"
               info={<>Atomic Swap library for Bitcoin (BTC) and Bitcoin Cash (BCH) swaps in decentralized manner. This library has not been tested in production environment yet.</>}
               actions={<>
@@ -85,7 +85,7 @@ class Code extends React.Component {
                 <a href="https://github.com/horizontalsystems/atomic-swap-kit-ios">Swift</a></>}
               dark
             />
-            <Card
+            <CardCode
               title="Bitcoin Hodler Library"
               info={<>Using native Bitcoin protocol this kit enables construction of Bitcoin transactions which can not be spent by the receiver until a certain date in the future.</>}
               actions={<>
@@ -93,7 +93,7 @@ class Code extends React.Component {
                 <a href="https://github.com/horizontalsystems/bitcoin-kit-ios/tree/master/Hodler">Swift</a></>}
               dark
             />
-            <Card
+            <CardCode
               title="Lightning Library"
               info={<>Add Lightning Network capabilities to your project. Lighning wallet creation, channels and so on. Work in progress.</>}
               actions={<>

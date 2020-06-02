@@ -3,11 +3,11 @@ import React from 'react'
 import Container from '../Container/Container'
 import Icon from '../Icon/Icon'
 import Edge from '../Edge/Edge'
-import Card from '../Card/Card'
 import EdgeStart from '../Edge/EdgeStart'
 import EdgeEnd from '../Edge/EdgeEnd'
 import Slider from '../Slider/Slider'
 import events from '../../core/EventEmitter'
+import CardFeatured from '../Card/CardFeatured'
 
 import uw from './uw.svg'
 import soon from './coming-soon.svg'
@@ -47,16 +47,15 @@ class Apps extends React.Component {
         </Edge>
 
         <Container clipped={false}>
-          <Slider slidesToScroll={1} slidesToShow={1}  bgColor="light">
-            <Card
+          <Slider slidesToScroll={1} slidesToShow={1} bgColor="light">
+            <CardFeatured
               title={
                 <img src={uw} alt="" />
               }
-              cover="unstoppable-wallet-screen"
-              actions="Privacy, independence and reliability"
+              cover="us"
+              info="Privacy, independence and reliability"
             />
-            <Card
-              dark
+            <CardFeatured
               title={
                 <img src={soon} alt="" />
               }

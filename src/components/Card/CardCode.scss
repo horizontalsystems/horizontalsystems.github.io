@@ -1,0 +1,28 @@
+@import "../../scss/utils";
+
+.CardCode {
+  background: $dark;
+  border-radius: 16px;
+  margin: 0 12px;
+  display: flex;
+}
+
+.Card-bottom {
+  padding-top: 24px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  color: #05C46B;
+  z-index: 1;
+
+  span, a {
+    cursor: pointer;
+    color: #05C46B;
+    text-decoration: none;
+  }
+
+  @include sm {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}

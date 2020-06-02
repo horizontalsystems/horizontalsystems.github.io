@@ -3,7 +3,7 @@ import Edge from '../Edge/Edge'
 import Container from '../Container/Container'
 import Icon from '../Icon/Icon'
 
-import Card from '../Card/Card'
+import CardGuide from '../Card/CardGuide'
 import Slider from '../Slider/Slider'
 import JoinForm from '../Join/JoinForm'
 import EdgeStart from '../Edge/EdgeStart'
@@ -79,64 +79,53 @@ class Guides extends React.Component {
         </Edge>
 
         <Container clipped={false}>
-          <Slider slidesToScroll={2} slidesToShow={2} bgColor="green">
-            <Card
-              title="Bitcoin in Simple Terms"
-              info={<>Understand Bitcoin in an easy to digest manner. Go from zero to a level where you clearly understand all essentials without eating your head. <br /></>}
-              cover="bitcoin"
-              actions={
-                <span onClick={() => this.showGuide('simple-term')}>Preview</span>
-              }
-            />
+          <div className="Guides-filter">
+            Latest
 
-            <Card
+            <ul className="Guides-list">
+              <li className="active">All</li>
+              <li>Guides</li>
+              <li>Cheat Sheets</li>
+              <li>Pro Guides</li>
+            </ul>
+          </div>
+
+          <Slider slidesToScroll={2} slidesToShow={2} bgColor="green">
+            <CardGuide
+              title="Bitcoin in Simple Terms"
+              info={
+                <>Understand Bitcoin in an easy to digest manner. Go from zero to a level where you clearly understand all essentials without eating your head.</>
+              }
+              cover="bitcoin" />
+
+            <CardGuide
               title="Ethereum in Simple Terms"
               info={<>Wondering what's a big deal with Ethereum? Learn what makes Ethereum different and what are decentralzied financial (DeFi) services built on top of it.<br /></>}
-              cover="libra"
-              actions={
-                <span>Coming Soon</span>
-              }
-            />
+              cover="libra" />
 
-            <Card
+            <CardGuide
               title="Libra in Simple Terms"
               info={<>This guide looks at what Facebook's Libra project is, how it's going to work and the potential impact it may have on the payments ecosystem globally. <br /></>}
-              cover="libra"
-              actions={
-                <span onClick={() => this.showGuide('libra')}>Preview</span>
-              }
-            />
+              cover="libra" />
 
-            <Card
+            <CardGuide
               title="MakerDAO in Simple Terms"
               info={<>MakerDAO is a lending service built on Ethereum with over half a billion USD under it's control. This guide explains how exactly MakerDAO works and what makes it different from traditional lenders.<br /></>}
-              cover="libra"
-              actions={
-                <span>Coming Soon</span>
-              }
-            />
+              cover="libra" />
 
-            <Card
+            <CardGuide
               title="Cheat Sheet : Crypto Terms for Beginners"
               info={<>
                 Do you know what a whale means in crypto? The difference between non-custodial and custodial wallets? What KYC and AML mean and why you should care? <br />
                 </>}
-              cover="question"
-              actions={
-                <a href="/guides/cryptoterms.pdf" target="_blank">Download</a>
-              }
-            />
+              cover="question" />
 
-            <Card
+            <CardGuide
               title="Cheat Sheet : Stablecoins Explained"
               info={<>
                 Do you know what is a stablecoin? What makes stablecoin different from other crypto currencies? How stablecoins work and wy there are different types.<br />
               </>}
-              cover="question"
-              actions={
-                <a href="/guides/stablecoins.pdf" target="_blank">Download</a>
-              }
-            />
+              cover="question" />
 
           </Slider>
         </Container>
