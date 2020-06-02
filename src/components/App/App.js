@@ -6,7 +6,7 @@ import Apps from '../Apps/Apps'
 import Guides from '../Guides/Guides'
 import Code from '../Code/Code'
 import Team from '../Team/Team'
-import Join from '../Join/Join'
+import Contact from '../Contact/Contact'
 
 import events from '../../core/EventEmitter'
 
@@ -50,7 +50,7 @@ class App extends React.Component {
           <Team />
         </div>
         <div id="page-7">
-          <Join />
+          <Contact />
         </div>
       </div>
     )

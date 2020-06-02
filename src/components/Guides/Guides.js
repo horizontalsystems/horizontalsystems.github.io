@@ -5,7 +5,7 @@ import Icon from '../Icon/Icon'
 
 import CardGuide from '../Card/CardGuide'
 import Slider from '../Slider/Slider'
-import JoinForm from '../Join/JoinForm'
+import ContactForm from '../Contact/ContactForm'
 import EdgeStart from '../Edge/EdgeStart'
 import EdgeEnd from '../Edge/EdgeEnd'
 
@@ -53,7 +53,7 @@ class Guides extends React.Component {
   openFormModal = () => {
     events.showModal(
       <div className="Join-modal">
-        <JoinForm formCode="m3g0e6" formId="1561498" />
+        <ContactForm formCode="m3g0e6" formId="1561498" />
       </div>
     )
   }
