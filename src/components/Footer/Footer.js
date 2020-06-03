@@ -25,7 +25,7 @@ class Footer extends React.Component {
               <div className="Footer-nav-item">EOS</div>
             </div>
             <div className="Footer-subscribe">
-              <SubscribeForm />
+              <SubscribeForm formCode="m3g0e6" formId="1561498" />
               <div className="Footer-subscribe-info">
                 Subscribe to our newsletter to get new products, guides and cheat sheets when they are published.
               </div>

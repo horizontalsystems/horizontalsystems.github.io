@@ -2,11 +2,13 @@
 
 .CardFeatured {
   width: 100%;
+  min-height: 380px;
   background: #252933;
   border-radius: 16px;
   margin: 0 12px;
   display: flex;
   position: relative;
+  overflow: hidden;
 }
 
 .Card-Slogan {
@@ -18,21 +20,19 @@
   z-index: 1;
 
   @include sm {
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 24px;
+    line-height: 31px;
   }
 }
 
 .CardFeatured-image {
   max-width: 100%;
   position: absolute;
-  right: 20px;
-  top: 23px;
+  right: 0;
+  bottom: 0;
 
   @include sm {
-    width: 110px;
-    top: unset;
-    bottom: 0;
-    left: 30%;
+    max-width: fit-content;
+    height: 100%;
   }
 }

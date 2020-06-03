@@ -2,6 +2,7 @@
 
 .CardGuide {
   width: 100%;
+  min-height: 275px;
   background: #252933;
   border-radius: 16px;
   margin: 0 12px;
@@ -9,20 +10,20 @@
   position: relative;
 
   .Card {
-    width: 50%;
+    flex: 1;
+  }
+
+  @include sm {
+    flex-direction: column-reverse;
   }
 }
 
-.CardGuide-image {
-  height: 100%;
-  position: absolute;
-  right: 0;
-  top: 0;
-
-  @include sm {
-    width: 110px;
-    top: unset;
-    bottom: 0;
-    left: 30%;
-  }
+.Card-cover {
+  position: relative;
+  overflow: hidden;
+  flex: 1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left center;
+  min-height: 210px;
 }

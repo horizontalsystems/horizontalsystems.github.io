@@ -92,41 +92,34 @@ class Guides extends React.Component {
 
           <Slider slidesToScroll={2} slidesToShow={2} bgColor="green">
             <CardGuide
-              title="Bitcoin in Simple Terms"
-              info={
-                <>Understand Bitcoin in an easy to digest manner. Go from zero to a level where you clearly understand all essentials without eating your head.</>
-              }
-              cover="bitcoin" />
+              title="Bitcoin Explained In Simple Terms"
+              info="27 Feb 2019"
+              cover="network" />
 
             <CardGuide
               title="Ethereum in Simple Terms"
-              info={<>Wondering what's a big deal with Ethereum? Learn what makes Ethereum different and what are decentralzied financial (DeFi) services built on top of it.<br /></>}
+              info="27 Feb 2019"
               cover="libra" />
 
             <CardGuide
               title="Libra in Simple Terms"
-              info={<>This guide looks at what Facebook's Libra project is, how it's going to work and the potential impact it may have on the payments ecosystem globally. <br /></>}
+              info="27 Feb 2019"
               cover="libra" />
 
             <CardGuide
               title="MakerDAO in Simple Terms"
-              info={<>MakerDAO is a lending service built on Ethereum with over half a billion USD under it's control. This guide explains how exactly MakerDAO works and what makes it different from traditional lenders.<br /></>}
+              info="27 Feb 2019"
               cover="libra" />
 
             <CardGuide
               title="Cheat Sheet : Crypto Terms for Beginners"
-              info={<>
-                Do you know what a whale means in crypto? The difference between non-custodial and custodial wallets? What KYC and AML mean and why you should care? <br />
-                </>}
+              info="27 Feb 2019"
               cover="question" />
 
             <CardGuide
               title="Cheat Sheet : Stablecoins Explained"
-              info={<>
-                Do you know what is a stablecoin? What makes stablecoin different from other crypto currencies? How stablecoins work and wy there are different types.<br />
-              </>}
+              info="27 Feb 2019"
               cover="question" />
-
           </Slider>
         </Container>
 

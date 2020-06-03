@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 import './ContactForm.scss'
 
@@ -28,7 +27,6 @@ class SubscribeForm extends React.Component {
         </form>
 
         <div className="Contact-success">
-          <h4>Thank you!</h4>
           <p>Done! Check your email.</p>
         </div>
       </div>
