@@ -11,6 +11,7 @@ import Contact from '../Contact/Contact'
 import events from '../../core/EventEmitter'
 
 import './App.scss'
+import Footer from '../Footer/Footer'
 
 class App extends React.Component {
   componentDidMount() {
@@ -51,6 +52,9 @@ class App extends React.Component {
         </div>
         <div id="page-7">
           <Contact />
+        </div>
+        <div id="page-8">
+          <Footer />
         </div>
       </div>
     )

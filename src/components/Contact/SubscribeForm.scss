@@ -1,0 +1,66 @@
+@import "../../scss/utils";
+
+.Contact-form {
+}
+
+.Contact-form-group {
+  display: flex;
+  justify-content: space-between;
+
+  @include sm {
+    display: block;
+  }
+}
+
+.Contact-success {
+  display: none;
+  text-align: center;
+
+  h4 {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 30px;
+  }
+}
+
+input, textarea, .btn {
+  box-sizing: border-box;
+  border: none;
+  border-radius: 8px;
+  margin: 16px 10px;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+input, textarea {
+  border: 1px solid $gray-light;
+  padding: 15px 24px;
+  width: 100%;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 10px 24px;
+  background: $green;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: $white;
+
+  &:hover {
+    background: lighten($green, 2%);
+  }
+
+  &.loading {
+    display: none;
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+
+  @include sm {
+    width: 100%;
+  }
+}
