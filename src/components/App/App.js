@@ -7,11 +7,11 @@ import Guides from '../Guides/Guides'
 import Code from '../Code/Code'
 import Team from '../Team/Team'
 import Contact from '../Contact/Contact'
+import Footer from '../Footer/Footer'
 
 import events from '../../core/EventEmitter'
 
 import './App.scss'
-import Footer from '../Footer/Footer'
 
 class App extends React.Component {
   componentDidMount() {

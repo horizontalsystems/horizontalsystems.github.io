@@ -1,13 +1,13 @@
 @import "../../scss/utils";
 
-.Banner {
+.Slogan {
   position: relative;
   display: flex;
   align-items: center;
   height: 100vh;
 }
 
-.Banner-title {
+.Slogan-title {
   font-size: 64px;
   line-height: 70px;
   color: $light;
@@ -19,7 +19,7 @@
   }
 }
 
-.Banner-desc {
+.Slogan-desc {
   position: absolute;
   bottom: 80px;
   width: 73vw;

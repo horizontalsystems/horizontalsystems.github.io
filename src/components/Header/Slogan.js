@@ -4,13 +4,13 @@ import Container from '../Container/Container'
 import Icon from '../Icon/Icon'
 import events from '../../core/EventEmitter'
 
-import './Banner.scss'
+import './Slogan.scss'
 
-function Banner() {
+function Slogan() {
   return (
     <Container>
-      <div className="Banner">
-        <div className="Banner-title">
+      <div className="Slogan">
+        <div className="Slogan-title">
           Solutions for Smart <br />
           Investments
         </div>
@@ -18,7 +18,7 @@ function Banner() {
           <Icon name="arrow-down" viewBox="0 0 28 28" fill="none" stroke="#05C46B" />
         </div>
       </div>
-      <div className="Banner-desc">
+      <div className="Slogan-desc">
         Inspiring borderless investments by guiding investors <br />
         through blockchain tech
       </div>
@@ -26,4 +26,4 @@ function Banner() {
   )
 }
 
-export default Banner
+export default Slogan
