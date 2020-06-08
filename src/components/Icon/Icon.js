@@ -13,21 +13,26 @@ class Icon extends Component {
   getIcon() {
     const { name, stroke} = this.props
     switch (name) {
-      case 'apps':
+      case 'unstoppable':
         return (
           <g>
-            <rect x="10.998" y="1" width="40" height="39.9999" rx="4" stroke="#05C46B" strokeWidth="2" strokeLinejoin="round"/>
-            <rect x="1" y="10.9985" width="40" height="39.9999" rx="4" stroke="#05C46B" strokeWidth="2" strokeLinejoin="round"/>
+            <rect width="62" height="62" rx="12" fill="#FFA800"/>
+            <rect width="62" height="62" rx="12" fill="url(#paint0_linear)"/>
+            <path d="M33.4356 31.0492C33.4356 32.3887 32.3453 33.4739 30.9999 33.4739C29.6544 33.4739 28.5641 32.3887 28.5641 31.0492V0H18.8213V31.0492C18.8213 37.7477 24.2734 43.1786 30.9999 43.1786C37.7254 43.1786 43.1784 37.7477 43.1784 31.0492V0H33.4356V31.0492Z" fill="#1F2129"/>
+            <defs>
+              <linearGradient id="paint0_linear" x1="31" y1="0" x2="31" y2="62" gradientUnits="userSpaceOnUse">
+                <stop stopColor="#FED20F"/>
+                <stop offset="1" stopColor="#FED20F" stopOpacity="0"/>
+              </linearGradient>
+            </defs>
           </g>
         )
 
-      case 'guides':
+      case 'academy':
         return (
           <g>
-            <path d="M3 16.7393L23.9998 16.7393C25.1044 16.7393 25.9998 17.6347 25.9998 18.7393V53C25.9998 54.1046 25.1044 55.0001 23.9998 55L3 55C1.89543 55 1 54.1046 1 53V18.7393C1 17.6347 1.89543 16.7393 3 16.7393Z" stroke="#05C46B" strokeWidth="2" strokeLinejoin="round"/>
-            <path d="M49 16.7393L28.0002 16.7393C26.8956 16.7393 26.0002 17.6347 26.0002 18.7393V53C26.0002 54.1046 26.8956 55.0001 28.0002 55L49 55C50.1046 55 51 54.1046 51 53V18.7393C51 17.6347 50.1046 16.7393 49 16.7393Z" stroke="#05C46B" strokeWidth="2" strokeLinejoin="round"/>
-            <path d="M25.3823 16.1485L11.8825 3.23542C10.6103 2.01854 8.5 2.92023 8.5 4.6807V37.4062C8.5 37.952 8.7231 38.4742 9.11755 38.8515L22.6174 51.7645C23.8896 52.9814 25.9999 52.0797 25.9999 50.3192V17.5937C25.9999 17.0479 25.7768 16.5258 25.3823 16.1485Z" stroke="#05C46B" strokeWidth="2" strokeLinejoin="round"/>
-            <path d="M26.6177 16.1485L40.1175 3.23542C41.3897 2.01854 43.5 2.92023 43.5 4.6807V37.4062C43.5 37.952 43.2769 38.4742 42.8825 38.8515L29.3826 51.7645C28.1104 52.9814 26.0001 52.0797 26.0001 50.3192V17.5937C26.0001 17.0479 26.2232 16.5258 26.6177 16.1485Z" stroke="#05C46B" strokeWidth="2" strokeLinejoin="round"/>
+            <path d="M0 12C0 5.37258 5.37258 0 12 0H50C56.6274 0 62 5.37258 62 12V50C62 56.6274 56.6274 62 50 62H12C5.37258 62 0 56.6274 0 50V12Z" fill="#FF7A00" />
+            <path d="M23.1472 13H38.8362L51 48H41.2591L32.054 21.5135H29.95L20.7575 48H11L23.1472 13Z" fill="white" />
           </g>
         )
       case 'code':

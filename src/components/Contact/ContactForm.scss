@@ -65,6 +65,15 @@ input, textarea {
   }
 }
 
+.btn-dark {
+  background: $black;
+  color: white;
+
+  &:hover {
+    background: lighten($dark-steal, 2%);
+  }
+}
+
 .Contact-checkbox-wrap {
   display: flex;
   justify-content: space-between;

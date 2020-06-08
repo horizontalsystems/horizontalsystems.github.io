@@ -18,10 +18,6 @@ function Slogan() {
           <Icon name="arrow-down" viewBox="0 0 28 28" fill="none" stroke="#05C46B" />
         </div>
       </div>
-      <div className="Slogan-desc">
-        Inspiring borderless investments by guiding investors <br />
-        through blockchain tech
-      </div>
     </Container>
   )
 }

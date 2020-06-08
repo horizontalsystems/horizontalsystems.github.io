@@ -164,9 +164,7 @@
   cursor: pointer;
 
   @include sm {
-    position: absolute;
-    right: 24px;
-    bottom: 24px;
+    display: none;
   }
 }
 
@@ -181,9 +179,8 @@
 
 .Icon-label {
   padding-left: 25px;
-  font-weight: 500;
-  font-size: 36px;
-  line-height: 47px;
+  font-weight: 600;
+  font-size: 24px;
 
   @include sm {
     font-size: 22px;
@@ -201,11 +198,5 @@
 
   svg {
     padding-right: 24px
-  }
-}
-
-.Start-on-github {
-  @include sm {
-    display: none;
   }
 }

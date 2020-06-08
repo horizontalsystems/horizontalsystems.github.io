@@ -1,0 +1,52 @@
+@import "../../scss/utils";
+
+.Banner {
+  display: flex;
+
+  @include sm {
+    flex-direction: column-reverse;
+  }
+}
+
+.Banner-start {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 10%;
+
+  @include sm {
+    padding-top: 0;
+  }
+}
+
+.Banner-end {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+}
+
+.Banner-text {
+  font-size: 4.3vw;
+  display: flex;
+  align-items: flex-end;
+  text-transform: capitalize;
+
+  @include sm {
+    font-size: 10vw;
+  }
+}
+
+.Banner-text--light {
+  color: $white;
+}
+
+.Banner-action {
+  padding: 32px 0;
+  margin-left: -10px;
+  margin-right: 10px;
+}
+
+.Banner-image {
+  width: 100%;
+}

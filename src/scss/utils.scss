@@ -56,3 +56,12 @@ $screen-xxl: 1400px !default;
 @mixin lg  { @media (min-width: $screen-lg)  { @content; } }
 @mixin xl  { @media (min-width: $screen-xl)  { @content; } }
 @mixin xxl { @media (min-width: $screen-xxl) { @content; } }
+
+@function rem($size) {
+  @return $size / 16px * 1rem;
+}
+
+@mixin font-size($size) {
+  font-size: $size;
+  font-size: rem($size);
+}

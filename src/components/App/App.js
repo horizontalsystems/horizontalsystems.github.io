@@ -2,8 +2,8 @@ import React from 'react'
 
 import Home from '../Home/Home'
 import Mission from '../Mission/Mission'
-import Apps from '../Apps/Apps'
-import Guides from '../Guides/Guides'
+import Unstoppable from '../Unstoppable/Unstoppable'
+import Academy from '../Academy/Academy'
 import Code from '../Code/Code'
 import Team from '../Team/Team'
 import Contact from '../Contact/Contact'
@@ -39,10 +39,10 @@ class App extends React.Component {
           <Mission />
         </div>
         <div id="page-3">
-          <Apps />
+          <Unstoppable />
         </div>
         <div id="page-4">
-          <Guides />
+          <Academy />
         </div>
         <div id="page-5">
           <Code />
