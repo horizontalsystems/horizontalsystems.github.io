@@ -24,8 +24,11 @@ class Code extends React.Component {
             <div className="Edge-content">
               <div className="Edge-content-start">
                 <div className="Icon-wrap">
-                  <Icon name="code" fill="none" viewBox="0 0 52 52" size="52" />
-                  <div className="Icon-label color-steal-dark">Code</div>
+                  <Icon name="github-contained" fill="none" viewBox="0 0 62 62" size="52" />
+                  <div className="Icon-label color-steal-dark">
+                    Open-Source <br />
+                    Library
+                  </div>
                 </div>
               </div>
               <div className="Edge-content-end Edge-content-end-text color-white">

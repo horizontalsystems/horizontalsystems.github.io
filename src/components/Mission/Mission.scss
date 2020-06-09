@@ -1,8 +1,7 @@
 @import "../../scss/utils";
 
-.Mission {
+.Mission-wrap {
   height: 100vh;
-  z-index: 1;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -10,7 +9,6 @@
 
 .Mission-bg {
   position: absolute;
-  z-index: -1;
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -52,4 +50,66 @@
   .sm-hidden {
     display: none;
   }
+}
+
+.Mission {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-bottom: 20px;
+  height: 100%;
+}
+
+.Mission-title {
+  font-size: 5.7vw;
+  color: $green;
+  width: 80%;
+
+  @include sm {
+    font-size: 6.5vw;
+    width: 100%;
+  }
+}
+
+.Mission-apps {
+  display: flex;
+  width: 80%;
+
+  @include sm {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+.Mission-app {
+  display: flex;
+  flex-direction: column;
+  padding-right: 20px;
+
+  @include sm {
+    padding: 30px 0;
+  }
+}
+
+.Mission-app-head {
+  display: flex;
+}
+
+.Mission-app-title {
+  padding-left: 16px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF
+}
+
+.Mission-app-info {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  padding-top: 32px;
+
+  color: #FFFFFF;
 }

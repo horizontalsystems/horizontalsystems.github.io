@@ -10,7 +10,7 @@ import './Mission.scss'
 
 function Mission() {
   return (
-    <Container className="Mission" fluid>
+    <Container className="Mission-wrap" fluid>
       <img
         className="Mission-bg"
         src="/images/home/mounts.png"
@@ -18,17 +18,46 @@ function Mission() {
         alt=""
       />
 
-      <Container>
-        <div className="Mission-text">
+      <Container className="Mission">
+        <div className="Mission-title">
           We build products that help blockchain investors make better decisions.
+        </div>
+        <div className="Mission-apps">
+          <div className="Mission-app">
+            <div className="Mission-app-head">
+              <Icon name="apps" fill="none" viewBox="0 0 32 32" size="32" />
+              <div className="Mission-app-title">Apps</div>
+            </div>
+            <div className="Mission-app-info">
+              Independence, knowledge and privacy are the main principles behind the products we build.
+            </div>
+          </div>
+          <div className="Mission-app">
+            <div className="Mission-app-head">
+              <Icon name="guides" fill="none" viewBox="0 0 32 32" size="32" />
+              <div className="Mission-app-title">Guides</div>
+            </div>
+            <div className="Mission-app-info">
+              Independence, knowledge and privacy are the main principles behind the products we build.
+            </div>
+          </div>
+          <div className="Mission-app">
+            <div className="Mission-app-head">
+              <Icon name="code" fill="none" viewBox="0 0 32 32" size="32" />
+              <div className="Mission-app-title">Code</div>
+            </div>
+            <div className="Mission-app-info">
+              Independence, knowledge and privacy are the main principles behind the products we build.
+            </div>
+          </div>
         </div>
       </Container>
 
-      <Edge className="Edge-bottom">
+      <Edge className="Edge-bottom sm-hidden">
         <Container>
           <div className="Edge-content">
             <div className="Edge-content-start">
-              <div className="sm-hidden">
+              <div>
                 <Icon name="logo" fill="#fff" viewBox="0 0 40 40" size="40" />
               </div>
             </div>
