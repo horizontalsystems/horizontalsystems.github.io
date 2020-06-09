@@ -38,7 +38,7 @@ function Unstoppable() {
       <Container clipped={false}>
         <Banner text="Privacy, independence and reliability"
                 cover="uw"
-                action={<button className="btn">Get the App</button>} />
+                action={<a className="btn" href="https://unstoppable.money/">Get the App</a>} />
       </Container>
 
       <Edge className="Edge-bottom">
@@ -48,7 +48,7 @@ function Unstoppable() {
             <div className="Edge-content-end">
               <div className="Edge-pagination color-white-50">03 / 07</div>
               <div className="Edge-pagination-icon sm-svg-green" onClick={() => events.navigate(4)}>
-                <Icon name="arrow-down" viewBox="0 0 36 36" fill="none" />
+                <Icon name="arrow-down" viewBox="0 0 36 36" fill="none" size="36" />
               </div>
             </div>
           </div>

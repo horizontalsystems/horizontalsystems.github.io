@@ -49,6 +49,7 @@ input, textarea {
   font-size: 14px;
   line-height: 18px;
   color: $white;
+  text-decoration: none;
 
   &:hover {
     background: lighten($green, 2%);

@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import Icon from '../Icon/Icon'
 import Container from '../Container/Container'
 import SubscribeForm from '../Contact/SubscribeForm'
+import events from '../../core/EventEmitter'
 
 import './Footer.scss'
 
@@ -15,14 +16,12 @@ class Footer extends React.Component {
         <Container>
           <div className="Footer-top">
             <div className="Footer-nav">
-              <div className="Footer-nav-item">Apps</div>
-              <div className="Footer-nav-item">Guides</div>
-              <div className="Footer-nav-item">Code</div>
-              <div className="Footer-nav-item">Team</div>
-              <div className="Footer-nav-item">Donate</div>
-              <div className="Footer-nav-item">Bitcoin</div>
-              <div className="Footer-nav-item">Ethereum</div>
-              <div className="Footer-nav-item">EOS</div>
+              <div className="Footer-nav-item" onClick={() => events.navigate(2)}>What we do</div>
+              <div className="Footer-nav-item" onClick={() => events.navigate(3)}>Wallet</div>
+              <div className="Footer-nav-item" onClick={() => events.navigate(4)}>Academy</div>
+              <div className="Footer-nav-item" onClick={() => events.navigate(5)}>Code</div>
+              <div className="Footer-nav-item" onClick={() => events.navigate(6)}>Team</div>
+              <div className="Footer-nav-item" onClick={() => events.navigate(7)}>Contact</div>
             </div>
             <div className="Footer-subscribe">
               <SubscribeForm formCode="m3g0e6" formId="1561498" />
@@ -32,7 +31,7 @@ class Footer extends React.Component {
             </div>
           </div>
 
-          <hr className="Divider"/>
+          <hr className="Divider" />
 
           <div className="Footer-bottom">
             <Link to="/">

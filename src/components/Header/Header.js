@@ -37,11 +37,12 @@ class Header extends React.Component {
 
     const navigation = (
       <div className="nav">
-        <div className="nav-item"><Link to="/" onClick={() => onClickMenu(3)}>Apps</Link></div>
-        <div className="nav-item"><Link to="/" onClick={() => onClickMenu(4)}>Guides</Link></div>
-        <div className="nav-item"><Link to="/" onClick={() => onClickMenu(5)}>Code</Link></div>
-        <div className="nav-item"><Link to="/" onClick={() => onClickMenu(6)}>Team</Link></div>
-        <div className="nav-item nav-item-btn" onClick={() => onClickMenu(7)}>Contact</div>
+        <div className="nav-item" onClick={() => onClickMenu(2)}>What we do</div>
+        <div className="nav-item" onClick={() => onClickMenu(3)}>Wallet</div>
+        <div className="nav-item" onClick={() => onClickMenu(4)}>Academy</div>
+        <div className="nav-item" onClick={() => onClickMenu(5)}>Code</div>
+        <div className="nav-item" onClick={() => onClickMenu(6)}>Team</div>
+        <div className="nav-item" onClick={() => onClickMenu(7)}>Contact</div>
       </div>
     )
 
@@ -81,6 +82,5 @@ class Header extends React.Component {
     )
   }
 }
-
 
 export default Header

@@ -43,19 +43,7 @@
     cursor: pointer;
     display: flex;
     align-items: center;
-
-    a {
-      text-decoration: none;
-      font-size: 14px;
-      color: $grey;
-    }
-  }
-
-  .nav-item-btn {
-    margin-left: 20px;
-    border: 1px solid #05C46B;
-    box-sizing: border-box;
-    border-radius: 8px;
+    color: $grey;
   }
 
   @include sm {

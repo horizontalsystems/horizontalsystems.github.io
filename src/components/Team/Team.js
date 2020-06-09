@@ -44,7 +44,7 @@ function Team() {
             <div className="Edge-content-end">
               <div className="Edge-pagination color-white-50">06 / 07</div>
               <div className="Edge-pagination-icon" onClick={() => events.navigate(7)}>
-                <Icon name="arrow-down" viewBox="0 0 36 36" fill="none" />
+                <Icon name="arrow-down" viewBox="0 0 36 36" fill="none" size="36" />
               </div>
             </div>
           </div>

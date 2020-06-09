@@ -15,7 +15,7 @@ function Slogan() {
           Investments
         </div>
         <div className="Page-down" onClick={() => events.navigate(2)}>
-          <Icon name="arrow-down" viewBox="0 0 36 36" fill="none" stroke="#05C46B" />
+          <Icon name="arrow-down" viewBox="0 0 36 36" fill="none" size="36" stroke="#05C46B" />
         </div>
       </div>
     </Container>
