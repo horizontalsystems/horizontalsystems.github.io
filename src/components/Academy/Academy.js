@@ -48,7 +48,7 @@ function Academy() {
             <div className="Edge-content-end">
               <div className="Edge-pagination color-white-50">04 / 07</div>
               <div className="Edge-pagination-icon sm-svg-green" onClick={() => events.navigate(5)}>
-                <Icon name="arrow-down" viewBox="0 0 28 28" fill="none" />
+                <Icon name="arrow-down" viewBox="0 0 36 36" fill="none" size="36" />
               </div>
             </div>
           </div>

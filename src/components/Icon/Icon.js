@@ -76,8 +76,8 @@ class Icon extends Component {
       case 'arrow-down':
         return (
           <g>
-            <path d="M26 13.999L14 25.999L2.01325 14.0122" stroke={stroke} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-            <path d="M13.9872 2.01318L14.0137 25.9812" stroke={stroke} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M24 16L18 22L12 16" stroke={stroke} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+            <circle cx="18" cy="18" r="17.5" stroke={stroke} />
           </g>
         )
       case 'arrow-right':
@@ -162,16 +162,11 @@ class Icon extends Component {
   }
 
   render() {
-    const { size, viewBox, fill, className } = this.props
-
-    let { width, height} = this.props
-    if (!width) {
-      width = size
-    }
-
-    if (!height) {
+    const { className, viewBox, fill, size } = this.props
+    const {
+      width = size,
       height = size
-    }
+    } = this.props
 
     return (
       <svg className={className} viewBox={viewBox} fill={fill} preserveAspectRatio="xMidYMid meet" width={width} height={height}>

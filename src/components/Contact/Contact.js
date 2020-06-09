@@ -71,7 +71,7 @@ function Contact() {
             <div className="Edge-content-end">
               <div className="Edge-pagination color-white-50">07 / 07</div>
               <div className="Edge-pagination-icon" onClick={() => events.navigate(1)}>
-                <Icon className="arrow-up" name="arrow-down" viewBox="0 0 28 28" fill="none" />
+                <Icon className="arrow-up" name="arrow-down" viewBox="0 0 36 36" fill="none" />
               </div>
             </div>
           </div>
