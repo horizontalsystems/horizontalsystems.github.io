@@ -1,10 +1,11 @@
 @import "../../scss/utils";
 
 .Contact {
-  background: #F5F5F5;
+  background: $light-steal;
   display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .Join-form-wrap {

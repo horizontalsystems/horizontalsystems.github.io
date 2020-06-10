@@ -197,6 +197,10 @@
   font-size: 32px;
   color: #C4C4C4;
   text-decoration: none;
+
+  @include sm {
+    font-size: 18px;
+  }
 }
 
 .Edge-icon-link {

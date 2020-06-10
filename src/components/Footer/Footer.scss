@@ -11,6 +11,7 @@
   a {
     color: $grey;
     text-decoration: none;
+    font-size: 14px;
   }
 }
 
@@ -46,6 +47,10 @@
   width: 40%;
   color: $grey;
 
+  .Contact-form {
+    min-width: auto;
+  }
+
   @include sm {
     width: 100%;
     margin-top: 50px;
@@ -69,7 +74,7 @@
   padding: 38px 0;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
 
   .Logo-icon {
     display: none;

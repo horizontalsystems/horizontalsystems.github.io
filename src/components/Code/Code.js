@@ -15,7 +15,7 @@ import './Code.scss'
 class Code extends React.Component {
   render() {
     return (
-      <Container className="bg-steal-dark" fluid>
+      <Container className="bg-steal-dark Code" fluid>
         <div className="Screen-right-half paths-grey" />
 
         <Edge className="Edge-header">

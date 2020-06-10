@@ -50,7 +50,7 @@ function Team() {
           </div>
         </Container>
 
-        <EdgeEnd colorName="green" />
+        <EdgeEnd colorName="dark" />
       </Edge>
     </Container>
   )

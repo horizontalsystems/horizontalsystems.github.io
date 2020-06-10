@@ -24,16 +24,23 @@
   flex: 2;
   display: flex;
   justify-content: center;
+
+  @include sm {
+    flex: 1;
+  }
 }
 
 .Banner-text {
-  font-size: 4.3vw;
+  font-size: 64px;
+  line-height: 70px;
   display: flex;
   align-items: flex-end;
   text-transform: capitalize;
+  padding-right: 10%;
 
   @include sm {
-    font-size: 10vw;
+    font-size: 38px;
+    line-height: 49px;
   }
 }
 
@@ -43,10 +50,10 @@
 
 .Banner-action {
   padding: 32px 0;
-  margin-left: -10px;
-  margin-right: 10px;
 }
 
 .Banner-image {
-  width: 100%;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
 }

@@ -14,59 +14,22 @@
   object-fit: cover;
 }
 
-.Mission-text {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 64px;
-  line-height: 70px;
-  color: $green;
-
-  @include sm {
-    margin-top: 60px;
-    font-size: 40px;
-    line-height: 50px;
-    width: 90vw;
-  }
-
-  @include md {
-    font-size: 50px;
-    line-height: 60px;
-    margin-top: 80px;
-    width: 90vw;
-  }
-
-  @include lg {
-    margin-top: 80px;
-    width: 90%;
-  }
-
-  @include xxl {
-    margin-top: 145px;
-    width: 55%;
-  }
-}
-
-@include sm {
-  .sm-hidden {
-    display: none;
-  }
-}
-
 .Mission {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding-bottom: 20px;
   height: 100%;
 }
 
 .Mission-title {
-  font-size: 4.5vw;
+  font-size: 64px;
+  line-height: 70px;
   color: $green;
   width: 80%;
 
   @include sm {
-    font-size: 6.5vw;
+    font-size: 38px;
+    line-height: 49px;
     width: 100%;
   }
 }
@@ -87,7 +50,7 @@
   padding-right: 20px;
 
   @include sm {
-    padding: 30px 0;
+    padding: 20px 0;
   }
 }
 
@@ -110,6 +73,15 @@
   font-size: 18px;
   line-height: 23px;
   padding-top: 32px;
-
   color: #FFFFFF;
+
+  @include sm {
+    padding-top: 20px;
+  }
+}
+
+@include sm {
+  .sm-hidden {
+    display: none;
+  }
 }

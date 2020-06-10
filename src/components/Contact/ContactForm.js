@@ -32,9 +32,9 @@ class ContactForm extends React.Component {
             <label className="Contact-checkbox-wrap">
               <div className="Contact-consent">
                 <input type="checkbox" className="Contact-checkbox" required />
-                <span className="Contact-checkbox-description">
+                <div className="Contact-checkbox-description">
                   By signing up, you agree to Horizontal Systems <Link to="/privacy">Privacy Policy</Link>
-                </span>
+                </div>
               </div>
               <div className="Contact-action">
                 <button type="submit" className="btn primary">Send</button>

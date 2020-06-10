@@ -1,6 +1,11 @@
 @import "../../scss/utils";
 
 .Contact-form {
+  min-width: 700px;
+
+  @include sm {
+    min-width: auto;
+  }
 }
 
 .Contact-form-group {
@@ -33,6 +38,10 @@ input, textarea, .btn {
   display: inline-block;
   font-size: 14px;
   line-height: 18px;
+
+  @include sm {
+    margin: 16px 0;
+  }
 }
 
 input, textarea {
@@ -46,8 +55,8 @@ input, textarea {
   padding: 10px 24px;
   background: $green;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 18px;
+  font-size: 18px;
+  line-height: 23px;
   color: $white;
   text-decoration: none;
 
@@ -63,6 +72,7 @@ input, textarea {
 
   @include sm {
     width: 100%;
+    text-align: center;
   }
 }
 
@@ -85,10 +95,16 @@ input, textarea {
   }
 
   .Contact-checkbox-description {
+    display: inline-grid;
     padding-left: 5px;
     font-size: 14px;
     line-height: 18px;
     color: $grey;
+
+    @include sm {
+      font-size: 14px;
+      line-height: 18px;
+    }
   }
 
   .Contact-action {

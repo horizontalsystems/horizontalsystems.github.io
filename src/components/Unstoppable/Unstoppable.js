@@ -35,7 +35,7 @@ function Unstoppable() {
         </Container>
       </Edge>
 
-      <Container clipped={false}>
+      <Container className="Container-flex" clipped={false}>
         <Banner text="Privacy, independence and reliability"
                 cover="uw"
                 action={<a className="btn" href="https://unstoppable.money/">Get the App</a>} />

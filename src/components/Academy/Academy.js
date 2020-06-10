@@ -33,7 +33,7 @@ function Academy() {
         </Container>
       </Edge>
 
-      <Container clipped={false}>
+      <Container className="Container-flex" clipped={false}>
         <Banner text="Learn How to Become a Better Investor"
                 cover="academy"
                 btnText="Visit website"

@@ -4,7 +4,6 @@ import Edge from '../Edge/Edge'
 import Container from '../Container/Container'
 import Icon from '../Icon/Icon'
 import EdgeStart from '../Edge/EdgeStart'
-import EdgeEnd from '../Edge/EdgeEnd'
 import ContactForm from './ContactForm'
 import events from '../../core/EventEmitter'
 
@@ -16,13 +15,13 @@ function Contact() {
       <div className="Screen-right-half paths-white" />
 
       <Edge className="Edge-header">
-        <EdgeStart colorName="dark" />
+        <EdgeStart colorName="white" />
         <Container>
           <div className="Edge-content">
             <div className="Edge-content-start">
               <div className="Icon-wrap">
                 <Icon name="join" fill="none" viewBox="0 0 56 52" size="52" />
-                <div className="Icon-label color-white">Contact</div>
+                <div className="Icon-label color-dark">Contact</div>
               </div>
             </div>
             <div className="Edge-content-end" />
@@ -69,15 +68,13 @@ function Contact() {
               </div>
             </div>
             <div className="Edge-content-end">
-              <div className="Edge-pagination color-white-50">07 / 07</div>
+              <div className="Edge-pagination color-black-50">07 / 07</div>
               <div className="Edge-pagination-icon" onClick={() => events.navigate(1)}>
-                <Icon className="arrow-up" name="arrow-down" viewBox="0 0 36 36" fill="none" size="36" />
+                <Icon className="arrow-up" name="arrow-down" viewBox="0 0 36 36" fill="none" size="36" stroke="#05C46B" />
               </div>
             </div>
           </div>
         </Container>
-
-        <EdgeEnd colorName="dark" />
       </Edge>
     </Container>
   )
