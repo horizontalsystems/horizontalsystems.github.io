@@ -27,14 +27,14 @@ function Academy() {
               </div>
             </div>
             <div className="Edge-content-end Edge-content-end-text color-white">
-              We study what different blockchain projects are and provide them in an accessible language
+              Learn cryptocurrency fundamentals. Get to know emerging projects in simple terms.
             </div>
           </div>
         </Container>
       </Edge>
 
       <Container className="Container-flex" clipped={false}>
-        <Banner text="Learn How to Become a Better Investor"
+        <Banner text="Comprehensive and Easy"
                 cover="academy"
                 btnText="Visit website"
                 action={<button className="btn btn-dark">Visit website</button>}

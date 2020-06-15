@@ -27,13 +27,12 @@ class Code extends React.Component {
                   <Icon name="github-contained" fill="none" viewBox="0 0 62 62" size="52" />
                   <div className="Icon-label color-steal-dark">
                     Open-Source <br />
-                    Library
+                    Code
                   </div>
                 </div>
               </div>
               <div className="Edge-content-end Edge-content-end-text color-white">
-                We are indeptedly grateful to the army of engineers for the emergence of decentralized systems. You're
-                welcome to contribute and reuse our code unconditionally.
+                You're welcome to analyze, improve and reuse our code unconditionally.
               </div>
             </div>
           </Container>
@@ -42,9 +41,8 @@ class Code extends React.Component {
         <Container clipped={false}>
           <Slider slidesToScroll={3} slidesToShow={3} bgColor="dark">
             <CardCode
-              title="Unstoppable Wallet Library"
-              info={<>A decentralized multi-blockchain wallet for Bitcoin and other cryptocurrencies. This wallet app
-                fully supports Bitcoin, Ethereum, Litecoin, EOS, Binance DEX, Bitcoin Cash and DASH blockchains.</>}
+              title="Unstoppable"
+              info={<>A decentralized multi-blockchain wallet for Bitcoin, Ethereum, Litecoin, EOS, Binance, DASH and other blockchains.</>}
               actions={<>
                 <a href="https://github.com/horizontalsystems/unstoppable-wallet-android">Kotlin</a>&nbsp;|&nbsp;
                 <a href="https://github.com/horizontalsystems/unstoppable-wallet-ios">Swift</a></>}
@@ -52,8 +50,8 @@ class Code extends React.Component {
             />
             <CardCode
               title="Bitcoin Library"
-              info={<>Full implementation of SPV protocol including standard-compliant wallet creation/restore,
-                synchronization with network, send/receive transactions, and a lot more.</>}
+              info={<>Full implementation of Bitcoin SPV wallet protocol including standard-compliant wallet setup/restore,
+                synchronization with the network, transactions, and more.</>}
               actions={<>
                 <a href="https://github.com/horizontalsystems/bitcoin-kit-android">Kotlin</a>&nbsp;|&nbsp;
                 <a href="https://github.com/horizontalsystems/bitcoin-kit-ios">Swift</a></>}
@@ -61,7 +59,7 @@ class Code extends React.Component {
             />
             <CardCode
               title="Ethereum Library"
-              info={<>Full wallet/account implementation for Ethereum blockchain. Can be a great time saver if you are
+              info={<>Full wallet implementation for Ethereum blockchain. Can be a great time saver if you are
                 building a DApp on Ethereum.</>}
               actions={<>
                 <a href="https://github.com/horizontalsystems/ethereum-kit-android">Kotlin</a>&nbsp;|&nbsp;
@@ -121,7 +119,7 @@ class Code extends React.Component {
             <div className="Edge-content">
               <div className="Edge-content-start">
                 <div className="Edge-icon-text">
-                  Follow our work&nbsp;
+                  Follow us @ &nbsp;
                   <a className="Edge-icon-link" href="https://github.com/horizontalsystems">Github</a>
                 </div>
               </div>

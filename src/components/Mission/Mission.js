@@ -20,25 +20,25 @@ function Mission() {
 
       <Container className="Mission">
         <div className="Mission-title">
-          We build products that help blockchain investors make better decisions.
+          Our products help crypto investors make better decisions.
         </div>
         <div className="Mission-apps">
           <div className="Mission-app">
             <div className="Mission-app-head">
               <Icon name="apps" fill="none" viewBox="0 0 32 32" size="32" />
-              <div className="Mission-app-title">Apps</div>
+              <div className="Mission-app-title">Wallet</div>
             </div>
             <div className="Mission-app-info">
-              Independence, knowledge and privacy are the main principles behind the products we build.
+              Store, monitor, trade and grow crypto assets independently.
             </div>
           </div>
           <div className="Mission-app">
             <div className="Mission-app-head">
               <Icon name="guides" fill="none" viewBox="0 0 32 32" size="32" />
-              <div className="Mission-app-title">Guides</div>
+              <div className="Mission-app-title">Academy</div>
             </div>
             <div className="Mission-app-info">
-              Independence, knowledge and privacy are the main principles behind the products we build.
+              Master fundamentals and learn about crypto projects in simple terms.
             </div>
           </div>
           <div className="Mission-app">
@@ -47,7 +47,7 @@ function Mission() {
               <div className="Mission-app-title">Code</div>
             </div>
             <div className="Mission-app-info">
-              Independence, knowledge and privacy are the main principles behind the products we build.
+              Contribute, improve and reuse our code unconditionally.
             </div>
           </div>
         </div>

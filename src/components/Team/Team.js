@@ -23,7 +23,7 @@ function Team() {
               </div>
             </div>
             <div className="Edge-content-end Edge-content-end-text color-dark">
-              We believe open blockchains are at the verge of fundamentally transforming the global finance. We are here to facilitate and benefit from that transformation.
+              We believe open blockchains are going to fundamentally transform the global finance. We are here to be a part of that.
             </div>
           </div>
         </Container>

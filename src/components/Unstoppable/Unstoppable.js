@@ -29,14 +29,14 @@ function Unstoppable() {
               </div>
             </div>
             <div className="Edge-content-end Edge-content-end-text color-dark">
-              Independence, knowledge and privacy are the main principles behind the products we build.
+              Discover promising assets. Store assets independently. Grow and remain private.
             </div>
           </div>
         </Container>
       </Edge>
 
       <Container className="Container-flex" clipped={false}>
-        <Banner text="Privacy, independence and reliability"
+        <Banner text="Decentralized and Private"
                 cover="uw"
                 action={<a className="btn" href="https://unstoppable.money/">Get the App</a>} />
       </Container>
