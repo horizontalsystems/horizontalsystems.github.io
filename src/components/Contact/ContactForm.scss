@@ -12,6 +12,10 @@
   display: flex;
   justify-content: space-between;
 
+  input, textarea, .btn {
+    margin: 16px 10px;
+  }
+
   @include sm {
     display: block;
   }
@@ -34,7 +38,6 @@ input, textarea, .btn {
   box-sizing: border-box;
   border: none;
   border-radius: 8px;
-  margin: 16px 10px;
   display: inline-block;
   font-size: 14px;
   line-height: 18px;
@@ -85,17 +88,16 @@ input, textarea {
   }
 }
 
-.Contact-checkbox-wrap {
+.Subscribe-checkbox-wrap {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  margin: 0 6px;
 
   .Contact-checkbox {
     width: 20px;
   }
 
   .Contact-checkbox-description {
-    display: inline-grid;
     padding-left: 5px;
     font-size: 14px;
     line-height: 18px;
@@ -107,21 +109,14 @@ input, textarea {
     }
   }
 
-  .Contact-action {
-    margin-left: 20px;
-
-    @include sm {
-      margin: 0;
-    }
-  }
-
   a {
     color: $grey;
   }
 
   @include sm {
-    align-items: unset;
-    flex-direction: column;
+    align-items: center;
+    flex-direction: row;
+    margin: 0;
   }
 }
 

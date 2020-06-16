@@ -44,17 +44,17 @@ function Contact() {
                   Follow us
                 </div>
                 <div className="Contact-links-icons">
-                  <a href="mailto:hsdao@protonmail.ch">
+                  <a href="https://twitter.com/hs_dao">
                     <div className="Contact-link">
                       <Icon name="twitter" viewBox="0 0 16 14" />
                     </div>
                   </a>
-                  <a href="mailto:hsdao@protonmail.ch">
+                  <a href="https://www.youtube.com/channel/UCIL-VOiFRXDvrfUg0DlxFXA">
                     <div className="Contact-link">
-                      <Icon name="mail" viewBox="0 0 18 18" />
+                      <Icon name="youtube" viewBox="0 0 28 28" />
                     </div>
                   </a>
-                  <a href="https://t.me/unstoppable_wallet">
+                  <a href="https://t.me/horizontalsystems">
                     <div className="Contact-link">
                       <Icon name="telegram" viewBox="0 0 20 17" />
                     </div>
