@@ -59,8 +59,7 @@ class Code extends React.Component {
             />
             <CardCode
               title="Ethereum Library"
-              info={<>Full wallet implementation for Ethereum blockchain. Can be a great time saver if you are
-                building a DApp on Ethereum.</>}
+              info={<>Wallet implementation for Ethereum. Can be a great time saver if you are building a DApp on Ethereum.</>}
               actions={<>
                 <a href="https://github.com/horizontalsystems/ethereum-kit-android">Kotlin</a>&nbsp;|&nbsp;
                 <a href="https://github.com/horizontalsystems/ethereum-kit-ios">Swift</a></>}
@@ -76,8 +75,7 @@ class Code extends React.Component {
             />
             <CardCode
               title="Binance DEX Library"
-              info={<>Binance DEX wallet for BEP2 tokens, most popular token type on Binance DEX. Easily extandable to
-                support other Binance DEX features.</>}
+              info={<>Binance Chain wallet for Binance DEX (BEP2 standard) tokens. Easily extendable to support other Binance DEX features.</>}
               actions={<>
                 <a href="https://github.com/horizontalsystems/binance-chain-kit-android">Kotlin</a>&nbsp;|&nbsp;
                 <a href="https://github.com/horizontalsystems/binance-chain-kit-ios">Swift</a></>}
@@ -85,8 +83,7 @@ class Code extends React.Component {
             />
             <CardCode
               title="Atomic Swap Library"
-              info={<>Atomic Swap library for Bitcoin (BTC) and Bitcoin Cash (BCH) swaps in decentralized manner. This
-                library has not been tested in production environment yet.</>}
+              info={<>Atomic Swap library for Bitcoin (BTC) and Bitcoin Cash (BCH) swaps in a decentralized manner. Not tested in production.</>}
               actions={<>
                 <a href="https://github.com/horizontalsystems/atomic-swap-kit-android">Kotlin</a>&nbsp;|&nbsp;
                 <a href="https://github.com/horizontalsystems/atomic-swap-kit-ios">Swift</a></>}
@@ -94,8 +91,7 @@ class Code extends React.Component {
             />
             <CardCode
               title="Bitcoin Hodler Library"
-              info={<>Using native Bitcoin protocol this kit enables construction of Bitcoin transactions which can not
-                be spent by the receiver until a certain date in the future.</>}
+              info={<>Construct Bitcoin transactions which can not be spent by the receiver until a certain date in the future.</>}
               actions={<>
                 <a
                   href="https://github.com/horizontalsystems/bitcoin-kit-android/tree/master/hodler">Kotlin</a>&nbsp;|&nbsp;
@@ -104,7 +100,7 @@ class Code extends React.Component {
             />
             <CardCode
               title="Lightning Library"
-              info={<>Add Lightning Network capabilities to your project. Lighning wallet creation, channels and so on.
+              info={<>Add Lightning Network capabilities to your project. Lightning wallet creation, channel management and more.
                 Work in progress.</>}
               actions={<>
                 <a href="https://github.com/horizontalsystems/lightning-kit-android">Kotlin</a>&nbsp;|&nbsp;
