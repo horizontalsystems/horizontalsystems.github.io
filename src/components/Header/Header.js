@@ -8,10 +8,14 @@ import events from '../../core/EventEmitter'
 import './Header.scss'
 
 class Header extends React.Component {
+  static defaultProps = {
+    navigate: true
+  }
 
   render() {
     let dropdown = false
 
+    const { navigate } = this.props
     const onToggleMenu = () => {
       const close = this.menuClose
       const toggle = this.menuToggle
@@ -31,8 +35,14 @@ class Header extends React.Component {
     }
 
     const onClickMenu = page => {
-      this.dropdownNav.style.display = "none"
-      events.navigate(page)
+      onToggleMenu()
+      this.dropdownNav.style.display = 'none'
+
+      if (navigate) {
+        events.navigate(page)
+      } else {
+        window.location.href = `/#page-${page}`;
+      }
     }
 
     const navigation = (

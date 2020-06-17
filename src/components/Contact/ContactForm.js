@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 import './ContactForm.scss'
 
@@ -30,12 +29,6 @@ class ContactForm extends React.Component {
 
           <div className="Contact-form-group">
             <label className="Contact-checkbox-wrap">
-              <div className="Contact-consent">
-                <input type="checkbox" className="Contact-checkbox" required />
-                <div className="Contact-checkbox-description">
-                  By signing up, you agree to Horizontal Systems <Link to="/privacy">Privacy Policy</Link>
-                </div>
-              </div>
               <div className="Contact-action">
                 <button type="submit" className="btn primary">Send</button>
                 <button type="button" className="btn loading" disabled="disabled">Send</button>

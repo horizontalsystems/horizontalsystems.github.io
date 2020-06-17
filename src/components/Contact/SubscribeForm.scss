@@ -4,15 +4,6 @@
   min-width: 700px;
 }
 
-.Contact-form-group {
-  display: flex;
-  justify-content: space-between;
-
-  @include sm {
-    display: block;
-  }
-}
-
 .Contact-success {
   display: none;
   text-align: center;

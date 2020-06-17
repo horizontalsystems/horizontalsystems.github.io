@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import './ContactForm.scss'
 
@@ -24,6 +25,12 @@ class SubscribeForm extends React.Component {
             <button type="submit" className="btn primary">Subscribe</button>
             <button type="button" className="btn loading" disabled="disabled">Subscribe</button>
           </div>
+          <label className="Subscribe-checkbox-wrap">
+            <input type="checkbox" className="Contact-checkbox" required />
+            <div className="Contact-checkbox-description">
+              By signing up, you agree to Horizontal Systems <Link to="/privacy">Privacy Policy</Link>
+            </div>
+          </label>
         </form>
 
         <div className="Contact-success">

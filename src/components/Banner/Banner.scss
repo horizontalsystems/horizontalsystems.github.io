@@ -23,7 +23,7 @@
 .Banner-end {
   flex: 2;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
 
   @include sm {
     flex: 1;
@@ -36,7 +36,6 @@
   display: flex;
   align-items: flex-end;
   text-transform: capitalize;
-  padding-right: 10%;
 
   @include sm {
     font-size: 38px;

@@ -44,6 +44,10 @@
     display: flex;
     align-items: center;
     color: $grey;
+
+    &:hover {
+      color: $green;
+    }
   }
 
   @include sm {
@@ -90,10 +94,5 @@
     padding: 20px 0;
     margin: 0;
     border: none;
-  }
-
-  .nav-item-btn, .nav-item a {
-    font-size: 22px;
-    line-height: 29px;
   }
 }
