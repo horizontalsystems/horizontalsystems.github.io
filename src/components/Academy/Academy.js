@@ -27,7 +27,7 @@ function Academy() {
               </div>
             </div>
             <div className="Edge-content-end Edge-content-end-text color-white">
-              Learn cryptocurrency fundamentals. Get to know emerging projects in simple terms.
+              Master crypto fundamentals in simple terms.
             </div>
           </div>
         </Container>

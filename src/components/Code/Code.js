@@ -26,13 +26,12 @@ class Code extends React.Component {
                 <div className="Icon-wrap">
                   <Icon name="github-contained" fill="none" viewBox="0 0 62 62" size="52" />
                   <div className="Icon-label color-steal-dark">
-                    Open-Source <br />
                     Code
                   </div>
                 </div>
               </div>
               <div className="Edge-content-end Edge-content-end-text color-white">
-                You're welcome to analyze, improve and reuse our code unconditionally.
+                Analyze, improve and reuse unconditionally.
               </div>
             </div>
           </Container>
@@ -49,16 +48,15 @@ class Code extends React.Component {
               dark
             />
             <CardCode
-              title="Bitcoin Library"
-              info={<>Full implementation of Bitcoin SPV wallet protocol including standard-compliant wallet setup/restore,
-                synchronization with the network, transactions, and more.</>}
+              title="Bitcoin Kit"
+              info={<>Full Bitcoin SPV wallet incl. standard-compliant wallet setup/restore, network sync, transactions, and more.</>}
               actions={<>
                 <a href="https://github.com/horizontalsystems/bitcoin-kit-android">Kotlin</a>&nbsp;|&nbsp;
                 <a href="https://github.com/horizontalsystems/bitcoin-kit-ios">Swift</a></>}
               dark
             />
             <CardCode
-              title="Ethereum Library"
+              title="Ethereum Kit"
               info={<>Wallet implementation for Ethereum. Can be a great time saver if you are building a DApp on Ethereum.</>}
               actions={<>
                 <a href="https://github.com/horizontalsystems/ethereum-kit-android">Kotlin</a>&nbsp;|&nbsp;
@@ -66,7 +64,7 @@ class Code extends React.Component {
               dark
             />
             <CardCode
-              title="EOS Library"
+              title="EOSIO Kit"
               info={<>General purpose wallet library for the EOS blockchain and EOSIO protocol.</>}
               actions={<>
                 <a href="https://github.com/horizontalsystems/eos-kit-android">Kotlin</a>&nbsp;|&nbsp;
@@ -74,7 +72,7 @@ class Code extends React.Component {
               dark
             />
             <CardCode
-              title="Binance DEX Library"
+              title="Binance Chain"
               info={<>Binance Chain wallet for Binance DEX (BEP2 standard) tokens. Easily extendable to support other Binance DEX features.</>}
               actions={<>
                 <a href="https://github.com/horizontalsystems/binance-chain-kit-android">Kotlin</a>&nbsp;|&nbsp;
@@ -82,7 +80,7 @@ class Code extends React.Component {
               dark
             />
             <CardCode
-              title="Atomic Swap Library"
+              title="Atomic Swaps"
               info={<>Atomic Swap library for Bitcoin (BTC) and Bitcoin Cash (BCH) swaps in a decentralized manner. Not tested in production.</>}
               actions={<>
                 <a href="https://github.com/horizontalsystems/atomic-swap-kit-android">Kotlin</a>&nbsp;|&nbsp;
@@ -90,7 +88,7 @@ class Code extends React.Component {
               dark
             />
             <CardCode
-              title="Bitcoin Hodler Library"
+              title="Hodler Kit"
               info={<>Construct Bitcoin transactions which can not be spent by the receiver until a certain date in the future.</>}
               actions={<>
                 <a
@@ -99,7 +97,7 @@ class Code extends React.Component {
               dark
             />
             <CardCode
-              title="Lightning Library"
+              title="Lightning Kit"
               info={<>Add Lightning Network capabilities to your project. Lightning wallet creation, channel management and more.
                 Work in progress.</>}
               actions={<>

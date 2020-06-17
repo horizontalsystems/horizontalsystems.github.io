@@ -29,7 +29,7 @@ function Unstoppable() {
               </div>
             </div>
             <div className="Edge-content-end Edge-content-end-text color-dark">
-              Discover promising assets. Store assets independently. Grow and remain private.
+              Discover, store, grow while staying private.
             </div>
           </div>
         </Container>

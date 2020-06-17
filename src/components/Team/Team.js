@@ -23,7 +23,6 @@ function Team() {
               </div>
             </div>
             <div className="Edge-content-end Edge-content-end-text color-dark">
-              We believe open blockchains are transforming the global finance, and are keen to be a part of that.
             </div>
           </div>
         </Container>
