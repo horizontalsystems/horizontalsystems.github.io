@@ -3,8 +3,6 @@ import React from 'react'
 import Container from '../Container/Container'
 import Icon from '../Icon/Icon'
 import Edge from '../Edge/Edge'
-import EdgeStart from '../Edge/EdgeStart'
-import EdgeEnd from '../Edge/EdgeEnd'
 import Banner from '../Banner/Banner'
 import events from '../../core/EventEmitter'
 
@@ -14,31 +12,19 @@ function Academy() {
   return (
     <Container className="Academy" fluid>
       <Edge className="Edge-header">
-        <EdgeStart colorName="white" />
         <Container>
           <div className="Edge-content">
             <div className="Edge-content-start">
-              <div className="Icon-wrap">
-                <Icon name="academy" fill="none" viewBox="0 0 62 62" size="62" />
-                <div className="Icon-label color-dark">
-                  Unstoppable <br />
-                  Academy
-                </div>
+              <div>
+                <Icon name="litrex" width="138" height="40" viewBox="0 0 138 40" />
               </div>
-            </div>
-            <div className="Edge-content-end Edge-content-end-text color-white">
-              Master crypto fundamentals in simple terms.
             </div>
           </div>
         </Container>
       </Edge>
 
       <Container className="Container-flex" clipped={false}>
-        <Banner text="Comprehensive and Easy"
-                cover="academy"
-                btnText="Visit website"
-                action={<button className="btn btn-dark">Visit website</button>}
-                textLight />
+        <Banner text="Comprehensive and Easy" cover="academy" btnText="Visit website" action={<button className="btn btn-dark">Visit website</button>} textLight />
       </Container>
 
       <Edge className="Edge-bottom">
@@ -53,8 +39,6 @@ function Academy() {
             </div>
           </div>
         </Container>
-
-        <EdgeEnd colorName="dark" />
       </Edge>
     </Container>
   )

@@ -3,7 +3,6 @@ import React from 'react'
 import Container from '../Container/Container'
 import Edge from '../Edge/Edge'
 import Icon from '../Icon/Icon'
-import EdgeEnd from '../Edge/EdgeEnd'
 import events from '../../core/EventEmitter'
 
 import './Mission.scss'
@@ -18,42 +17,29 @@ function Mission() {
         alt=""
       />
 
+      <Edge className="Edge-header">
+        <Container>
+          <div className="Edge-content">
+            <div className="Edge-content-start">
+              <div className="Icon-wrap">
+                <Icon name="mission" fill="none" viewBox="0 0 52 52" size="52" />
+                <div className="Icon-label color-steal-light">
+                  Mission
+                </div>
+              </div>
+            </div>
+          </div>
+        </Container>
+      </Edge>
+
       <Container className="Mission">
-        <div className="Mission-title">
-          Our products help crypto investors make better decisions.
-        </div>
-        <div className="Mission-apps">
-          <div className="Mission-app">
-            <div className="Mission-app-head">
-              <Icon name="apps" fill="none" viewBox="0 0 32 32" size="32" />
-              <div className="Mission-app-title">Wallet</div>
-            </div>
-            <div className="Mission-app-info">
-              Store, monitor, trade and grow crypto assets independently.
-            </div>
-          </div>
-          <div className="Mission-app">
-            <div className="Mission-app-head">
-              <Icon name="guides" fill="none" viewBox="0 0 32 32" size="32" />
-              <div className="Mission-app-title">Academy</div>
-            </div>
-            <div className="Mission-app-info">
-              Master fundamentals and learn about crypto projects in simple terms.
-            </div>
-          </div>
-          <div className="Mission-app">
-            <div className="Mission-app-head">
-              <Icon name="code" fill="none" viewBox="0 0 32 32" size="32" />
-              <div className="Mission-app-title">Code</div>
-            </div>
-            <div className="Mission-app-info">
-              Contribute, improve and reuse our code unconditionally.
-            </div>
-          </div>
+        <div className="Mission-info">
+          Everything we do we believe in removing boundaries from the financial system, making markets and opportunities accessible to all. We are
+          removing boundaries by building applications that provide open and unconditional access to the cryptocurrency markets.
         </div>
       </Container>
 
-      <Edge className="Edge-bottom sm-hidden">
+      <Edge className="Edge-bottom">
         <Container>
           <div className="Edge-content">
             <div className="Edge-content-start">
@@ -69,8 +55,6 @@ function Mission() {
             </div>
           </div>
         </Container>
-
-        <EdgeEnd colorName="white" />
       </Edge>
     </Container>
   )

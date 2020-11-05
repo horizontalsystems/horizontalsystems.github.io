@@ -3,8 +3,6 @@ import React from 'react'
 import Container from '../Container/Container'
 import Icon from '../Icon/Icon'
 import Edge from '../Edge/Edge'
-import EdgeStart from '../Edge/EdgeStart'
-import EdgeEnd from '../Edge/EdgeEnd'
 import Banner from '../Banner/Banner'
 import events from '../../core/EventEmitter'
 
@@ -13,15 +11,14 @@ import './Unstoppable.scss'
 function Unstoppable() {
   return (
     <Container className="Unstoppable" fluid>
-      <div className="Screen-right-half paths-white" />
+      <div className="Screen-right-half paths-grey" />
 
       <Edge className="Edge-header">
-        <EdgeStart colorName="dark-steal" />
         <Container>
           <div className="Edge-content">
             <div className="Edge-content-start">
               <div className="Icon-wrap">
-                <Icon name="unstoppable" fill="none" viewBox="0 0 62 62" size="62" />
+                <Icon name="unstoppable" fill="none" viewBox="0 0 55 55" size="55" />
                 <div className="Icon-label color-lights">
                   Unstoppable <br />
                   Wallet
@@ -36,9 +33,7 @@ function Unstoppable() {
       </Edge>
 
       <Container className="Container-flex" clipped={false}>
-        <Banner text="Decentralized and Private"
-                cover="uw"
-                action={<a className="btn" href="https://unstoppable.money/">Get the App</a>} />
+        <Banner text="Invest without borders" action={<a className="btn" href="https://unstoppable.money/">Get the App</a>} cover="uw" textLight />
       </Container>
 
       <Edge className="Edge-bottom">
@@ -53,8 +48,6 @@ function Unstoppable() {
             </div>
           </div>
         </Container>
-
-        <EdgeEnd colorName="green" />
       </Edge>
     </Container>
   )

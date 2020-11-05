@@ -3,7 +3,6 @@ import React from 'react'
 import Edge from '../Edge/Edge'
 import Container from '../Container/Container'
 import Icon from '../Icon/Icon'
-import EdgeStart from '../Edge/EdgeStart'
 import ContactForm from './ContactForm'
 import events from '../../core/EventEmitter'
 
@@ -15,7 +14,6 @@ function Contact() {
       <div className="Screen-right-half paths-white" />
 
       <Edge className="Edge-header">
-        <EdgeStart colorName="white" />
         <Container>
           <div className="Edge-content">
             <div className="Edge-content-start">

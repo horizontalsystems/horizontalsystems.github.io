@@ -4,8 +4,6 @@ import Edge from '../Edge/Edge'
 import Container from '../Container/Container'
 import Icon from '../Icon/Icon'
 import CardCode from '../Card/CardCode'
-import EdgeStart from '../Edge/EdgeStart'
-import EdgeEnd from '../Edge/EdgeEnd'
 import Slider from '../Slider/Slider'
 
 import events from '../../core/EventEmitter'
@@ -19,19 +17,15 @@ class Code extends React.Component {
         <div className="Screen-right-half paths-grey" />
 
         <Edge className="Edge-header">
-          <EdgeStart colorName="green" />
           <Container>
             <div className="Edge-content">
               <div className="Edge-content-start">
                 <div className="Icon-wrap">
-                  <Icon name="github-contained" fill="none" viewBox="0 0 62 62" size="52" />
-                  <div className="Icon-label color-steal-dark">
+                  <Icon name="code" fill="none" viewBox="0 0 50 50" size="52" />
+                  <div className="Icon-label color-steal-light">
                     Code
                   </div>
                 </div>
-              </div>
-              <div className="Edge-content-end Edge-content-end-text color-white">
-                Analyze, improve and reuse unconditionally.
               </div>
             </div>
           </Container>
@@ -125,13 +119,10 @@ class Code extends React.Component {
               </div>
             </div>
           </Container>
-
-          <EdgeEnd colorName="green" />
         </Edge>
       </Container>
     )
   }
-
 }
 
 export default Code

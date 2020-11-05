@@ -21,6 +21,18 @@
   height: 100%;
 }
 
+.Mission-info {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  color: $light-steal;
+
+  @include md {
+    width: 50%;
+  }
+}
+
 .Mission-title {
   font-size: 64px;
   line-height: 70px;
