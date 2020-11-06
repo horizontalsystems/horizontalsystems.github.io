@@ -5,6 +5,7 @@ import Icon from '../Icon/Icon'
 import Edge from '../Edge/Edge'
 import Banner from '../Banner/Banner'
 import events from '../../core/EventEmitter'
+import { ReactComponent as ArrowRight } from '../Icon/arrow-right.svg'
 
 import './Academy.scss'
 
@@ -26,7 +27,7 @@ function Academy() {
           text="Learn cryptocurrency"
           info={
             <>
-              To this day, cryptocurrencies and blockchain technology powering them are still mostly misunderstood and unappreciated <br />
+              To this day, cryptocurrencies and blockchain technology powering them are still mostly misunderstood and unappreciated <br /><br />
               Litrex Academy is our attempt to explain Why, How and What aspects of cryptocurrencies and decentralized finance technologies in an
               accessible manner.
             </>
@@ -40,7 +41,7 @@ function Academy() {
           <div className="Edge-content">
             <div className="Edge-content-start">
               <div className="Edge-icon-link">
-                Visit website <Icon className="pl-18" name="arrow-right" width="20" height="13" viewBox="0 0 20 13" stroke="#05C46B" />
+                Visit website <ArrowRight className="pl-18" />
               </div>
             </div>
             <div className="Edge-content-end">

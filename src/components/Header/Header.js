@@ -47,7 +47,6 @@ class Header extends React.Component {
 
     const navigation = (
       <div className="nav">
-        <div className="nav-item" onClick={() => onClickMenu(2)}>What we do</div>
         <div className="nav-item" onClick={() => onClickMenu(3)}>Wallet</div>
         <div className="nav-item" onClick={() => onClickMenu(4)}>Academy</div>
         <div className="nav-item" onClick={() => onClickMenu(5)}>Code</div>

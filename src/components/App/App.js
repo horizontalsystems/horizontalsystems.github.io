@@ -7,8 +7,6 @@ import Academy from '../Academy/Academy'
 import Code from '../Code/Code'
 import Team from '../Team/Team'
 import Contact from '../Contact/Contact'
-import Footer from '../Footer/Footer'
-
 import events from '../../core/EventEmitter'
 
 import './App.scss'
@@ -52,9 +50,6 @@ class App extends React.Component {
         </div>
         <div id="page-7">
           <Contact />
-        </div>
-        <div id="page-8">
-          <Footer />
         </div>
       </div>
     )

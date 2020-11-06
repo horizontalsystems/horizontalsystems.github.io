@@ -1,6 +1,7 @@
 @import "../../scss/utils";
 
 .Mission-wrap {
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -13,6 +14,17 @@
   object-fit: cover;
 }
 
+.Mission-bg-gradient {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, #0F1014 0%, rgba(15, 16, 20, 0) 100%);
+
+  @include sm {
+    background: linear-gradient(90deg, #0F1014 0%, rgba(15, 16, 20, 0) 200%);
+  }
+}
+
 .Mission {
   display: flex;
   flex-direction: column;
@@ -22,12 +34,14 @@
 
 .Mission-info {
   width: 100%;
-  font-size: 20px;
+  font-size: 16px;
+  line-height: 21px;
   font-weight: 400;
-  line-height: 26px;
   color: $light-steal;
 
   @include md {
+    font-size: 20px;
+    line-height: 26px;
     width: 50%;
   }
 }
@@ -45,54 +59,3 @@
   }
 }
 
-.Mission-apps {
-  display: flex;
-  width: 80%;
-
-  @include sm {
-    flex-direction: column;
-    width: 100%;
-  }
-}
-
-.Mission-app {
-  display: flex;
-  flex-direction: column;
-  padding-right: 20px;
-
-  @include sm {
-    padding: 20px 0;
-  }
-}
-
-.Mission-app-head {
-  display: flex;
-}
-
-.Mission-app-title {
-  padding-left: 16px;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 31px;
-  display: flex;
-  align-items: center;
-  color: #FFFFFF
-}
-
-.Mission-app-info {
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 23px;
-  padding-top: 32px;
-  color: #FFFFFF;
-
-  @include sm {
-    padding-top: 20px;
-  }
-}
-
-@include sm {
-  .sm-hidden {
-    display: none;
-  }
-}

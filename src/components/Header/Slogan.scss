@@ -9,13 +9,12 @@
 
 .Slogan-title {
   font-size: 64px;
-  line-height: 70px;
+  line-height: 83px;
   color: $light;
 
   @include sm {
-    font-size: 38px;
-    line-height: 49px;
-    margin-bottom: 50px;
+    font-size: 40px;
+    line-height: 52px;
   }
 }
 

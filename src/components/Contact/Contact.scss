@@ -1,57 +1,80 @@
 @import "../../scss/utils";
 
 .Contact {
-  background: $light-steal;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.Join-form-wrap {
-  padding: 5% 0;
-  display: flex;
-  justify-content: center;
+.Contacts-section {
+  padding-bottom: 45px;
 
   @include sm {
-    justify-content: center;
+    padding-bottom: 72px;
   }
 }
 
-.Contact-links {
+.Contacts-head {
+  color: darken($grey, 0.5%);
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 500;
+  padding-bottom: 40px;
+
+  @include sm {
+    padding-bottom: 36px;
+  }
+}
+
+.Contacts {
+  display: flex;
+
+  @include sm {
+    flex-direction: column;
+  }
+}
+
+.Contact-item {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-
-  a {
-    text-decoration: none;
-  }
-
-  .Contact-links-title {
-    font-size: 18px;
-    line-height: 23px;
-    color: $dark;
-  }
-
-  .Contact-links-icons {
-    padding-top: 20px;
-    display: flex;
-  }
+  padding-right: 24px;
 
   @include sm {
-    padding-bottom: 30px;
+    padding: 20px 0;
   }
 }
 
-.Contact-link {
+.Contact-item-head {
   display: flex;
+  align-items: center;
+}
+
+.Contact-item-title {
   font-size: 16px;
   line-height: 21px;
-  text-align: center;
+  font-weight: 400;
+  padding-left: 20px;
+  color: $light-steal;
 
-  color: $white;
-
-  svg {
-    padding-right: 12px;
+  @include md {
+    font-size: 18px;
+    line-height: 23px;
   }
 }
+
+.Contact-item-info {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  padding-top: 24px;
+  color: $grey;
+
+  @include sm {
+    font-size: 16px;
+    line-height: 21px;
+    padding-top: 20px;
+  }
+}
+
+
