@@ -1,34 +1,135 @@
 @import "../../scss/utils";
+@import "Button";
+@import "Input";
 
-.Contact-form {
-  min-width: 700px;
+.Modal-form, .Contact-success, .Share-modal {
+  margin: auto;
+  background: #000000;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  padding: 20px 26px;
+  position: relative;
+
+  @include sm {
+    min-width: auto;
+  }
+
+  @include md {
+    width: 424px;
+  }
+}
+
+.dark-mode .Modal-form,
+.dark-mode .Share-modal,
+.dark-mode .Contact-success {
+  background: $dark;
+
+  input {
+    background: $dark;
+  }
+}
+
+.close-form {
+  position: absolute;
+  right: -3px;
+  top: 5px;
+}
+
+.Contact-form-group {
+  display: flex;
+  justify-content: space-between;
+
+  input, textarea, button {
+    margin: 16px 10px;
+
+    @include sm {
+      margin: 16px 0;
+    }
+  }
+
+  @include sm {
+    display: block;
+  }
+}
+
+.Contact-form-info {
+  font-size: 18px;
+  line-height: 23px;
+  color: $grey;
+  margin: 16px 10px;
 }
 
 .Contact-success {
   display: none;
   text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
 
-  h4 {
-    font-size: 40px;
+  .done {
+    display: flex;
+    justify-content: center;
   }
 
-  p {
-    font-size: 30px;
+  .done-text {
+    padding-top: 18px;
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 400;
+    color: $grey;
   }
 }
 
-input, textarea, .btn {
-  box-sizing: border-box;
-  border: none;
-  border-radius: 8px;
-  margin: 16px 10px;
-  display: inline-block;
-  font-size: 14px;
-  line-height: 18px;
+.Contact-success-footer {
+  background: $dark;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: left;
 }
 
-input, textarea {
-  border: 1px solid $gray-light;
-  padding: 15px 24px;
+.Contact-success-img {
+  width: 16px;
+  margin-top: 3px;
+  margin-right: 12px;
+  float: left;
+}
+
+.Button-submit {
+  &.loading {
+    display: none;
+  }
+
+  @include sm {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.Subscribe-checkbox-wrap {
+  display: flex;
+  align-items: center;
+  margin: 5px 10px 18px;
   width: 100%;
+
+  .Contact-checkbox-description {
+    padding-left: 28px;
+    font-size: 14px;
+    line-height: 18px;
+    color: $grey;
+
+    @include sm {
+      font-size: 14px;
+      line-height: 18px;
+    }
+  }
+
+  a {
+    color: $grey;
+    text-decoration: underline;
+  }
+
+  @include sm {
+    align-items: center;
+    flex-direction: row;
+    margin: 0;
+  }
 }

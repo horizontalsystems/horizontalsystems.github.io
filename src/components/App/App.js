@@ -7,6 +7,7 @@ import Academy from '../Academy/Academy'
 import Code from '../Code/Code'
 import Team from '../Team/Team'
 import Contact from '../Contact/Contact'
+
 import events from '../../core/EventEmitter'
 
 import './App.scss'

@@ -12,6 +12,10 @@
   line-height: normal !important;
 }
 
+.w-full {
+  width: 100%;
+}
+
 .sm-hidden {
   @include sm {
     display: none !important;

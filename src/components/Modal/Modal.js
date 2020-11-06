@@ -1,7 +1,7 @@
 import React from 'react'
 
-import events from '../../core/EventEmitter'
 import Container from '../Container/Container'
+import events from '../../core/EventEmitter'
 
 import './Modal.scss'
 
@@ -58,7 +58,7 @@ class Modal extends React.Component {
     return (
       <div className="modal-container" ref={ref => this.manager = ref}>
         <Container className="modal fadeInUp">
-          <span className="close" onClick={this.hideModal}>&times;</span>
+          {/*<span className="close" onClick={this.hideModal}>&times;</span>*/}
           {this.state.modal}
         </Container>
         <div className="lean-overlay" onClick={this.hideModal} />

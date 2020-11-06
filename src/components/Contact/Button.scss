@@ -1,0 +1,118 @@
+@import "../../scss/utils";
+
+.Button {
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 11px 24px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+  }
+
+  &:disabled {
+    color: $light-steal;
+    background: $grey;
+    cursor: not-allowed;
+  }
+}
+
+.Button-bordered {
+  border: 1px solid $grey;
+}
+
+.Button-circle {
+  cursor: pointer;
+  width: 36px;
+  height: 36px;
+  border-radius: 40px;
+  border: 1px solid $grey;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Button-circle-yellow {
+  border: 1px solid $yellow;
+  background: $yellow;
+  color: white;
+
+  path {
+    fill: white;
+  }
+}
+
+.Arrow-right path {
+  transform: translate(100%, 100%) rotate(180deg);
+}
+
+.Button-page-number {
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.Button-grey {
+  background: $grey;
+
+  &:enabled:hover {
+    background: lighten($grey, 2%);
+  }
+}
+
+.Button-yellow {
+  background: $yellow;
+
+  &:enabled:hover {
+    background: lighten($yellow, 2%);
+  }
+}
+
+.Button-green {
+  background: $green;
+
+  &:enabled:hover {
+    background: lighten($green, 2%);
+  }
+}
+
+.Button-filter-inactive {
+  &:enabled:hover {
+    background: $yellow;
+  }
+}
+
+.dark-mode {
+  .Button-circle {
+    border: 1px solid $dark-light;
+
+    path {
+      fill: #37393B;
+    }
+  }
+
+  .Button-circle-yellow {
+    border: 1px solid $yellow;
+
+    path {
+      fill: $darkest;
+    }
+  }
+
+  .Button-yellow {
+    color: $darkest;
+  }
+
+  .Button-filter-inactive {
+    background: $dark;
+    color: $yellow;
+
+    &:enabled:hover {
+      background: $yellow;
+      color: $darkest;
+    }
+  }
+}

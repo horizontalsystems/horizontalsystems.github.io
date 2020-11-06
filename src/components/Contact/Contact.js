@@ -3,6 +3,7 @@ import React from 'react'
 import Container from '../Container/Container'
 import Edge from '../Edge/Edge'
 import Icon from '../Icon/Icon'
+import SubscribeForm from './SubscribeFormModal'
 import events from '../../core/EventEmitter'
 
 import { ReactComponent as Hs } from './hs.svg'
@@ -17,6 +18,10 @@ import { ReactComponent as Newsletter } from './newsletter.svg'
 import './Contact.scss'
 
 function Contact() {
+  const openForm  = () => {
+    events.showModal(<SubscribeForm formId="2166978" formCode="d8h6h7" onClose={() => events.hideModal()} />)
+  }
+
   return (
     <Container className="Contact" fluid>
       <div className="Screen-right-half paths-grey" />
@@ -39,37 +44,37 @@ function Contact() {
           <div className="Contacts-head">Contact Us</div>
           <div className="Contacts">
             <div className="Contact-item">
-              <div className="Contact-item-head">
+              <a className="Contact-item-head" href="/">
                 <Hs />
                 <div className="Contact-item-title">HorizontalSystems</div>
-              </div>
+              </a>
               <div className="Contact-item-info">
                 A decentralized multi-blockchain wallet for Bitcoin and other cryptocurrencies.
               </div>
             </div>
             <div className="Contact-item">
-              <div className="Contact-item-head">
+              <a className="Contact-item-head" href="/">
                 <Mail />
                 <div className="Contact-item-title">Hsdao@protonmail.ch</div>
-              </div>
+              </a>
               <div className="Contact-item-info">
                 A decentralized multi-blockchain wallet for Bitcoin and other cryptocurrencies.
               </div>
             </div>
             <div className="Contact-item">
-              <div className="Contact-item-head">
+              <a className="Contact-item-head" href="/">
                 <Uw />
                 <div className="Contact-item-title">UnstoppableWallet</div>
-              </div>
+              </a>
               <div className="Contact-item-info">
                 A decentralized multi-blockchain wallet for Bitcoin and other cryptocurrencies.
               </div>
             </div>
             <div className="Contact-item">
-              <div className="Contact-item-head">
+              <a className="Contact-item-head" href="/">
                 <UDev />
                 <div className="Contact-item-title">Unstoppable Development</div>
-              </div>
+              </a>
               <div className="Contact-item-info">
                 A decentralized multi-blockchain wallet for Bitcoin and other cryptocurrencies.
               </div>
@@ -80,34 +85,34 @@ function Contact() {
           <div className="Contacts-head">Follow Us</div>
           <div className="Contacts">
             <div className="Contact-item">
-              <div className="Contact-item-head">
+              <a className="Contact-item-head" href="/">
                 <Twitter />
                 <div className="Contact-item-title">on Twitter</div>
-              </div>
+              </a>
               <div className="Contact-item-info">
                 A decentralized multi-blockchain wallet for Bitcoin and other cryptocurrencies.
               </div>
             </div>
             <div className="Contact-item">
-              <div className="Contact-item-head">
+              <a className="Contact-item-head" href="/">
                 <Github />
                 <div className="Contact-item-title">on Github</div>
-              </div>
+              </a>
               <div className="Contact-item-info">
                 A decentralized multi-blockchain wallet for Bitcoin and other cryptocurrencies.
               </div>
             </div>
             <div className="Contact-item">
-              <div className="Contact-item-head">
+              <a className="Contact-item-head" href="/">
                 <Youtube />
                 <div className="Contact-item-title">on Youtube</div>
-              </div>
+              </a>
               <div className="Contact-item-info">
                 A decentralized multi-blockchain wallet for Bitcoin and other cryptocurrencies.
               </div>
             </div>
             <div className="Contact-item">
-              <div className="Contact-item-head">
+              <div className="Contact-item-head" onClick={openForm}>
                 <Newsletter />
                 <div className="Contact-item-title">Our Newsletter</div>
               </div>
