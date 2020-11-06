@@ -31,7 +31,7 @@
 
 .Container-fluid {
   width: 100%;
-  min-height: 100vh;
+  min-height: calc(min(100vh, 900px));
   overflow: hidden;
   position: relative;
 }

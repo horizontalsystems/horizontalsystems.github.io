@@ -13,7 +13,7 @@ import './Code.scss'
 class Code extends React.Component {
   render() {
     return (
-      <Container className="bg-steal-dark Code" fluid>
+      <Container className="Container-code bg-steal-dark" fluid>
         <div className="Screen-right-half paths-grey" />
 
         <Edge className="Edge-header">
@@ -30,6 +30,15 @@ class Code extends React.Component {
             </div>
           </Container>
         </Edge>
+
+        <Container>
+          <div className="Edge-info">
+            <div className="Page-info">
+              To facilitate seamless access to cryptocurrency and decentralized systems Horizontal Systems provides open and unconditional access to the
+              source code powering its products.
+            </div>
+          </div>
+        </Container>
 
         <Container clipped={false}>
           <Slider slidesToScroll={3} slidesToShow={3} bgColor="dark">
@@ -105,16 +114,11 @@ class Code extends React.Component {
         <Edge className="Edge-bottom">
           <Container>
             <div className="Edge-content">
-              <div className="Edge-content-start">
-                <div className="Edge-icon-text">
-                  Follow us @ &nbsp;
-                  <a className="Edge-icon-link" href="https://github.com/horizontalsystems">Github</a>
-                </div>
-              </div>
+              <div />
               <div className="Edge-content-end">
                 <div className="Edge-pagination color-white-50">05 / 07</div>
                 <div className="Edge-pagination-icon" onClick={() => events.navigate(6)}>
-                  <Icon name="arrow-down" viewBox="0 0 36 36" fill="none" size="36" />
+                  <Icon name="arrow-down" viewBox="0 0 36 36" fill="none" size="36" stroke="#808085" />
                 </div>
               </div>
             </div>

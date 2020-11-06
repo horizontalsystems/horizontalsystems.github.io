@@ -18,6 +18,10 @@
   height: 100vh;
   object-fit: cover;
   min-height: 650px;
+
+  @include md {
+    min-height: 900px;
+  }
 }
 
 .Team-gradient {

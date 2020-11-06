@@ -43,14 +43,12 @@ function Mission() {
         <Container>
           <div className="Edge-content">
             <div className="Edge-content-start">
-              <div>
-                <Icon name="logo" fill="#fff" viewBox="0 0 40 40" size="40" />
-              </div>
+              <Icon name="logo" fill="#fff" viewBox="0 0 40 40" size="40" />
             </div>
             <div className="Edge-content-end">
               <div className="Edge-pagination color-grey">02 / 07</div>
               <div className="Edge-pagination-icon" onClick={() => events.navigate(3)}>
-                <Icon name="arrow-down" viewBox="0 0 36 36" fill="none" size="36" stroke="#05C46B" />
+                <Icon name="arrow-down" viewBox="0 0 36 36" fill="none" size="36" stroke="#808085" />
               </div>
             </div>
           </div>

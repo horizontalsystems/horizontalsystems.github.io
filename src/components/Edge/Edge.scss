@@ -9,37 +9,10 @@
 
 .Edge-header,
 .Edge-bottom {
-
-  @include sm {
-    .Edge-start-corner,
-    .Edge-end-corner {
-      height: 96px;
-    }
-  }
+  padding: 48px 0;
 
   @include md {
-    height: 160px;
-
-    .Edge-start-corner,
-    .Edge-end-corner {
-      height: 160px;
-    }
-  }
-
-  @include lg {
-    height: 160px;
-    .Edge-start-corner,
-    .Edge-end-corner {
-      height: 160px;
-    }
-  }
-
-  @include xxl {
-    height: 160px;
-    .Edge-start-corner,
-    .Edge-end-corner {
-      height: 160px;
-    }
+    padding: 80px 0;
   }
 }
 
@@ -77,6 +50,14 @@
   }
 }
 
+.Edge-info {
+  width: 100%;
+
+  @include md {
+    width: 50%;
+  }
+}
+
 .Edge-content-start,
 .Edge-content-end {
   z-index: 1;
@@ -85,11 +66,6 @@
 }
 
 .Edge-content-start {
-  height: 160px;
-
-  @include sm {
-    height: 96px;
-  }
 }
 
 .Edge-start {
@@ -204,8 +180,13 @@
 }
 
 .Edge-icon-link {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 29px;
+  color: $green;
   cursor: pointer;
-  color: #05C46B;
   text-decoration: none;
-  font-weight: 600;
 }
