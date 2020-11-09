@@ -4,27 +4,13 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .Contacts-section {
-  padding-bottom: 45px;
-
-  @include sm {
-    padding-bottom: 72px;
-  }
-}
-
-.Contacts-head {
-  color: darken($grey, 0.5%);
-  font-size: 18px;
-  line-height: 23px;
-  font-weight: 500;
-  padding-bottom: 40px;
-
-  @include sm {
-    padding-bottom: 36px;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
 }
 
 .Contacts {

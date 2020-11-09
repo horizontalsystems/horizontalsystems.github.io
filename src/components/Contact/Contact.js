@@ -35,7 +35,7 @@ function Contact() {
         </Container>
       </Edge>
 
-      <Container>
+      <Container className="Contacts-section">
         <div className="Contacts">
           <div className="Contact-item">
             <a className="Contact-item-head" href="mailto:hsdao@protonmail.ch">
@@ -47,7 +47,7 @@ function Contact() {
             </div>
           </div>
           <div className="Contact-item">
-            <a className="Contact-item-head" href="https://twitter.com/hs_dao" target="_blank" rel="noopener noreferrer">
+            <a className="Contact-item-head" href="https://twitter.com/blocksdecoded" target="_blank" rel="noopener noreferrer">
               <img src={Twitter} alt="" />
               <div className="Contact-item-title">on Twitter</div>
             </a>

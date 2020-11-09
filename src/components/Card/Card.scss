@@ -1,6 +1,7 @@
 @import "../../scss/utils";
 
 .Card {
+  border-radius: 16px;
   padding: 32px;
   display: flex;
   flex-direction: column;
@@ -43,6 +44,10 @@
     font-size: 14px;
     line-height: 18px;
   }
+}
+
+.Card-dark {
+  background: $black;
 }
 
 .Card-info--grey {
