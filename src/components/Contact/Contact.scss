@@ -28,21 +28,20 @@
 }
 
 .Contacts {
-  display: flex;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr;
 
-  @include sm {
-    flex-direction: column;
+  @include md {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include lg {
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
 .Contact-item {
-  display: flex;
-  flex-direction: column;
-  padding-right: 20px;
-
-  @include sm {
-    padding: 20px 0;
-  }
 }
 
 .Contact-item-head {

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 import Icon from '../Icon/Icon'
 import Container from '../Container/Container'
-import SubscribeForm from '../Contact/SubscribeForm'
+import SubscribeForm from '../Contact/SubscribeFormModal'
 import events from '../../core/EventEmitter'
 
 import './Footer.scss'

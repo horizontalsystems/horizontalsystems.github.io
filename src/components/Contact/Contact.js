@@ -6,20 +6,16 @@ import Icon from '../Icon/Icon'
 import SubscribeForm from './SubscribeFormModal'
 import events from '../../core/EventEmitter'
 
-import { ReactComponent as Hs } from './hs.svg'
-import { ReactComponent as Mail } from './mail.svg'
-import { ReactComponent as Uw } from './uw.svg'
-import { ReactComponent as UDev } from './udev.svg'
-import { ReactComponent as Twitter } from './twitter.svg'
-import { ReactComponent as Github } from './github.svg'
-import { ReactComponent as Youtube } from './youtube.svg'
-import { ReactComponent as Newsletter } from './newsletter.svg'
+import Mail from './mail.svg'
+import Twitter from './twitter.svg'
+import Github from './github.svg'
+import Newsletter from './newsletter.svg'
 
 import './Contact.scss'
 
 function Contact() {
-  const openForm  = () => {
-    events.showModal(<SubscribeForm formId="2166978" formCode="d8h6h7" onClose={() => events.hideModal()} />)
+  const openForm = () => {
+    events.showModal(<SubscribeForm formId="2166978" formCode="d8h6h7" onClose={events.hideModal} />)
   }
 
   return (
@@ -40,89 +36,44 @@ function Contact() {
       </Edge>
 
       <Container>
-        <div className="Contacts-section">
-          <div className="Contacts-head">Contact Us</div>
-          <div className="Contacts">
-            <div className="Contact-item">
-              <a className="Contact-item-head" href="/">
-                <Hs />
-                <div className="Contact-item-title">HorizontalSystems</div>
-              </a>
-              <div className="Contact-item-info">
-                A decentralized multi-blockchain wallet for Bitcoin and other cryptocurrencies.
-              </div>
+        <div className="Contacts">
+          <div className="Contact-item">
+            <a className="Contact-item-head" href="mailto:hsdao@protonmail.ch">
+              <img src={Mail} alt="" />
+              <div className="Contact-item-title">Hsdao@protonmail.ch</div>
+            </a>
+            <div className="Contact-item-info">
+              A decentralized multi-blockchain wallet for Bitcoin and other cryptocurrencies.
             </div>
-            <div className="Contact-item">
-              <a className="Contact-item-head" href="/">
-                <Mail />
-                <div className="Contact-item-title">Hsdao@protonmail.ch</div>
-              </a>
-              <div className="Contact-item-info">
-                A decentralized multi-blockchain wallet for Bitcoin and other cryptocurrencies.
-              </div>
+          </div>
+          <div className="Contact-item">
+            <a className="Contact-item-head" href="https://twitter.com/hs_dao" target="_blank" rel="noopener noreferrer">
+              <img src={Twitter} alt="" />
+              <div className="Contact-item-title">on Twitter</div>
+            </a>
+            <div className="Contact-item-info">
+              A decentralized multi-blockchain wallet for Bitcoin and other cryptocurrencies.
             </div>
-            <div className="Contact-item">
-              <a className="Contact-item-head" href="/">
-                <Uw />
-                <div className="Contact-item-title">UnstoppableWallet</div>
-              </a>
-              <div className="Contact-item-info">
-                A decentralized multi-blockchain wallet for Bitcoin and other cryptocurrencies.
-              </div>
+          </div>
+          <div className="Contact-item">
+            <a className="Contact-item-head" href="https://github.com/horizontalsystems" target="_blank" rel="noopener noreferrer">
+              <img src={Github} alt="" />
+              <div className="Contact-item-title">on Github</div>
+            </a>
+            <div className="Contact-item-info">
+              A decentralized multi-blockchain wallet for Bitcoin and other cryptocurrencies.
             </div>
-            <div className="Contact-item">
-              <a className="Contact-item-head" href="/">
-                <UDev />
-                <div className="Contact-item-title">Unstoppable Development</div>
-              </a>
-              <div className="Contact-item-info">
-                A decentralized multi-blockchain wallet for Bitcoin and other cryptocurrencies.
-              </div>
+          </div>
+          <div className="Contact-item">
+            <div className="Contact-item-head" onClick={openForm}>
+              <img src={Newsletter} alt="" />
+              <div className="Contact-item-title">Our Newsletter</div>
+            </div>
+            <div className="Contact-item-info">
+              A decentralized multi-blockchain wallet for Bitcoin and other cryptocurrencies.
             </div>
           </div>
         </div>
-        <div className="Contacts-section">
-          <div className="Contacts-head">Follow Us</div>
-          <div className="Contacts">
-            <div className="Contact-item">
-              <a className="Contact-item-head" href="/">
-                <Twitter />
-                <div className="Contact-item-title">on Twitter</div>
-              </a>
-              <div className="Contact-item-info">
-                A decentralized multi-blockchain wallet for Bitcoin and other cryptocurrencies.
-              </div>
-            </div>
-            <div className="Contact-item">
-              <a className="Contact-item-head" href="/">
-                <Github />
-                <div className="Contact-item-title">on Github</div>
-              </a>
-              <div className="Contact-item-info">
-                A decentralized multi-blockchain wallet for Bitcoin and other cryptocurrencies.
-              </div>
-            </div>
-            <div className="Contact-item">
-              <a className="Contact-item-head" href="/">
-                <Youtube />
-                <div className="Contact-item-title">on Youtube</div>
-              </a>
-              <div className="Contact-item-info">
-                A decentralized multi-blockchain wallet for Bitcoin and other cryptocurrencies.
-              </div>
-            </div>
-            <div className="Contact-item">
-              <div className="Contact-item-head" onClick={openForm}>
-                <Newsletter />
-                <div className="Contact-item-title">Our Newsletter</div>
-              </div>
-              <div className="Contact-item-info">
-                A decentralized multi-blockchain wallet for Bitcoin and other cryptocurrencies.
-              </div>
-            </div>
-          </div>
-        </div>
-
       </Container>
 
       <Edge className="Edge-bottom sm-hidden">
