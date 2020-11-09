@@ -40,9 +40,9 @@ function Academy() {
         <Container>
           <div className="Edge-content">
             <div className="Edge-content-start">
-              <div className="Edge-icon-link">
+              <a className="Edge-icon-link" href="http://litrex.academy" target="_blank" rel="noopener noreferrer">
                 Visit website <ArrowRight className="pl-18" />
-              </div>
+              </a>
             </div>
             <div className="Edge-content-end">
               <div className="Edge-pagination color-white-50">04 / 07</div>

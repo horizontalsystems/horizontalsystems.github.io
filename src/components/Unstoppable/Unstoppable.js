@@ -49,9 +49,9 @@ function Unstoppable() {
         <Container>
           <div className="Edge-content">
             <div className="Edge-content-start">
-              <div className="Edge-icon-link">
+              <a className="Edge-icon-link" target="_blank" rel="noopener noreferrer" href="http://unstoppable.money">
                 Learn More <ArrowRight className="pl-18" />
-              </div>
+              </a>
             </div>
             <div className="Edge-content-end">
               <div className="Edge-pagination color-white-50">03 / 07</div>
