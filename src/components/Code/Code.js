@@ -34,7 +34,7 @@ class Code extends React.Component {
         <Container>
           <div className="Edge-info">
             <div className="Page-info">
-              To facilitate seamless access to cryptocurrency and decentralized systems Horizontal Systems provides open and unconditional access to the
+              To facilitate seamless access to cryptocurrency and expansion of decentralized systems Horizontal Systems provides unconditional access to the
               source code powering its products.
             </div>
           </div>
@@ -44,7 +44,7 @@ class Code extends React.Component {
           <Slider slidesToScroll={3} slidesToShow={3} bgColor="dark">
             <CardCode
               title="Unstoppable"
-              info={<>A decentralized multi-blockchain wallet for Bitcoin, Ethereum, Litecoin, EOS, Binance, DASH and other blockchains.</>}
+              info={<>A decentralized multi-blockchain wallet for Bitcoin, Ethereum, Litecoin, EOS, Binance, DASH, Zcash and other blockchains.</>}
               actions={<>
                 <a href="https://github.com/horizontalsystems/unstoppable-wallet-android">Kotlin</a>&nbsp;|&nbsp;
                 <a href="https://github.com/horizontalsystems/unstoppable-wallet-ios">Swift</a></>}
@@ -60,7 +60,7 @@ class Code extends React.Component {
             />
             <CardCode
               title="Ethereum Kit"
-              info={<>Wallet implementation for Ethereum. Can be a great time saver if you are building a DApp on Ethereum.</>}
+              info={<>Comprehensive development kit for Ethereum. Can be a great time saver if you are building a DApp on Ethereum.</>}
               actions={<>
                 <a href="https://github.com/horizontalsystems/ethereum-kit-android">Kotlin</a>&nbsp;|&nbsp;
                 <a href="https://github.com/horizontalsystems/ethereum-kit-ios">Swift</a></>}
@@ -68,7 +68,7 @@ class Code extends React.Component {
             />
             <CardCode
               title="EOSIO Kit"
-              info={<>General purpose wallet library for the EOS blockchain and EOSIO protocol.</>}
+              info={<>General purpose simple wallet library for the EOS blockchain and EOSIO protocol.</>}
               actions={<>
                 <a href="https://github.com/horizontalsystems/eos-kit-android">Kotlin</a>&nbsp;|&nbsp;
                 <a href="https://github.com/horizontalsystems/eos-kit-ios">Swift</a></>}
@@ -76,7 +76,7 @@ class Code extends React.Component {
             />
             <CardCode
               title="Binance Chain"
-              info={<>Binance Chain wallet for Binance DEX (BEP2 standard) tokens. Easily extendable to support other Binance DEX features.</>}
+              info={<>General purpose wallet library for Binance Chain incl. support for BEP tokens. Easily extendable.</>}
               actions={<>
                 <a href="https://github.com/horizontalsystems/binance-chain-kit-android">Kotlin</a>&nbsp;|&nbsp;
                 <a href="https://github.com/horizontalsystems/binance-chain-kit-ios">Swift</a></>}
@@ -84,7 +84,7 @@ class Code extends React.Component {
             />
             <CardCode
               title="Atomic Swaps"
-              info={<>Atomic Swap library for Bitcoin (BTC) and Bitcoin Cash (BCH) swaps in a decentralized manner. Not tested in production.</>}
+              info={<>Atomic Swap prototype swapping between Bitcoin (BTC) and Bitcoin Cash (BCH) in a decentralized manner. Not tested in production.</>}
               actions={<>
                 <a href="https://github.com/horizontalsystems/atomic-swap-kit-android">Kotlin</a>&nbsp;|&nbsp;
                 <a href="https://github.com/horizontalsystems/atomic-swap-kit-ios">Swift</a></>}

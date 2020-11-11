@@ -40,37 +40,37 @@ function Contact() {
           <div className="Contact-item">
             <a className="Contact-item-head" href="mailto:hsdao@protonmail.ch">
               <img src={Mail} alt="" />
-              <div className="Contact-item-title">Hsdao@protonmail.ch</div>
+              <div className="Contact-item-title">hsdao@protonmail.ch</div>
             </a>
             <div className="Contact-item-info">
-              A decentralized multi-blockchain wallet for Bitcoin and other cryptocurrencies.
+              Would like to connect? Contact our team via email.
             </div>
           </div>
           <div className="Contact-item">
             <a className="Contact-item-head" href="https://twitter.com/blocksdecoded" target="_blank" rel="noopener noreferrer">
               <img src={Twitter} alt="" />
-              <div className="Contact-item-title">on Twitter</div>
+              <div className="Contact-item-title">Twitter</div>
             </a>
             <div className="Contact-item-info">
-              A decentralized multi-blockchain wallet for Bitcoin and other cryptocurrencies.
+              Follow latest updates and send DMs on Twitter.
             </div>
           </div>
           <div className="Contact-item">
             <a className="Contact-item-head" href="https://github.com/horizontalsystems" target="_blank" rel="noopener noreferrer">
               <img src={Github} alt="" />
-              <div className="Contact-item-title">on Github</div>
+              <div className="Contact-item-title">Github</div>
             </a>
             <div className="Contact-item-info">
-              A decentralized multi-blockchain wallet for Bitcoin and other cryptocurrencies.
+              Report product issues and suggest improvements.
             </div>
           </div>
           <div className="Contact-item">
             <div className="Contact-item-head" onClick={openForm}>
               <img src={Newsletter} alt="" />
-              <div className="Contact-item-title">Our Newsletter</div>
+              <div className="Contact-item-title">Newsletter</div>
             </div>
             <div className="Contact-item-info">
-              A decentralized multi-blockchain wallet for Bitcoin and other cryptocurrencies.
+              Subscribe to our newsletter for exclusive updates.
             </div>
           </div>
         </div>
