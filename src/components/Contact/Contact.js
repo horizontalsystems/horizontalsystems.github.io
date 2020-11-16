@@ -47,7 +47,7 @@ function Contact() {
             </div>
           </div>
           <div className="Contact-item">
-            <a className="Contact-item-head" href="https://twitter.com/blocksdecoded" target="_blank" rel="noopener noreferrer">
+            <a className="Contact-item-head" href="https://twitter.com/HorizontalHQ" target="_blank" rel="noopener noreferrer">
               <img src={Twitter} alt="" />
               <div className="Contact-item-title">Twitter</div>
             </a>
