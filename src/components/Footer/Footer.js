@@ -47,7 +47,7 @@ class Footer extends React.Component {
               </div>
             </Link>
 
-            <a href="mailto:hsdao@protonmail.ch">hsdao@protonmail.ch</a>
+            <a href="mailto:hsdao@protonmail.com">hsdao@protonmail.com</a>
           </div>
         </Container>
       </header>

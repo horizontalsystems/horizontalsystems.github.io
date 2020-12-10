@@ -38,9 +38,9 @@ function Contact() {
       <Container className="Contacts-section">
         <div className="Contacts">
           <div className="Contact-item">
-            <a className="Contact-item-head" href="mailto:hsdao@protonmail.ch">
+            <a className="Contact-item-head" href="mailto:hsdao@protonmail.com">
               <img src={Mail} alt="" />
-              <div className="Contact-item-title">hsdao@protonmail.ch</div>
+              <div className="Contact-item-title">hsdao@protonmail.com</div>
             </a>
             <div className="Contact-item-info">
               Would like to connect? Contact our team via email.
