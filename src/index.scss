@@ -1,4 +1,6 @@
 @import "~normalize.css";
+@import "~bootstrap/dist/css/bootstrap-utilities.css";
+@import "~bootstrap/dist/css/bootstrap-grid.css";
 @import "./scss/utils";
 @import "./scss/colors";
 @import "./scss/helpers";
@@ -10,5 +12,5 @@ body {
   -moz-osx-font-smoothing: grayscale;
   margin: 0;
   padding: 0;
-  background: $darkest;
+  background: $black;
 }

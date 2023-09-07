@@ -1,32 +1,32 @@
 import React from 'react'
+import { useParallax } from 'react-scroll-parallax'
 
 import Container from '../Container/Container'
 import Edge from '../Edge/Edge'
 import Icon from '../Icon/Icon'
-import events from '../../core/EventEmitter'
 
 function Team() {
+  const parallax = useParallax({
+    translateY: [0, 30],
+    scale: [1, 1.5, 'easeOutCubic'],
+  })
+
   return (
     <Container className="Mission-wrap" fluid>
       <img
         className="Mission-bg"
         src="/images/team/group.png"
         srcSet="/images/team/group@2x.png 2x, /images/team/group@3x.png 3x"
+        ref={parallax.ref}
+        onLoad={() => parallax.controller.update()}
         alt=""
       />
       <div className="Mission-bg-gradient" />
 
       <Edge className="Edge-header">
-        <Container>
-          <div className="Edge-content">
-            <div className="Edge-content-start">
-              <div className="Icon-wrap">
-                <Icon name="team-new" fill="none" viewBox="0 0 52 52" size="52" />
-                <div className="Icon-label color-steal-light">
-                  Team
-                </div>
-              </div>
-            </div>
+        <Container className="d-flex justify-content-center">
+          <div className="Edge-title color-green">
+            About us
           </div>
         </Container>
       </Edge>
@@ -34,26 +34,14 @@ function Team() {
       <Container className="Mission">
         <div className="Mission-info">
           Horizontal Systems is a distributed team of libertarian-minded software architects and design engineers with extensive experience in
-          designing complex software systems <br /><br />
-
-          A brief encounter with blockchain technology in 2017 quickly turned into obsession as the idea of autonomous censorship-resistant financial
-          ecosystem was no longer an utopia, but a reality. Since then we have been working full-time to make use of this technology ourselves as well
-          as make it more accessible for everyone else.
+          designing complex software systems
         </div>
       </Container>
 
       <Edge className="Edge-bottom">
         <Container>
-          <div className="Edge-content">
-            <div className="Edge-content-start">
-              <Icon name="logo" fill="#fff" viewBox="0 0 40 40" size="40" />
-            </div>
-            <div className="Edge-content-end">
-              <div className="Edge-pagination color-white-50">06 / 07</div>
-              <div className="Edge-pagination-icon sm-svg-green" onClick={() => events.navigate(7)}>
-                <Icon name="arrow-down" viewBox="0 0 36 36" fill="none" size="36" stroke="rgba(255, 255, 255, 0.5)" />
-              </div>
-            </div>
+          <div className="text-center">
+            <Icon name="logo" fill="#fff" viewBox="0 0 40 40" size="40" />
           </div>
         </Container>
       </Edge>

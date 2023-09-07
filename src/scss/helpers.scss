@@ -1,5 +1,10 @@
 @import "utils";
 
+.g-32px {
+  --bs-gutter-x: 32px;
+  --bs-gutter-y: 32px;
+}
+
 .pl-18 {
   padding-left: 18px;
 }
@@ -20,4 +25,17 @@
   @include sm {
     display: none !important;
   }
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.zero-left-right {
+  left: 0 !important;
+  right: 0 !important;
 }

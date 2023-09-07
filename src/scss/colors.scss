@@ -45,10 +45,6 @@
   color: $light-steal;
 }
 
-//
-
-@include sm {
-  .sm-svg-green path {
-    stroke: $green;
-  }
+.color-green {
+  color: $green;
 }

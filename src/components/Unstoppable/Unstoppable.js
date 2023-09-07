@@ -12,7 +12,7 @@ import './Unstoppable.scss'
 function Unstoppable() {
   return (
     <Container className="Unstoppable" fluid>
-      <div className="Screen-right-half paths-grey" />
+      <div className="Screen-right-half" style={{ background: 'url(/images/home/paths-grey.svg)' }} />
 
       <Edge className="Edge-header">
         <Container>

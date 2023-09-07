@@ -4,7 +4,7 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .Mission-bg {
@@ -27,8 +27,7 @@
 
 .Mission {
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   height: 100%;
 }
 
@@ -38,6 +37,7 @@
   line-height: 21px;
   font-weight: 400;
   color: $light-steal;
+  text-align: center;
 
   @include md {
     font-size: 20px;

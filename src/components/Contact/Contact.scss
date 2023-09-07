@@ -7,15 +7,11 @@
 }
 
 .Contacts-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex: 1;
 }
 
 .Contacts {
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 32px;
   grid-template-columns: 1fr;
 
   @include md {
@@ -23,11 +19,23 @@
   }
 
   @include lg {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 .Contact-item {
+  border: 1px solid $grey-50;
+  background: $black;
+  border-radius: 24px;
+  padding: 52px;
+
+  @include md {
+    padding: 32px;
+  }
+
+  @include sm {
+    padding: 24px;
+  }
 }
 
 .Contact-item-head {

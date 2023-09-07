@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import { Link } from 'react-router-dom'
 
 import Container from '../Container/Container'
@@ -7,89 +7,86 @@ import events from '../../core/EventEmitter'
 
 import './Header.scss'
 
-class Header extends React.Component {
-  static defaultProps = {
-    navigate: true
+function Header({ navigate = true }) {
+  const closeRef = useRef()
+  const toggleRef = useRef()
+  const dropdownRef = useRef()
+
+  let dropdown = false
+
+  const onToggleMenu = () => {
+    const close = closeRef.current
+    const toggle = toggleRef.current
+    const dropdownNav = dropdownRef.current
+
+    if (dropdown) {
+      dropdownNav.style.display = 'none'
+      close.style.display = 'none'
+      toggle.style.display = 'block'
+    } else {
+      dropdownNav.style.display = 'block'
+      close.style.display = 'block'
+      toggle.style.display = 'none'
+    }
+
+    dropdown = !dropdown
   }
 
-  render() {
-    let dropdown = false
+  const onClickMenu = page => {
+    onToggleMenu()
 
-    const { navigate } = this.props
-    const onToggleMenu = () => {
-      const close = this.menuClose
-      const toggle = this.menuToggle
-      const dropdownNav = this.dropdownNav
+    dropdownRef.current.style.display = 'none'
 
-      if (dropdown) {
-        dropdownNav.style.display = 'none'
-        close.style.display = 'none'
-        toggle.style.display = 'block'
-      } else {
-        dropdownNav.style.display = 'block'
-        close.style.display = 'block'
-        toggle.style.display = 'none'
-      }
-
-      dropdown = !dropdown
+    if (navigate) {
+      events.navigate(page)
+    } else {
+      window.location.href = `/#page-${page}`;
     }
+  }
 
-    const onClickMenu = page => {
-      onToggleMenu()
-      this.dropdownNav.style.display = 'none'
+  const navigation = (
+    <div className="nav">
+      <div className="nav-item" onClick={() => onClickMenu(3)}>Projects</div>
+      <div className="nav-item" onClick={() => onClickMenu(4)}>Code</div>
+      <div className="nav-item" onClick={() => onClickMenu(5)}>Team</div>
+      <div className="nav-item" onClick={() => onClickMenu(6)}>Contact</div>
+    </div>
+  )
 
-      if (navigate) {
-        events.navigate(page)
-      } else {
-        window.location.href = `/#page-${page}`;
-      }
-    }
+  return (
+    <header className="Header">
+      <Container>
+        <div className="navbar">
+          <Link to="/">
+            <img
+              className="Logo"
+              alt="Horizontal Systems"
+              src="/images/logo.png"
+              srcSet="/images/logo@2x.png 2x, /images/logo@3x.png 3x"
+            />
 
-    const navigation = (
-      <div className="nav">
-        <div className="nav-item" onClick={() => onClickMenu(3)}>Wallet</div>
-        <div className="nav-item" onClick={() => onClickMenu(4)}>Academy</div>
-        <div className="nav-item" onClick={() => onClickMenu(5)}>Code</div>
-        <div className="nav-item" onClick={() => onClickMenu(6)}>Team</div>
-        <div className="nav-item" onClick={() => onClickMenu(7)}>Contact</div>
-      </div>
-    )
+            <div className="Logo-icon">
+              <Icon name="logo" fill="#05C46B" viewBox="0 0 40 40" size="40" />
+            </div>
+          </Link>
 
-    return (
-      <header className="Header">
-        <Container>
-          <div className="navbar">
-            <Link to="/">
-              <img
-                className="Logo"
-                alt="Horizontal Systems"
-                src="/images/logo.png"
-                srcSet="/images/logo@2x.png 2x, /images/logo@3x.png 3x"
-              />
+          {navigation}
 
-              <div className="Logo-icon">
-                <Icon name="logo" fill="#05C46B" viewBox="0 0 40 40" size="40" />
-              </div>
-            </Link>
-
-            {navigation}
-
-            <div className="Menu-wrap" onClick={onToggleMenu}>
-              <div className="Menu-close" ref={r => this.menuClose = r}>
-                <Icon name="menu-close" viewBox="0 0 26 26" />
-              </div>
-              <div className="Menu-toggle" ref={r => this.menuToggle = r}>
-                <Icon name="menu" viewBox="0 0 30 30" />
-              </div>
+          <div className="Menu-wrap" onClick={onToggleMenu}>
+            <div className="Menu-close" ref={closeRef}>
+              <Icon name="menu-close" viewBox="0 0 26 26" />
+            </div>
+            <div className="Menu-toggle" ref={toggleRef}>
+              <Icon name="menu" viewBox="0 0 30 30" />
             </div>
           </div>
-        </Container>
-        <div className="navbar-dropdown" ref={r => this.dropdownNav = r}>
-          {navigation}
         </div>
-      </header>
-    )
-  }
+      </Container>
+      <div className="navbar-dropdown" ref={dropdownRef}>
+        {navigation}
+      </div>
+    </header>
+  )
 }
 
 export default Header

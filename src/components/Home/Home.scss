@@ -1,9 +1,22 @@
 @import "../../scss/utils.scss";
 
+.Screen-absolute-full {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.Screen-full {
+  width: 100%;
+  height: 100%;
+}
+
 .Screen-left-half, .Screen-right-half {
   position: absolute;
   width: 50%;
   height: 100%;
+  z-index: -1;
 
   @include sm {
     width: 100%;
@@ -18,18 +31,14 @@
   left: 0;
 }
 
-.paths-white {
-  background: url(/images/home/paths-white.svg) repeat;
+.Screen-full-height {
+  height: 100%;
 }
 
-.paths-grey {
-  background: url(/images/home/paths-grey.svg) repeat;
-}
+.gradient-layout {
+  height: 100%;
 
-//.paths-green {
-//  background: url(/images/home/paths-green.svg) repeat;
-//}
-//
-//.paths-dark {
-//  background: url(/images/home/paths-dark.svg) repeat;
-//}
+  @include sm {
+    height: 100vh;
+  }
+}

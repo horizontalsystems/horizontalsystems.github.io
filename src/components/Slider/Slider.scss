@@ -11,14 +11,23 @@
   display: block;
   transform: translate(0, -50%);
   cursor: pointer;
+  z-index: 1;
 }
 
 .slick-right {
   right: -25px;
 }
 
+.slick-right-zero {
+  right: 0;
+}
+
 .slick-left {
   left: -25px;
+}
+
+.slick-left-zero {
+  left: 0;
 }
 
 @include sm {

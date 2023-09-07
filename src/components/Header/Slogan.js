@@ -1,21 +1,16 @@
 import React from 'react'
+import cn from 'classnames'
 
 import Container from '../Container/Container'
-import Icon from '../Icon/Icon'
-import events from '../../core/EventEmitter'
 
 import './Slogan.scss'
 
-function Slogan() {
+function Slogan({ title, textEnd }) {
   return (
     <Container>
       <div className="Slogan">
-        <div className="Slogan-title">
-          Solutions for Smart <br />
-          Investments
-        </div>
-        <div className="Page-down" onClick={() => events.navigate(2)}>
-          <Icon name="arrow-down" viewBox="0 0 36 36" fill="none" size="36" stroke="#05C46B" />
+        <div className={cn('Slogan-title', {'text-end': textEnd})}>
+          {title}
         </div>
       </div>
     </Container>

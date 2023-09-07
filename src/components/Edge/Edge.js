@@ -3,7 +3,7 @@ import cn from 'classnames'
 
 import './Edge.scss'
 
-export default function ({ className, children }) {
+export default function Edge({ className, children }) {
   return (
     <div className={cn('Edge', className)}>
       {children}

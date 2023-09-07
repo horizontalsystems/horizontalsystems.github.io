@@ -7,18 +7,19 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './Slider.scss'
 
-function Slider({ slidesToShow, slidesToScroll, children, bgColor = 'green' }) {
+function Slider({ slidesToShow, slidesToScroll, children, zeroMargin, afterChange, refs, bgColor = 'green', dots = true, }) {
   let arrowColor
   if (bgColor === 'green') {
     arrowColor = 'white'
   }
 
   const settings = {
-    dots: true,
+    dots,
     slidesToShow,
     slidesToScroll,
-    nextArrow: <SlideArrow color={arrowColor} name="right" />,
-    prevArrow: <SlideArrow color={arrowColor} name="left" />,
+    afterChange,
+    nextArrow: <SlideArrow color={arrowColor} name="right" zeroMargin={zeroMargin} />,
+    prevArrow: <SlideArrow color={arrowColor} name="left" zeroMargin={zeroMargin} />,
     customPaging: () => (
       <div className={`Dot Dot-${bgColor}`} />
     ),
@@ -33,7 +34,7 @@ function Slider({ slidesToShow, slidesToScroll, children, bgColor = 'green' }) {
 
   return (
     <div className="Slider">
-      <Slick {...settings}>
+      <Slick {...settings} ref={refs}>
         {children}
       </Slick>
     </div>

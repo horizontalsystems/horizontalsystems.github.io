@@ -7,7 +7,7 @@ export default function CardCode({ title, info, actions }) {
     <div className="CardCode">
       <Card dark>
         <div className="Card-title">{title}</div>
-        <div className="Card-info Card-info--grey">{info}</div>
+        <div className="Card-info color-grey">{info}</div>
         <div className="Card-bottom">
           {actions}
         </div>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import marked from 'marked'
+import { marked } from 'marked'
 import Container from '../Container/Container'
 import Header from '../Header/Header'
 

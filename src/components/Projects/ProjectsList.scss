@@ -1,0 +1,73 @@
+@import "../../scss/utils";
+
+.Product {
+  display: flex;
+
+  @include sm {
+    flex-direction: column-reverse;
+
+    &.Product-end {
+      flex-direction: column;
+    }
+  }
+}
+
+.Product-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Product-text-end {
+  text-align: end;
+}
+
+.Product-schema {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+
+  @include sm {
+    flex: 1;
+  }
+}
+
+.Product-title {
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: flex-end;
+  text-transform: capitalize;
+
+  @include sm {
+    padding: 24px 0;
+  }
+
+  @include md {
+    font-size: 64px;
+    line-height: 83px;
+  }
+}
+
+.Product-title--light {
+  color: $light-steal;
+}
+
+.Product-info, .Page-info {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+  color: $grey;
+
+  @include md {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+
+.Product-image {
+  max-width: 90%;
+  height: auto;
+  object-fit: contain;
+}

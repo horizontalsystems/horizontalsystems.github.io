@@ -1,7 +1,7 @@
 @import "../../scss/utils";
 
 .Edge {
-  width: 100vw;
+  width: 100%;
   display: flex;
   align-items: center;
   position: relative;
@@ -14,14 +14,6 @@
   @include md {
     padding: 80px 0;
   }
-}
-
-.Edge-header {
-  top: 0;
-}
-
-.Edge-bottom {
-  bottom: 0;
 }
 
 .Edge-bg {
@@ -38,6 +30,40 @@
 .Edge-start-rest,
 .Edge-end-rest {
   flex-grow: 1;
+}
+
+.Edge-center {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+
+  @include sm {
+    margin-bottom: 50px;
+  }
+
+  @include md {
+    margin-bottom: 80px;
+  }
+}
+
+.Edge-text {
+  width: 100%;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+  text-align: center;
+
+  @include md {
+    font-size: 20px;
+    line-height: 26px;
+    width: 50%;
+  }
+
+  @include lg {
+    font-size: 36px;
+    line-height: normal;
+    width: 80%;
+  }
 }
 
 .Edge-content {
@@ -154,6 +180,16 @@
   }
 }
 
+.Edge-title {
+  font-size: 24px;
+  line-height: normal;
+  font-weight: 500;
+
+  @include sm {
+    font-size: 24px;
+  }
+}
+
 .Icon-label {
   font-size: 24px;
   line-height: 49px;
@@ -161,8 +197,6 @@
   padding-left: 25px;
 
   @include sm {
-    font-size: 24px;
-    line-height: 32px;
     padding-left: 15px;
   }
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
+import ProjectsList from './components/Projects/ProjectsList'
 import Markdown from './components/Markdown/Markdown'
 import App from './components/App/App'
 import Modal from './components/Modal/Modal'
@@ -12,6 +13,7 @@ function Routes() {
 
       <Switch>
         <Route path="/privacy" render={() => <Markdown markdown="privacy.md" />} />
+        <Route path="/projects" component={ProjectsList} />
         <Route path="/" component={App} />
       </Switch>
 

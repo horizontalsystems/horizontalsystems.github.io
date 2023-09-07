@@ -1,19 +1,19 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import { ParallaxProvider } from 'react-scroll-parallax'
 
 import Home from '../Home/Home'
 import Mission from '../Mission/Mission'
-import Unstoppable from '../Unstoppable/Unstoppable'
-import Academy from '../Academy/Academy'
+import Projects from '../Projects/Projects'
 import Code from '../Code/Code'
 import Team from '../Team/Team'
 import Contact from '../Contact/Contact'
-
 import events from '../../core/EventEmitter'
 
 import './App.scss'
 
-class App extends React.Component {
-  componentDidMount() {
+function App() {
+
+  useEffect(() => {
     events.on('navigate', number => {
       const element = document.getElementById(`page-${number}`)
       if (!!element) {
@@ -22,39 +22,30 @@ class App extends React.Component {
         })
       }
     })
-  }
+  }, [])
 
-  componentWillUnmount() {
-    events.removeAllListeners('navigate')
-  }
-
-  render() {
-    return (
-      <div className="App">
-        <div id="page-1">
-          <Home />
-        </div>
-        <div id="page-2">
-          <Mission />
-        </div>
-        <div id="page-3">
-          <Unstoppable />
-        </div>
-        <div id="page-4">
-          <Academy />
-        </div>
-        <div id="page-5">
-          <Code />
-        </div>
-        <div id="page-6">
-          <Team />
-        </div>
-        <div id="page-7">
-          <Contact />
-        </div>
+  return (
+    <ParallaxProvider>
+      <div id="page-1">
+        <Home />
       </div>
-    )
-  }
+      <div id="page-2">
+        <Mission />
+      </div>
+      <div id="page-3">
+        <Projects />
+      </div>
+      <div id="page-4">
+        <Code />
+      </div>
+      <div id="page-5">
+        <Team />
+      </div>
+      <div id="page-6">
+        <Contact />
+      </div>
+    </ParallaxProvider>
+  )
 }
 
 export default App

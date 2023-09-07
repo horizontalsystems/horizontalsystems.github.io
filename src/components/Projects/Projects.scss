@@ -1,0 +1,94 @@
+@import "../../scss/utils";
+
+.Projects-card {
+  border-radius: 24px;
+  border: 1px solid $grey-50;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 52px;
+
+  @include md {
+    padding: 32px;
+  }
+
+  @include sm {
+    padding: 24px;
+  }
+}
+
+.Projects-card-title {
+  font-size: 36px;
+  line-height: 46.8px;
+  display: flex;
+  align-items: flex-end;
+  text-transform: capitalize;
+
+  @include lg {
+    font-size: 40px;
+    line-height: 52px;
+  }
+}
+
+.Projects-card-title--light {
+  color: $light-steal;
+}
+
+.Projects-card-image {
+  padding: 80px 0;
+}
+
+.Projects-card-image img {
+  max-width: 100%;
+}
+
+.Projects-tab {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  list-style: none;
+
+  @include sm {
+    margin: 24px 0 !important;
+  }
+}
+
+.Projects-tab-content {
+  color: $grey;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.Projects-tab-item {
+  margin: 32px 32px 32px 0;
+  padding-bottom: 16px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+  color: $grey;
+
+  @include sm {
+    margin: 24px 24px 0 0;
+  }
+}
+
+.Projects-tab-item.active {
+  color: $light-steal;
+  border-bottom: 2px solid $green;
+}
+
+.Projects-image-wrap {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.Projects-image {
+  @include md {
+    width: 80%;
+  }
+}

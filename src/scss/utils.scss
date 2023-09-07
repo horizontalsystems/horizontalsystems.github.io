@@ -21,6 +21,7 @@ $dark-steal:  #252933 !default;
 $dark-light:  #37393B !default;
 $blue:        #0d6efd !default;
 $grey:        #808085 !default;
+$grey-50:     #80808580 !default;
 $gray-light:  #C8C7CC !default;
 $green:       #05C46B !default;
 $yellow:      #FFA800 !default;
@@ -34,6 +35,7 @@ $yellow:      #FFA800 !default;
   dark-steal: $dark-steal;
   blue:       $blue;
   grey:       $grey;
+  grey-50:    $grey-50;
   gray-light: $gray-light;
   green:      $green;
   yellow:     $yellow;
@@ -65,7 +67,7 @@ $screen-xxl: 1400px !default;
   @return $size / 16px * 1rem;
 }
 
-@mixin font-size($size) {
-  font-size: $size;
-  font-size: rem($size);
-}
+//@mixin font-size($size) {
+//  font-size: $size;
+//  font-size: rem($size);
+//}

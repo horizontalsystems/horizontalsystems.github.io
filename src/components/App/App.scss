@@ -3,3 +3,18 @@
 .App {
 
 }
+
+.inset {
+  position: absolute;
+  inset: 0;
+}
+
+.full {
+  height: 100vh;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

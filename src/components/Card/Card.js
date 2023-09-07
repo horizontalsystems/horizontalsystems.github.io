@@ -3,9 +3,9 @@ import cn from 'classnames'
 
 import './Card.scss'
 
-function Card({ dark, children }) {
+function Card({ className, dark, children }) {
   return (
-    <div className={cn('Card', { 'Card-dark': dark })}>
+    <div className={cn('Card', { 'Card-dark': dark }, className)}>
       {children}
     </div>
   )

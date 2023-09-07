@@ -7,17 +7,19 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.1.2",
+    "bootstrap": "^5.3.1",
     "classnames": "^2.2.6",
     "events": "^3.1.0",
     "lodash.throttle": "^4.1.1",
-    "marked": "^0.8.2",
-    "node-sass": "^4.14.1",
+    "marked": "^5.1.0",
+    "node-sass": "^9.0.0",
     "normalize.css": "^8.0.1",
     "react": "^16.13.1",
     "react-cookie": "^4.0.3",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.3.0",
+    "react-scripts": "^5.0.1",
+    "react-scroll-parallax": "^3.4.2",
     "react-slick": "^0.26.1",
     "react-transition-group": "^4.4.1",
     "slick-carousel": "^1.8.1",
@@ -46,5 +48,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.18.6"
   }
 }
