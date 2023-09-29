@@ -9,6 +9,10 @@
   padding-left: 18px;
 }
 
+.pl-16 {
+  padding-left: 16px;
+}
+
 .pl-15 {
   padding-left: 15px !important;
 }
@@ -23,6 +27,16 @@
 
 .sm-hidden {
   @include sm {
+    display: none !important;
+  }
+}
+
+.md-hidden {
+  @include sm {
+    display: block !important;
+  }
+
+  @include md {
     display: none !important;
   }
 }

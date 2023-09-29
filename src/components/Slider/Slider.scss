@@ -2,6 +2,10 @@
 
 .Slider {
   margin: 50px -12px;
+
+  @include sm {
+    margin: 50px -12px !important;
+  }
 }
 
 .slick-arrow {
@@ -38,7 +42,7 @@
 }
 
 .slick-dots {
-  bottom: -40px;
+  bottom: -60px;
 }
 
 .Dot {

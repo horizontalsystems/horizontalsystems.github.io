@@ -35,7 +35,7 @@ function Contact() {
       <Edge className="Edge-header">
         <Container className="d-flex justify-content-center">
           <div className="Edge-title line-h-normal color-green">
-            Contracts
+            Contacts
           </div>
         </Container>
       </Edge>

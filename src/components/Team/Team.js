@@ -31,10 +31,10 @@ function Team() {
         </Container>
       </Edge>
 
-      <Container className="Mission">
-        <div className="Mission-info">
-          Horizontal Systems is a distributed team of libertarian-minded software architects and design engineers with extensive experience in
-          designing complex software systems
+      <Container className="Edge-center">
+        <div className="Edge-text color-steal-light">
+          Horizontal Systems is a team of libertarian-minded software architects and design engineers with extensive experience in designing complex
+          software systems
         </div>
       </Container>
 

@@ -70,7 +70,9 @@ function Header({ navigate = true }) {
             </div>
           </Link>
 
-          {navigation}
+          <div className="hide-on-mobile">
+            {navigation}
+          </div>
 
           <div className="Menu-wrap" onClick={onToggleMenu}>
             <div className="Menu-close" ref={closeRef}>
@@ -82,8 +84,10 @@ function Header({ navigate = true }) {
           </div>
         </div>
       </Container>
-      <div className="navbar-dropdown" ref={dropdownRef}>
-        {navigation}
+      <div className="Header-collapse">
+        <div className="Header-collapse-menu" ref={dropdownRef}>
+          {navigation}
+        </div>
       </div>
     </header>
   )

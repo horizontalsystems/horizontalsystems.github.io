@@ -33,7 +33,7 @@ function Mission() {
 
       <Container className="Edge-center">
         <div className="Edge-text color-steal-light">
-          We strive to eliminate financial boundaries by creating applications that grant unrestricted access to cryptocurrency markets for all
+          We strive to eliminate boundaries by creating applications that grant unconditional access to money and opportunities.
         </div>
       </Container>
 

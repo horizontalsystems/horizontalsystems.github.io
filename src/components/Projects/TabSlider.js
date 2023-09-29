@@ -24,7 +24,7 @@ function TabSlider({ title, learnMore, rtl, tabs = {} }) {
       <div>
         {title && <div className="Projects-card-title Projects-card-title--light">{title}</div>}
 
-        <div className="Projects-tab my-5">
+        <div className="Projects-tab mt-5">
           {headers.map((item, i) =>
             <div key={i} className={cn('Projects-tab-item', { active: i === tabIndex })} onClick={() => onChangeTab(i)}>
               {item}
@@ -37,9 +37,9 @@ function TabSlider({ title, learnMore, rtl, tabs = {} }) {
         </div>
       </div>
 
-      {learnMore && <div className="Edge-content-start mt-5">
+      {learnMore && <div className="Edge-content-start mt-5 sm-hidden">
         <a className="Edge-icon-link" target="_blank" rel="noopener noreferrer" href={learnMore}>
-          Learn More <ArrowRight className="pl-18" />
+          Learn More <ArrowRight className="pl-16" />
         </a>
       </div>}
     </div>
@@ -48,7 +48,7 @@ function TabSlider({ title, learnMore, rtl, tabs = {} }) {
     <div className="col-sm-12 col-md-6">
       <div className="row d-flex justify-content-center">
         <div className="col-md-10 col-sm-12">
-          <Slider slidesToScroll={1} slidesToShow={1} bgColor="dark" dots={false} refs={sliderRef} afterChange={afterChange} zeroMargin>
+          <Slider className="m-0" slidesToScroll={1} slidesToShow={1} bgColor="dark" dots={false} refs={sliderRef} afterChange={afterChange} zeroMargin>
             <div>
               <div className="Projects-image-wrap">
                 <img
@@ -79,6 +79,12 @@ function TabSlider({ title, learnMore, rtl, tabs = {} }) {
           </Slider>
         </div>
       </div>
+
+      {learnMore && <div className="Edge-content-start md-hidden">
+        <a className="Edge-icon-link justify-content-start" target="_blank" rel="noopener noreferrer" href={learnMore}>
+          Learn More <ArrowRight className="pl-16" />
+        </a>
+      </div>}
     </div>
 
   return (

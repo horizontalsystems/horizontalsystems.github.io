@@ -48,18 +48,11 @@
 
 .Edge-text {
   width: 100%;
-  font-size: 16px;
-  line-height: 21px;
+  font-size: 24px;
   font-weight: 400;
   text-align: center;
 
   @include md {
-    font-size: 20px;
-    line-height: 26px;
-    width: 50%;
-  }
-
-  @include lg {
     font-size: 36px;
     line-height: normal;
     width: 80%;
@@ -184,10 +177,6 @@
   font-size: 24px;
   line-height: normal;
   font-weight: 500;
-
-  @include sm {
-    font-size: 24px;
-  }
 }
 
 .Icon-label {
@@ -217,9 +206,8 @@
   display: flex;
   justify-content: center;
   align-items: baseline;
-  font-size: 22px;
+  font-size: 16px;
   font-weight: 400;
-  line-height: 29px;
   color: $green;
   cursor: pointer;
   text-decoration: none;

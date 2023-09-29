@@ -41,7 +41,7 @@ function Academy() {
           <div className="Edge-content">
             <div className="Edge-content-start">
               <a className="Edge-icon-link" href="http://litrex.academy" target="_blank" rel="noopener noreferrer">
-                Visit website <ArrowRight className="pl-18" />
+                Visit website <ArrowRight className="pl-16" />
               </a>
             </div>
             <div className="Edge-content-end">

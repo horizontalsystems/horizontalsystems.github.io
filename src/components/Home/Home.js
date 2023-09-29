@@ -22,7 +22,7 @@ function Home() {
     translateY: [0, 100],
     shouldAlwaysCompleteAnimation: true,
     expanded: false,
-    children: <Slogan title={<>Solutions for Smart <br />Investments</>} />
+    children: <Slogan title={<>Solutions for Borderless <br /> Investments</>} />
   }
 
   const gradientStart = {

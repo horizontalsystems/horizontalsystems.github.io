@@ -20,18 +20,18 @@ function Projects() {
 
       <Container className="Edge-center">
         <div className="Edge-text color-grey">
-          Wallet for global cryptocurrency markets, with privacy and access without borders
+          Secure crypto wallet engineered for easy self-custody and professional portfolio management.
         </div>
       </Container>
 
       <div className="Projects-card">
         <img className="Screen-right-half top-0" src="/images/projects/card/green-top-right.svg" alt="" />
         <TabSlider
-          title="Invest Without Borders"
+          title={<>Invest Without <br /> Borders</>}
           tabs={{
-            Wallet: 'Unstoppable Wallet is a secure and decentralized cryptocurrency wallet that gives users full control over their digital assets, and supports a wide range of cryptocurrencies.',
-            Market: 'The Market tab in Unstoppable Wallet provides users with a comprehensive overview, analytics data of the cryptocurrency market, allowing them to monitor the latest prices, market trends.',
-            DeFi: 'Enter the world of Decentralized Finances with unconditional opportunities. Swap assets, stake assets and interact with any DeFi service via WalletConnect.'
+            Wallet: 'Easy, secure, private and non-custodial cryptocurrency multi- wallet capable of working with a wide range of cryptocurrencies.',
+            Market: 'Comprehensive overview of cryptocurrency market and in- depth asset analytics covering off-chain and on-chain data.',
+            DeFi: 'Single interface to access the world of DeFi (Decentralized Finance) i.e. trading, staking, lending, borrowing and yield generation opportunities.'
           }}
           learnMore="https://unstoppable.money/" />
       </div>
@@ -40,7 +40,6 @@ function Projects() {
         <ProjectCard
           title={<>Solutions for <br /> Smart Pays</>}
           info="This system is an innovative solution that allows the automatic payment of wages to participants addresses. The system works based on a smart contract written on a blockchain platform."
-          link="/projects"
           image="smart-pays"
         />
 

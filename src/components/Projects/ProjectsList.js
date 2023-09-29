@@ -73,7 +73,7 @@ function ProjectsList() {
                 </div>
                 <div className="Edge-content-start mt-5">
                   <Link to="/abc" className="Edge-icon-link">
-                    Learn More <ArrowRight className="pl-18" />
+                    Learn More <ArrowRight className="pl-16" />
                   </Link>
                 </div>
               </div>

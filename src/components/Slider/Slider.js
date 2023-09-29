@@ -1,13 +1,14 @@
-import React from 'react';
+import React from 'react'
+import cn from 'classnames'
 
-import Slick from 'react-slick';
+import Slick from 'react-slick'
 import SlideArrow from './SlideArrow'
 
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+import 'slick-carousel/slick/slick.css'
+import 'slick-carousel/slick/slick-theme.css'
 import './Slider.scss'
 
-function Slider({ slidesToShow, slidesToScroll, children, zeroMargin, afterChange, refs, bgColor = 'green', dots = true, }) {
+function Slider({ className, slidesToShow, slidesToScroll, children, zeroMargin, afterChange, refs, bgColor = 'green', dots = true, }) {
   let arrowColor
   if (bgColor === 'green') {
     arrowColor = 'white'
@@ -33,7 +34,7 @@ function Slider({ slidesToShow, slidesToScroll, children, zeroMargin, afterChang
   }
 
   return (
-    <div className="Slider">
+    <div className={cn('Slider', className)}>
       <Slick {...settings} ref={refs}>
         {children}
       </Slick>

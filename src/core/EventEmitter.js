@@ -6,4 +6,5 @@ class EventEmitter extends events {
   navigate = page => this.emit('navigate', page)
 }
 
-export default new EventEmitter()
+const emitter = new EventEmitter()
+export default emitter

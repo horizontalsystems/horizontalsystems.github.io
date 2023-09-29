@@ -50,7 +50,7 @@ function Unstoppable() {
           <div className="Edge-content">
             <div className="Edge-content-start">
               <a className="Edge-icon-link" target="_blank" rel="noopener noreferrer" href="http://unstoppable.money">
-                Learn More <ArrowRight className="pl-18" />
+                Learn More <ArrowRight className="pl-16" />
               </a>
             </div>
             <div className="Edge-content-end">

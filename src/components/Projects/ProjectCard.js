@@ -23,7 +23,7 @@ export default function ProjectCard({ title, info, link, image }) {
 
         {link && <div className="Edge-content-start mt-5">
           <Link to={link} className="Edge-icon-link">
-            Learn More <ArrowRight className="pl-18" />
+            Learn More <ArrowRight className="pl-16" />
           </Link>
         </div>}
       </div>

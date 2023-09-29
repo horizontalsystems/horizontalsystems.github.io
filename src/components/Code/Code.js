@@ -1,4 +1,5 @@
 import React from 'react'
+import { useParallax } from 'react-scroll-parallax'
 
 import Edge from '../Edge/Edge'
 import Container from '../Container/Container'
@@ -8,9 +9,21 @@ import Slider from '../Slider/Slider'
 import './Code.scss'
 
 function Code() {
+  const parallax = useParallax({
+    translateX: [-1, -30],
+    shouldAlwaysCompleteAnimation: true,
+  })
+
   return (
     <Container fluid>
-      <div className="Screen-absolute-full z-0" style={{ background: 'url(/images/code/code-bg.svg)' }} />
+      <div className="Screen-absolute-full z-0" style={{ background: 'url(/images/home/paths-green.svg)' }} />
+      <img
+        src="/images/home/gradient.svg"
+        className="gradient-layout position-absolute"
+        alt=""
+        ref={parallax.ref}
+        onLoad={() => parallax.controller.update()}
+      />
 
       <Edge className="Edge-header">
         <Container className="d-flex justify-content-center">
@@ -22,7 +35,7 @@ function Code() {
 
       <Container className="Edge-center">
         <div className="Edge-text color-grey">
-          Horizontal Systems opens its source code for seamless expansion of decentralized systems.
+          We build code for seamless expansion of decentralized systems.
         </div>
       </Container>
 
