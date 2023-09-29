@@ -26,7 +26,8 @@ function Home() {
   }
 
   const gradientStart = {
-    translateX: [40, -40],
+    translateX: [-1, -45],
+    shouldAlwaysCompleteAnimation: true,
     children: <img src="/images/home/gradient.svg" className="gradient-layout" alt="" />
   }
 
