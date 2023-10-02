@@ -40,7 +40,7 @@ function Contact() {
         </Container>
       </Edge>
 
-      <Container className="Contacts-section" clipped={false}>
+      <Container clipped={false}>
         <div className="row g-32px">
           <div className="col-sm-12 col-md-6">
             <div className="Contact-item">
