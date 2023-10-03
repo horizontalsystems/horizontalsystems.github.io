@@ -89,6 +89,10 @@
 }
 
 .Projects-image {
+  @include sm {
+    width: 100%;
+  }
+
   @include md {
     width: 80%;
   }
