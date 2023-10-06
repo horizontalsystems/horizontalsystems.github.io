@@ -38,14 +38,14 @@ function Projects() {
 
       <div className="row g-32px mt-1">
         <ProjectCard
-          title={<>Solutions for <br /> Smart Pays</>}
-          info="This system is an innovative solution that allows the automatic payment of wages to participants addresses. The system works based on a smart contract written on a blockchain platform."
+          title={<>Salary Management <br /> Solution</>}
+          info="Innovative blockchain-based solution that enables teams of all sizes to automate salary management and profit sharing."
           image="smart-pays"
         />
 
         <ProjectCard
-          title="Crypto Subscription & Referral System"
-          info="This system is designed to automate the services of services that provide their services by subscription, receipt of payment, accounting referral program on blockchain."
+          title={<>Subscription & Referral Solution</>}
+          info="Smart blockchain-based solution that enables businesses selling digital services to accept payments in crypto and offer reseller program."
           image="referral-system"
         />
       </div>

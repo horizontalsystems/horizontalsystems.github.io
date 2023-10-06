@@ -58,56 +58,56 @@ function Code() {
             dark
           />
           <CardCode
-            title="Ethereum Kit"
+            title="EVM kit"
             info={<>Comprehensive development kit for Ethereum. Can be a great time saver if you are building a DApp on Ethereum.</>}
             actions={<>
               <a href="https://github.com/horizontalsystems/ethereum-kit-android">Kotlin</a>&nbsp;|&nbsp;
               <a href="https://github.com/horizontalsystems/ethereum-kit-ios">Swift</a></>}
             dark
           />
-          <CardCode
-            title="EOSIO Kit"
-            info={<>General purpose simple wallet library for the EOS blockchain and EOSIO protocol.</>}
-            actions={<>
-              <a href="https://github.com/horizontalsystems/eos-kit-android">Kotlin</a>&nbsp;|&nbsp;
-              <a href="https://github.com/horizontalsystems/eos-kit-ios">Swift</a></>}
-            dark
-          />
-          <CardCode
-            title="Binance Chain"
-            info={<>General purpose wallet library for Binance Chain incl. support for BEP tokens. Easily extendable.</>}
-            actions={<>
-              <a href="https://github.com/horizontalsystems/binance-chain-kit-android">Kotlin</a>&nbsp;|&nbsp;
-              <a href="https://github.com/horizontalsystems/binance-chain-kit-ios">Swift</a></>}
-            dark
-          />
-          <CardCode
-            title="Atomic Swaps"
-            info={<>Atomic Swap prototype swapping between Bitcoin (BTC) and Bitcoin Cash (BCH) in a decentralized manner. Not tested in
-              production.</>}
-            actions={<>
-              <a href="https://github.com/horizontalsystems/atomic-swap-kit-android">Kotlin</a>&nbsp;|&nbsp;
-              <a href="https://github.com/horizontalsystems/atomic-swap-kit-ios">Swift</a></>}
-            dark
-          />
-          <CardCode
-            title="Hodler Kit"
-            info={<>Construct Bitcoin transactions which can not be spent by the receiver until a certain date in the future.</>}
-            actions={<>
-              <a
-                href="https://github.com/horizontalsystems/bitcoin-kit-android/tree/master/hodler">Kotlin</a>&nbsp;|&nbsp;
-              <a href="https://github.com/horizontalsystems/bitcoin-kit-ios/tree/master/Hodler">Swift</a></>}
-            dark
-          />
-          <CardCode
-            title="Lightning Kit"
-            info={<>Add Lightning Network capabilities to your project. Lightning wallet creation, channel management and more.
-              Work in progress.</>}
-            actions={<>
-              <a href="https://github.com/horizontalsystems/lightning-kit-android">Kotlin</a>&nbsp;|&nbsp;
-              <a href="https://github.com/horizontalsystems/lightning-kit-ios">Swift</a></>}
-            dark
-          />
+          {/*<CardCode*/}
+          {/*  title="EOSIO Kit"*/}
+          {/*  info={<>General purpose simple wallet library for the EOS blockchain and EOSIO protocol.</>}*/}
+          {/*  actions={<>*/}
+          {/*    <a href="https://github.com/horizontalsystems/eos-kit-android">Kotlin</a>&nbsp;|&nbsp;*/}
+          {/*    <a href="https://github.com/horizontalsystems/eos-kit-ios">Swift</a></>}*/}
+          {/*  dark*/}
+          {/*/>*/}
+          {/*<CardCode*/}
+          {/*  title="Binance Chain"*/}
+          {/*  info={<>General purpose wallet library for Binance Chain incl. support for BEP tokens. Easily extendable.</>}*/}
+          {/*  actions={<>*/}
+          {/*    <a href="https://github.com/horizontalsystems/binance-chain-kit-android">Kotlin</a>&nbsp;|&nbsp;*/}
+          {/*    <a href="https://github.com/horizontalsystems/binance-chain-kit-ios">Swift</a></>}*/}
+          {/*  dark*/}
+          {/*/>*/}
+          {/*<CardCode*/}
+          {/*  title="Atomic Swaps"*/}
+          {/*  info={<>Atomic Swap prototype swapping between Bitcoin (BTC) and Bitcoin Cash (BCH) in a decentralized manner. Not tested in*/}
+          {/*    production.</>}*/}
+          {/*  actions={<>*/}
+          {/*    <a href="https://github.com/horizontalsystems/atomic-swap-kit-android">Kotlin</a>&nbsp;|&nbsp;*/}
+          {/*    <a href="https://github.com/horizontalsystems/atomic-swap-kit-ios">Swift</a></>}*/}
+          {/*  dark*/}
+          {/*/>*/}
+          {/*<CardCode*/}
+          {/*  title="Hodler Kit"*/}
+          {/*  info={<>Construct Bitcoin transactions which can not be spent by the receiver until a certain date in the future.</>}*/}
+          {/*  actions={<>*/}
+          {/*    <a*/}
+          {/*      href="https://github.com/horizontalsystems/bitcoin-kit-android/tree/master/hodler">Kotlin</a>&nbsp;|&nbsp;*/}
+          {/*    <a href="https://github.com/horizontalsystems/bitcoin-kit-ios/tree/master/Hodler">Swift</a></>}*/}
+          {/*  dark*/}
+          {/*/>*/}
+          {/*<CardCode*/}
+          {/*  title="Lightning Kit"*/}
+          {/*  info={<>Add Lightning Network capabilities to your project. Lightning wallet creation, channel management and more.*/}
+          {/*    Work in progress.</>}*/}
+          {/*  actions={<>*/}
+          {/*    <a href="https://github.com/horizontalsystems/lightning-kit-android">Kotlin</a>&nbsp;|&nbsp;*/}
+          {/*    <a href="https://github.com/horizontalsystems/lightning-kit-ios">Swift</a></>}*/}
+          {/*  dark*/}
+          {/*/>*/}
         </Slider>
       </Container>
 

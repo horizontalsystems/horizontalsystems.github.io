@@ -6,7 +6,7 @@ import Mission from '../Mission/Mission'
 import Projects from '../Projects/Projects'
 import Code from '../Code/Code'
 import Team from '../Team/Team'
-import Contact from '../Contact/Contact'
+import ContactSimple from '../Contact/ContactSimple'
 import events from '../../core/EventEmitter'
 
 import './App.scss'
@@ -42,7 +42,7 @@ function App() {
         <Team />
       </div>
       <div id="page-6">
-        <Contact />
+        <ContactSimple />
       </div>
     </ParallaxProvider>
   )
